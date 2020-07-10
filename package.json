@@ -1,0 +1,19 @@
+{
+  "name": "buddyboss-theme-child",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "postcss assets/css/tailwind.css -o assets/css/tailwindrru.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "animate.css": "^4.1.0",
+    "autoprefixer": "^9.8.2",
+    "postcss-cli": "^7.1.1",
+    "tailwindcss": "^1.4.6",
+    "tailwindcss-filters": "^3.0.0"
+  }
+}
