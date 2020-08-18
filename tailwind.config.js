@@ -1,5 +1,7 @@
 module.exports = {
-  purge: [],
+  purge: [
+    "*.php"
+  ],
   theme: {
     extend: {
       filter: { // defaults to {}
@@ -34,5 +36,6 @@ module.exports = {
   variants: {},
   plugins: [
     require('tailwindcss-filters'),
+    // require('@tailwindcss/typography'),
   ],
 }

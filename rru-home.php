@@ -6,6 +6,8 @@
 get_header();
 ?>
 
+
+
 <div id="primary" class="content-area bb-grid-cell">
 
 
@@ -28,20 +30,25 @@ get_header();
         </span>
 
       </p>
-      <div class="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-center">
-            <div class="rounded-md shadow">
-              <a href="#" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-blue-600 hover:text-white hover:bg-blue-500 focus:outline-none focus:border-blue-700 focus:shadow-outline-blue transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10">
-                Start Free Course
-              </a>
-            </div>
-            <div class="mt-3 sm:mt-0 sm:ml-3">
-              <a href="#" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-blue-700 hover:text-blue-700 bg-blue-100 hover:text-blue-600 hover:bg-blue-50 focus:outline-none focus:shadow-outline-blue focus:border-blue-300 transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10">
-                Explore All Courses
-              </a>
-            </div>
-          </div>
-    </div>
+      <div class="mt-3 sm:mt-8 sm:flex sm:justify-center">
+        <div class="rounded-md shadow">
+          <a href="/course/getting-started/" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-blue-600 hover:text-white hover:bg-blue-500 focus:outline-none focus:border-blue-700 focus:shadow-outline-blue transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10">
+            Start Free Course
+          </a>
+        </div>
+        <!-- <div class="mt-3 sm:mt-0 sm:ml-3">
+          <a href="/online-courses/" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-blue-700 hover:text-blue-700 bg-blue-100 hover:bg-blue-50 focus:outline-none focus:shadow-outline-blue focus:border-blue-300 transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10">
+            Explore All Courses
+          </a>
+        </div> -->
+      </div>
 
+      
+
+
+
+
+    </div>
 
 
     <!-- Orgs -->
@@ -104,8 +111,8 @@ get_header();
 
           <div class="mt-10 lg:mt-0">
 
-            <div class="p-8 bg-gray-200 border-2 border-gray-300 rounded-md relative">
-              <img class="absolute top-0 right-0 p-8" src="wp-content/themes/buddyboss-theme-child/assets/images/for-you.svg" alt="RRU" />
+            <div class="p-4 bg-gray-200 border-2 border-gray-300 rounded-md relative">
+              <img class="absolute top-0 right-0 p-4" src="wp-content/themes/buddyboss-theme-child/assets/images/for-you.svg" alt="RRU" />
 
 
               <h2 class="leading-loose text-blue-800">For You</h2>
@@ -126,8 +133,8 @@ get_header();
 
 
 
-            <div class="p-8 bg-gray-200 border-2 border-gray-300 rounded-md relative">
-              <img class="absolute top-0 right-0 p-8" src="wp-content/themes/buddyboss-theme-child/assets/images/for-your-team.svg" alt="RRU" />
+            <div class="p-4 bg-gray-200 border-2 border-gray-300 rounded-md relative">
+              <img class="absolute top-0 right-0 p-4" src="wp-content/themes/buddyboss-theme-child/assets/images/for-your-team.svg" alt="RRU" />
 
 
               <h2 class="leading-loose text-blue-800">For Your Team</h2>
@@ -154,7 +161,7 @@ get_header();
         <div class="relative mt-12 lg:mt-24 lg:grid lg:grid-cols-2 lg:gap-8 lg:items-center">
           <div class="relative">
             <h4 class="text-2xl leading-8 font-extrabold text-blue-800 tracking-tight sm:text-3xl sm:leading-9">
-              <!-- Work with data more <span class="font-bold">quickly</span>, more <span class="font-bold">efficiently</span>, and more <span class="font-bold">beautifully</span>. -->
+
               Work with data more quickly, more efficiently, and more beautifully.
             </h4>
             <p class="mt-3 text-lg leading-7 text-gray-500">
@@ -179,7 +186,6 @@ get_header();
                   <div class="ml-4">
                     <h5 class="text-lg leading-6 font-medium text-blue-800">Data analysis in a snap</h5>
                     <p class="mt-2 text-base leading-6 text-gray-500">
-                      <!-- Work faster than ever using <a href="https://rfortherestofus.com/">tools designed to make your workflow fast and efficient</a>. -->
                       Work faster than ever using tools designed to make your workflow fast and efficient.
                     </p>
                   </div>
@@ -199,7 +205,7 @@ get_header();
                   <div class="ml-4">
                     <h5 class="text-lg leading-6 font-medium text-gray-900">Data visualization that shines</h5>
                     <p class="mt-2 text-base leading-6 text-gray-500">
-                      <!-- Take your current data visualization to the next level with tools <a href="https://qz.com/1007328/all-hail-ggplot2-the-code-powering-all-those-excellent-charts-is-10-years-old/" target="_blank">used by some of the best information designers in the world</a>.-->
+                    
                       Take your current data visualization to the next level with tools used by the best information designers in the world.
                     </p>
                   </div>
@@ -218,7 +224,7 @@ get_header();
                   <div class="ml-4">
                     <h5 class="text-lg leading-6 font-medium text-gray-900">Do it once, repeat it forever</h5>
                     <p class="mt-2 text-base leading-6 text-gray-500">
-                      <!-- Add new tools to your data visualization toolbox: <a href="https://www.r-spatial.org/r/2018/10/25/ggplot2-sf.html">maps</a>, <a href="https://rud.is/b/2015/03/18/making-waffle-charts-in-r-with-the-new-waffle-package/">waffle charts</a>, <a href="https://cran.r-project.org/web/packages/ggridges/vignettes/gallery.html">ridgeline plots</a>, and more.  -->
+                    
                       Develop code today, reuse it tomorrow, next month, and next year.
                     </p>
                   </div>
@@ -255,7 +261,7 @@ get_header();
               </defs>
               <rect width="784" height="404" fill="url(#ca9667ae-9f92-4be7-abcb-9e3d727f2941)" />
             </svg>
-            <img class="relative mx-auto shadow-md" width="490" src="wp-content/themes/buddyboss-theme-child/assets/images/visualize.svg" alt="" />
+            <img class="relative mx-auto shadow rounded-md" width="490" src="wp-content/themes/buddyboss-theme-child/assets/images/visualize.svg" alt="" />
           </div>
         </div>
 
@@ -265,11 +271,11 @@ get_header();
           <div class="lg:grid lg:grid-flow-row-dense lg:grid-cols-2 lg:gap-8 lg:items-center">
             <div class="lg:col-start-2">
               <h4 class="text-2xl leading-8 font-extrabold text-gray-900 tracking-tight sm:text-3xl sm:leading-9">
-                Join a welcoming community
+                Feel supported at every step
               </h4>
 
-              <p class="mt-4 leading-relaxed text-base leading-6 text-gray-500">
-                When you learn R, you join a global community of users with a well-deserved reputation for being welcoming (check out the 5000+ likes on that tweet!).
+              <p class="mt-4 leading-relaxed text-base leading-6 text-blue-800">
+                When you learn R, you'll be surrounded by users with a well-deserved reputation for being welcoming (check out the 5000+ likes on that tweet!) and helpful.
 
 
               </p>
@@ -279,95 +285,95 @@ get_header();
               </div>
             </div>
 
-            <div class="mt-10 -mx-4 relative lg:mt-0 lg:col-start-1">
-             
+            <div class="mt-10 -mx-4 relative lg:mt-0 lg:col-start-1 p-10">
+
 
               <blockquote class="twitter-tweet">
                 <p lang="en" dir="ltr">Today I downloaded &quot;R&quot; 😳<br>Can a 37 year old mother of two learn to code?<br>Watch this space...</p>&mdash; Eileen Parkes (@eileen_parkes) <a href="https://twitter.com/eileen_parkes/status/1126154893247557632?ref_src=twsrc%5Etfw">May 8, 2019</a>
               </blockquote>
               <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
               <!-- <img class="mx-24 my-8" src="wp-content/themes/buddyboss-theme-child/assets/images/5000-likes.svg"  -->
-            
-            </div> 
-          </div> 
-        </div> 
-      </div> 
-    </div> 
-    
-<!-- about v2 --> 
 
-<div class="relative bg-white overflow-hidden">
-  <div class="hidden lg:block lg:absolute lg:inset-0">
-   
-  </div>
-  <div class="relative pt-6 pb-16 md:pb-20 lg:pb-24 xl:pb-32">
-   
-    <div class="absolute top-0 inset-x-0 p-2 transition transform origin-top-right md:hidden">
-      <div class="rounded-lg shadow-md">
-        <div class="rounded-lg bg-white shadow-xs overflow-hidden" role="menu" aria-orientation="vertical" aria-labelledby="main-menu">
-          <div class="px-5 pt-4 flex items-center justify-between">
-            <div>
-              <img class="h-8 w-auto" src="/img/logos/workflow-mark-on-white.svg" alt="" />
             </div>
-            <div class="-mr-2">
-              <button type="button" class="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 focus:text-gray-500 transition duration-150 ease-in-out" aria-label="Close menu">
-                <svg class="h-6 w-6" stroke="currentColor" fill="none" viewBox="0 0 24 24">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
-                </svg>
-              </button>
-            </div>
-          </div>
-          <div class="px-2 pt-2 pb-3">
-            <a href="#" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50 focus:outline-none focus:text-gray-900 focus:bg-gray-50 transition duration-150 ease-in-out" role="menuitem">Product</a>
-            <a href="#" class="mt-1 block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50 focus:outline-none focus:text-gray-900 focus:bg-gray-50 transition duration-150 ease-in-out" role="menuitem">Features</a>
-            <a href="#" class="mt-1 block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50 focus:outline-none focus:text-gray-900 focus:bg-gray-50 transition duration-150 ease-in-out" role="menuitem">Marketplace</a>
-            <a href="#" class="mt-1 block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50 focus:outline-none focus:text-gray-900 focus:bg-gray-50 transition duration-150 ease-in-out" role="menuitem">Company</a>
-          </div>
-          <div>
-            <a href="#" class="block w-full px-5 py-3 text-center font-medium text-blue-600 bg-gray-50 hover:bg-gray-100 hover:text-blue-700 focus:outline-none focus:bg-gray-100 focus:text-blue-700 transition duration-150 ease-in-out" role="menuitem">
-              Log in
-            </a>
           </div>
         </div>
       </div>
     </div>
 
-    <main class="mt-8 mx-auto max-w-screen-xl px-4 sm:mt-12 sm:px-6 md:mt-20 xl:mt-24">
-      <div class="lg:grid lg:grid-cols-12 lg:gap-8">
-        <div class="sm:text-center leading-8 md:max-w-2xl md:mx-auto lg:col-span-6 lg:text-left">
- 
-          <h4 class="text-3xl leading-8 font-extrabold text-blue-800 tracking-tight sm:text-3xl sm:leading-9">
-            Hi, I'm David
-          </h4>
-          <p class="mt-3 text-base text-blue-800 sm:mt-5 sm:text-xl lg:text-lg xl:text-xl">
-          Think you know what an R user looks like? I'm probably not what you have in mind.
-          </p>
-          <p class="mt-3 text-base text-blue-800 sm:mt-5 sm:text-xl lg:text-lg xl:text-xl">
-                        I'm <span class="font-bold">not a hardcore quant</span> (my PhD is in anthropology). I'm not a coder ready to <strong>jump on you for any small mistake</strong>.
-          </p>
-          <p class="mt-3 text-base text-blue-800 sm:mt-5 sm:text-xl lg:text-lg xl:text-xl">
-                        I want to help others <span class="font-bold">avoid the pain</span> that I went through learning R.
-          </p>
-          <p class="mt-3 text-base text-blue-800 sm:mt-5 sm:text-xl lg:text-lg xl:text-xl">
-                        A <span class="font-bold">teacher at heart</span> (shoutout to my former second grade students), I make R <strong>less scary</strong> and <strong>more fun</strong> (yes, fun).
-          </p>
-          <p class="mt-3 text-base text-blue-800 sm:mt-5 sm:text-xl lg:text-lg xl:text-xl">
-                        <a href="about/">About Me &#8594;</a>
-          </p>
-          
-          
-        </div>
-        <div class="mt-12 relative sm:max-w-lg sm:mx-auto lg:mt-0 lg:max-w-none lg:mx-0 lg:col-span-6 lg:flex lg:items-center">
+    <!-- about v2 -->
 
-            
-              <img class="w-half rounded-full" src="wp-content/themes/buddyboss-theme-child/assets/images/dk-goofy.jpg" alt="David Keyes" />
-            
+    <div class="relative bg-white overflow-hidden">
+      <div class="hidden lg:block lg:absolute lg:inset-0">
+
+      </div>
+      <div class="relative pt-6 pb-16 md:pb-20 lg:pb-24 xl:pb-32">
+
+        <div class="absolute top-0 inset-x-0 p-2 transition transform origin-top-right md:hidden">
+          <div class="rounded-lg shadow-md">
+            <div class="rounded-lg bg-white shadow-xs overflow-hidden" role="menu" aria-orientation="vertical" aria-labelledby="main-menu">
+              <div class="px-5 pt-4 flex items-center justify-between">
+                <div>
+                  <img class="h-8 w-auto" src="/img/logos/workflow-mark-on-white.svg" alt="" />
+                </div>
+                <div class="-mr-2">
+                  <button type="button" class="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 focus:text-gray-500 transition duration-150 ease-in-out" aria-label="Close menu">
+                    <svg class="h-6 w-6" stroke="currentColor" fill="none" viewBox="0 0 24 24">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+                    </svg>
+                  </button>
+                </div>
+              </div>
+              <div class="px-2 pt-2 pb-3">
+                <a href="#" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50 focus:outline-none focus:text-gray-900 focus:bg-gray-50 transition duration-150 ease-in-out" role="menuitem">Product</a>
+                <a href="#" class="mt-1 block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50 focus:outline-none focus:text-gray-900 focus:bg-gray-50 transition duration-150 ease-in-out" role="menuitem">Features</a>
+                <a href="#" class="mt-1 block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50 focus:outline-none focus:text-gray-900 focus:bg-gray-50 transition duration-150 ease-in-out" role="menuitem">Marketplace</a>
+                <a href="#" class="mt-1 block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50 focus:outline-none focus:text-gray-900 focus:bg-gray-50 transition duration-150 ease-in-out" role="menuitem">Company</a>
+              </div>
+              <div>
+                <a href="#" class="block w-full px-5 py-3 text-center font-medium text-blue-600 bg-gray-50 hover:bg-gray-100 hover:text-blue-700 focus:outline-none focus:bg-gray-100 focus:text-blue-700 transition duration-150 ease-in-out" role="menuitem">
+                  Log in
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="lg:grid lg:grid-cols-12 lg:gap-8 px-32">
+          <div class="sm:text-center leading-7 md:max-w-2xl md:mx-auto lg:col-span-6 lg:text-left">
+
+            <h4 class="text-3xl leading-8 font-extrabold text-blue-800 tracking-tight sm:text-3xl sm:leading-9">
+              Hi, I'm David
+            </h4>
+            <p class="mt-3 text-base text-blue-800 sm:mt-5">
+              Think you know what an R user looks like? I'm probably not what you have in mind.
+            </p>
+            <p class="mt-3 text-base text-blue-800 sm:mt-5">
+              I'm <span class="font-bold">not a hardcore quant</span> (my PhD is in anthropology). I'm not a coder ready to <strong>jump on you for any small mistake</strong>.
+            </p>
+            <p class="mt-3 text-base text-blue-800 sm:mt-5">
+              I want to help others <span class="font-bold">avoid the pain</span> that I went through learning R.
+            </p>
+            <p class="mt-3 text-base text-blue-800 sm:mt-5">
+              A <span class="font-bold">teacher at heart</span> (shoutout to my former second grade students), I make R <strong>less scary</strong> and <strong>more fun</strong> (yes, fun).
+            </p>
+            <p class="mt-3 text-base text-blue-800 sm:mt-5">
+              <a href="about/">About Me &#8594;</a>
+            </p>
+
+
+          </div>
+          <div class="mt-12 relative sm:max-w-lg sm:mx-auto lg:mt-0 lg:max-w-none lg:mx-0 lg:col-span-6 lg:flex lg:items-center">
+
+
+            <img class="w-half rounded-full" src="wp-content/themes/buddyboss-theme-child/assets/images/dk-goofy.jpg" alt="David Keyes" />
+
           </div>
         </div>
       </div>
-    </main>
-  </div>
-</div>
+
+    </div>
+
 
   </main><!-- #main -->
 </div><!-- #primary -->

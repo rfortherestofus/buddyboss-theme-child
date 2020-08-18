@@ -1,6 +1,43 @@
 /* purgecss start ignore */
 @tailwind base;
 
+.wp-block-button__link {
+  @apply px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-blue-600;
+}
+
+h1 {
+  @apply text-6xl;
+}
+
+p {
+  @apply mt-4 text-blue-800 leading-relaxed;
+}
+
+.entry-title {
+  @apply text-6xl text-orange-800;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.rru-page-title {
+  @apply text-2xl leading-8 font-extrabold text-blue-800 tracking-tight;
+}
+
+
+@screen sm {
+  .rru-page-title {
+    @apply text-6xl leading-10;
+  }
+}
+
+.intro-text {
+  @apply text-xl mt-16 text-blue-800 leading-relaxed;
+}
+
+
+
 @tailwind components;
 /* purgecss end ignore */
 

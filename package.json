@@ -10,10 +10,11 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@tailwindcss/typography": "^0.1.4",
     "animate.css": "^4.1.0",
-    "autoprefixer": "^9.8.2",
+    "autoprefixer": "^9.8.6",
     "postcss-cli": "^7.1.1",
-    "tailwindcss": "^1.4.6",
+    "tailwindcss": "^1.6.2",
     "tailwindcss-filters": "^3.0.0"
   }
 }
