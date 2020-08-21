@@ -9,11 +9,10 @@ get_header();
 <div id="primary" class="content-area">
 
   <main class="mt-2 mx-auto max-w-screen-full px-4">
-  <h1 class="rru-page-title">
-      My R journey has had 
-    </h1>
-    <h1 class="rru-page-title">
-    many bumps along the way
+
+    <h1 class="rru-page-title leading-none">
+      My R journey has had
+      many bumps along the way
     </h1>
     <div class="flex flex-wrap -mx-5 overflow-hidden">
 
@@ -28,9 +27,9 @@ get_header();
       </div>
 
       <div class="my-5 px-5 w-full overflow-hidden md:w-1/2 text-base text-blue-800">
-      <p>A few weeks later, I tried R again on another project. Same result. I followed this pattern for several months, optimistically thinking I was ready to use R for a project, only to find my skills weren’t quite there yet.</p>
+        <p>A few weeks later, I tried R again on another project. Same result. I followed this pattern for several months, optimistically thinking I was ready to use R for a project, only to find my skills weren’t quite there yet.</p>
 
-      <p>It’s a common story among those of us who teach ourselves R.
+        <p>It’s a common story among those of us who teach ourselves R.
           <span class="strong">Without a guide, we waste time going down the wrong path without realizing where we’re going.</span></p>
 
 
@@ -104,7 +103,7 @@ get_header();
 
       </div>
 
-      <div class="my-5 px-5 w-full overflow-hidden md:w-1/2">
+      <div class="my-5 px-5 w-full overflow-hidden md:w-1/2 hidden sm:block">
 
 
 
@@ -123,7 +122,7 @@ get_header();
 
 
     <div class="lg:grid lg:grid-cols-12 lg:gap-8 mt-8">
-      <div class="mt-12 relative sm:max-w-lg sm:mx-auto lg:mt-0 lg:max-w-none lg:mx-0 lg:col-span-4 lg:flex lg:items-center">
+      <div class="mt-12 mb-4 sm:mb-0 relative sm:max-w-lg sm:mx-auto lg:mt-0 lg:max-w-none lg:mx-0 lg:col-span-4 lg:flex lg:items-center">
 
 
         <img class="w-half rounded-full" src="/wp-content/themes/buddyboss-theme-child/assets/images/dk-goofy.jpg" alt="David Keyes" />
@@ -147,13 +146,13 @@ get_header();
         <p>
           A <span class="font-bold">teacher at heart</span> (shoutout to my former second grade students), I make R <strong>less scary</strong> and <strong>more fun</strong> (yes, fun).
         </p>
-        
-    <div class="mt-5 sm:mt-12">
-      <a href="/contact/" class="px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-blue-600 hover:text-white hover:bg-blue-500 focus:outline-none focus:border-blue-700 focus:shadow-outline-blue transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10">
-        Let's Talk
-      </a>
 
-    </div>
+        <div class="mt-5 sm:mt-12 mb-24">
+          <a href="/contact/" class="px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-blue-600 hover:text-white hover:bg-blue-500 focus:outline-none focus:border-blue-700 focus:shadow-outline-blue transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10">
+            Let's Talk
+          </a>
+
+        </div>
 
 
       </div>

@@ -22,8 +22,10 @@ html {
 }
 
 .rru-page-title {
-  @apply text-2xl leading-8 font-extrabold text-blue-800 tracking-tight;
+  @apply text-4xl leading-8 font-extrabold text-blue-800 tracking-tight;
 }
+
+
 
 
 @screen sm {

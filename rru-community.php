@@ -11,11 +11,9 @@ get_header();
 
     <main id="main" class="site-main mt-10">
 
-        <div>
-            <h1 class="rru-page-title">
+    <div class="md:w-1/2">
+            <h1 class="rru-page-title leading-none">
                 Never get stuck again
-            </h1>
-            <h1 class="rru-page-title">
                 on your R journey
             </h1>
 
@@ -32,7 +30,7 @@ get_header();
 
         <div class="mt-5 sm:mt-12">
             <a href="#pricing" class="px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-blue-600 hover:text-white hover:bg-blue-500 focus:outline-none focus:border-blue-700 focus:shadow-outline-blue transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10">
-                Join Today
+                Coming Soon
             </a>
 
         </div>
@@ -41,7 +39,7 @@ get_header();
 
         <div class="flex flex-wrap overflow-hidden mt-16">
 
-            <div class="w-full overflow-hidden md:my-3 md:px-3 md:w-1/2">
+            <div class="w-full overflow-hidden md:my-3 md:px-3 md:w-1/2 mb-4">
                 <img class="" src="/wp-content/themes/buddyboss-theme-child/assets/images/office-hours.svg" alt="Office Hours" />
             </div>
 
@@ -66,8 +64,15 @@ get_header();
 
         <div class="flex flex-wrap overflow-hidden mt-16">
 
+
+        <div class="w-full overflow-hidden pb-4 sm:hidden">
+                <img class="" src="/wp-content/themes/buddyboss-theme-child/assets/images/forums.svg" alt="Forums" />
+
+
+            </div>
+
             <div class="w-full overflow-hidden md:my-3 md:px-3 md:w-1/2">
-                <div class="mt-32 w-2/3 mx-auto">
+                <div class="sm:mt-32 w-2/3 mx-auto">
                     <h3 class="text-3xl leading-9 font-extrabold tracking-tight text-blue-800 sm:leading-10">
                         Forums
 
@@ -82,7 +87,7 @@ get_header();
                 </div>
             </div>
 
-            <div class="w-full overflow-hidden md:my-3 md:px-3 md:w-1/2">
+            <div class="w-full overflow-hidden md:my-3 md:px-3 md:w-1/2 hidden sm:block mb-4">
                 <img class="" src="/wp-content/themes/buddyboss-theme-child/assets/images/forums.svg" alt="Forums" />
 
 
@@ -92,7 +97,7 @@ get_header();
 
         <div class="flex flex-wrap overflow-hidden mt-16">
 
-            <div class="w-full overflow-hidden md:my-3 md:px-3 md:w-1/2">
+            <div class="w-full overflow-hidden md:my-3 md:px-3 md:w-1/2 mb-4">
                 <img class="" src="/wp-content/themes/buddyboss-theme-child/assets/images/resource-library.svg" alt="Resource Library" />
             </div>
 

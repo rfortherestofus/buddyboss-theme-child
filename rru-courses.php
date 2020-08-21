@@ -80,7 +80,14 @@ get_header();
         <div class="flex flex-wrap overflow-hidden mt-16">
 
             <div class="w-full overflow-hidden md:my-3 md:px-3 md:w-1/2">
-                <div class="mt-32 w-2/3 mx-auto">
+            
+            <div class="w-full overflow-hidden sm:hidden">
+                <img class="" src="/wp-content/themes/buddyboss-theme-child/assets/images/fundamentals.svg" alt="Fundamentals of R" />
+
+
+            </div>
+
+                <div class="sm:mt-32 w-2/3 mx-auto">
                     <h3 class="text-3xl leading-9 font-extrabold tracking-tight text-blue-800 sm:leading-10">
                         Fundamentals of R
 
@@ -104,7 +111,7 @@ get_header();
                 </div>
             </div>
 
-            <div class="w-full overflow-hidden md:my-3 md:px-3 md:w-1/2">
+            <div class="w-full overflow-hidden md:my-3 md:px-3 md:w-1/2 hidden sm:block">
                 <img class="" src="/wp-content/themes/buddyboss-theme-child/assets/images/fundamentals.svg" alt="Fundamentals of R" />
 
 

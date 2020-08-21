@@ -6,3 +6,28 @@
   font-weight: 700;
   color: #6cabdd;
 }
+
+.hentry blockquote.wp-block-quote {
+  background: #ffffff;
+  border-radius: 3px;
+  margin: 0 0 20px;
+  padding: 0 0 0 30px;
+  font-size: 1.2rem;
+  letter-spacing: -.24px;
+  line-height: 1.5;
+  position: relative;
+  border-left: 4px solid #404e6b;
+}
+
+.hentry blockquote.wp-block-quote:before {
+  display: none;
+}
+
+.nf-form-wrap .nf-form-content .nf-field-element input[type=button] {
+  border-color: #6cabdd;
+  background-color: #6cabdd;
+  font-size: 15px;
+  border-radius: 100px;
+  padding: 10px 20px;
+  color: #fff;
+}
