@@ -7,7 +7,7 @@
   color: #6cabdd;
 }
 
-.hentry blockquote.wp-block-quote {
+.hentry blockquote.wp-block-quote, .wp-block-quote {
   background: #ffffff;
   border-radius: 3px;
   margin: 0 0 20px;

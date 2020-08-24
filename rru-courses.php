@@ -41,7 +41,7 @@ get_header();
 
 
 
-        <div class="flex flex-wrap overflow-hidden mt-16">
+        <div class="flex flex-wrap overflow-hidden mt-32">
 
             <div class="w-full overflow-hidden md:my-3 md:px-3 md:w-1/2">
                 <img class="" src="/wp-content/themes/buddyboss-theme-child/assets/images/getting-started.svg" alt="Getting Started with R" />

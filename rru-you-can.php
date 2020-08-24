@@ -45,7 +45,7 @@ get_header();
       </div>
 
       <div class="my-5 px-5 w-full overflow-hidden md:w-1/2 text-base text-blue-800">
-      <img class="shadow-md rounded-md" src="/wp-content/themes/buddyboss-theme-child/assets/images/you-can-do-that-in-r-animated.gif">
+      <img class="shadow rounded-md" src="/wp-content/themes/buddyboss-theme-child/assets/images/you-can-do-that-in-r-animated.gif">
 
       </div>
 
