@@ -22,7 +22,7 @@ get_header();
         <div class="md:w-1/2">
 
             <p class="intro-text">
-                Ready to make an <strong>investment in your organization’s future</strong> by moving to R? Making the jump to R can eliminate reliance on <strong>expensive software</strong>, improve your team’s <strong>efficiency</strong>, and offer an incredible <strong>professional development opportunity</strong> to your staff.
+                Ready to make an <p class="font-bold">investment in your organization’s future</p> by moving to R? Making the jump to R can eliminate reliance on <strong>expensive software</strong>, improve your team’s <strong>efficiency</strong>, and offer an incredible <strong>professional development opportunity</strong> to your staff.
             </p>
 
 
