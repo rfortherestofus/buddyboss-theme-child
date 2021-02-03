@@ -1,0 +1,106 @@
+.bb-single-course-sidebar .bb-button-wrap .learndash_join_button+.bb-course-type {
+    font-size: 24px;
+    font-weight: 700;
+    color: #6cabdd;
+}
+
+.hentry blockquote.wp-block-quote,
+.wp-block-quote {
+    background: #ffffff;
+    border-radius: 3px;
+    margin: 0 0 20px;
+    padding: 0 0 0 30px;
+    font-size: 1.2rem;
+    letter-spacing: -.24px;
+    line-height: 1.5;
+    position: relative;
+    border-left: 4px solid #404e6b;
+}
+
+.hentry blockquote.wp-block-quote:before {
+    display: none;
+}
+
+.nf-form-wrap .nf-form-content .nf-field-element input[type=button] {
+    border-color: #6cabdd;
+    background-color: #6cabdd;
+    font-size: 15px;
+    border-radius: 100px;
+    padding: 10px 20px;
+    color: #fff;
+}
+
+#nf-field-109 {
+    border-color: #ffffff;
+    background-color: #ffffff;
+    font-size: 15px;
+    border-radius: 100px;
+    padding: 10px 20px;
+    color: #6cabdd;
+    ;
+}
+
+#page .footer-widget-area {
+    padding-top: 75px;
+    border-top: 1px solid #eeeeee;
+}
+
+.rounded-sm {
+    border-radius: 0.125rem;
+}
+
+.rounded-md {
+    border-radius: 0.375rem;
+}
+
+.rounded-lg {
+    border-radius: 0.5rem;
+}
+
+.bb-course-excerpt {
+    opacity: 1;
+}
+
+.my-8 {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.bb-course-excerpt .button,
+.course-signup .button {
+    color: #ffffff;
+}
+
+.bb-course-excerpt img,
+.course-signup img {
+    float: right;
+    padding-right: 20px;
+}
+
+.type-success_stories.bb-subscribe-wrap {
+    display: none;
+}
+
+figcaption {
+    color: #718096;
+    font-style: italic;
+    margin-bottom: 3em;
+    text-align: center;
+}
+
+.bb-footer .widget ul li.current-menu-item a,
+.bb-footer .widget ul li.current-menu-item a:hover,
+.bb-footer li.current-menu-item a,
+.bb-footer li.current-menu-item a:hover {
+    color: #6cabdd;
+    !important
+}
+
+#shop-track-personal-li {
+    display: none;
+}
+
+// FacetWP
+.facetwp-facet {
+    margin-bottom: 10px;
+}

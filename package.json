@@ -1,0 +1,23 @@
+{
+    "name": "buddyboss-theme-child",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "build": "postcss assets/css/tailwind.css -o assets/css/tailwindrru.css"
+    },
+    "k   eywords": [],
+    "a     uthor": "",
+    "l   icense": "ISC",
+    "dependencies": {
+        "@tailwindcss/postcss7-compat": "^2.0.2",
+        "@tailwindcss/typography": "^0.1.4",
+        "animate.css": "^4.1.0",
+        "autoprefixer": "^9.8.6",
+        "postcss": "^7.0.35",
+        "postcss-cli": "^7.1.1",
+        "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.0.2",
+        "tailwindcss-filters": "^3.0.0"
+    },
+    "devDependencies": {}
+}

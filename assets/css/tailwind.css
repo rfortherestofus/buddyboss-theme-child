@@ -1,0 +1,42 @@
+/* purgecss start ignore */
+
+@tailwind base;
+.wp-block-button__link {
+    @apply px-8 py-3 text-base font-medium leading-6 text-white bg-blue-600 border border-transparent rounded-md;
+}
+
+h1 {
+    @apply text-6xl;
+}
+
+p {
+    @apply mt-4 leading-relaxed text-blue-800;
+}
+
+.entry-title {
+    @apply text-6xl text-orange-800;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.rru-page-title {
+    @apply text-4xl font-extrabold leading-8 tracking-tight text-blue-800;
+}
+
+@screen sm {
+    .rru-page-title {
+        @apply text-6xl leading-10;
+    }
+}
+
+.intro-text {
+    @apply mt-16 text-xl leading-relaxed text-blue-800;
+}
+
+@tailwind components;
+
+/* purgecss end ignore */
+
+@tailwind utilities;
