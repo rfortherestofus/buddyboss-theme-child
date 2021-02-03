@@ -151,12 +151,12 @@ get_header();
           <p class="text-xl leading-7 text-gray-600">Consulting projects often require a range of skills. I partner with talented R users to get the job done.</p>
         </div>
         <div class="lg:col-span-2">
-          <ul class="space-y-12 sm:divide-y sm:divide-gray-200 sm:space-y-0 sm:-mt-8 lg:col-gap-8 lg:space-y-0">
+          <ul class="space-y-12 sm:divide-gray-200 sm:space-y-0 sm:-mt-8 lg:col-gap-8 lg:space-y-0">
             <li class="sm:py-8">
               <div class="space-y-4 sm:grid sm:grid-cols-3 sm:items-start sm:gap-6 sm:space-y-0">
                 <!-- Image -->
                 <div class="relative pb-2/3 sm:pt-2/3">
-                  <img class="p-4 rounded-full" src="/wp-content/themes/buddyboss-theme-child/assets/images/thomas-vroylandt.jpeg" alt="Thomas Vroylandt">
+                <img class="rounded-full ring ring-gray-300 ring-8" src="/wp-content/themes/buddyboss-theme-child/assets/images/thomas-vroylandt.jpeg" alt="Thomas Vroylandt">
                 </div>
                 <div class="sm:col-span-2">
                   <div class="space-y-4">
@@ -184,12 +184,12 @@ get_header();
               </div>
             </li>
 
-<!--
+
             <li class="sm:py-8">
               <div class="space-y-4 sm:grid sm:grid-cols-3 sm:items-start sm:gap-6 sm:space-y-0">
                 
                 <div class="relative pb-2/3 sm:pt-2/3">
-                  <img class="p-4 rounded-full" src="/wp-content/themes/buddyboss-theme-child/assets/images/maia-pelletier.jpeg" alt="Maia Pelletier">
+                  <img class="rounded-full ring ring-gray-300 ring-8" src="/wp-content/themes/buddyboss-theme-child/assets/images/maia.jpg" alt="Maia Pelletier">
                 </div>
                 <div class="sm:col-span-2">
                   <div class="space-y-4">
@@ -218,7 +218,7 @@ get_header();
               </div>
             </li> 
 
-            -->
+
 
             <!-- More people...-->
           </ul>
