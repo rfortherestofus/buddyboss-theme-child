@@ -187,7 +187,7 @@ Learning R will save you <span class="font-bold">time</span> and <span class="fo
                 </p>
 
                 <p class="mt-4 text-lg text-gray-600">
-                You'll also have access to a <span class="font-bold">forum 24/7 where you can ask questions, get feedback, and find support</span>.
+                You'll also have 24/7 access to a <span class="font-bold">private group where you can ask questions, get feedback, and find support</span>.
                 </p>
                 <!-- <div class="mt-6">
                   <a href="#pricing" class="inline-flex px-4 py-2 text-base font-medium text-white border border-transparent rounded-md shadow-sm bg-gradient-to-r from-blue-600 to-blue-900 hover:from-blue-700 hover:to-blue-700">
