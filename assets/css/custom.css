@@ -104,3 +104,8 @@ figcaption {
 .facetwp-facet {
     margin-bottom: 10px;
 }
+
+// Hide price on R in 3 Months
+.wcpbc-price-15772 {
+    display: none;
+}
