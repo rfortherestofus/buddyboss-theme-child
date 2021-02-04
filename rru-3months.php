@@ -12,9 +12,9 @@ get_header();
 
 
 <div class="bg-white">
-  
 
-  
+
+
     <!-- Hero section -->
     <div class="relative">
       <div class="absolute inset-x-0 bottom-0 h-1/2"></div>
@@ -27,7 +27,7 @@ get_header();
           <div class="relative px-4 py-16 sm:px-6 sm:py-24 lg:py-32 lg:px-8">
             <h1 class="text-4xl font-extrabold text-center tracking-loose sm:text-5xl lg:text-6xl">
               <span class="block text-white">R in 3 Months</span>
-              
+
             </h1>
             <p class="max-w-lg mx-auto mt-6 text-xl text-center text-blue-200 sm:max-w-3xl">
               Invest in your future by learning the most powerful tool for working with data
@@ -37,7 +37,7 @@ get_header();
                 <a href="#pricing"  class="flex items-center justify-center px-4 py-3 text-base font-medium text-blue-700 bg-white border border-transparent rounded-md shadow-sm hover:bg-blue-50 hover:text-blue-700 sm:px-8">
                   Sign Up Now
                 </a>
-                
+
               </div>
             </div>
           </div>
@@ -50,7 +50,7 @@ get_header();
 <p class="text-xl leading-relaxed text-blue-900">Here’s my answer: 3 months. Give me 3 months and I’ll get you to the point where you can use R for all of your data work. </p>
  -->
  <p class="mt-16 text-xl leading-relaxed text-blue-800">
- I’ve often been asked: <span class="font-bold">“how long does it take to learn R?”</span> I’ve never had a good answer ... until now. 
+ I’ve often been asked: <span class="font-bold">“how long does it take to learn R?”</span> I’ve never had a good answer ... until now.
 
 
 
@@ -62,7 +62,7 @@ get_header();
 </p>
 
 <p class="text-xl leading-relaxed text-blue-800">
-    Give me 3 months and I’ll get you to the point where you can <span class="font-bold">use R for all of your data work</span>. 
+    Give me 3 months and I’ll get you to the point where you can <span class="font-bold">use R for all of your data work</span>.
 </p>
 
 
@@ -81,7 +81,7 @@ Learning R will save you <span class="font-bold">time</span> and <span class="fo
                     </svg>
                   </div>
                   <p class="ml-3 text-xl leading-relaxed text-blue-800">
-                  <span class="font-bold">Time</span> because you’ll learn to work more efficiently, automating tedious work through the magic of reproducibility. 
+                  <span class="font-bold">Time</span> because you’ll learn to work more efficiently, automating tedious work through the magic of reproducibility.
                   </p>
                 </li>
 
@@ -94,7 +94,7 @@ Learning R will save you <span class="font-bold">time</span> and <span class="fo
 
                   </div>
                   <p class="ml-3 text-xl leading-relaxed text-blue-800">
-                  <span class="font-bold">Money</span> because you’ll never have to pay exorbitant fees for SPSS, SAS, or Stata again. 
+                  <span class="font-bold">Money</span> because you’ll never have to pay exorbitant fees for SPSS, SAS, or Stata again.
                   </p>
                 </li>
 
@@ -118,20 +118,20 @@ Learning R will save you <span class="font-bold">time</span> and <span class="fo
         <div class="lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-2 lg:grid-flow-col-dense lg:gap-24">
           <div class="max-w-xl px-4 mx-auto sm:px-6 lg:py-16 lg:max-w-none lg:mx-0 lg:px-0">
             <div>
-              
+
               <div class="mt-6">
                 <h2 class="text-3xl font-extrabold tracking-tight text-gray-900">
                 High-Quality Instruction
                 </h2>
                 <p class="mt-4 text-lg text-gray-600">
-                With R in 3 Months, you’ll get <span class="font-bold">high-quality instruction that will guide you from R newbie to R expert</span>. 
+                With R in 3 Months, you’ll get <span class="font-bold">high-quality instruction that will guide you from R newbie to R expert</span>.
                 </p>
 
                 <p class="mt-4 text-lg text-gray-600">
-                Over the three months, you’ll go through <a href="https://rfortherestofus.com/courses/getting-started/">Getting Started with R</a>, <a href="https://rfortherestofus.com/courses/fundamentals/">Fundamentals of R</a>, and <a href="https://rfortherestofus.com/courses/going-deeper/">Going Deeper with R</a>, courses that have helped thousands of people around the world learn R. 
+                Over the three months, you’ll go through <a href="https://rfortherestofus.com/courses/getting-started/">Getting Started with R</a>, <a href="https://rfortherestofus.com/courses/fundamentals/">Fundamentals of R</a>, and <a href="https://rfortherestofus.com/courses/going-deeper/">Going Deeper with R</a>, courses that have helped thousands of people around the world learn R.
                 </p>
 
-               
+
               </div>
             </div>
             <div class="pt-6 mt-8 border-t border-gray-200">
@@ -143,7 +143,7 @@ Learning R will save you <span class="font-bold">time</span> and <span class="fo
                 </div>
                 <footer class="mt-3">
                   <div>
-                    
+
                     <div class="text-base font-light text-gray-700">
                        Kevin Cahill, <a href="https://www.wearewithyou.org.uk/">We are With You</a>
                     </div>
@@ -155,9 +155,9 @@ Learning R will save you <span class="font-bold">time</span> and <span class="fo
               </blockquote>
             </div>
 
-           
 
-          
+
+
           </div>
           <div class="mt-12 sm:mt-16 lg:mt-0">
             <div class="pl-4 -mr-48 sm:pl-6 md:-mr-16 lg:px-0 lg:m-0 lg:relative lg:h-full">
@@ -170,7 +170,7 @@ Learning R will save you <span class="font-bold">time</span> and <span class="fo
         <div class="lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-2 lg:grid-flow-col-dense lg:gap-24">
           <div class="max-w-xl px-4 mx-auto sm:px-6 lg:max-w-none lg:mx-0 lg:px-0 lg:col-start-2">
             <div>
-            
+
               <div class="mt-6">
                 <h2 class="text-3xl font-extrabold tracking-tight text-gray-900">
                   Alongside a Supportive Community
@@ -178,12 +178,12 @@ Learning R will save you <span class="font-bold">time</span> and <span class="fo
 
 
                 <p class="mt-4 text-lg text-gray-600">
-                You'll be on this journey <span class="font-bold">alongside a supportive community</span> that will help you learn and keep you accountable to yourself. 
+                You'll be on this journey <span class="font-bold">alongside a supportive community</span> that will help you learn and keep you accountable to yourself.
                 </p>
                 <p class="mt-4 text-lg text-gray-600">
-                R in 3 Months will use a <a href="https://omerad.msu.edu/teaching/teaching-strategies/27-teaching/162-what-why-and-how-to-implement-a-flipped-classroom-model">flipped classroom model</a>. 
-              
-                Each week you’ll be assigned to <span class="font-bold">complete a set of lessons</span>. Then, in our <span class="font-bold">weekly live session</span> we’ll go over questions related to the concepts in the lessons you completed that week and discuss ways that you’re applying your learning to your own work. 
+                R in 3 Months will use a <a href="https://omerad.msu.edu/teaching/teaching-strategies/27-teaching/162-what-why-and-how-to-implement-a-flipped-classroom-model">flipped classroom model</a>.
+
+                Each week you’ll be assigned to <span class="font-bold">complete a set of lessons</span>. Then, in our <span class="font-bold">weekly live session</span> we’ll go over questions related to the concepts in the lessons you completed that week and discuss ways that you’re applying your learning to your own work.
                 </p>
 
                 <p class="mt-4 text-lg text-gray-600">
@@ -211,7 +211,7 @@ Learning R will save you <span class="font-bold">time</span> and <span class="fo
   <div class="px-4 py-12 mx-auto mb-16 text-center max-w-7xl sm:px-6 lg:py-16 lg:px-8">
     <h2 class="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl">
       <span class="block">Ready to get started?</span>
-      
+
     </h2>
     <div class="flex justify-center mt-8">
       <div class="inline-flex rounded-md shadow">
@@ -219,7 +219,7 @@ Learning R will save you <span class="font-bold">time</span> and <span class="fo
           Sign Up Now
         </a>
       </div>
-      
+
     </div>
   </div>
 </div>
@@ -233,7 +233,7 @@ Learning R will save you <span class="font-bold">time</span> and <span class="fo
           R in 3 Months is a complete package to make sure you <span class="underline">finally</span> learn R
         </h2>
         <!-- <p class="max-w-3xl mt-4 text-lg text-blue-200">
-          It's not just courses &mdash; it's a whole set of tools to help you on your R journey. 
+          It's not just courses &mdash; it's a whole set of tools to help you on your R journey.
         </p> -->
         <div class="grid grid-cols-1 mt-12 gap-x-3 gap-y-6 sm:grid-cols-2 lg:mt-8 lg:grid-cols-3 lg:gap-x-4 lg:gap-y-8">
           <div>
@@ -262,7 +262,7 @@ Learning R will save you <span class="font-bold">time</span> and <span class="fo
             <div>
               <span class="flex items-center justify-center w-12 h-12 bg-white rounded-md bg-opacity-10">
                 <!-- Heroicon name: trash -->
-      
+
 
                 <svg class="w-6 h-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11a7 7 0 01-7 7m0 0a7 7 0 01-7-7m7 7v4m0 0H8m4 0h4m-4-8a3 3 0 01-3-3V5a3 3 0 116 0v6a3 3 0 01-3 3z" />
@@ -276,13 +276,13 @@ Learning R will save you <span class="font-bold">time</span> and <span class="fo
               </p>
             </div>
           </div>
-          
+
 
           <div>
             <div>
               <span class="flex items-center justify-center w-12 h-12 bg-white rounded-md bg-opacity-10">
                 <!-- Heroicon name: users -->
-                
+
                 <svg class="w-6 h-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z" />
 </svg>
@@ -296,13 +296,13 @@ Learning R will save you <span class="font-bold">time</span> and <span class="fo
             </div>
           </div>
 
-          
+
 
           <div>
             <div>
               <span class="flex items-center justify-center w-12 h-12 bg-white rounded-md bg-opacity-10">
                 <!-- Heroicon name: pencil-alt -->
-                
+
 
                 <svg class="w-6 h-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
@@ -321,7 +321,7 @@ Learning R will save you <span class="font-bold">time</span> and <span class="fo
             <div>
               <span class="flex items-center justify-center w-12 h-12 bg-white rounded-md bg-opacity-10">
                 <!-- Heroicon name: document-report -->
-               
+
 
                 <svg class="w-6 h-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z" />
@@ -340,7 +340,7 @@ Learning R will save you <span class="font-bold">time</span> and <span class="fo
             <div>
               <span class="flex items-center justify-center w-12 h-12 bg-white rounded-md bg-opacity-10">
                 <!-- Heroicon name: reply -->
-      
+
 
                 <svg class="w-6 h-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 10h4.764a2 2 0 011.789 2.894l-3.5 7A2 2 0 0115.263 21h-4.017c-.163 0-.326-.02-.485-.06L7 20m7-10V5a2 2 0 00-2-2h-.095c-.5 0-.905.405-.905.905 0 .714-.211 1.412-.608 2.006L7 11v9m7-10h-2M7 20H5a2 2 0 01-2-2v-6a2 2 0 012-2h2.5" />
@@ -350,7 +350,7 @@ Learning R will save you <span class="font-bold">time</span> and <span class="fo
             <div class="mt-4">
               <h3 class="text-lg font-medium text-white">Accountability</h3>
               <p class="mt-2 text-base text-blue-200">
-                Don't go it alone! Learn R with others and help each other stay on track. 
+                Don't go it alone! Learn R with others and help each other stay on track.
               </p>
             </div>
           </div>
@@ -445,8 +445,8 @@ Learning R will save you <span class="font-bold">time</span> and <span class="fo
       </div>
     </div>
 
-   
-  
+
+
 
 </div>
 
@@ -459,71 +459,136 @@ Learning R will save you <span class="font-bold">time</span> and <span class="fo
     </h2>
     <div class="mt-6">
       <dl class="space-y-8 divide-y divide-gray-200">
-        <div class="pt-6 md:grid md:grid-cols-12 md:gap-8">
+
+      <div class="pt-6 md:grid md:grid-cols-12 md:gap-8">
           <dt class="text-base font-medium text-gray-900 md:col-span-5">
-            What&#039;s the best thing about Switzerland?
+            How long will I have access to the materials?
           </dt>
           <dd class="mt-2 md:mt-0 md:col-span-7">
             <p class="text-base text-gray-500">
-              I don&#039;t know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.
+              Forever!
             </p>
           </dd>
         </div>
 
         <div class="pt-6 md:grid md:grid-cols-12 md:gap-8">
           <dt class="text-base font-medium text-gray-900 md:col-span-5">
-            How do you make holy water?
+            Can't I learn R for free? Why should I pay for this?
           </dt>
           <dd class="mt-2 md:mt-0 md:col-span-7">
             <p class="text-base text-gray-500">
-              You boil the hell out of it. Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam aut tempora vitae odio inventore fuga aliquam nostrum quod porro. Delectus quia facere id sequi expedita natus.
+            You’re right, there are a ton of free tutorials. You can learn R using free resources. <a href="https://rfortherestofus.com/2019/04/my-r-journey-david-keyes/">I did</a>! But, I will say that, looking back, I know I spent much longer than if I had taken a more structured approach. Going through R in 3 Months, you benefit from the mistakes I’ve made by taking the shortest route on your R journey.
             </p>
           </dd>
         </div>
 
         <div class="pt-6 md:grid md:grid-cols-12 md:gap-8">
           <dt class="text-base font-medium text-gray-900 md:col-span-5">
-            What do you call someone with no body and no nose?
+            Can I see examples of your teaching?
           </dt>
           <dd class="mt-2 md:mt-0 md:col-span-7">
             <p class="text-base text-gray-500">
-              Nobody knows. Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, voluptas ipsa quia excepturi, quibusdam natus exercitationem sapiente tempore labore voluptatem.
+            Yes! You can sign up for the free <a href="https://rfortherestofus.com/courses/getting-started/">Getting Started course</a> or check out sample lessons in the <a href="https://rfortherestofus.com/courses/fundamentals/">Fundamentals</a> or <a href="https://rfortherestofus.com/courses/going-deeper/">Going Deeper</a> courses.
             </p>
           </dd>
         </div>
 
         <div class="pt-6 md:grid md:grid-cols-12 md:gap-8">
           <dt class="text-base font-medium text-gray-900 md:col-span-5">
-            Why do you never see elephants hiding in trees?
+            Can I see what the live sessions are going to look like?
           </dt>
           <dd class="mt-2 md:mt-0 md:col-span-7">
             <p class="text-base text-gray-500">
-              Because they&#039;re so good at it. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.
+            Check out previous sessions of <a href="https://rfortherestofus.com/groups/community/forum/discussion/office-hours-megathread/">R for the Rest of Us office hours</a>. The live sessions for R in 3 Months will be a bit more structured since we're covering particular topics each week, but this will give you a rough sense of what to expect.
             </p>
           </dd>
         </div>
 
         <div class="pt-6 md:grid md:grid-cols-12 md:gap-8">
           <dt class="text-base font-medium text-gray-900 md:col-span-5">
-            Why can&#039;t you hear a pterodactyl go to the bathroom?
+            Do I need to be an expert statistician to sign up?
           </dt>
           <dd class="mt-2 md:mt-0 md:col-span-7">
             <p class="text-base text-gray-500">
-              Because the pee is silent. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam, quas voluptatibus ex culpa ipsum, aspernatur blanditiis fugiat ullam magnam suscipit deserunt illum natus facilis atque vero consequatur! Quisquam, debitis error.
+            Absolutely not! I’m an anthropologist by training. I’ve written about <a href="https://rfortherestofus.com/2018/12/descriptive-stats-r/">coming to terms with using R “only” for descriptive stats</a>. R has a reputation for being only for hardcore quants, but it’s a tool that can benefit so many more people. That’s what I mean when I talk about “R for the Rest of Us.”
+            </p>
+          </dd>
+        </div>
+
+
+      <div class="pt-6 md:grid md:grid-cols-12 md:gap-8">
+          <dt class="text-base font-medium text-gray-900 md:col-span-5">
+            I've never programmed before. Is this right for me?
+          </dt>
+          <dd class="mt-2 md:mt-0 md:col-span-7">
+            <p class="text-base text-gray-500">
+              People who have never programmed before are the exactly type of folks I specialize in helping (you are "the rest of us")!
             </p>
           </dd>
         </div>
 
         <div class="pt-6 md:grid md:grid-cols-12 md:gap-8">
           <dt class="text-base font-medium text-gray-900 md:col-span-5">
-            Why did the invisible man turn down the job offer?
+            Do I need any special technology to participate?
           </dt>
           <dd class="mt-2 md:mt-0 md:col-span-7">
             <p class="text-base text-gray-500">
-              He couldn&#039;t see himself doing it. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet perspiciatis officiis corrupti tenetur. Temporibus ut voluptatibus, perferendis sed unde rerum deserunt eius.
+              Nope! You'll use RStudio throughout, We'll conduct live sessions via Zoom, and you'll record videos of your own code using the <a href="https://www.loom.com/">Loom</a> free plan.
             </p>
           </dd>
         </div>
+
+        <div class="pt-6 md:grid md:grid-cols-12 md:gap-8">
+          <dt class="text-base font-medium text-gray-900 md:col-span-5">
+          I'm not sure I'll be able to make all of the live sessions. Can I still participate?
+          </dt>
+          <dd class="mt-2 md:mt-0 md:col-span-7">
+            <p class="text-base text-gray-500">
+              Yes! I expect that not everyone will be able to participate in all live sesssions, given time zones and/or life. All live sessions will be recorded and posted by the next day so you can catch up whenever you're able to.
+            </p>
+          </dd>
+        </div>
+
+        <div class="pt-6 md:grid md:grid-cols-12 md:gap-8">
+          <dt class="text-base font-medium text-gray-900 md:col-span-5">
+          Why are you using a flipped classroom model?
+          </dt>
+          <dd class="mt-2 md:mt-0 md:col-span-7">
+            <p class="text-base text-gray-500">
+              I chose this approach for two reasons.
+            </p>
+            <p class="text-base text-gray-500">
+            Practically speaking, allowing folks to complete lessons on their own schedule makes this program accessible to many more people around the world.
+            </p>
+            <p class="text-base text-gray-500">
+            Just as importantly, I chose to do a flipped classroom model because I think it is the most effective way to learn. I've taught the material covered in the Fundamentals and Going Deeper courses live. The challenge is that participants want to move at widely varying speeds. While some people want to go fast, others prefer a slower pace. A middle ground, medium pace often pleases few and frustrates many. Using a flipped classroom model enables everyone to work at their optimal speed for learning.
+            </p>
+          </dd>
+        </div>
+
+
+        <div class="pt-6 md:grid md:grid-cols-12 md:gap-8">
+          <dt class="text-base font-medium text-gray-900 md:col-span-5">
+            I've already signed up for Fundamentals of R or Going Deeper with R. Can you give me a discount?
+          </dt>
+          <dd class="mt-2 md:mt-0 md:col-span-7">
+            <p class="text-base text-gray-500">
+              Absolutely! Just <a href="/contact">send me an email</a> and I'll create a coupon code that gives you a discount equal to the amount you've spent to sign up for these courses.
+            </p>
+          </dd>
+        </div>
+
+        <div class="pt-6 md:grid md:grid-cols-12 md:gap-8">
+          <dt class="text-base font-medium text-gray-900 md:col-span-5">
+            What is your refund policy?
+          </dt>
+          <dd class="mt-2 md:mt-0 md:col-span-7">
+            <p class="text-base text-gray-500">
+            If you are unsatisfied with R in 3 Months for any reason, contact me before April 15 and I will give you a full refund, no questions asked. If you sign up using the three payments option, you can drop out before either of the second two payments and you won't be charged.
+            </p>
+          </dd>
+        </div>
+
       </dl>
     </div>
   </div>
@@ -532,12 +597,12 @@ Learning R will save you <span class="font-bold">time</span> and <span class="fo
 
 
     <div class="bg-gradient-to-r from-blue-800 to-blue-700">
-    
-    
+
+
   <div class="pt-12 mt-24 sm:pt-16 lg:pt-24" id="pricing">
     <div class="max-w-screen-xl px-4 mx-auto text-center sm:px-6 lg:px-8">
       <div class="max-w-3xl mx-auto space-y-2 lg:max-w-none">
-      
+
         <h2 class="text-lg font-semibold leading-6 tracking-wider text-gray-200 uppercase">
           Pricing
         </h2>
@@ -564,18 +629,18 @@ Learning R will save you <span class="font-bold">time</span> and <span class="fo
               </div>
               <div class="flex items-baseline text-6xl font-extrabold leading-none">
                 $799
-                
-                
+
+
               </div>
               <p class="mt-2 text-lg leading-7 text-gray-600">
                 Pay in full up front and save $100
               </p>
-              
+
             </div>
             <div class="flex flex-col justify-between flex-1 px-6 pt-6 pb-8 space-y-6 bg-gray-100 sm:p-10 sm:pt-6">
-         
+
               <div class="rounded-md shadow">
-              <a href="#pricing" class="flex items-center justify-center px-5 py-3 text-base font-medium leading-6 text-white transition duration-150 ease-in-out bg-blue-600 border border-transparent rounded-md hover:bg-blue-500 focus:outline-none focus:shadow-outline hover:text-white" aria-describedby="tier-standard">
+              <a href="https://rfortherestofus.com/product/r-in-3-months/" class="flex items-center justify-center px-5 py-3 text-base font-medium leading-6 text-white transition duration-150 ease-in-out bg-blue-600 border border-transparent rounded-md hover:bg-blue-500 focus:outline-none focus:shadow-outline hover:text-white" aria-describedby="tier-standard">
                   Sign Up Now
                 </a>
               </div>
@@ -591,17 +656,17 @@ Learning R will save you <span class="font-bold">time</span> and <span class="fo
               </div>
               <div class="flex items-baseline text-6xl font-extrabold leading-none">
                 $299
-                
+
               </div>
               <p class="mt-2 text-lg leading-7 text-gray-600">
                 $299 to hold your spot, two more payments later
               </p>
-              
+
             </div>
             <div class="flex flex-col justify-between flex-1 px-6 pt-6 pb-8 space-y-6 bg-gray-100 sm:p-10 sm:pt-6">
-           
+
               <div class="rounded-md shadow">
-              <a href="#pricing" class="flex items-center justify-center px-5 py-3 text-base font-medium leading-6 text-white transition duration-150 ease-in-out bg-blue-600 border border-transparent rounded-md hover:bg-blue-500 focus:outline-none focus:shadow-outline hover:text-white" aria-describedby="tier-standard">
+              <a href="https://rfortherestofus.com/product/r-in-3-months/" class="flex items-center justify-center px-5 py-3 text-base font-medium leading-6 text-white transition duration-150 ease-in-out bg-blue-600 border border-transparent rounded-md hover:bg-blue-500 focus:outline-none focus:shadow-outline hover:text-white" aria-describedby="tier-standard">
                   Sign Up Now
                 </a>
               </div>
@@ -620,18 +685,20 @@ Learning R will save you <span class="font-bold">time</span> and <span class="fo
                 </h3>
             </div>
             <div class="mt-0 text-lg leading-7 text-gray-600">
-              As part of my commmitment to make R in 3 Months accessible to as many people as possible, I adjust prices to be affordable in as many countries as possible. For people in many countries, I offer 50% off R in 3 Months. Add it to your cart to see the price in your country. 
-             
-              
+              As part of my commitment to make R in 3 Months accessible to as many people as possible, I adjust prices using <a href="https://www.investopedia.com/terms/p/parity.asp#:~:text=Purchasing%20Power%20Parity%20(PPP)%20is,rates%20between%20the%20two%20countries.">purchasing power parity</a>. For people in many countries, I offer 50% off R in 3 Months.
+
+
             </div>
           </div>
           <div class="mt-6 rounded-md shadow lg:mt-0 lg:ml-10 lg:flex-shrink-0">
-            
-            <a href="#pricing" class="flex items-center justify-center px-5 py-3 text-base font-medium leading-6 text-white transition duration-150 ease-in-out bg-blue-600 border border-transparent rounded-md hover:bg-blue-500 focus:outline-none focus:shadow-outline hover:text-white" aria-describedby="tier-standard">
-                  Add to Cart
+
+            <a href="https://rfortherestofus.com/product/r-in-3-months/" class="flex items-center justify-center px-5 py-3 text-base font-medium leading-6 text-white transition duration-150 ease-in-out bg-blue-600 border border-transparent rounded-md hover:bg-blue-500 focus:outline-none focus:shadow-outline hover:text-white">
+                  See Price in My Country
                 </a>
           </div>
-        </div>
+</div>
+
+
       </div>
     </div>
   </div>
