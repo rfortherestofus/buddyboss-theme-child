@@ -712,6 +712,11 @@ html {
   background-color: rgba(97, 154, 199, var(--tw-bg-opacity));
 }
 
+.bg-blue-700 {
+  --tw-bg-opacity: 1;
+  background-color: rgba(65, 103, 133, var(--tw-bg-opacity));
+}
+
 .bg-blue-800 {
   --tw-bg-opacity: 1;
   background-color: rgba(49, 77, 99, var(--tw-bg-opacity));
@@ -2121,6 +2126,10 @@ html {
     max-width: none;
   }
 
+  .sm\:max-w-md {
+    max-width: 28rem;
+  }
+
   .sm\:max-w-lg {
     max-width: 32rem;
   }
@@ -2242,6 +2251,10 @@ html {
 
   .sm\:w-4\/5 {
     width: 80%;
+  }
+
+  .sm\:w-full {
+    width: 100%;
   }
 
   .sm\:gap-5 {
@@ -2385,6 +2398,16 @@ html {
   .md\:px-10 {
     padding-left: 2.5rem;
     padding-right: 2.5rem;
+  }
+
+  .md\:py-12 {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+
+  .md\:px-12 {
+    padding-left: 3rem;
+    padding-right: 3rem;
   }
 
   .md\:py-20 {
@@ -2565,6 +2588,11 @@ html {
     padding-bottom: 4rem;
   }
 
+  .lg\:px-16 {
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+
   .lg\:py-24 {
     padding-top: 6rem;
     padding-bottom: 6rem;
@@ -2697,8 +2725,20 @@ html {
     background-image: linear-gradient(to right, var(--tw-gradient-stops));
   }
 
+  .xl\:flex {
+    display: flex;
+  }
+
   .xl\:grid {
     display: grid;
+  }
+
+  .xl\:items-center {
+    align-items: center;
+  }
+
+  .xl\:flex-1 {
+    flex: 1 1 0%;
   }
 
   .xl\:h-auto {
@@ -2707,6 +2747,14 @@ html {
 
   .xl\:h-full {
     height: 100%;
+  }
+
+  .xl\:mt-0 {
+    margin-top: 0px;
+  }
+
+  .xl\:ml-8 {
+    margin-left: 2rem;
   }
 
   .xl\:mt-48 {
@@ -2747,6 +2795,10 @@ html {
 
   .xl\:left-0 {
     left: 0px;
+  }
+
+  .xl\:w-0 {
+    width: 0px;
   }
 
   .xl\:w-32 {

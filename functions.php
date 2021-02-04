@@ -81,6 +81,7 @@ function tailwind_theme_child_scripts_styles()
     | is_page_template('single-resource.php')
     | is_page_template('rru-custom-training.php')
     | is_page_template('rru-3months.php')
+    | is_page_template('rru-email.php')
     | is_singular( 'resource' )
   ) {
     wp_enqueue_style('tailwindrru', get_stylesheet_directory_uri() . '/assets/css/tailwindrru.css', '', '1.0.0');
