@@ -640,7 +640,7 @@ Learning R will save you <span class="font-bold">time</span> and <span class="fo
             <div class="flex flex-col justify-between flex-1 px-6 pt-6 pb-8 space-y-6 bg-gray-100 sm:p-10 sm:pt-6">
 
               <div class="rounded-md shadow">
-              <a href="https://rfortherestofus.com/product/r-in-3-months/" class="flex items-center justify-center px-5 py-3 text-base font-medium leading-6 text-white transition duration-150 ease-in-out bg-blue-600 border border-transparent rounded-md hover:bg-blue-500 focus:outline-none focus:shadow-outline hover:text-white" aria-describedby="tier-standard">
+              <a href="https://rfortherestofus.com/product/r-in-3-months/?attribute_payment-option=Single+Payment" class="flex items-center justify-center px-5 py-3 text-base font-medium leading-6 text-white transition duration-150 ease-in-out bg-blue-600 border border-transparent rounded-md hover:bg-blue-500 focus:outline-none focus:shadow-outline hover:text-white" aria-describedby="tier-standard">
                   Sign Up Now
                 </a>
               </div>
@@ -666,7 +666,7 @@ Learning R will save you <span class="font-bold">time</span> and <span class="fo
             <div class="flex flex-col justify-between flex-1 px-6 pt-6 pb-8 space-y-6 bg-gray-100 sm:p-10 sm:pt-6">
 
               <div class="rounded-md shadow">
-              <a href="https://rfortherestofus.com/product/r-in-3-months/" class="flex items-center justify-center px-5 py-3 text-base font-medium leading-6 text-white transition duration-150 ease-in-out bg-blue-600 border border-transparent rounded-md hover:bg-blue-500 focus:outline-none focus:shadow-outline hover:text-white" aria-describedby="tier-standard">
+              <a href="https://rfortherestofus.com/product/r-in-3-months/?attribute_payment-option=Three+Payments" class="flex items-center justify-center px-5 py-3 text-base font-medium leading-6 text-white transition duration-150 ease-in-out bg-blue-600 border border-transparent rounded-md hover:bg-blue-500 focus:outline-none focus:shadow-outline hover:text-white" aria-describedby="tier-standard">
                   Sign Up Now
                 </a>
               </div>

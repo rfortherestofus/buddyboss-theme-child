@@ -296,3 +296,4 @@ add_filter( 'facetwp_facet_html', function( $output, $params ) {
   return $output;
 }, 10, 2 );
 
+
