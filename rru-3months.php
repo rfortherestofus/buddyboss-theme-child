@@ -111,16 +111,15 @@ Learning R will save you <span class="font-bold">time</span> and <span class="fo
 
     </div>
 
-    <!-- Alternating Feature Sections -->
-    <div class="relative pt-16 pb-20 mt-16">
-      <div aria-hidden="true" class="absolute inset-x-0 top-0 h-48"></div>
+    <div class="relative mt-12 lg:mt-24 lg:grid lg:grid-cols-2 lg:gap-8 lg:items-center">
       <div class="relative">
-        <div class="lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-2 lg:grid-flow-col-dense lg:gap-24">
-          <div class="max-w-xl px-4 mx-auto sm:px-6 lg:py-16 lg:max-w-none lg:mx-0 lg:px-0">
-            <div>
+        <div class="relative px-4 mt-10 mb-4 -mx-4 rounded-md sm:hidden">
 
-              <div class="mt-6">
-                <h2 class="text-3xl font-extrabold tracking-tight text-gray-900">
+          <img class="relative p-4 mx-auto rounded-md shadow lg:ml-8" src="../wp-content/themes/buddyboss-theme-child/assets/images/core-courses.svg" alt="Core R for the Rest of Us courses">
+
+        </div>
+
+        <h2 class="text-3xl font-extrabold tracking-tight text-gray-900">
                 High-Quality Instruction
                 </h2>
                 <p class="mt-4 text-lg text-gray-600">
@@ -132,52 +131,61 @@ Learning R will save you <span class="font-bold">time</span> and <span class="fo
                 </p>
 
 
-              </div>
-            </div>
-            <div class="pt-6 mt-8 border-t border-gray-200">
-              <blockquote>
-                <div>
-                  <p class="text-base text-gray-600">
-                    &ldquo;The step-by-step approach to building skills kept me engaged and learning all the way through. All the while I kept thinking, I know how I can use this in my current job.&rdquo;
-                  </p>
-                </div>
-                <footer class="mt-3">
-                  <div>
-
-                    <div class="text-base font-light text-gray-700">
-                       Kevin Cahill, <a href="https://www.wearewithyou.org.uk/">We are With You</a>
-                    </div>
-                    <div class="text-base font-light text-gray-700">
-                    Feedback on Fundamentals of R
-                    </div>
-                  </div>
-                </footer>
-              </blockquote>
-            </div>
 
 
-
-
-          </div>
-          <div class="mt-12 sm:mt-16 lg:mt-0">
-            <div class="pl-4 -mr-48 sm:pl-6 md:-mr-16 lg:px-0 lg:m-0 lg:relative lg:h-full">
-              <img class="w-full lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-none" src="../wp-content/themes/buddyboss-theme-child/assets/images/core-courses.svg" alt="Core R for the Rest of Us courses">
-            </div>
-          </div>
-        </div>
       </div>
-      <div class="mt-24">
-        <div class="lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-2 lg:grid-flow-col-dense lg:gap-24">
-          <div class="max-w-xl px-4 mx-auto sm:px-6 lg:max-w-none lg:mx-0 lg:px-0 lg:col-start-2">
-            <div>
 
-              <div class="mt-6">
-                <h2 class="text-3xl font-extrabold tracking-tight text-gray-900">
-                  Alongside a Supportive Community
+      <div class="relative hidden mt-10 -mx-4 rounded-md lg:mt-0 sm:block">
+
+        <img class="relative p-4 mx-auto lg:ml-8" src="../wp-content/themes/buddyboss-theme-child/assets/images/core-courses.svg" alt="Core R for the Rest of Us courses">
+
+      </div>
+    </div>
+
+
+    <div class="relative mt-12 sm:mt-16 lg:mt-24">
+      <div class="lg:grid lg:grid-flow-row-dense lg:grid-cols-2 lg:gap-8 lg:items-center">
+        <div class="lg:col-start-2">
+        <h2 class="text-3xl font-extrabold tracking-tight text-gray-900">
+                  Personalized Feedback
                 </h2>
 
 
+
                 <p class="mt-4 text-lg text-gray-600">
+                Each week, you'll be asked to apply the concepts you're learning to a real project you're working on.
+
+                </p>
+
+                <p class="mt-4 text-lg text-gray-600">
+                You'll share your code and get personalized feedback to ensure that you really, finally learn how to apply R to your work.
+                  </p>
+
+
+
+        </div>
+
+        <div class="relative px-2 -mx-4 sm:mt-10 lg:mt-0 lg:col-start-1 sm:p-10">
+
+        <img class="w-full rounded shadow-md" src="../wp-content/themes/buddyboss-theme-child/assets/images/community-example.gif" alt="Example community thread">
+
+        </div>
+      </div>
+    </div>
+
+    <div class="relative mt-12 lg:mt-24 lg:grid lg:grid-cols-2 lg:gap-8 lg:items-center">
+      <div class="relative">
+        <div class="relative px-4 mt-10 mb-4 -mx-4 rounded-md sm:hidden">
+
+          <img class="relative mx-auto rounded shadow-md" src="../wp-content/themes/buddyboss-theme-child/assets/images/zoom.jpg" alt="People on Zoom call">
+
+        </div>
+
+        <h2 class="text-3xl font-extrabold tracking-tight text-gray-900">
+                  Alongside a Supportive Community
+                </h2>
+
+        <p class="mt-4 text-lg text-gray-600">
                 You'll be on this journey <span class="font-bold">alongside a supportive community</span> that will help you learn and keep you accountable to yourself.
                 </p>
                 <p class="mt-4 text-lg text-gray-600">
@@ -189,26 +197,27 @@ Learning R will save you <span class="font-bold">time</span> and <span class="fo
                 <p class="mt-4 text-lg text-gray-600">
                 You'll also have 24/7 access to a <span class="font-bold">private group where you can ask questions, get feedback, and find support</span>.
                 </p>
-                <!-- <div class="mt-6">
-                  <a href="#pricing" class="inline-flex px-4 py-2 text-base font-medium text-white border border-transparent rounded-md shadow-sm bg-gradient-to-r from-blue-600 to-blue-900 hover:from-blue-700 hover:to-blue-700">
-                    Get started
-                  </a>
-                </div> -->
-              </div>
-            </div>
-          </div>
-          <div class="mt-12 sm:mt-16 lg:col-start-1">
-            <div class="pr-4 -ml-48 sm:pr-6 md:-ml-16 lg:px-0 lg:m-0 lg:relative lg:h-full">
-              <img class="w-full rounded shadow-md lg:absolute lg:right-0" src="../wp-content/themes/buddyboss-theme-child/assets/images/community-example.gif" alt="Example community thread">
-            </div>
-          </div>
-        </div>
+
+        
+
+
+      </div>
+
+      <div class="relative hidden mt-10 -mx-4 rounded-md lg:mt-0 sm:block">
+
+        <img class="relative mx-auto rounded-md shadow" src="../wp-content/themes/buddyboss-theme-child/assets/images/zoom.jpg" alt="People on Zoom call">
+
       </div>
     </div>
 
+
+ 
+
+    
+
 <!-- This example requires Tailwind CSS v2.0+ -->
 <div class="bg-white">
-  <div class="px-4 py-12 mx-auto mb-16 text-center max-w-7xl sm:px-6 lg:py-16 lg:px-8">
+  <div class="px-4 py-12 mx-auto mb-16 text-center max-w-7xl sm:px-6 lg:py-32 lg:px-8">
     <h2 class="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl">
       <span class="block">Ready to get started?</span>
 
