@@ -544,7 +544,7 @@ Learning R will save you <span class="font-bold">time</span> and <span class="fo
           </dt>
           <dd class="mt-2 md:mt-0 md:col-span-7">
             <p class="text-base text-gray-500">
-              Yes! I expect that not everyone will be able to participate in all live sesssions, given time zones and/or life. All live sessions will be recorded and posted by the next day so you can catch up whenever you're able to.
+              Yes! I expect that not everyone will be able to participate in all live sessions, given time zones and/or life. All live sessions will be recorded and posted by the next day so you can catch up whenever you're able to.
             </p>
           </dd>
         </div>
