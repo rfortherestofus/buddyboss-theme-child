@@ -372,7 +372,7 @@ Learning R will save you <span class="font-bold">time</span> and <span class="fo
     <div class="relative bg-gray-900">
       <div class="absolute bottom-0 h-80 xl:inset-0 xl:h-auto xl:grid xl:grid-cols-2">
         <div class="h-full xl:relative xl:col-start-2">
-          <img class="object-cover w-full h-full opacity-25 xl:absolute xl:inset-0" src="../wp-content/themes/buddyboss-theme-child/assets/images/zoom.jpg" alt="People on Zoom call">
+          <img class="object-cover w-full h-full opacity-25 xl:absolute xl:inset-0" src="../wp-content/themes/buddyboss-theme-child/assets/images/zoom-session.jpg" alt="People on Zoom call">
           <div aria-hidden="true" class="absolute inset-x-0 top-0 h-32 bg-gradient-to-b from-gray-900 xl:inset-y-0 xl:left-0 xl:h-full xl:w-32 xl:bg-gradient-to-r"></div>
         </div>
       </div>
