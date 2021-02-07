@@ -515,6 +515,22 @@ Learning R will save you <span class="font-bold">time</span> and <span class="fo
 
         <div class="pt-6 md:grid md:grid-cols-12 md:gap-8">
           <dt class="text-base font-medium text-gray-900 md:col-span-5">
+            How long should I expect to spent each week to get the most out of R in 3 Months?
+          </dt>
+          <dd class="mt-2 md:mt-0 md:col-span-7">
+            <p class="text-base text-gray-500">
+            You should plan to spend 3-5 hours per week devoted to R in 3 Months. The breakdown of this is: weekly lessons from courses (1-2 hours), application of new concepts to your own work (1-2 hours), live sesion (1 hour).
+          
+            
+    
+            
+
+            </p>
+          </dd>
+        </div>
+
+        <div class="pt-6 md:grid md:grid-cols-12 md:gap-8">
+          <dt class="text-base font-medium text-gray-900 md:col-span-5">
             Do I need to be an expert statistician to sign up?
           </dt>
           <dd class="mt-2 md:mt-0 md:col-span-7">
