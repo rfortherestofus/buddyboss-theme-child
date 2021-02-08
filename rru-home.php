@@ -35,23 +35,27 @@ get_header();
             Start Free Course
           </a>
         </div>
-        <!-- <div class="mt-3 sm:mt-0 sm:ml-3">
-          <a href="/online-courses/" class="flex items-center justify-center w-full px-8 py-3 text-base font-medium leading-6 text-blue-700 transition duration-150 ease-in-out bg-blue-100 border border-transparent rounded-md hover:text-blue-700 hover:bg-blue-50 focus:outline-none focus:shadow-outline-blue focus:border-blue-300 md:py-4 md:text-lg md:px-10">
-            Explore All Courses
-          </a>
-        </div> -->
+       
       </div>
 
+</div>
+      <div class="mt-3 text-gray-500 sm:mt-8 sm:flex sm:justify-center animate__animated animate__fadeIn animate__slow animate__delay-1s">
+      Ready to really dive in?&nbsp;<a href="https://rfortherestofus.com/3months/">Check out R in 3 Months</a>. 
+
+</div>
+
+<div class="mt-1 text-gray-500 sm:mt-2 sm:flex sm:justify-center animate__animated animate__fadeIn animate__slow animate__delay-2s">
+
+It's for people who are tired of saying "I should learn R" and are ready to just learn the darn thing
+
+</div>
       
 
 
 
 
-    </div>
-
-
     <!-- Orgs -->
-    <div class="max-w-screen-xl px-4 py-12 mx-auto sm:mt-32 sm:px-6 lg:px-8 animate__animated animate__fadeIn animate__slow animate__delay-1s">
+    <div class="max-w-screen-xl px-4 py-12 mx-auto sm:mt-32 sm:px-6 lg:px-8 animate__animated animate__fadeIn animate__slow animate__delay-3s">
       <div class="max-w-screen-xl px-4 py-12 mx-auto sm:px-6 lg:py-16 lg:px-8">
         <p class="text-base font-semibold leading-6 tracking-wider text-center text-gray-600 uppercase text-transform-uppercase">
           Supporting forward-looking organizations
