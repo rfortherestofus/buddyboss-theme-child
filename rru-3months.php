@@ -107,7 +107,7 @@ Learning R will save you <span class="font-bold">time</span> and <span class="fo
     <div>
 <img class="mx-auto mt-4 rounded shadow-md" src="../wp-content/themes/buddyboss-theme-child/assets/images/cost-over-time.gif" alt="Cost of R, SAS, Stata, and SPSS over time">
 
-<p class="mt-8 text-sm text-center"><a href="https://gist.github.com/dgkeyes/1ae744936503bf2d94138d559b40b487">See the code used to make this chart</a></p>
+<p class="mt-8 text-sm text-center"><a href="https://github.com/rfortherestofus/data-analysis-tools-cost/blob/master/tool-cost.R">See the code used to make this chart</a></p>
 
     </div>
 
