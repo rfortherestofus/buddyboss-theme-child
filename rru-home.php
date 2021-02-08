@@ -58,37 +58,37 @@ get_header();
         </p>
         <div class="mt-6 grid sm:grid-cols-2 gap-0.5 md:grid-cols-6 lg:mt-8">
 
-          <div class="flex justify-center col-span-1 px-8 py-8 bg-gray-50">
+          <div class="flex justify-center col-span-1 px-8 py-8 bg-white">
             <img class="h-32 filter-grayscale hover:filter-sepia" src="wp-content/themes/buddyboss-theme-child/assets/images/public-profit-logo.svg" alt="Public Profit" />
 
           </div>
 
-          <div class="flex justify-center col-span-1 px-8 py-8 bg-gray-50">
+          <div class="flex justify-center col-span-1 px-8 py-8 bg-white">
             <img class="h-32 filter-grayscale" src="wp-content/themes/buddyboss-theme-child/assets/images/tfff-logo.svg" alt="Ford Family Foundation" />
 
           </div>
-          <div class="flex justify-center col-span-1 px-8 py-8 bg-gray-50">
+          <div class="flex justify-center col-span-1 px-8 py-8 bg-white">
             <img class="h-32 filter-grayscale" src="wp-content/themes/buddyboss-theme-child/assets/images/prosper-portland-logo.svg" alt="Prosper Portland" />
           </div>
 
-          <div class="flex justify-center col-span-1 px-8 py-8 bg-gray-50">
+          <div class="flex justify-center col-span-1 px-8 py-8 bg-white">
             <img class="h-32 filter-grayscale" src="wp-content/themes/buddyboss-theme-child/assets/images/wmata-logo.svg" alt="Washington Metropolitan Area Transit Authority (aka Metro)" />
           </div>
 
-          <div class="flex justify-center col-span-1 px-8 py-8 bg-gray-50">
+          <div class="flex justify-center col-span-1 px-8 py-8 bg-white">
             <img class="h-32 filter-grayscale" src="wp-content/themes/buddyboss-theme-child/assets/images/reading-partners-logo.svg" alt="Reading Partners" />
           </div>
 
 
-          <!-- <div class="flex justify-center col-span-1 px-8 py-8 bg-gray-50">
+          <!-- <div class="flex justify-center col-span-1 px-8 py-8 bg-white">
             <img class="h-32 filter-grayscale" src="wp-content/themes/buddyboss-theme-child/assets/images/pre-logo.png" alt="Pacific Research and Evaluation" />
           </div> -->
 
-          <div class="flex justify-center col-span-1 px-8 py-8 bg-gray-50">
+          <div class="flex justify-center col-span-1 px-8 py-8 bg-white">
             <img class="h-32 filter-grayscale" src="wp-content/themes/buddyboss-theme-child/assets/images/ocf-logo.png" alt="Oregon Community Foundation" />
           </div>
 
-          <!-- <div class="flex justify-center col-span-1 px-8 py-8 bg-gray-50">
+          <!-- <div class="flex justify-center col-span-1 px-8 py-8 bg-white">
             <img class="h-32 filter-grayscale" src="wp-content/themes/buddyboss-theme-child/assets/images/omni-logo.png" alt="OMNI Institute" />
           </div> -->
 
@@ -152,7 +152,7 @@ get_header();
 
     <!-- R Features -->
 
-    <div class="py-16 overflow-hidden bg-gray-50 lg:py-24">
+    <div class="py-16 overflow-hidden bg-white lg:py-24">
       <div class="relative max-w-xl px-4 mx-auto sm:px-6 lg:px-8 lg:max-w-screen-xl">
 
 
