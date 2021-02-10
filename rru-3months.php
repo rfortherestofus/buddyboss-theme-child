@@ -653,7 +653,7 @@ Learning R will save you <span class="font-bold">time</span> and <span class="fo
                 </h3>
               </div>
               <div class="flex items-baseline text-6xl font-extrabold leading-none">
-                $799
+              <?php echo do_shortcode("[iconic_product_price id='15804']"); ?>
 
 
               </div>
@@ -680,11 +680,11 @@ Learning R will save you <span class="font-bold">time</span> and <span class="fo
                 </h3>
               </div>
               <div class="flex items-baseline text-6xl font-extrabold leading-none">
-                $299
+              <?php echo do_shortcode("[iconic_product_price id='15805']"); ?>
 
               </div>
               <p class="mt-2 text-lg leading-7 text-gray-600">
-                $299 to hold your spot, two more payments later
+              <?php echo do_shortcode("[iconic_product_price id='15805']"); ?> to hold your spot, two more payments later
               </p>
 
             </div>
@@ -710,17 +710,14 @@ Learning R will save you <span class="font-bold">time</span> and <span class="fo
                 </h3>
             </div>
             <div class="mt-0 text-lg leading-7 text-gray-600">
-              As part of my commitment to make R in 3 Months accessible to as many people as possible, I adjust prices using <a href="https://www.investopedia.com/terms/p/parity.asp#:~:text=Purchasing%20Power%20Parity%20(PPP)%20is,rates%20between%20the%20two%20countries.">purchasing power parity</a>. For people in many countries, I offer 50% off R in 3 Months.
+              As part of my commitment to make R in 3 Months accessible to as many people as possible, 
+              I adjust prices using <a href="https://www.investopedia.com/terms/p/parity.asp#:~:text=Purchasing%20Power%20Parity%20(PPP)%20is,rates%20between%20the%20two%20countries.">purchasing power parity</a>. 
+              If you are in a lower income country, the prices above will be 50% off the price for those in wealthy countries. 
 
 
             </div>
           </div>
-          <div class="mt-6 rounded-md shadow lg:mt-0 lg:ml-10 lg:flex-shrink-0">
-
-            <a href="https://rfortherestofus.com/product/r-in-3-months/" class="flex items-center justify-center px-5 py-3 text-base font-medium leading-6 text-white transition duration-150 ease-in-out bg-blue-600 border border-transparent rounded-md hover:bg-blue-500 focus:outline-none focus:shadow-outline hover:text-white">
-                  See Price in My Country
-                </a>
-          </div>
+         
 </div>
 
 
