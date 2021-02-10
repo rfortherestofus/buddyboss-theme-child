@@ -39,24 +39,40 @@ get_header();
       </div>
 
 </div>
-      <div class="mt-3 text-gray-500 sm:mt-8 sm:flex sm:justify-center animate__animated animate__fadeIn animate__slow animate__delay-1s">
-      Ready to really dive in?&nbsp;<a href="https://rfortherestofus.com/3months/">Check out R in 3 Months</a>. 
 
-</div>
+<div class="relative px-4 py-12 mx-auto sm:px-6 lg:py-32 lg:px-8 animate__animated animate__fadeInUpBig animate__slow animate__delay-1s">
+      <div class="absolute inset-x-0 bottom-0 h-1/2"></div>
+      <div class="mx-auto max-w-7xl sm:px-6 lg:px-8">
+        <div class="relative shadow-xl sm:rounded-2xl sm:overflow-hidden">
+          <div class="absolute inset-0">
+            <img class="object-cover w-full h-full" src="../wp-content/themes/buddyboss-theme-child/assets/images/coding.jpg" alt="People working on laptops">
+            <div class="absolute inset-0 bg-gradient-to-r from-blue-800 to-blue-700" style="mix-blend-mode: multiply;"></div>
+          </div>
+          <div class="relative px-4 py-16 sm:px-6 sm:py-24 lg:py-32 lg:px-8">
+            <h1 class="text-4xl font-extrabold text-center tracking-loose sm:text-5xl lg:text-6xl">
+              <span class="block text-white">Ready to really dive in?</span>
 
-<div class="mt-1 text-gray-500 sm:mt-2 sm:flex sm:justify-center animate__animated animate__fadeIn animate__slow animate__delay-2s">
+            </h1>
+            <p class="max-w-lg mx-auto mt-6 text-xl text-center text-white sm:max-w-3xl">
+              Check out R in 3 Months, a program for people who are tired of saying "I should learn R" and are ready to just learn the darn thing
+            </p>
+            <div class="max-w-sm mx-auto mt-6 sm:max-w-none sm:flex sm:justify-center">
+              <div class="space-y-4 sm:space-y-0 sm:mx-auto sm:inline-grid sm:grid-cols-1 sm:gap-5">
+                <a href="/3months/"  class="flex items-center justify-center px-4 py-3 text-base font-medium text-blue-700 bg-white border border-transparent rounded-md shadow-sm hover:bg-blue-50 hover:text-blue-700 sm:px-8">
+                  Learn More
+                </a>
 
-It's for people who are tired of saying "I should learn R" and are ready to just learn the darn thing
-
-</div>
-      
-
-
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
 
     <!-- Orgs -->
-    <div class="max-w-screen-xl px-4 py-12 mx-auto sm:mt-32 sm:px-6 lg:px-8 animate__animated animate__fadeIn animate__slow animate__delay-3s">
-      <div class="max-w-screen-xl px-4 py-12 mx-auto sm:px-6 lg:py-16 lg:px-8">
+    <div class="max-w-screen-xl px-4 mx-auto sm:px-6 lg:px-8 animate__animated animate__fadeIn animate__slideInLeft animate__slow animate__delay-2s">
+      <div class="max-w-screen-xl">
         <p class="text-base font-semibold leading-6 tracking-wider text-center text-gray-600 uppercase text-transform-uppercase">
           Supporting forward-looking organizations
         </p>
