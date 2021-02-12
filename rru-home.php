@@ -71,7 +71,7 @@ get_header();
 
 
     <!-- Orgs -->
-    <div class="max-w-screen-xl px-4 mx-auto sm:px-6 lg:px-8 animate__animated animate__fadeIn animate__slideInLeft animate__slow animate__delay-2s">
+    <div class="max-w-screen-xl px-4 mx-auto sm:px-6 lg:px-8 animate__animated animate__fadeIn animate__slow animate__delay-2s">
       <div class="max-w-screen-xl">
         <p class="text-base font-semibold leading-6 tracking-wider text-center text-gray-600 uppercase text-transform-uppercase">
           Supporting forward-looking organizations
@@ -99,18 +99,34 @@ get_header();
             <img class="h-32 filter-grayscale" src="wp-content/themes/buddyboss-theme-child/assets/images/reading-partners-logo.svg" alt="Reading Partners" />
           </div>
 
-
-          <!-- <div class="flex justify-center col-span-1 px-8 py-8 bg-white">
+      
+          <div class="flex justify-center col-span-1 px-8 py-8 bg-white">
             <img class="h-32 filter-grayscale" src="wp-content/themes/buddyboss-theme-child/assets/images/pre-logo.png" alt="Pacific Research and Evaluation" />
-          </div> -->
+          </div>
 
           <div class="flex justify-center col-span-1 px-8 py-8 bg-white">
             <img class="h-32 filter-grayscale" src="wp-content/themes/buddyboss-theme-child/assets/images/ocf-logo.png" alt="Oregon Community Foundation" />
           </div>
 
-          <!-- <div class="flex justify-center col-span-1 px-8 py-8 bg-white">
-            <img class="h-32 filter-grayscale" src="wp-content/themes/buddyboss-theme-child/assets/images/omni-logo.png" alt="OMNI Institute" />
-          </div> -->
+          <div class="flex justify-center col-span-1 px-8 py-8 bg-white">
+            <img class="h-32 filter-grayscale" src="wp-content/themes/buddyboss-theme-child/assets/images/omni-logo.svg" alt="OMNI Institute" />
+          </div>
+
+          <div class="flex justify-center col-span-1 px-8 py-8 bg-white">
+            <img class="h-32 filter-grayscale" src="wp-content/themes/buddyboss-theme-child/assets/images/ai-inclusive-logo.svg" alt="AI Inclusive" />
+          </div>
+
+          <div class="flex justify-center col-span-1 px-8 py-8 bg-white">
+            <img class="h-32 filter-grayscale" src="wp-content/themes/buddyboss-theme-child/assets/images/mff-logo.svg" alt="Michigan Fitness Foundation" />
+          </div>
+
+          <div class="flex justify-center col-span-1 px-8 py-8 bg-white">
+            <img class="h-32 filter-grayscale" src="wp-content/themes/buddyboss-theme-child/assets/images/the-mark-logo.png" alt="The Mark USA" />
+          </div>
+
+          <div class="flex justify-center col-span-1 px-8 py-8 bg-white">
+            <img class="h-32 filter-grayscale" src="wp-content/themes/buddyboss-theme-child/assets/images/edsurge-logo.svg" alt="EdSurge" />
+          </div>
 
         </div>
 
