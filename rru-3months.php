@@ -605,6 +605,17 @@ Learning R will save you <span class="font-bold">time</span> and <span class="fo
 
         <div class="pt-6 md:grid md:grid-cols-12 md:gap-8">
           <dt class="text-base font-medium text-gray-900 md:col-span-5">
+            Do you plan to offer R in 3 Months again?
+          </dt>
+          <dd class="mt-2 md:mt-0 md:col-span-7">
+            <p class="text-base text-gray-500">
+              I plan to offer it twice a year max, likely once in the spring and once in the fall. 
+            </p>
+          </dd>
+        </div>
+
+        <div class="pt-6 md:grid md:grid-cols-12 md:gap-8">
+          <dt class="text-base font-medium text-gray-900 md:col-span-5">
             What is your refund policy?
           </dt>
           <dd class="mt-2 md:mt-0 md:col-span-7">
