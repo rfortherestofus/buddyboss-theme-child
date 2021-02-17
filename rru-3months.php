@@ -535,7 +535,7 @@ Learning R will save you <span class="font-bold">time</span> and <span class="fo
           </dt>
           <dd class="mt-2 md:mt-0 md:col-span-7">
             <p class="text-base text-gray-500">
-            Absolutely not! I’m an anthropologist by training. I’ve written about <a href="https://rfortherestofus.com/2018/12/descriptive-stats-r/">coming to terms with using R “only” for descriptive stats</a>. R has a reputation for being only for hardcore quants, but it’s a tool that can benefit so many more people. That’s what I mean when I talk about “R for the Rest of Us.”
+            Absolutely not! I’m an anthropologist by training. I’ve written about <a href="https://rfortherestofus.com/2018/12/descriptive-stats-r/">coming to terms with using R “only” for descriptive stats</a>. R has a reputation for being only for hardcore quants, but it’s a tool that can benefit so many more people. That’s what I mean when I talk about “R for the Rest of Us.” That said, you should have familiarity with things such as data types (e.g. character versus numeric) as well basic descriptive statistics knowledge (e.g. calculating means etc).
             </p>
           </dd>
         </div>
@@ -551,6 +551,19 @@ Learning R will save you <span class="font-bold">time</span> and <span class="fo
             </p>
           </dd>
         </div>
+
+        <div class="pt-6 md:grid md:grid-cols-12 md:gap-8">
+          <dt class="text-base font-medium text-gray-900 md:col-span-5">
+            Do I need to have any experience with R to participate? 
+          </dt>
+          <dd class="mt-2 md:mt-0 md:col-span-7">
+            <p class="text-base text-gray-500">
+              Nope! You'll start out with my <a href="https://rfortherestofus.com/courses/getting-started/">Getting Started with R course</a>, which assumes you've never used R before.
+            </p>
+          </dd>
+        </div>
+
+       
 
         <div class="pt-6 md:grid md:grid-cols-12 md:gap-8">
           <dt class="text-base font-medium text-gray-900 md:col-span-5">
