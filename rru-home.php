@@ -17,18 +17,24 @@ get_header();
 
     <div class="text-center animate__animated animate__fadeIn animate__slow">
 
-
-
-      <h1 class="text-4xl font-extrabold leading-10 text-blue-800 sm:text-5xl sm:leading-none md:text-6xl">
+<div class="mx-auto">
+  <img class="mx-auto" src="../wp-content/themes/buddyboss-theme-child/assets/images/rru-wordmark-wide-dark-blue.svg" alt="R for the Rest of Us">
+</div>
+      <!-- <h1 class="text-4xl font-extrabold leading-10 text-blue-800 sm:text-5xl sm:leading-none md:text-6xl">
         R for the Rest of Us
-      </h1>
+      </h1> -->
+      <div>
       <p class="max-w-md mx-auto mt-6 text-base leading-8 sm:text-lg md:mt-8 md:text-xl md:max-w-3xl">
         Learn to use the most powerful tool for working with data,
-        
-        <span class="font-bold text">even if you’ve never coded before.
+        <br>
+        <span class="font-bold text">
+        even if you’ve never coded before.
         </span>
 
-      </p>
+</div>
+      
+
+      
       <div class="mt-3 sm:mt-8 sm:flex sm:justify-center">
         <div class="rounded-md shadow">
           <a href="/course/getting-started/" class="flex items-center justify-center w-full px-8 py-3 text-base font-medium leading-6 text-white transition duration-150 ease-in-out bg-blue-600 border border-transparent rounded-md hover:text-white hover:bg-blue-500 focus:outline-none focus:border-blue-700 focus:shadow-outline-blue md:py-4 md:text-lg md:px-10">
