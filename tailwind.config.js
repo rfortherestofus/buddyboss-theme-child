@@ -68,6 +68,7 @@ module.exports = {
     variants: {},
     plugins: [
         require("tailwindcss-filters"),
+        require('@tailwindcss/aspect-ratio'),
         // require('@tailwindcss/typography'),
     ],
 };

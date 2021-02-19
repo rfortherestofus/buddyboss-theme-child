@@ -10,6 +10,7 @@
     "a     uthor": "",
     "l   icense": "ISC",
     "dependencies": {
+        "@tailwindcss/aspect-ratio": "^0.2.0",
         "@tailwindcss/postcss7-compat": "^2.0.2",
         "@tailwindcss/typography": "^0.1.4",
         "animate.css": "^4.1.0",
