@@ -266,7 +266,7 @@ if (!function_exists('wpdocs_example_get_the_terms')) {
 
      
       foreach ($terms as $term) {
-        echo '<div class="py-1 pr-2 text-xs font-medium leading-4 text-blue-800';
+        echo '<div class="py-1 pr-2 text-sm font-medium leading-4 text-blue-800';
         echo '-200 rounded-full">';
         echo $term->name;
         echo '</div>';
