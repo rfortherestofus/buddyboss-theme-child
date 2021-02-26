@@ -11,8 +11,8 @@ get_header();
     $(document).on('facetwp-loaded', function() {
         if (FWP.loaded) {
             $('html, body').animate({
-                scrollTop: $('.facetwp-template').offset().top
-            }, 500);
+                scrollTop: $('.content-area').offset().top
+            }, -500);
         }
     });
 })(jQuery);
