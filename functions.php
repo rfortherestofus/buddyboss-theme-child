@@ -257,7 +257,7 @@ add_filter('get_the_excerpt', 'do_shortcode');
 
 if (!function_exists('wpdocs_example_get_the_terms')) {
 
-  function wpdocs_example_get_the_terms($taxonomy, $bg_color = 'bg-gray-100')
+  function wpdocs_example_get_the_terms($taxonomy)
   {
 
     $terms = get_the_terms(get_the_ID(), $taxonomy);
@@ -266,11 +266,10 @@ if (!function_exists('wpdocs_example_get_the_terms')) {
 
      
       foreach ($terms as $term) {
-        echo '<span class="px-2 py-1 m-1 text-xs font-medium leading-4 text-blue-800 bg-';
-        echo $bg_color;
+        echo '<div class="py-1 pr-2 text-xs font-medium leading-4 text-blue-800';
         echo '-200 rounded-full">';
         echo $term->name;
-        echo '</span>';
+        echo '</div>';
       }
 
     endif;

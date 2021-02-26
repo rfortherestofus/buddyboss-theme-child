@@ -31,7 +31,7 @@
       <div class="px-6 pt-4 bg-white">
 
        <!-- Title -->
-        <div class="h-16">
+        <div class="h-24">
           <h3 class="leading-5">
             <a class="text-lg font-semibold text-blue-800" href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
           </h3>
@@ -51,25 +51,7 @@
 
       <!-- Meta -->
       <div class="px-6 py-0">
-        <ul class="h-24 ml-0">
-          <li class="flex flex-wrap mb-1">
-
-            <?php wpdocs_example_get_the_terms($taxonomy = 'resource_type', $bg_color = 'orange') ?>
-
-          </li>
-
-          <li class="flex flex-wrap">
-
-
-            <?php wpdocs_example_get_the_terms($taxonomy = 'resource_category', $bg_color = 'blue') ?>
-
-
-
-          </li>
-
-
-
-        </ul>
+       
 
         <div class="border-t border-gray-200">
           <div class="flex -mt-px">

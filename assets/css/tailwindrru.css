@@ -627,12 +627,6 @@ html {
   margin-bottom: calc(0.5rem * var(--tw-space-y-reverse));
 }
 
-.space-x-3 > :not([hidden]) ~ :not([hidden]) {
-  --tw-space-x-reverse: 0;
-  margin-right: calc(0.75rem * var(--tw-space-x-reverse));
-  margin-left: calc(0.75rem * calc(1 - var(--tw-space-x-reverse)));
-}
-
 .space-y-4 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-y-reverse: 0;
   margin-top: calc(1rem * calc(1 - var(--tw-space-y-reverse)));
@@ -834,11 +828,6 @@ html {
 .border-gray-300 {
   --tw-border-opacity: 1;
   border-color: rgba(209, 213, 219, var(--tw-border-opacity));
-}
-
-.border-blue-100 {
-  --tw-border-opacity: 1;
-  border-color: rgba(240, 247, 252, var(--tw-border-opacity));
 }
 
 .border-orange-600 {
@@ -1147,10 +1136,6 @@ html {
   margin: 0px;
 }
 
-.m-1 {
-  margin: 0.25rem;
-}
-
 .my-0 {
   margin-top: 0px;
   margin-bottom: 0px;
@@ -1220,10 +1205,6 @@ html {
 
 .mt-1 {
   margin-top: 0.25rem;
-}
-
-.mb-1 {
-  margin-bottom: 0.25rem;
 }
 
 .ml-1 {
@@ -1336,10 +1317,6 @@ html {
 
 .-ml-px {
   margin-left: -1px;
-}
-
-.max-h-24 {
-  max-height: 6rem;
 }
 
 .max-w-sm {
@@ -1493,6 +1470,10 @@ html {
   padding-bottom: 0px;
 }
 
+.pr-2 {
+  padding-right: 0.5rem;
+}
+
 .pb-2 {
   padding-bottom: 0.5rem;
 }
@@ -1507,10 +1488,6 @@ html {
 
 .pt-6 {
   padding-top: 1.5rem;
-}
-
-.pt-8 {
-  padding-top: 2rem;
 }
 
 .pb-8 {
@@ -1690,11 +1667,6 @@ html {
   color: rgba(218, 234, 247, var(--tw-text-opacity));
 }
 
-.text-blue-300 {
-  --tw-text-opacity: 1;
-  color: rgba(196, 221, 241, var(--tw-text-opacity));
-}
-
 .text-blue-500 {
   --tw-text-opacity: 1;
   color: rgba(108, 171, 221, var(--tw-text-opacity));
@@ -1718,11 +1690,6 @@ html {
 .text-blue-900 {
   --tw-text-opacity: 1;
   color: rgba(32, 51, 66, var(--tw-text-opacity));
-}
-
-.text-orange-300 {
-  --tw-text-opacity: 1;
-  color: rgba(255, 199, 153, var(--tw-text-opacity));
 }
 
 .text-orange-500 {
@@ -2069,10 +2036,6 @@ html {
     margin-bottom: 0px;
   }
 
-  .sm\:mt-2 {
-    margin-top: 0.5rem;
-  }
-
   .sm\:ml-2 {
     margin-left: 0.5rem;
   }
@@ -2131,11 +2094,6 @@ html {
 
   .sm\:p-10 {
     padding: 2.5rem;
-  }
-
-  .sm\:py-2 {
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
   }
 
   .sm\:px-3 {
