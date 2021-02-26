@@ -38,7 +38,7 @@ get_header();
 <div class="ml-2">
 <div>
                <div>
-               <p class="mt-4 mb-2 text-xs text-gray-400">Type</p>
+               <p class="mt-4 mb-2 text-sm text-gray-400">Type</p>
 </div>
                     <div class="mb-2">
 
@@ -53,7 +53,7 @@ get_header();
                     </div>
                 <div>
                <div>
-               <p class="mt-4 mb-2 text-xs text-gray-400">Category</p>
+               <p class="mt-4 mb-2 text-sm text-gray-400">Category</p>
 </div>
                     <div class="mb-2">
 
@@ -68,7 +68,7 @@ get_header();
                     </div>
                 <div>
                <div>
-               <p class="mt-4 mb-2 text-xs text-gray-400">Creator</p>
+               <p class="mt-4 mb-2 text-sm text-gray-400">Creator</p>
 </div>
                     <div class="mb-2">
 
