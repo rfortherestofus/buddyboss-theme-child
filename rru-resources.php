@@ -6,6 +6,18 @@
 get_header();
 ?>
 
+<script>
+(function($) {
+    $(document).on('facetwp-loaded', function() {
+        if (FWP.loaded) {
+            $('html, body').animate({
+                scrollTop: $('.facetwp-template').offset().top
+            }, 500);
+        }
+    });
+})(jQuery);
+</script>
+
 
 <div id="primary" class="content-area">
 
