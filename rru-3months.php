@@ -30,13 +30,17 @@ get_header();
 
             </h1>
             <p class="max-w-lg mx-auto mt-6 text-xl text-center text-blue-200 sm:max-w-3xl">
-              Invest in your future by learning the most powerful tool for working with data
+              Invest in your future by learning the most powerful tool for working with data.
             </p>
-            <div class="max-w-sm mx-auto mt-6 sm:max-w-none sm:flex sm:justify-center">
-              <div class="space-y-4 sm:space-y-0 sm:mx-auto sm:inline-grid sm:grid-cols-1 sm:gap-5">
-                <a href="#pricing"  class="flex items-center justify-center px-4 py-3 text-base font-medium text-blue-700 bg-white border border-transparent rounded-md shadow-sm hover:bg-blue-50 hover:text-blue-700 sm:px-8">
+            <p class="max-w-lg mx-auto mt-6 text-xl text-center text-blue-200 sm:max-w-3xl">
+              The next cohort starts in September. Enter your email to be notified. 
+            </p>
+            <div class="mx-auto sm:px-40">
+              <div>
+              <?php echo do_shortcode("[ninja_form id=23]"); ?>
+                <!-- <a href="#pricing"  class="flex items-center justify-center px-4 py-3 text-base font-medium text-blue-700 bg-white border border-transparent rounded-md shadow-sm hover:bg-blue-50 hover:text-blue-700 sm:px-8">
                   Sign Up Now
-                </a>
+                </a> -->
 
               </div>
             </div>
@@ -216,7 +220,7 @@ Learning R will save you <span class="font-bold">time</span> and <span class="fo
     
 
 <!-- This example requires Tailwind CSS v2.0+ -->
-<div class="bg-white">
+<!-- <div class="bg-white">
   <div class="px-4 py-12 mx-auto mb-16 text-center max-w-7xl sm:px-6 lg:py-32 lg:px-8">
     <h2 class="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl">
       <span class="block">Ready to get started?</span>
@@ -231,11 +235,11 @@ Learning R will save you <span class="font-bold">time</span> and <span class="fo
 
     </div>
   </div>
-</div>
+</div> -->
 
 
     <!-- Gradient Feature Section -->
-    <div class="bg-gradient-to-r from-blue-800 to-blue-700">
+    <div class="mt-12 bg-gradient-to-r from-blue-800 to-blue-700 lg:mt-32">
       <!-- <div class="max-w-4xl px-2 py-8 mx-auto sm:px-3 sm:pt-10 sm:pb-12 lg:max-w-7xl lg:pt-12 lg:px-4"> -->
       <div class="max-w-4xl px-4 py-16 mx-auto sm:px-6 sm:pt-20 sm:pb-24 lg:max-w-7xl lg:pt-24 lg:px-12">
         <h2 class="mb-10 text-3xl font-extrabold tracking-tight text-white">
@@ -644,105 +648,6 @@ Learning R will save you <span class="font-bold">time</span> and <span class="fo
 </div>
 
 
-
-    <div class="bg-gradient-to-r from-blue-800 to-blue-700">
-
-
-  <div class="pt-12 mt-24 sm:pt-16 lg:pt-24" id="pricing">
-    <div class="max-w-screen-xl px-4 mx-auto text-center sm:px-6 lg:px-8">
-      <div class="max-w-3xl mx-auto space-y-2 lg:max-w-none">
-
-        <h2 class="text-lg font-semibold leading-6 tracking-wider text-gray-200 uppercase">
-          Pricing
-        </h2>
-        <p class="text-3xl font-extrabold leading-9 text-white sm:text-4xl sm:leading-10 lg:text-5xl lg:leading-none">
-          Learning R is an investment in your future
-        </p>
-        <!-- <p class="text-xl leading-7 text-gray-300">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum sequi unde repudiandae natus.
-        </p> -->
-      </div>
-    </div>
-  </div>
-  <div class="pb-12 mt-8 bg-gray-50 sm:mt-12 sm:pb-16 lg:mt-16 lg:pb-24">
-    <div class="relative">
-      <div class="absolute inset-0 bg-gradient-to-r from-blue-800 to-blue-700 h-3/4"></div>
-      <div class="relative z-10 max-w-screen-xl px-4 mx-auto sm:px-6 lg:px-8">
-        <div class="max-w-md mx-auto space-y-4 lg:max-w-5xl lg:grid lg:grid-cols-2 lg:gap-5 lg:space-y-0">
-          <div class="flex flex-col overflow-hidden rounded-lg shadow-lg">
-            <div class="px-6 py-8 bg-white sm:p-10 sm:pb-0">
-              <div>
-                <h3 class="inline-flex px-4 py-1 text-sm font-semibold leading-5 tracking-wide text-blue-600 uppercase bg-blue-100 rounded-full" id="tier-standard">
-                  One payment
-                </h3>
-              </div>
-              <div class="flex items-baseline text-6xl font-extrabold leading-none">
-              <?php echo do_shortcode("[iconic_product_price id='15804']"); ?>
-
-
-              </div>
-              <p class="mt-2 text-lg leading-7 text-gray-600">
-                Pay in full up front and save $100
-              </p>
-
-            </div>
-            <div class="flex flex-col justify-between flex-1 px-6 pt-6 pb-8 space-y-6 bg-gray-100 sm:p-10 sm:pt-6">
-
-              <div class="rounded-md shadow">
-              <a href="https://rfortherestofus.com/product/r-in-3-months/?attribute_payment-option=Single+Payment" class="flex items-center justify-center px-5 py-3 text-base font-medium leading-6 text-white transition duration-150 ease-in-out bg-blue-600 border border-transparent rounded-md hover:bg-blue-500 focus:outline-none focus:shadow-outline hover:text-white" aria-describedby="tier-standard">
-                  Sign Up Now
-                </a>
-              </div>
-            </div>
-          </div>
-
-          <div class="flex flex-col overflow-hidden rounded-lg shadow-lg">
-            <div class="px-6 py-8 bg-white sm:p-10 sm:pb-0">
-              <div>
-                <h3 class="inline-flex px-4 py-1 text-sm font-semibold leading-5 tracking-wide text-blue-600 uppercase bg-blue-100 rounded-full" id="tier-standard">
-                  Three payments
-                </h3>
-              </div>
-              <div class="flex items-baseline text-6xl font-extrabold leading-none">
-              <?php echo do_shortcode("[iconic_product_price id='15805']"); ?>
-
-              </div>
-              <p class="mt-2 text-lg leading-7 text-gray-600">
-              <?php echo do_shortcode("[iconic_product_price id='15805']"); ?> to hold your spot, two more payments later
-              </p>
-
-            </div>
-            <div class="flex flex-col justify-between flex-1 px-6 pt-6 pb-8 space-y-6 bg-gray-100 sm:p-10 sm:pt-6">
-
-              <div class="rounded-md shadow">
-              <a href="https://rfortherestofus.com/product/r-in-3-months/?attribute_payment-option=Three+Payments" class="flex items-center justify-center px-5 py-3 text-base font-medium leading-6 text-white transition duration-150 ease-in-out bg-blue-600 border border-transparent rounded-md hover:bg-blue-500 focus:outline-none focus:shadow-outline hover:text-white" aria-describedby="tier-standard">
-                  Sign Up Now
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="relative max-w-screen-xl px-4 mx-auto mt-4 sm:px-6 lg:px-8 lg:mt-5">
-      <div class="max-w-md mx-auto lg:max-w-5xl">
-        <div class="px-6 py-8 bg-white rounded-lg sm:p-10 lg:flex lg:items-center">
-          <div class="flex-1">
-            <div>
-            <h3 class="inline-flex px-4 py-1 text-sm font-semibold leading-5 tracking-wide text-blue-600 uppercase bg-blue-100 rounded-full" id="tier-standard">
-                  Purchasing Power Parity
-                </h3>
-            </div>
-            <div class="mt-0 text-lg leading-7 text-gray-600">
-              As part of my commitment to make R in 3 Months accessible to as many people as possible, 
-              I adjust prices using <a href="https://www.investopedia.com/terms/p/parity.asp#:~:text=Purchasing%20Power%20Parity%20(PPP)%20is,rates%20between%20the%20two%20countries.">purchasing power parity</a>. 
-              If you are in a lower income country, the prices above will be 50% off the price for those in wealthy countries. 
-
-
-            </div>
-          </div>
-         
-</div>
 
 
       </div>

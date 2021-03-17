@@ -54,7 +54,7 @@ get_header();
             <img class="object-cover w-full h-full" src="../wp-content/themes/buddyboss-theme-child/assets/images/coding.jpg" alt="People working on laptops">
             <div class="absolute inset-0 bg-gradient-to-r from-blue-800 to-blue-700" style="mix-blend-mode: multiply;"></div>
           </div>
-          <div class="relative px-4 py-16 sm:px-6 sm:py-24 lg:py-32 lg:px-8">
+          <!-- <div class="relative px-4 py-16 sm:px-6 sm:py-24 lg:py-32 lg:px-8">
             <h1 class="text-4xl font-extrabold text-center tracking-loose sm:text-5xl lg:text-6xl">
               <span class="block text-white">Ready to really dive in?</span>
 
@@ -70,7 +70,7 @@ get_header();
 
               </div>
             </div>
-          </div>
+          </div> -->
         </div>
       </div>
     </div>
