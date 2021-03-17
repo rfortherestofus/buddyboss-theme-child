@@ -35,14 +35,14 @@ get_header();
             <p class="max-w-lg mx-auto mt-6 text-xl text-center text-blue-200 sm:max-w-3xl">
               The next cohort starts in September. Enter your email to be notified. 
             </p>
-            <div class="mx-auto sm:px-40">
-              <div>
+            <div class="mx-auto sm:flex sm:justify-center">
+              
               <?php echo do_shortcode("[ninja_form id=23]"); ?>
                 <!-- <a href="#pricing"  class="flex items-center justify-center px-4 py-3 text-base font-medium text-blue-700 bg-white border border-transparent rounded-md shadow-sm hover:bg-blue-50 hover:text-blue-700 sm:px-8">
                   Sign Up Now
                 </a> -->
 
-              </div>
+              
             </div>
           </div>
         </div>
