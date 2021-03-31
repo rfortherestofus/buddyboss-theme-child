@@ -637,7 +637,7 @@ Learning R will save you <span class="font-bold">time</span> and <span class="fo
           </dt>
           <dd class="mt-2 md:mt-0 md:col-span-7">
             <p class="text-base text-gray-500">
-            If you are unsatisfied with R in 3 Months for any reason, contact me before April 15 and I will give you a full refund, no questions asked (you'll keep access to Fundamentals of R). If you sign up using the three payments option, you can drop out before the second (in which case you'll keep access to Fundamentals) or third payments (you'll keep access to Fundamentals and Going Deeper) and you won't be charged.
+            If you are unsatisfied with R in 3 Months for any reason, contact me before April 15 and I will give you a full refund, no questions asked. If you sign up using the three payments option, you can drop out before the second (in which case you'll keep access to Fundamentals) or third payments (you'll keep access to Fundamentals and Going Deeper) and you won't be charged.
             </p>
           </dd>
         </div>
