@@ -10,136 +10,123 @@ get_header();
 
 <div id="primary" class="content-area bb-grid-cell">
 
-  <main class="max-w-screen-xl px-4 mx-auto mt-10 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 xl:mt-48">
+  <main class="max-w-screen-xl px-4 mx-auto ">
 
 
-    <!-- Top section -->
+<!-- This example requires Tailwind CSS v2.0+ -->
+<div class="bg-white">
+  <div class="relative overflow-hidden">
+   
 
-    <div class="text-center animate__animated animate__fadeIn animate__slow">
+    <div class="relative pt-6 pb-16 sm:pb-24">
+      <div class="px-4 mx-auto max-w-7xl sm:px-6">
+        
+      </div>
 
-<div class="mx-auto">
-  <img class="mx-auto" src="../wp-content/themes/buddyboss-theme-child/assets/images/rru-wordmark-wide-dark-blue.svg" alt="R for the Rest of Us">
-</div>
-      <!-- <h1 class="text-4xl font-extrabold leading-10 text-blue-800 sm:text-5xl sm:leading-none md:text-6xl">
-        R for the Rest of Us
-      </h1> -->
-      <div>
-      <p class="max-w-md mx-auto mt-6 text-base leading-8 sm:text-lg md:mt-8 md:text-xl md:max-w-3xl">
-        Learn to use the most powerful tool for working with data,
-        <br>
-        <span class="font-bold text">
-        even if you’ve never coded before.
-        </span>
+      <!--
+        Mobile menu, show/hide based on menu open state.
 
-</div>
+        Entering: "duration-150 ease-out"
+          From: "opacity-0 scale-95"
+          To: "opacity-100 scale-100"
+        Leaving: "duration-100 ease-in"
+          From: "opacity-100 scale-100"
+          To: "opacity-0 scale-95"
+      -->
       
 
-      
-      <div class="mt-3 sm:mt-8 sm:flex sm:justify-center">
-        <div class="rounded-md shadow">
-          <a href="/course/getting-started/" class="flex items-center justify-center w-full px-8 py-3 text-base font-medium leading-6 text-white transition duration-150 ease-in-out bg-blue-600 border border-transparent rounded-md hover:text-white hover:bg-blue-500 focus:outline-none focus:border-blue-700 focus:shadow-outline-blue md:py-4 md:text-lg md:px-10">
+      <div class="px-4 mx-auto mt-16 max-w-7xl sm:mt-24 sm:px-6">
+        <div class="text-center">
+        <span class="block mt-1 text-4xl font-extrabold tracking-tight sm:text-5xl xl:text-6xl">
+            <img class="mx-auto" src="../wp-content/themes/buddyboss-theme-child/assets/images/rru-wordmark-wide-dark-blue.svg" alt="R for the Rest of Us">
+            </span>
+          
+          <p class="mt-3 text-base text-gray-500 sm:text-xl lg:text-lg xl:text-xl">
+            Learn to use the most powerful tool for working with data, <span class="font-bold">even if you've never coded before</span>. 
+          </p>
+          
+          <div class="my-10">
+          <a href="/course/getting-started/" class="px-8 py-3 text-base font-medium leading-6 text-white transition duration-150 ease-in-out bg-blue-600 border border-transparent rounded-md shadow hover:text-white hover:bg-blue-500 focus:outline-none focus:border-blue-700 focus:shadow-outline-blue md:py-4 md:text-lg md:px-10">
             Start Free Course
           </a>
+          </div>
+          
         </div>
-       
       </div>
+    </div>
+    <div class="relative">
+      <div class="absolute inset-0 flex flex-col" aria-hidden="true">
+        <div class="flex-1"></div>
+        <div class="flex-1 w-full bg-white"></div>
+      </div>
+      <div class="px-4 mx-auto rounded-lg max-w-7xl sm:px-6">
+      <iframe src="https://player.vimeo.com/video/525877233?title=0&amp;byline=0&amp;portrait=0&amp;speed=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen title="R for the Rest of Us"></iframe>
+      </div>
+    </div>
+  </div>
+  <div class="bg-white">
+    <div class="px-4 py-16 mx-auto max-w-7xl sm:py-24 sm:px-6 lg:px-8">
+      <h2 class="text-sm font-semibold tracking-wide text-center text-gray-400 uppercase">Supporting Forward-Looking Organizations</h2>
+      <div class="mt-6 grid sm:grid-cols-2 gap-0.5 md:grid-cols-6 lg:mt-8">
+
+<div class="flex justify-center col-span-1 px-8 py-8 bg-white">
+  <img class="h-32 filter-grayscale hover:filter-sepia" src="wp-content/themes/buddyboss-theme-child/assets/images/public-profit-logo.svg" alt="Public Profit" />
 
 </div>
 
-<div class="relative px-4 py-12 mx-auto sm:px-6 lg:py-32 lg:px-8 animate__animated animate__fadeInUpBig animate__slow animate__delay-1s">
-      <div class="absolute inset-x-0 bottom-0 h-1/2"></div>
-      <div class="mx-auto max-w-7xl sm:px-6 lg:px-8">
-        <div class="relative shadow-xl sm:rounded-2xl sm:overflow-hidden">
-          <div class="absolute inset-0">
-            <img class="object-cover w-full h-full" src="../wp-content/themes/buddyboss-theme-child/assets/images/coding.jpg" alt="People working on laptops">
-            <div class="absolute inset-0 bg-gradient-to-r from-blue-800 to-blue-700" style="mix-blend-mode: multiply;"></div>
-          </div>
-          <!-- <div class="relative px-4 py-16 sm:px-6 sm:py-24 lg:py-32 lg:px-8">
-            <h1 class="text-4xl font-extrabold text-center tracking-loose sm:text-5xl lg:text-6xl">
-              <span class="block text-white">Ready to really dive in?</span>
+<div class="flex justify-center col-span-1 px-8 py-8 bg-white">
+  <img class="h-32 filter-grayscale" src="wp-content/themes/buddyboss-theme-child/assets/images/tfff-logo.svg" alt="Ford Family Foundation" />
 
-            </h1>
-            <p class="max-w-lg mx-auto mt-6 text-xl text-center text-white sm:max-w-3xl">
-              Check out R in 3 Months, a program for people who are tired of saying "I should learn R" and are ready to just learn the darn thing
-            </p>
-            <div class="max-w-sm mx-auto mt-6 sm:max-w-none sm:flex sm:justify-center">
-              <div class="space-y-4 sm:space-y-0 sm:mx-auto sm:inline-grid sm:grid-cols-1 sm:gap-5">
-                <a href="/3months/"  class="flex items-center justify-center px-4 py-3 text-base font-medium text-blue-700 bg-white border border-transparent rounded-md shadow-sm hover:bg-blue-50 hover:text-blue-700 sm:px-8">
-                  Learn More
-                </a>
+</div>
+<div class="flex justify-center col-span-1 px-8 py-8 bg-white">
+  <img class="h-32 filter-grayscale" src="wp-content/themes/buddyboss-theme-child/assets/images/prosper-portland-logo.svg" alt="Prosper Portland" />
+</div>
 
-              </div>
-            </div>
-          </div> -->
-        </div>
-      </div>
-    </div>
+<div class="flex justify-center col-span-1 px-8 py-8 bg-white">
+  <img class="h-32 filter-grayscale" src="wp-content/themes/buddyboss-theme-child/assets/images/wmata-logo.svg" alt="Washington Metropolitan Area Transit Authority (aka Metro)" />
+</div>
+
+<div class="flex justify-center col-span-1 px-8 py-8 bg-white">
+  <img class="h-32 filter-grayscale" src="wp-content/themes/buddyboss-theme-child/assets/images/reading-partners-logo.svg" alt="Reading Partners" />
+</div>
 
 
-    <!-- Orgs -->
-    <div class="max-w-screen-xl px-4 mx-auto sm:px-6 lg:px-8 animate__animated animate__fadeIn animate__slow animate__delay-2s">
-      <div class="max-w-screen-xl">
-        <p class="text-base font-semibold leading-6 tracking-wider text-center text-gray-600 uppercase text-transform-uppercase">
-          Supporting forward-looking organizations
-        </p>
-        <div class="mt-6 grid sm:grid-cols-2 gap-0.5 md:grid-cols-6 lg:mt-8">
+<div class="flex justify-center col-span-1 px-8 py-8 bg-white">
+  <img class="h-32 filter-grayscale" src="wp-content/themes/buddyboss-theme-child/assets/images/pre-logo.png" alt="Pacific Research and Evaluation" />
+</div>
 
-          <div class="flex justify-center col-span-1 px-8 py-8 bg-white">
-            <img class="h-32 filter-grayscale hover:filter-sepia" src="wp-content/themes/buddyboss-theme-child/assets/images/public-profit-logo.svg" alt="Public Profit" />
+<div class="flex justify-center col-span-1 px-8 py-8 bg-white">
+  <img class="h-32 filter-grayscale" src="wp-content/themes/buddyboss-theme-child/assets/images/ocf-logo.png" alt="Oregon Community Foundation" />
+</div>
 
-          </div>
+<div class="flex justify-center col-span-1 px-8 py-8 bg-white">
+  <img class="h-32 filter-grayscale" src="wp-content/themes/buddyboss-theme-child/assets/images/omni-logo.svg" alt="OMNI Institute" />
+</div>
 
-          <div class="flex justify-center col-span-1 px-8 py-8 bg-white">
-            <img class="h-32 filter-grayscale" src="wp-content/themes/buddyboss-theme-child/assets/images/tfff-logo.svg" alt="Ford Family Foundation" />
+<div class="flex justify-center col-span-1 px-8 py-8 bg-white">
+  <img class="h-32 filter-grayscale" src="wp-content/themes/buddyboss-theme-child/assets/images/ai-inclusive-logo.svg" alt="AI Inclusive" />
+</div>
 
-          </div>
-          <div class="flex justify-center col-span-1 px-8 py-8 bg-white">
-            <img class="h-32 filter-grayscale" src="wp-content/themes/buddyboss-theme-child/assets/images/prosper-portland-logo.svg" alt="Prosper Portland" />
-          </div>
+<div class="flex justify-center col-span-1 px-8 py-8 bg-white">
+  <img class="h-32 filter-grayscale" src="wp-content/themes/buddyboss-theme-child/assets/images/mff-logo.svg" alt="Michigan Fitness Foundation" />
+</div>
 
-          <div class="flex justify-center col-span-1 px-8 py-8 bg-white">
-            <img class="h-32 filter-grayscale" src="wp-content/themes/buddyboss-theme-child/assets/images/wmata-logo.svg" alt="Washington Metropolitan Area Transit Authority (aka Metro)" />
-          </div>
+<div class="flex justify-center col-span-1 px-8 py-8 bg-white">
+  <img class="h-32 filter-grayscale" src="wp-content/themes/buddyboss-theme-child/assets/images/the-mark-logo.png" alt="The Mark USA" />
+</div>
 
-          <div class="flex justify-center col-span-1 px-8 py-8 bg-white">
-            <img class="h-32 filter-grayscale" src="wp-content/themes/buddyboss-theme-child/assets/images/reading-partners-logo.svg" alt="Reading Partners" />
-          </div>
+<div class="flex justify-center col-span-1 px-8 py-8 bg-white">
+  <img class="h-32 filter-grayscale" src="wp-content/themes/buddyboss-theme-child/assets/images/edsurge-logo.svg" alt="EdSurge" />
+</div>
 
-      
-          <div class="flex justify-center col-span-1 px-8 py-8 bg-white">
-            <img class="h-32 filter-grayscale" src="wp-content/themes/buddyboss-theme-child/assets/images/pre-logo.png" alt="Pacific Research and Evaluation" />
-          </div>
-
-          <div class="flex justify-center col-span-1 px-8 py-8 bg-white">
-            <img class="h-32 filter-grayscale" src="wp-content/themes/buddyboss-theme-child/assets/images/ocf-logo.png" alt="Oregon Community Foundation" />
-          </div>
-
-          <div class="flex justify-center col-span-1 px-8 py-8 bg-white">
-            <img class="h-32 filter-grayscale" src="wp-content/themes/buddyboss-theme-child/assets/images/omni-logo.svg" alt="OMNI Institute" />
-          </div>
-
-          <div class="flex justify-center col-span-1 px-8 py-8 bg-white">
-            <img class="h-32 filter-grayscale" src="wp-content/themes/buddyboss-theme-child/assets/images/ai-inclusive-logo.svg" alt="AI Inclusive" />
-          </div>
-
-          <div class="flex justify-center col-span-1 px-8 py-8 bg-white">
-            <img class="h-32 filter-grayscale" src="wp-content/themes/buddyboss-theme-child/assets/images/mff-logo.svg" alt="Michigan Fitness Foundation" />
-          </div>
-
-          <div class="flex justify-center col-span-1 px-8 py-8 bg-white">
-            <img class="h-32 filter-grayscale" src="wp-content/themes/buddyboss-theme-child/assets/images/the-mark-logo.png" alt="The Mark USA" />
-          </div>
-
-          <div class="flex justify-center col-span-1 px-8 py-8 bg-white">
-            <img class="h-32 filter-grayscale" src="wp-content/themes/buddyboss-theme-child/assets/images/edsurge-logo.svg" alt="EdSurge" />
-          </div>
-
-        </div>
+</div>
+   
 
 
-      </div>
 
-    </div>
+
+   
+   
 
 
 
