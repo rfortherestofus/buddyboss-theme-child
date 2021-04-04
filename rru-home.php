@@ -15,6 +15,7 @@ get_header();
 <div class="md:my-8 md:grid md:grid-cols-6 md:gap-8">
 
 <div class="md:col-span-2 md:pt-16">
+<h1 class="hidden">R for the Rest of Us</h1>
 <img class="mx-auto md:mx-0" src="../wp-content/themes/buddyboss-theme-child/assets/images/rru-wordmark-wide-dark-blue.svg" alt="R for the Rest of Us">
 <p class="pt-2 pb-1 text-base text-gray-500 sm:text-xl lg:text-lg xl:text-xl">
             Learn to use the most powerful tool for working with data, <span class="font-bold">even if you've never coded before</span>. 
