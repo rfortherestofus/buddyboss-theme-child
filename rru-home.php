@@ -10,63 +10,31 @@ get_header();
 
 <div id="primary" class="content-area bb-grid-cell">
 
-  <main class="max-w-screen-xl px-4 mx-auto ">
+  <main class="max-w-screen-xl px-4 mx-auto">
 
+<div class="md:my-8 md:grid md:grid-cols-6 md:gap-8">
 
-<!-- This example requires Tailwind CSS v2.0+ -->
-<div class="bg-white">
-  <div class="relative overflow-hidden">
-   
-
-    <div class="relative pt-6 pb-16 sm:pb-24">
-      <div class="px-4 mx-auto max-w-7xl sm:px-6">
-        
-      </div>
-
-      <!--
-        Mobile menu, show/hide based on menu open state.
-
-        Entering: "duration-150 ease-out"
-          From: "opacity-0 scale-95"
-          To: "opacity-100 scale-100"
-        Leaving: "duration-100 ease-in"
-          From: "opacity-100 scale-100"
-          To: "opacity-0 scale-95"
-      -->
-      
-
-      <div class="px-4 mx-auto mt-16 max-w-7xl sm:mt-24 sm:px-6">
-        <div class="text-center">
-        <span class="block mt-1 text-4xl font-extrabold tracking-tight sm:text-5xl xl:text-6xl">
-            <img class="mx-auto" src="../wp-content/themes/buddyboss-theme-child/assets/images/rru-wordmark-wide-dark-blue.svg" alt="R for the Rest of Us">
-            </span>
-          
-          <p class="mt-3 text-base text-gray-500 sm:text-xl lg:text-lg xl:text-xl">
+<div class="md:col-span-2 md:pt-16">
+<img class="mx-auto md:mx-0" src="../wp-content/themes/buddyboss-theme-child/assets/images/rru-wordmark-wide-dark-blue.svg" alt="R for the Rest of Us">
+<p class="pt-2 pb-1 text-base text-gray-500 sm:text-xl lg:text-lg xl:text-xl">
             Learn to use the most powerful tool for working with data, <span class="font-bold">even if you've never coded before</span>. 
           </p>
-          
-          <div class="my-10">
           <a href="/course/getting-started/" class="px-8 py-3 text-base font-medium leading-6 text-white transition duration-150 ease-in-out bg-blue-600 border border-transparent rounded-md shadow hover:text-white hover:bg-blue-500 focus:outline-none focus:border-blue-700 focus:shadow-outline-blue md:py-4 md:text-lg md:px-10">
             Start Free Course
           </a>
-          </div>
-          
-        </div>
-      </div>
-    </div>
-    <div class="relative">
-      <div class="absolute inset-0 flex flex-col" aria-hidden="true">
-        <div class="flex-1"></div>
-        <div class="flex-1 w-full bg-white"></div>
-      </div>
-      <div class="px-4 mx-auto rounded-lg max-w-7xl sm:px-6">
-      <iframe src="https://player.vimeo.com/video/525877233?title=0&amp;byline=0&amp;portrait=0&amp;speed=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen title="R for the Rest of Us"></iframe>
-      </div>
-    </div>
-  </div>
+</div>
+
+         
+
+
+<div class="pt-4 md:col-span-4 md:mt-0 md:pt-0">
+<iframe src="https://player.vimeo.com/video/525877233?title=0&amp;byline=0&amp;portrait=0&amp;speed=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen title="R for the Rest of Us"></iframe>
+</div>
+</div>
+
   <div class="bg-white">
     <div class="px-4 py-16 mx-auto max-w-7xl sm:py-24 sm:px-6 lg:px-8">
-      <h2 class="text-sm font-semibold tracking-wide text-center text-gray-400 uppercase">Supporting Forward-Looking Organizations</h2>
+      <h2 class="text-sm font-semibold tracking-wide text-center text-gray-600 uppercase">Supporting Forward-Looking Organizations</h2>
       <div class="mt-6 grid sm:grid-cols-2 gap-0.5 md:grid-cols-6 lg:mt-8">
 
 <div class="flex justify-center col-span-1 px-8 py-8 bg-white">
