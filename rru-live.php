@@ -14,7 +14,7 @@ get_header();
 
 
       <div class="relative mx-auto mb-8 max-w-7xl lg:grid lg:grid-cols-5">
-        <div class="px-4 bg-gray-50 sm:px-6 lg:col-span-2 lg:px-8 xl:pr-12">
+        <div class="px-4 sm:px-6 lg:col-span-2 lg:px-8 xl:pr-12">
           <div class="max-w-lg mx-auto">
           <h1 class="leading-none rru-page-title">
           Live
