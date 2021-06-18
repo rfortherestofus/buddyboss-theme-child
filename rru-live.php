@@ -44,8 +44,8 @@ get_header();
     
 
 
-    <div class="w-full my-0 overflow-hidden text-base text-blue-800">
-    <iframe width="100%" height="500" src="https://www.youtube.com/embed/live_stream?channel=UCSoUNu8x-HblqqOK_EwdZGw" frameborder="0" allowfullscreen></iframe>
+    <div class="w-full my-0 overflow-hidden text-base text-blue-800 aspect-w-16 aspect-h-9">
+    <iframe src="https://www.youtube.com/embed/live_stream?channel=UCSoUNu8x-HblqqOK_EwdZGw" frameborder="0" allowfullscreen></iframe>
       
 
     </div>
