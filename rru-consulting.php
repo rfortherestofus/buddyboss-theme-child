@@ -88,8 +88,20 @@ get_header();
             From One Report, Many
           </h4>
           <p class="mt-3 text-lg leading-7 text-gray-600">
-            Producing one report is a lot of work. Producing tens or even hundreds of reports is completely overwhelming. I help organizations make this daunting task less daunting. Using parameterized reporting, I help organizations that need to generate reports in bulk. Need a report for each school in your district? A report for every town in your state? With my help, you can do this without losing your mind.
+            Producing one report is a lot of work. Producing tens or even hundreds of reports is completely overwhelming. I help organizations make this daunting task less daunting. Using <a href="https://medium.com/@urban_institute/iterated-fact-sheets-with-r-markdown-d685eb4eafce">parameterized reporting</a>, I help organizations that need to generate reports in bulk. 
           </p>
+          <p class="mt-3 text-lg leading-7 text-gray-600">
+          Need a report for each school in your district? A report for every town in your state? With my help, you can do this without losing your mind.
+</p>
+          <p class="mt-3 text-lg leading-7 text-gray-600">This is exactly what R for the Rest of Us did in building out 170+ reports for the Partnership for Strong Communities.
+</p>
+
+<div class="mt-5 mb-24 sm:mt-8">
+          <a href="/success-stories/pschousing/" class="px-8 py-3 text-base font-medium leading-6 text-white transition duration-150 ease-in-out bg-blue-600 border border-transparent rounded-md hover:text-white hover:bg-blue-500 focus:outline-none focus:border-blue-700 focus:shadow-outline-blue md:py-4 md:text-lg md:px-10">
+            Learn More
+          </a>
+
+        </div>
 
 
 
@@ -97,10 +109,7 @@ get_header();
 
         <div class="relative px-2 -mx-4 sm:mt-10 lg:mt-0 lg:col-start-1 sm:p-10">
 
-          <blockquote class="twitter-tweet">
-            <p lang="en" dir="ltr">Shout out to <a href="https://twitter.com/rfortherest?ref_src=twsrc%5Etfw">@rfortherest</a> for working with <a href="https://twitter.com/MOPreventionSci?ref_src=twsrc%5Etfw">@MOPreventionSci</a> to help us quickly develop informative and elegant reports using <a href="https://twitter.com/hashtag/rstats?src=hash&amp;ref_src=twsrc%5Etfw">#rstats</a> that give our school partners an overview of findings from our recent survey on the impact of COVID-19 on instruction and classroom management!</p>&mdash; Crystal Lewis (@Cghlewis) <a href="https://twitter.com/Cghlewis/status/1275067953889767425?ref_src=twsrc%5Etfw">June 22, 2020</a>
-          </blockquote>
-          <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        <img class="relative p-4 mx-auto rounded-md shadow lg:ml-8" src="/wp-content/themes/buddyboss-theme-child/assets/images/psc.gif" alt="PSC Housing Reports">
 
         </div>
       </div>
