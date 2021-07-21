@@ -54,7 +54,7 @@ get_header();
 
             <div class="w-full overflow-hidden md:my-3 md:px-3 md:w-1/2">
                 <a href="/courses/getting-started/">
-                    <img class="rounded-sm shadow" src="/wp-content/themes/buddyboss-theme-child/assets/images/getting-started-600.png" alt="Getting Started with R" />
+                    <img class="rounded-sm shadow" src="/wp-content/themes/buddyboss-theme-child/assets/images/getting-started.png" alt="Getting Started with R" />
                 </a>
             </div>
 
@@ -92,7 +92,7 @@ get_header();
 
             <div class="w-full overflow-hidden md:my-3 md:px-3 md:w-1/2">
                 <a href="/courses/fundamentals/">
-                    <img class="rounded-sm shadow" src="/wp-content/themes/buddyboss-theme-child/assets/images/fundamentals-600.png" alt="Fundamentals of R" />
+                    <img class="rounded-sm shadow" src="/wp-content/themes/buddyboss-theme-child/assets/images/fundamentals.png" alt="Fundamentals of R" />
                 </a>
 
             </div>
@@ -130,7 +130,7 @@ get_header();
 
             <div class="w-full overflow-hidden md:my-3 md:px-3 md:w-1/2">
                 <a href="/courses/going-deeper/">
-                    <img class="rounded-sm shadow" src="/wp-content/themes/buddyboss-theme-child/assets/images/going-deeper-600.png" alt="Going Deeper with R" />
+                    <img class="rounded-sm shadow" src="/wp-content/themes/buddyboss-theme-child/assets/images/going-deeper.png" alt="Going Deeper with R" />
                 </a>
             </div>
 
@@ -181,7 +181,7 @@ get_header();
 
             <div class="w-full overflow-hidden md:my-3 md:px-3 md:w-1/2">
                 <a href="/courses/inferential-statistics/">
-                    <img class="rounded-sm shadow" src="/wp-content/themes/buddyboss-theme-child/assets/images/inf-stats-600.png" alt="Inferential Statistics with R" />
+                    <img class="rounded-sm shadow" src="/wp-content/themes/buddyboss-theme-child/assets/images/inferential-statistics.png" alt="Inferential Statistics with R" />
                 </a>
             </div>
 
@@ -214,6 +214,40 @@ get_header();
             </div>
 
         </div>
+
+        <div class="flex flex-wrap mt-16 overflow-hidden">
+
+<div class="w-full overflow-hidden md:my-3 md:px-3 md:w-1/2">
+    <a href="/courses/data-cleaning/">
+        <img class="rounded-sm shadow" src="/wp-content/themes/buddyboss-theme-child/assets/images/data-cleaning.png" alt="Data Cleaning with R" />
+    </a>
+</div>
+
+<div class="w-full overflow-hidden md:my-3 md:px-3 md:w-1/2">
+    <div class="mx-auto sm:w-4/5">
+        <h3 class="hidden text-xl font-extrabold leading-9 tracking-tight text-blue-800 sm:block sm:leading-10">
+            Data Cleaning with R
+
+        </h3>
+
+
+
+        <p class="mt-4 sm:mt-0">
+
+          <p>Data cleaning skills are essential to your success. Fortunately, R has some great packages to help with data cleaning. Unfortunately, knowing what these packages are and how to use them is not straightforward.
+
+This course will help you learn how to take messy data and quickly clean it.</p>
+            <div class="mt-5 mb-20 sm:mt-12">
+                <a href="/courses/data-cleaning/" class="px-8 py-3 text-base font-medium leading-6 text-white transition duration-150 ease-in-out bg-blue-600 border border-transparent rounded-md hover:text-white hover:bg-blue-500 focus:outline-none focus:border-blue-700 focus:shadow-outline-blue md:py-4 md:text-lg md:px-10">
+                    Learn More
+                </a>
+
+            </div>
+
+    </div>
+</div>
+
+</div>
 
 
 
