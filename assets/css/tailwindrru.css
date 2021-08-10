@@ -1158,6 +1158,11 @@ html {
   margin-bottom: 2rem;
 }
 
+.my-12 {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
 .mx-24 {
   margin-left: 6rem;
   margin-right: 6rem;
@@ -2557,6 +2562,10 @@ html {
 
   .lg\:gap-12 {
     gap: 3rem;
+  }
+
+  .lg\:gap-16 {
+    gap: 4rem;
   }
 
   .lg\:gap-x-4 {

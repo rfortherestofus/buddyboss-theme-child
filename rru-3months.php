@@ -33,7 +33,7 @@ get_header();
               Invest in your future by learning the most powerful tool for working with data.
             </p>
             <p class="max-w-lg mx-auto mt-6 text-xl text-center text-blue-200 sm:max-w-3xl">
-              The next cohort starts in September. Enter your email to be notified. 
+              The next cohort starts September 16. Enter your email to be notified. 
             </p>
             <div class="mx-auto sm:flex sm:justify-center">
               
@@ -134,6 +134,10 @@ Learning R will save you <span class="font-bold">time</span> and <span class="fo
                 Over the three months, you’ll go through <a href="https://rfortherestofus.com/courses/getting-started/">Getting Started with R</a>, <a href="https://rfortherestofus.com/courses/fundamentals/">Fundamentals of R</a>, and <a href="https://rfortherestofus.com/courses/going-deeper/">Going Deeper with R</a>, courses that have helped thousands of people around the world learn R.
                 </p>
 
+                <p class="mt-4 text-lg text-gray-600">
+                  And, as a bonus, I'm adding lessons on using <a href="https://rfortherestofus.com/2021/02/how-to-use-git-github-with-r/">Git and GitHub with R</a> to this fall's cohort. If you've heard about these powerful tools but never learned how to use them, this is your chance!
+                </p>
+
 
 
 
@@ -148,7 +152,7 @@ Learning R will save you <span class="font-bold">time</span> and <span class="fo
 
 
     <div class="relative mt-12 sm:mt-16 lg:mt-24">
-      <div class="lg:grid lg:grid-flow-row-dense lg:grid-cols-2 lg:gap-8 lg:items-center">
+      <div class="lg:grid lg:grid-flow-row-dense lg:grid-cols-2 lg:gap-16 lg:items-center">
         <div class="lg:col-start-2">
         <h2 class="text-3xl font-extrabold tracking-tight text-gray-900">
                   Personalized Feedback
@@ -171,17 +175,19 @@ Learning R will save you <span class="font-bold">time</span> and <span class="fo
 
         <div class="relative px-2 -mx-4 sm:mt-10 lg:mt-0 lg:col-start-1 sm:p-10">
 
-        <img class="w-full rounded shadow-md" src="../wp-content/themes/buddyboss-theme-child/assets/images/community-example.gif" alt="Example community thread">
+        <iframe width="560" height="315" class="w-full rounded shadow-md" src="https://app.searchie.io/file/OYq9J1QW2n/embed" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
         </div>
       </div>
     </div>
 
-    <div class="relative mt-12 lg:mt-24 lg:grid lg:grid-cols-2 lg:gap-8 lg:items-center">
+    <div class="relative mt-12 lg:mt-24 lg:grid lg:grid-cols-2 lg:gap-16 lg:items-center">
       <div class="relative">
         <div class="relative px-4 mt-10 mb-4 -mx-4 rounded-md sm:hidden">
 
-          <img class="relative mx-auto rounded shadow-md" src="../wp-content/themes/buddyboss-theme-child/assets/images/zoom.jpg" alt="People on Zoom call">
+
+
+          <iframe width="560" height="315" class="w-full rounded shadow-md" src="https://app.searchie.io/file/OYq9J1QW2n/embed" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
         </div>
 
@@ -193,7 +199,7 @@ Learning R will save you <span class="font-bold">time</span> and <span class="fo
                 You'll be on this journey <span class="font-bold">alongside a supportive community</span> that will help you learn and keep you accountable to yourself.
                 </p>
                 <p class="mt-4 text-lg text-gray-600">
-                R in 3 Months will use a <a href="https://omerad.msu.edu/teaching/teaching-strategies/27-teaching/162-what-why-and-how-to-implement-a-flipped-classroom-model">flipped classroom model</a>.
+                R in 3 Months will use a <a href="https://facultyinnovate.utexas.edu/instructional-strategies/flipped-classroom">flipped classroom model</a>.
 
                 Each week you’ll be assigned to <span class="font-bold">complete a set of lessons</span>. Then, in our <span class="font-bold">weekly live session</span> we’ll go over questions related to the concepts in the lessons you completed that week and discuss ways that you’re applying your learning to your own work.
                 </p>
@@ -209,7 +215,7 @@ Learning R will save you <span class="font-bold">time</span> and <span class="fo
 
       <div class="relative hidden mt-10 -mx-4 rounded-md lg:mt-0 sm:block">
 
-        <img class="relative mx-auto rounded-md shadow" src="../wp-content/themes/buddyboss-theme-child/assets/images/zoom.jpg" alt="People on Zoom call">
+      <iframe width="560" height="315" class="w-full rounded shadow-md" src="https://app.searchie.io/file/l7qLln33q9/embed" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
       </div>
     </div>
@@ -389,69 +395,77 @@ Learning R will save you <span class="font-bold">time</span> and <span class="fo
           <p class="mt-5 text-lg text-gray-300">Sessions will be held on Zoom Thursdays from 10:00am to 11:00am Pacific time, with recordings available the next day.</p>
           <div class="grid grid-cols-1 mt-12 gap-y-12 gap-x-6 sm:grid-cols-2">
             <p>
-              <span class="block text-2xl font-bold text-white">March 18</span>
+              <span class="block text-2xl font-bold text-white">September 16</span>
               <span class="block mt-1 text-base text-gray-300">Introductions and discussion of Getting Started with R</span>
             </p>
 
             <p>
-              <span class="block text-2xl font-bold text-white">March 25</span>
+              <span class="block text-2xl font-bold text-white">September 23</span>
               <span class="block mt-1 text-base text-gray-300">Fundamentals of RMarkdown</span>
             </p>
 
             <p>
-              <span class="block text-2xl font-bold text-white">April 1</span>
+              <span class="block text-2xl font-bold text-white">September 30</span>
               <span class="block mt-1 text-base text-gray-300">Fundamentals of Data Wrangling</span>
             </p>
 
             <p>
-              <span class="block text-2xl font-bold text-white">April 8</span>
+              <span class="block text-2xl font-bold text-white">October 7</span>
               <span class="block mt-1 text-base text-gray-300">Fundamentals of Data Visualization</span>
             </p>
 
             <p>
-              <span class="block text-2xl font-bold text-white">April 15</span>
+              <span class="block text-2xl font-bold text-white">October 14</span>
+              <span class="block mt-1 text-base text-gray-300">Catch-Up Week</span>
+            </p>
+
+
+            <p>
+              <span class="block text-2xl font-bold text-white">October 21</span>
+              <span class="block mt-1 text-base text-gray-300">Git and GitHub</span>
+            </p>
+
+            <p>
+              <span class="block text-2xl font-bold text-white">October 28</span>
               <span class="block mt-1 text-base text-gray-300">Advanced Data Wrangling, Part 1</span>
             </p>
 
             <p>
-              <span class="block text-2xl font-bold text-white">April 22</span>
+              <span class="block text-2xl font-bold text-white">November 4</span>
               <span class="block mt-1 text-base text-gray-300">Advanced Data Wrangling, Part 2</span>
             </p>
 
             <p>
-              <span class="block text-2xl font-bold text-white">April 29</span>
+              <span class="block text-2xl font-bold text-white">November 11</span>
+              <span class="block mt-1 text-base text-gray-300">Catch-Up Week</span>
+            </p>
+
+            <p>
+              <span class="block text-2xl font-bold text-white">November 18</span>
               <span class="block mt-1 text-base text-gray-300">Advanced Data Visualization, Part 1</span>
             </p>
 
             <p>
-              <span class="block text-2xl font-bold text-white">May 6</span>
+              <span class="block text-2xl font-bold text-white">November 25</span>
+              <span class="block mt-1 text-base text-gray-300">Catch-Up Week (US Thanksgiving)</span>
+            </p>
+
+            <p>
+              <span class="block text-2xl font-bold text-white">December 2</span>
               <span class="block mt-1 text-base text-gray-300">Advanced Data Visualization, Part 2</span>
             </p>
 
             <p>
-              <span class="block text-2xl font-bold text-white">May 13</span>
-              <span class="block mt-1 text-base text-gray-300">Advanced RMarkdown, Part 1</span>
+              <span class="block text-2xl font-bold text-white">December 9</span>
+              <span class="block mt-1 text-base text-gray-300">Advanced RMarkdown</span>
             </p>
 
             <p>
-              <span class="block text-2xl font-bold text-white">May 20</span>
-              <span class="block mt-1 text-base text-gray-300">Advanced RMarkdown, Part 2</span>
+              <span class="block text-2xl font-bold text-white">December 16</span>
+              <span class="block mt-1 text-base text-gray-300">Wrap Up</span>
             </p>
 
-            <p>
-              <span class="block text-2xl font-bold text-white">May 27</span>
-              <span class="block mt-1 text-base text-gray-300">Topics selected by participants</span>
-            </p>
-
-            <!-- <p>
-              <span class="block text-2xl font-bold text-white">June 3</span>
-              <span class="block mt-1 text-base text-gray-300">Case studies and other miscellaneous topics selected by participants</span>
-            </p> -->
-
-            <p>
-              <span class="block text-2xl font-bold text-white">June 10</span>
-              <span class="block mt-1 text-base text-gray-300">Participants share final projects</span>
-            </p>
+        
 
           </div>
         </div>
@@ -512,8 +526,9 @@ Learning R will save you <span class="font-bold">time</span> and <span class="fo
           </dt>
           <dd class="mt-2 md:mt-0 md:col-span-7">
             <p class="text-base text-gray-500">
-            Check out previous sessions of <a href="https://rfortherestofus.com/groups/community/forum/discussion/office-hours-megathread/">R for the Rest of Us office hours</a>. The live sessions for R in 3 Months will be a bit more structured since we're covering particular topics each week, but this will give you a rough sense of what to expect.
+              Here is a sample video from the spring 2021 cohort of R in 3 Months. 
             </p>
+            <iframe width="560" height="315" class="w-full" src="https://app.searchie.io/file/l7qLln33q9/embed" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </dd>
         </div>
 
@@ -523,7 +538,7 @@ Learning R will save you <span class="font-bold">time</span> and <span class="fo
           </dt>
           <dd class="mt-2 md:mt-0 md:col-span-7">
             <p class="text-base text-gray-500">
-            You should plan to spend 3-5 hours per week devoted to R in 3 Months. The breakdown of this is: weekly lessons from courses (1-2 hours), application of new concepts to your own work (1-2 hours), live sesion (1 hour).
+            You should plan to spend 3-5 hours per week devoted to R in 3 Months. The breakdown of this is: weekly lessons from courses (1-2 hours), application of new concepts to your own work (1-2 hours), live session (1 hour).
           
             
     
@@ -637,7 +652,7 @@ Learning R will save you <span class="font-bold">time</span> and <span class="fo
           </dt>
           <dd class="mt-2 md:mt-0 md:col-span-7">
             <p class="text-base text-gray-500">
-            If you are unsatisfied with R in 3 Months for any reason, contact me before April 15 and I will give you a full refund, no questions asked. If you sign up using the three payments option, you can drop out before the second (in which case you'll keep access to Fundamentals) or third payments (you'll keep access to Fundamentals and Going Deeper) and you won't be charged.
+            If you are unsatisfied with R in 3 Months for any reason, contact me before October 14 and I will give you a full refund, no questions asked. 
             </p>
           </dd>
         </div>
