@@ -151,7 +151,7 @@ Learning R will save you <span class="font-bold">time</span> and <span class="fo
     </div>
 
 
-    <div class="relative mt-12 sm:mt-16 lg:mt-24">
+    <div class="relative mt-12 sm:mt-16 lg:mt-24" id="personalized-feedback">
       <div class="lg:grid lg:grid-flow-row-dense lg:grid-cols-2 lg:gap-16 lg:items-center">
         <div class="lg:col-start-2">
         <h2 class="text-3xl font-extrabold tracking-tight text-gray-900">
@@ -181,7 +181,7 @@ Learning R will save you <span class="font-bold">time</span> and <span class="fo
       </div>
     </div>
 
-    <div class="relative mt-12 lg:mt-24 lg:grid lg:grid-cols-2 lg:gap-16 lg:items-center">
+    <div class="relative mt-12 lg:mt-24 lg:grid lg:grid-cols-2 lg:gap-16 lg:items-center" id="supportive-community">
       <div class="relative">
         <div class="relative px-4 mt-10 mb-4 -mx-4 rounded-md sm:hidden">
 
