@@ -528,7 +528,7 @@ Learning R will save you <span class="font-bold">time</span> and <span class="fo
             <p class="text-base text-gray-500">
               Here is a sample video from the spring 2021 cohort of R in 3 Months. 
             </p>
-            <iframe width="560" height="315" class="w-full" src="https://app.searchie.io/file/l7qLln33q9/embed" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="560" height="315" class="w-full" src="https://app.searchie.io/file/P5qnagr0Nr/embed" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </dd>
         </div>
 
