@@ -36,7 +36,7 @@ get_header();
               The next cohort starts September 16. Enter your email to be notified. </p> -->
               <div class="mx-auto sm:flex sm:justify-center">
 
-                <!-- <?php echo do_shortcode("[ninja_form id=23]"); ?> -->
+                
                 <a href="#pricing" class="flex items-center justify-center px-4 py-3 text-base font-medium text-blue-700 bg-white border border-transparent rounded-md shadow-sm hover:bg-blue-50 hover:text-blue-700 sm:px-8">
                   Sign Up Now
                 </a>
