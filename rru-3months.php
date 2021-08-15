@@ -728,7 +728,7 @@ get_header();
 
                   </div>
                   <p class="mt-2 text-lg leading-7 text-gray-600">
-                    <?php echo do_shortcode("[iconic_product_price id='21249']"); ?> to hold your spot, two more payments of <?php echo do_shortcode("[iconic_product_price id='21249']"); ?> later
+                    <?php echo do_shortcode("[iconic_product_price id='21249']"); ?> to hold your spot, two payments later
                   </p>
 
                 </div>
