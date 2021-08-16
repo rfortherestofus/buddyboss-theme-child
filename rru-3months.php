@@ -791,7 +791,7 @@ get_header();
             I will prioritize those underrepresented in the R community in deciding who will receive the scholarships.
           </p>
           <div class="mt-8">
-          <?php echo do_shortcode("[ninja_form id=19]"); ?>
+          <?php echo do_shortcode("[ninja_form id=26]"); ?>
           </div>
         </div>
       </div>
