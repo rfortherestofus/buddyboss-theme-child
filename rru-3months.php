@@ -36,7 +36,7 @@ get_header();
               The next cohort starts September 16. Enter your email to be notified. </p> -->
               <div class="mx-auto sm:flex sm:justify-center">
 
-                
+
                 <a href="#pricing" class="flex items-center justify-center px-4 py-3 text-base font-medium text-blue-700 bg-white border border-transparent rounded-md shadow-sm hover:bg-blue-50 hover:text-blue-700 sm:px-8">
                   Sign Up Now
                 </a>
@@ -677,9 +677,9 @@ get_header();
             <p class="text-3xl font-extrabold leading-9 text-white sm:text-4xl sm:leading-10 lg:text-5xl lg:leading-none">
               Learning R is an investment in your future
             </p>
-            <!-- <p class="text-xl leading-7 text-gray-300">
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum sequi unde repudiandae natus.
-      </p> -->
+            <p class="text-xl leading-7 text-gray-300">
+              Discounts available for groups of three or more. <a href="/contact">Email for info</a>.
+            </p>
           </div>
         </div>
       </div>
@@ -770,32 +770,33 @@ get_header();
           </div>
         </div>
 
-        <div class="relative max-w-screen-xl px-4 mx-auto mt-4 sm:px-6 lg:px-8 lg:mt-5">
-          <div class="max-w-md mx-auto lg:max-w-5xl">
-            <div class="px-6 py-8 bg-white rounded-lg sm:p-10 lg:flex lg:items-center">
-              <div class="flex-1">
-                <div>
-                  <h3 class="inline-flex px-4 py-1 text-sm font-semibold leading-5 tracking-wide text-blue-600 uppercase bg-blue-100 rounded-full" id="tier-standard">
-                    Scholarship Program
-                  </h3>
-                </div>
-                <div class="mt-0 text-lg leading-7 text-gray-600">
-                  I am pleased to offer three scholarships for R in 3 Months. I will prioritize those underrepresented in the R community in deciding who to select for the scholarships. Interested? Please <a href="https://rfortherestofus.com/contact/">send me an email</a> telling me who you and why you want to learn R.
+      </div>
+    </div>
 
-
-                </div>
-              </div>
-
-            </div>
-
-
-
-
-
+    <!-- This example requires Tailwind CSS v2.0+ -->
+    <div class="relative mt-16 bg-gray-800">
+      <div class="h-56 bg-blue-600 sm:h-72 md:absolute md:left-0 md:h-full md:w-1/2">
+        <img class="object-cover w-full h-full" src="../wp-content/themes/buddyboss-theme-child/assets/images/scholarship-program.jpg" alt="Two people working at a computer">
+      </div>
+      <div class="relative px-4 py-12 mx-auto max-w-7xl sm:px-6 lg:px-8 lg:py-16">
+        <div class="md:ml-auto md:w-1/2 md:pl-10">
+          <!-- <h2 class="text-base font-semibold tracking-wider text-gray-300 uppercase">
+        Award winning support
+      </h2> -->
+          <h2 class="mt-2 text-3xl font-extrabold tracking-tight text-white sm:text-4xl">
+            Scholarship Program
+          </h2>
+          <p class="mt-3 text-lg text-gray-300">
+            I want to make R accessible to as many people as possible so I am offering three scholarships for R in 3 Months. 
+            I will prioritize those underrepresented in the R community in deciding who will receive the scholarships.
+          </p>
+          <div class="mt-8">
+          <?php echo do_shortcode("[ninja_form id=19]"); ?>
           </div>
         </div>
       </div>
     </div>
+
 
   </main><!-- #main -->
 </div><!-- #primary -->
