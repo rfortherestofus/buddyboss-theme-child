@@ -664,7 +664,7 @@ get_header();
 
 
 
-    <div class="bg-gradient-to-r from-blue-800 to-blue-700" id="scholarship">
+    <div class="bg-gradient-to-r from-blue-800 to-blue-700">
 
 
       <div class="pt-12 mt-24 sm:pt-16 lg:pt-24" id="pricing">
@@ -774,7 +774,7 @@ get_header();
     </div>
 
     <!-- This example requires Tailwind CSS v2.0+ -->
-    <div class="relative mt-16 bg-gray-800">
+    <div class="relative mt-16 bg-gray-800" id="scholarship">
       <div class="h-56 bg-blue-600 sm:h-72 md:absolute md:left-0 md:h-full md:w-1/2">
         <img class="object-cover w-full h-full" src="../wp-content/themes/buddyboss-theme-child/assets/images/scholarship-program.jpg" alt="Two people working at a computer">
       </div>
