@@ -664,7 +664,7 @@ get_header();
 
 
 
-    <div class="bg-gradient-to-r from-blue-800 to-blue-700">
+    <div class="bg-gradient-to-r from-blue-800 to-blue-700" id="scholarship">
 
 
       <div class="pt-12 mt-24 sm:pt-16 lg:pt-24" id="pricing">
