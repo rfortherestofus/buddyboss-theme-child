@@ -531,7 +531,7 @@ get_header();
 
 
     <!-- This example requires Tailwind CSS v2.0+ -->
-    <div class="bg-white">
+    <div class="bg-white" id="faq">
       <div class="px-4 py-12 mx-auto mt-8 divide-y-2 divide-gray-200 max-w-7xl sm:px-6 lg:py-16 lg:px-8">
         <h2 class="text-3xl font-extrabold text-gray-900 sm:text-4xl">
           Frequently asked questions
