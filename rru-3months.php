@@ -221,59 +221,59 @@ get_header();
 
 
 
-<!-- This example requires Tailwind CSS v2.0+ -->
-<section class="mt-24 bg-gray-800 rounded-md shadow-md">
-  <div class="mx-auto max-w-7xl md:grid md:grid-cols-2 md:px-6 lg:px-8">
-    <div class="px-4 py-12 sm:px-6 md:flex md:flex-col md:py-16 md:pl-0 md:pr-10 md:border-r md:border-gray-900 lg:pr-16">
-      
-      <blockquote class="mt-6 md:flex-grow md:flex md:flex-col">
-        <div class="relative text-lg font-medium text-white md:flex-grow">
-          <svg class="absolute top-0 left-0 w-8 h-8 text-blue-600 transform -translate-x-3 -translate-y-2" fill="currentColor" viewBox="0 0 32 32" aria-hidden="true">
-            <path d="M9.352 4C4.456 7.456 1 13.12 1 19.36c0 5.088 3.072 8.064 6.624 8.064 3.36 0 5.856-2.688 5.856-5.856 0-3.168-2.208-5.472-5.088-5.472-.576 0-1.344.096-1.536.192.48-3.264 3.552-7.104 6.624-9.024L9.352 4zm16.512 0c-4.8 3.456-8.256 9.12-8.256 15.36 0 5.088 3.072 8.064 6.624 8.064 3.264 0 5.856-2.688 5.856-5.856 0-3.168-2.304-5.472-5.184-5.472-.576 0-1.248.096-1.44.192.48-3.264 3.456-7.104 6.528-9.024L25.864 4z" />
-          </svg>
-          <p class="relative text-white">
-          R has enabled me to explore my data more deeply and take control of my data visualizations. I would highly recommend the R in 3 Months program to anyone who wants to learn R.
-          </p>
-        </div>
-        <footer class="mt-8">
-          <div class="flex items-start">
-            <div class="inline-flex flex-shrink-0 border-2 border-white rounded-full">
-              <img class="w-12 h-12 rounded-full" src="../wp-content/themes/buddyboss-theme-child/assets/images/ibrah-sendide.jpeg" alt="Ibrah Sendide">
-            </div>
-            <div class="ml-4">
-              <div class="text-base font-medium text-white">Ibrah Sendide</div>
-              <div class="text-base font-medium text-blue-200">PhD Candidate, University of the Witwatersrand</div>
-            </div>
+      <!-- This example requires Tailwind CSS v2.0+ -->
+      <section class="mt-24 bg-gray-800 rounded-md shadow-md">
+        <div class="mx-auto max-w-7xl md:grid md:grid-cols-2 md:px-6 lg:px-8">
+          <div class="px-4 py-12 sm:px-6 md:flex md:flex-col md:py-16 md:pl-0 md:pr-10 md:border-r md:border-gray-900 lg:pr-16">
+
+            <blockquote class="mt-6 md:flex-grow md:flex md:flex-col">
+              <div class="relative text-lg font-medium text-white md:flex-grow">
+                <svg class="absolute top-0 left-0 w-8 h-8 text-blue-600 transform -translate-x-3 -translate-y-2" fill="currentColor" viewBox="0 0 32 32" aria-hidden="true">
+                  <path d="M9.352 4C4.456 7.456 1 13.12 1 19.36c0 5.088 3.072 8.064 6.624 8.064 3.36 0 5.856-2.688 5.856-5.856 0-3.168-2.208-5.472-5.088-5.472-.576 0-1.344.096-1.536.192.48-3.264 3.552-7.104 6.624-9.024L9.352 4zm16.512 0c-4.8 3.456-8.256 9.12-8.256 15.36 0 5.088 3.072 8.064 6.624 8.064 3.264 0 5.856-2.688 5.856-5.856 0-3.168-2.304-5.472-5.184-5.472-.576 0-1.248.096-1.44.192.48-3.264 3.456-7.104 6.528-9.024L25.864 4z" />
+                </svg>
+                <p class="relative text-white">
+                  R has enabled me to explore my data more deeply and take control of my data visualizations. I would highly recommend the R in 3 Months program to anyone who wants to learn R.
+                </p>
+              </div>
+              <footer class="mt-8">
+                <div class="flex items-start">
+                  <div class="inline-flex flex-shrink-0 border-2 border-white rounded-full">
+                    <img class="w-12 h-12 rounded-full" src="../wp-content/themes/buddyboss-theme-child/assets/images/ibrah-sendide.jpeg" alt="Ibrah Sendide">
+                  </div>
+                  <div class="ml-4">
+                    <div class="text-base font-medium text-white">Ibrah Sendide</div>
+                    <div class="text-base font-medium text-blue-200">PhD Candidate, University of the Witwatersrand</div>
+                  </div>
+                </div>
+              </footer>
+            </blockquote>
           </div>
-        </footer>
-      </blockquote>
-    </div>
-    <div class="px-4 py-12 border-t-2 border-blue-900 sm:px-6 md:py-16 md:pr-0 md:pl-10 md:border-t-0 md:border-l lg:pl-16">
-      
-      <blockquote class="mt-6 md:flex-grow md:flex md:flex-col">
-        <div class="relative text-lg font-medium text-white md:flex-grow">
-          <svg class="absolute top-0 left-0 w-8 h-8 text-blue-600 transform -translate-x-3 -translate-y-2" fill="currentColor" viewBox="0 0 32 32">
-            <path d="M9.352 4C4.456 7.456 1 13.12 1 19.36c0 5.088 3.072 8.064 6.624 8.064 3.36 0 5.856-2.688 5.856-5.856 0-3.168-2.208-5.472-5.088-5.472-.576 0-1.344.096-1.536.192.48-3.264 3.552-7.104 6.624-9.024L9.352 4zm16.512 0c-4.8 3.456-8.256 9.12-8.256 15.36 0 5.088 3.072 8.064 6.624 8.064 3.264 0 5.856-2.688 5.856-5.856 0-3.168-2.304-5.472-5.184-5.472-.576 0-1.248.096-1.44.192.48-3.264 3.456-7.104 6.528-9.024L25.864 4z" />
-          </svg>
-          <p class="relative text-white">
-          On my journey through R in 3 Months, I went from excited to overwhelmed to confident. The way David and Charlie were able to adapt to our different needs and take me from never having coded to producing a final report all in R was amazing
-          </p>
-        </div>
-        <footer class="mt-8">
-          <div class="flex items-start">
-            <div class="inline-flex flex-shrink-0 border-2 border-white rounded-full">
-            <img class="w-12 h-12 rounded-full" src="../wp-content/themes/buddyboss-theme-child/assets/images/lucilla-piccari.jpeg" alt="Lucilla Piccari">
-            </div>
-            <div class="ml-4">
-              <div class="text-base font-medium text-white">Lucilla Piccari</div>
-              <div class="text-base font-medium text-blue-200">Research Physician, Hospital del Mar (Barcelona)</div>
-            </div>
+          <div class="px-4 py-12 border-t-2 border-blue-900 sm:px-6 md:py-16 md:pr-0 md:pl-10 md:border-t-0 md:border-l lg:pl-16">
+
+            <blockquote class="mt-6 md:flex-grow md:flex md:flex-col">
+              <div class="relative text-lg font-medium text-white md:flex-grow">
+                <svg class="absolute top-0 left-0 w-8 h-8 text-blue-600 transform -translate-x-3 -translate-y-2" fill="currentColor" viewBox="0 0 32 32">
+                  <path d="M9.352 4C4.456 7.456 1 13.12 1 19.36c0 5.088 3.072 8.064 6.624 8.064 3.36 0 5.856-2.688 5.856-5.856 0-3.168-2.208-5.472-5.088-5.472-.576 0-1.344.096-1.536.192.48-3.264 3.552-7.104 6.624-9.024L9.352 4zm16.512 0c-4.8 3.456-8.256 9.12-8.256 15.36 0 5.088 3.072 8.064 6.624 8.064 3.264 0 5.856-2.688 5.856-5.856 0-3.168-2.304-5.472-5.184-5.472-.576 0-1.248.096-1.44.192.48-3.264 3.456-7.104 6.528-9.024L25.864 4z" />
+                </svg>
+                <p class="relative text-white">
+                  On my journey through R in 3 Months, I went from excited to overwhelmed to confident. The way David and Charlie were able to adapt to our different needs and take me from never having coded to producing a final report all in R was amazing
+                </p>
+              </div>
+              <footer class="mt-8">
+                <div class="flex items-start">
+                  <div class="inline-flex flex-shrink-0 border-2 border-white rounded-full">
+                    <img class="w-12 h-12 rounded-full" src="../wp-content/themes/buddyboss-theme-child/assets/images/lucilla-piccari.jpeg" alt="Lucilla Piccari">
+                  </div>
+                  <div class="ml-4">
+                    <div class="text-base font-medium text-white">Lucilla Piccari</div>
+                    <div class="text-base font-medium text-blue-200">Research Physician, Hospital del Mar (Barcelona)</div>
+                  </div>
+                </div>
+              </footer>
+            </blockquote>
           </div>
-        </footer>
-      </blockquote>
-    </div>
-  </div>
-</section>
+        </div>
+      </section>
 
 
 
@@ -761,7 +761,7 @@ get_header();
                 <div class="flex flex-col justify-between flex-1 px-6 pt-6 pb-8 space-y-6 bg-gray-100 sm:p-10 sm:pt-6">
 
                   <div class="rounded-md shadow">
-                    <a href="https://rfortherestofus.com/product/r-in-3-months/?attribute_payment-option=Single+Payment" class="flex items-center justify-center px-5 py-3 text-base font-medium leading-6 text-white transition duration-150 ease-in-out bg-blue-600 border border-transparent rounded-md hover:bg-blue-500 focus:outline-none focus:shadow-outline hover:text-white" aria-describedby="tier-standard">
+                    <a href="https://rfortherestofus.com/?add-to-cart=21248&quantity=1" class="flex items-center justify-center px-5 py-3 text-base font-medium leading-6 text-white transition duration-150 ease-in-out bg-blue-600 border border-transparent rounded-md hover:bg-blue-500 focus:outline-none focus:shadow-outline hover:text-white" aria-describedby="tier-standard">
                       Sign Up Now
                     </a>
                   </div>
@@ -787,7 +787,7 @@ get_header();
                 <div class="flex flex-col justify-between flex-1 px-6 pt-6 pb-8 space-y-6 bg-gray-100 sm:p-10 sm:pt-6">
 
                   <div class="rounded-md shadow">
-                    <a href="https://rfortherestofus.com/product/r-in-3-months/?attribute_payment-option=Three+Payments" class="flex items-center justify-center px-5 py-3 text-base font-medium leading-6 text-white transition duration-150 ease-in-out bg-blue-600 border border-transparent rounded-md hover:bg-blue-500 focus:outline-none focus:shadow-outline hover:text-white" aria-describedby="tier-standard">
+                    <a href="https://rfortherestofus.com/?add-to-cart=21248&quantity=1" class="flex items-center justify-center px-5 py-3 text-base font-medium leading-6 text-white transition duration-150 ease-in-out bg-blue-600 border border-transparent rounded-md hover:bg-blue-500 focus:outline-none focus:shadow-outline hover:text-white" aria-describedby="tier-standard">
                       Sign Up Now
                     </a>
                   </div>
@@ -840,11 +840,11 @@ get_header();
             Scholarship Program
           </h2>
           <p class="mt-3 text-lg text-gray-300">
-            I want to make R accessible to as many people as possible so I am offering three scholarships for R in 3 Months. 
+            I want to make R accessible to as many people as possible so I am offering three scholarships for R in 3 Months.
             I will prioritize those underrepresented in the R community in deciding who will receive the scholarships.
           </p>
           <div class="mt-8">
-          <?php echo do_shortcode("[ninja_form id=26]"); ?>
+            <?php echo do_shortcode("[ninja_form id=26]"); ?>
           </div>
         </div>
       </div>
