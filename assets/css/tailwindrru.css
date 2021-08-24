@@ -423,7 +423,8 @@ textarea::placeholder {
   color: #9ca3af;
 }
 
-button {
+button,
+[role="button"] {
   cursor: pointer;
 }
 
@@ -639,6 +640,12 @@ html {
   margin-bottom: calc(1.25rem * var(--tw-space-y-reverse));
 }
 
+.space-x-5 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-x-reverse: 0;
+  margin-right: calc(1.25rem * var(--tw-space-x-reverse));
+  margin-left: calc(1.25rem * calc(1 - var(--tw-space-x-reverse)));
+}
+
 .space-y-6 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-y-reverse: 0;
   margin-top: calc(1.5rem * calc(1 - var(--tw-space-y-reverse)));
@@ -655,6 +662,12 @@ html {
   --tw-space-y-reverse: 0;
   margin-top: calc(3rem * calc(1 - var(--tw-space-y-reverse)));
   margin-bottom: calc(3rem * var(--tw-space-y-reverse));
+}
+
+.space-y-16 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(4rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(4rem * var(--tw-space-y-reverse));
 }
 
 .divide-y-2 > :not([hidden]) ~ :not([hidden]) {
@@ -1784,6 +1797,10 @@ html {
   width: 4rem;
 }
 
+.w-40 {
+  width: 10rem;
+}
+
 .w-1\/2 {
   width: 50%;
 }
@@ -2103,6 +2120,10 @@ html {
     max-width: 32rem;
   }
 
+  .sm\:max-w-xl {
+    max-width: 36rem;
+  }
+
   .sm\:max-w-3xl {
     max-width: 48rem;
   }
@@ -2215,6 +2236,10 @@ html {
 
   .sm\:gap-6 {
     gap: 1.5rem;
+  }
+
+  .sm\:gap-16 {
+    gap: 4rem;
   }
 
   .sm\:grid-cols-2 {
@@ -2757,6 +2782,10 @@ html {
     flex: 1 1 0%;
   }
 
+  .xl\:h-56 {
+    height: 14rem;
+  }
+
   .xl\:h-auto {
     height: auto;
   }
@@ -2820,6 +2849,10 @@ html {
 
   .xl\:w-32 {
     width: 8rem;
+  }
+
+  .xl\:w-56 {
+    width: 14rem;
   }
 
   .xl\:gap-x-8 {
