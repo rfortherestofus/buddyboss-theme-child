@@ -892,7 +892,7 @@ get_header();
                 <div class="flex flex-col justify-between flex-1 px-6 pt-6 pb-8 space-y-6 bg-gray-100 sm:p-10 sm:pt-6">
 
                   <div class="rounded-md shadow">
-                    <a href="https://rfortherestofus.com/?add-to-cart=21248&quantity=1" class="flex items-center justify-center px-5 py-3 text-base font-medium leading-6 text-white transition duration-150 ease-in-out bg-blue-600 border border-transparent rounded-md hover:bg-blue-500 focus:outline-none focus:shadow-outline hover:text-white" aria-describedby="tier-standard">
+                    <a href="https://rfortherestofus.com/?add-to-cart=21249&quantity=1" class="flex items-center justify-center px-5 py-3 text-base font-medium leading-6 text-white transition duration-150 ease-in-out bg-blue-600 border border-transparent rounded-md hover:bg-blue-500 focus:outline-none focus:shadow-outline hover:text-white" aria-describedby="tier-standard">
                       Sign Up Now
                     </a>
                   </div>
