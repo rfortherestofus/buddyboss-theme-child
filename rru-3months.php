@@ -295,10 +295,7 @@ get_header();
 
             
               <div class="px-4 py-12 mx-auto mb-16 text-center max-w-7xl sm:px-6 lg:pt-24 lg:pb-12 lg:px-8">
-                <h2 class="text-3xl font-extrabold tracking-tight text-white sm:text-4xl">
-                  <span class="block">Ready to get started?</span>
-
-                </h2>
+              
                 <div class="flex justify-center mt-8">
                   <div class="inline-flex rounded-md shadow">
                     
