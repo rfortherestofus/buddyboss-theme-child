@@ -29,7 +29,7 @@ get_header();
 
     <p>
       This page collects feedback for R in 3 Months (Fall 2021) participants.
-      
+
     </p>
 
 
@@ -59,10 +59,14 @@ get_header();
       </div>
     </div>
 
-
+    <?php
+    // If comments are open or we have at least one comment, load up the comment template.
+    if (comments_open() || get_comments_number()) :
+      comments_template();
+    endif;
+    ?>
   </main><!-- #main -->
 </div><!-- #primary -->
 
 <?php
 get_footer();
-
