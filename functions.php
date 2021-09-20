@@ -87,6 +87,7 @@ function tailwind_theme_child_scripts_styles()
     | is_page_template('rru-email.php')
     | is_page_template('rru-demystifying.php')
     | is_singular( 'resource' )
+    | is_singular( 'rin3_feedback' )
   ) {
     wp_enqueue_style('tailwindrru', get_stylesheet_directory_uri() . '/assets/css/tailwindrru.css', '', '1.0.0');
   }
