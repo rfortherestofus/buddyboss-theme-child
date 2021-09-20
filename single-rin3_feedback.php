@@ -24,26 +24,7 @@ get_header();
                         </div>
                         <div class="mb-2">
 
-                            <div class="py-1 pr-2 text-sm font-medium leading-4 rounded-full text-blue-800-200">
-                                <?php
-
-                                $fname = get_the_author_meta('first_name');
-                                $lname = get_the_author_meta('last_name');
-                                $full_name = '';
-
-                                if (empty($fname)) {
-                                    $full_name = $lname;
-                                } elseif (empty($lname)) {
-                                    $full_name = $fname;
-                                } else {
-                                    //both first name and last name are present
-                                    $full_name = "{$fname} {$lname}";
-                                }
-
-                                echo $full_name;
-                                ?>
-
-                            </div>
+                        <?php wpdocs_example_get_the_terms($taxonomy = 'rin3_participant') ?>
 
 
 

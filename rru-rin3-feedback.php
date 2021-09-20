@@ -65,6 +65,7 @@ get_header();
       comments_template();
     endif;
     ?>
+    
   </main><!-- #main -->
 </div><!-- #primary -->
 
