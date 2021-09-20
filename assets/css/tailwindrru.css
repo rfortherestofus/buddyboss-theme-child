@@ -779,11 +779,6 @@ html {
   background-color: rgba(31, 41, 55, var(--tw-bg-opacity));
 }
 
-.hover\:bg-blue-50:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgba(239, 246, 255, var(--tw-bg-opacity));
-}
-
 .hover\:bg-blue-500:hover {
   --tw-bg-opacity: 1;
   background-color: rgba(108, 171, 221, var(--tw-bg-opacity));
@@ -1049,10 +1044,6 @@ html {
 
 .h-40 {
   height: 10rem;
-}
-
-.h-56 {
-  height: 14rem;
 }
 
 .h-80 {
@@ -1714,11 +1705,6 @@ html {
   color: rgba(97, 154, 199, var(--tw-text-opacity));
 }
 
-.text-blue-700 {
-  --tw-text-opacity: 1;
-  color: rgba(65, 103, 133, var(--tw-text-opacity));
-}
-
 .text-blue-800 {
   --tw-text-opacity: 1;
   color: rgba(49, 77, 99, var(--tw-text-opacity));
@@ -1742,11 +1728,6 @@ html {
 .hover\:text-gray-500:hover {
   --tw-text-opacity: 1;
   color: rgba(107, 114, 128, var(--tw-text-opacity));
-}
-
-.hover\:text-blue-700:hover {
-  --tw-text-opacity: 1;
-  color: rgba(65, 103, 133, var(--tw-text-opacity));
 }
 
 .italic {
@@ -2010,14 +1991,6 @@ html {
 
   .sm\:items-start {
     align-items: flex-start;
-  }
-
-  .sm\:justify-center {
-    justify-content: center;
-  }
-
-  .sm\:h-72 {
-    height: 18rem;
   }
 
   .sm\:text-sm {
@@ -2311,10 +2284,6 @@ html {
     flex-shrink: 0;
   }
 
-  .md\:h-full {
-    height: 100%;
-  }
-
   .md\:text-lg {
     font-size: 1.125rem;
     line-height: 1.75rem;
@@ -2351,10 +2320,6 @@ html {
 
   .md\:ml-4 {
     margin-left: 1rem;
-  }
-
-  .md\:ml-auto {
-    margin-left: auto;
   }
 
   .md\:max-w-2xl {
@@ -2433,14 +2398,6 @@ html {
 
   .md\:pt-16 {
     padding-top: 4rem;
-  }
-
-  .md\:absolute {
-    position: absolute;
-  }
-
-  .md\:left-0 {
-    left: 0px;
   }
 
   .md\:w-1\/2 {
