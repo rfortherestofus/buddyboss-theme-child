@@ -122,7 +122,7 @@ get_header();
 
 
                 <span class="inline mt-4">
-                <a class="text-sm text-gray-400" href="/resources/">Back to all feedback videos -></a>
+                <a class="text-sm text-gray-400" href="/r-in-3-months-feedback-fall-2021/">Back to all feedback videos -></a>
 
                 </span>
 
