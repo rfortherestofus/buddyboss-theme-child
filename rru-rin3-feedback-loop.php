@@ -30,7 +30,7 @@
           <h3 class="mb-2">
             <a class="text-xl font-semibold text-blue-800" href="<?php the_permalink(); ?>"><?php rin3_feedback_video_meta($taxonomy = 'rin3_feedback_week') ?> Feedback</a>
           </h3>
-          <div class="ml-4"><?php rin3_feedback_video_meta($taxonomy = 'rin3_participant') ?></div>
+          <div class="ml-1"><?php rin3_feedback_video_meta($taxonomy = 'rin3_participant') ?></div>
         </div>
 
 

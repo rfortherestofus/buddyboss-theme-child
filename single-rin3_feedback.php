@@ -13,7 +13,7 @@ get_header();
 
 
         <div class="mb-4 -mx-8 sm:flex">
-            <div class="px-4 py-6 sm:px-12 sm:w-1/4">
+            <div class="px-4 py-6 sm:px-12 sm:w-1/3">
 
 
 
@@ -110,7 +110,7 @@ get_header();
                 </div>
             </div>
 
-            <div class="px-4 sm:px-12 sm:w-3/4">
+            <div class="px-4 sm:px-12 sm:w-2/3">
                 <h1 class="leading-none rru-page-title">
 
                     <?php the_title(); ?>
