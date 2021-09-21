@@ -5,6 +5,7 @@
 
 <!-- Keep this so the styles aren't ignored by purgecss bg-orange-100 bg-blue-100 bg-gray-100 -->
 
+<?php echo do_shortcode("[student course_id='18140']"); ?>
 
 <div class="grid grid-cols-1 gap-4 mx-0 sm:grid-cols-2 lg:grid-cols-3">
   <?php while (have_posts()) : the_post(); ?>
@@ -46,3 +47,5 @@
   <?php endwhile; ?>
 
 </div>
+
+<?php echo do_shortcode("[/student]"); ?>

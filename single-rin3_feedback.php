@@ -6,6 +6,7 @@
 get_header();
 ?>
 
+<?php echo do_shortcode("[student course_id='18140']"); ?>
 
 <div id="primary" class="content-area">
 
@@ -24,7 +25,7 @@ get_header();
                         </div>
                         <div class="mb-2">
 
-                        <?php wpdocs_example_get_the_terms($taxonomy = 'rin3_participant') ?>
+                            <?php wpdocs_example_get_the_terms($taxonomy = 'rin3_participant') ?>
 
 
 
@@ -125,9 +126,16 @@ get_header();
                     <?php the_content(); ?>
                 </p>
 
+                <?php comments_template('', true); ?>
+
 
 
 
     </main>
 
 </div>
+
+<?php echo do_shortcode("[/student]"); ?>
+
+<?php
+get_footer();

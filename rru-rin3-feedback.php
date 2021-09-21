@@ -6,6 +6,8 @@
 get_header();
 ?>
 
+<?php echo do_shortcode("[student course_id='18140']"); ?>
+
 <script>
   (function($) {
     $(document).on('facetwp-loaded', function() {
@@ -68,6 +70,8 @@ get_header();
     
   </main><!-- #main -->
 </div><!-- #primary -->
+
+<?php echo do_shortcode("[/student]"); ?>
 
 <?php
 get_footer();
