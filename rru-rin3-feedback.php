@@ -6,7 +6,7 @@
 get_header();
 ?>
 
-<?php echo do_shortcode("[student course_id='18140']"); ?>
+
 
 <script>
   (function($) {
@@ -24,6 +24,8 @@ get_header();
 <div id="primary" class="content-area">
 
   <main class="px-4 mx-auto mt-2 max-w-screen-full">
+
+  <?php echo do_shortcode("[student course_id='18140']"); ?>
 
     <h1 class="leading-none rru-page-title">
       R in 3 Months Feedback
@@ -61,17 +63,15 @@ get_header();
       </div>
     </div>
 
-    <?php
-    // If comments are open or we have at least one comment, load up the comment template.
-    if (comments_open() || get_comments_number()) :
-      comments_template();
-    endif;
-    ?>
+  
     
+<?php echo do_shortcode("[/student]"); ?>
+
+
   </main><!-- #main -->
 </div><!-- #primary -->
 
-<?php echo do_shortcode("[/student]"); ?>
+
 
 <?php
 get_footer();

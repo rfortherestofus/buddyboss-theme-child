@@ -6,11 +6,13 @@
 get_header();
 ?>
 
-<?php echo do_shortcode("[student course_id='18140']"); ?>
+
 
 <div id="primary" class="content-area">
 
     <main class="px-4 mx-auto mt-2 max-w-screen-full">
+
+        <?php echo do_shortcode("[student course_id='18140']"); ?>
 
 
         <div class="mb-4 -mx-8 sm:flex">
@@ -126,16 +128,18 @@ get_header();
                     <?php the_content(); ?>
                 </p>
 
+
+
                 <?php comments_template('', true); ?>
 
 
-
+                <?php echo do_shortcode("[/student]"); ?>
 
     </main>
 
 </div>
 
-<?php echo do_shortcode("[/student]"); ?>
+
 
 <?php
 get_footer();
