@@ -111,7 +111,7 @@ get_header();
             </div>
 
             <div class="px-4 sm:px-12 sm:w-2/3">
-                <h1 class="leading-none rru-page-title">
+                <h1 class="text-3xl font-extrabold leading-none leading-8 tracking-tight text-blue-800">
 
                     <?php the_title(); ?>
                 </h1>
