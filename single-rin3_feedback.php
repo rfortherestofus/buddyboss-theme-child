@@ -121,7 +121,10 @@ get_header();
                 </h1>
 
 
+                <span class="inline mt-4">
+                <a class="text-sm text-gray-400" href="/resources/">Back to all feedback videos -></a>
 
+                </span>
 
 
 
