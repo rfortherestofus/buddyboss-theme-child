@@ -12,7 +12,8 @@ get_header();
 
     <main class="px-4 mx-auto mt-2 max-w-screen-full">
 
-        <?php echo do_shortcode("[student course_id='18140']"); ?>
+
+        
 
 
         <div class="mb-4 -mx-8 sm:flex">
@@ -133,7 +134,7 @@ get_header();
                 <?php comments_template('', true); ?>
 
 
-                <?php echo do_shortcode("[/student]"); ?>
+                
 
     </main>
 
