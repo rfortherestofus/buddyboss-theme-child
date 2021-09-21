@@ -14,25 +14,30 @@
 
       <a class="text-lg font-semibold text-blue-800" href="<?php the_permalink(); ?>">
 
-     
+
+
+
+
+
 
       </a>
 
-     
+
       <div class="px-6 pt-4 bg-white">
 
-       <!-- Title -->
+        <!-- Title -->
         <div class="h-24">
-          <h3 class="leading-5">
-            <a class="text-lg font-semibold text-blue-800" href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
+          <h3 class="mb-2">
+            <a class="text-xl font-semibold text-blue-800" href="<?php the_permalink(); ?>"><?php rin3_feedback_video_meta($taxonomy = 'rin3_feedback_week') ?> Feedback</a>
           </h3>
+          <div class="ml-4"><?php rin3_feedback_video_meta($taxonomy = 'rin3_participant') ?></div>
         </div>
 
-       
+
 
       </div>
 
-    
+
 
 
     </div>

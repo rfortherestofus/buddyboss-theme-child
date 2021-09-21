@@ -280,6 +280,51 @@ if (!function_exists('wpdocs_example_get_the_terms')) {
   }
 }
 
+if (!function_exists('rin3_feedback_video_meta')) {
+
+  function rin3_feedback_video_meta($taxonomy)
+  {
+
+    $terms = get_the_terms(get_the_ID(), $taxonomy);
+
+    if ($terms && !is_wp_error($terms)) :
+
+     
+      foreach ($terms as $term) {
+    
+        echo $term->name;
+        
+      }
+
+    endif;
+  }
+}
+
+if (!function_exists('rin3_feedback_video_meta_participant')) {
+
+  function rin3_feedback_video_meta_participant($taxonomy)
+  {
+
+    $terms = get_the_terms(get_the_ID(), $taxonomy);
+
+    if ($terms && !is_wp_error($terms)) :
+
+     
+      foreach ($terms as $term) {
+        echo '<div class="py-1 pr-2 text-sm font-medium leading-4 text-blue-800';
+        echo '-200 rounded-full">';
+        echo $term->name;
+        echo '</div>';
+      }
+
+    endif;
+  }
+}
+
+
+
+
+
 // Generate custom image size for resources
 
 	
