@@ -27,10 +27,12 @@ get_header();
 
   
   
-
+  <?php echo do_shortcode("[ld_group group_id='21090']"); ?>
     <h1 class="leading-none rru-page-title">
       R in 3 Months Feedback
     </h1>
+    <?php echo do_shortcode("[/ld_group]"); ?>
+
 
     <p>
       This page collects feedback for R in 3 Months (Fall 2021) participants.
