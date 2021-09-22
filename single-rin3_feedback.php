@@ -13,7 +13,7 @@ get_header();
     <main class="px-4 mx-auto mt-2 max-w-screen-full">
 
 
-        
+
 
 
         <div class="mb-4 -mx-8 sm:flex">
@@ -116,28 +116,30 @@ get_header();
 
             <div class="px-4 sm:px-12 sm:w-2/3">
                 <h1 class="text-3xl font-extrabold leading-none leading-8 tracking-tight text-blue-800">
- 
+
                     <?php the_title(); ?>
                 </h1>
 
 
                 <span class="inline mt-4">
-                <a class="text-sm text-gray-400" href="/r-in-3-months-feedback-fall-2021/">Back to all feedback videos -></a>
+                    <a class="text-sm text-gray-400" href="/r-in-3-months-feedback-fall-2021/">Back to all feedback videos -></a>
 
                 </span>
 
+                <div>
+
+                    <p>
+                        <?php the_content(); ?>
+                    </p>
+
+                </div>
+
+                <div class="mt-32">
+
+                    <?php comments_template('', true); ?>
+                </div>
 
 
-                <p>
-                    <?php the_content(); ?>
-                </p>
-
-
-
-                <?php comments_template('', true); ?>
-
-
-                
 
     </main>
 
