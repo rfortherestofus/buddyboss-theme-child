@@ -25,12 +25,13 @@ get_header();
 
   <main class="px-4 mx-auto mt-2 max-w-screen-full">
 
-  
-  
-  
+
+    
+
     <h1 class="leading-none rru-page-title">
       R in 3 Months Feedback
     </h1>
+
 
 
 
@@ -54,9 +55,9 @@ get_header();
 
     </div>
 
-    
+
     <?php echo do_shortcode("[facetwp template='rin3_feedback']"); ?>
-    
+
 
     <div class="flex items-center justify-between px-4 mt-12">
       <div class="hidden text-sm text-gray-600 sm:block">
@@ -67,8 +68,8 @@ get_header();
       </div>
     </div>
 
-  
-    
+
+
 
 
 
