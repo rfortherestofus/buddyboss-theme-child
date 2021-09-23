@@ -347,3 +347,12 @@ add_filter( 'facetwp_facet_html', function( $output, $params ) {
 }, 10, 2 );
 
 
+// Open external links in new tab
+// /Source: https://themepalace.com/topic/open-all-external-links-in-new-window/
+
+add_action( 'wp_enqueue_scripts', 'photomania_pro_child_style' );
+  function photomania_pro_child_style() {
+	wp_enqueue_style( 'parent-style', get_template_directory_uri() . '/style.css' );
+	wp_enqueue_style( 'child-style',get_stylesheet_directory_uri() . '/style.css',array('parent-style'));
+  wp_enqueue_script( 'photomania-child-custom-js', get_stylesheet_directory_uri() . 'assets/js/ custom.js', array('jquery'), '' , true );
+}
