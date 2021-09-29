@@ -24,29 +24,30 @@ get_header();
 
 <div id="primary" class="content-area">
 
-  <main class="px-4 mx-auto mt-2 max-w-screen-full">
+  <main class="px-4 mx-auto mt-2 max-w-screen-full visible_to_group_21090">
 
 
-    <?php echo do_shortcode('[student course_id=18140] 
+    
+
   
   <h1 class="leading-none rru-page-title">
       R in 3 Months Feedback
     </h1> 
     
+
+
     
-  
-    [/student]'); ?>
-
-
 
 
     <div class="md:max-w-3xl">
       <p>
         This page collects feedback for R in 3 Months (Fall 2021) participants. Use the filters below to find what you're looking for.
         <a href="https://app.searchie.io/widget/xRLRqV5Dob" target="_blank">You can also search through the text of all videos.</a>
-      </p>
-    </div>
-
+        </p>
+        </div>
+        
+      
+        
 
 
 
