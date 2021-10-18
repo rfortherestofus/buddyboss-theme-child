@@ -33,7 +33,7 @@ get_header();
                 Invest in your future by learning the most powerful tool for working with data. 
               </p>
               <p class="max-w-lg mx-auto mt-6 text-xl text-center text-blue-200 sm:max-w-3xl">
-              The next cohort starts September 16. Enter your email to be notified. </p> 
+              The next cohort starts in early 2022. Enter your email to be notified. </p> 
 
               <div class="max-w-lg mx-auto">
               <?php echo do_shortcode("[ninja_form id=23]"); ?>
