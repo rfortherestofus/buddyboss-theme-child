@@ -35,7 +35,9 @@ get_header();
               <p class="max-w-lg mx-auto mt-6 text-xl text-center text-blue-200 sm:max-w-3xl">
               The next cohort starts September 16. Enter your email to be notified. </p> 
 
+              <div class="max-w-md mx-auto">
               <?php echo do_shortcode("[ninja_form id=23]"); ?>
+              </div>
               
             </div>
           </div>
