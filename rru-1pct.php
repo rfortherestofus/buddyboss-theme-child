@@ -27,6 +27,8 @@ get_header();
         Businesses have a responsibility to improve the world around them. That's why R for the Rest of Us gives one percent of profits from course sales to support social justice and an additional one percent to support efforts to mitigate climate change.
       </p>
 
+      
+
 
     </div>
 
