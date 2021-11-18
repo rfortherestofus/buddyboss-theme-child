@@ -655,7 +655,7 @@ get_header();
                 </h3>
               </div>
               <div class="flex items-baseline text-6xl font-extrabold leading-none">
-                $3,000
+                $4,000
                 <span class="ml-1 text-2xl font-medium leading-8 text-blue-800">
                   and up
                 </span>
