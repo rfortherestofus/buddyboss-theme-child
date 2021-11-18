@@ -37,7 +37,7 @@ get_header();
       </h2>
       <div class="mt-6 grid sm:grid-cols-2 gap-0.5 md:grid-cols-2 sm:gap-8 lg:mt-8">
 
-        <div class="flex items-center justify-center col-span-1 px-4 py-4 bg-gray-200 rounded-md">
+        <div class="flex items-center justify-center col-span-1 px-4 py-4 bg-gray-300 rounded-md">
           <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="142px" height="30px" viewBox="0 0 142 30" version="1.1">
             <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
             <title>logo</title>
@@ -58,24 +58,24 @@ get_header();
 
         </div>
 
-        <div class="flex items-center justify-center col-span-1 px-4 py-4 bg-gray-200 rounded-md">
-        <img class="h-32" src="wp-content/themes/buddyboss-theme-child/assets/images/sjf-logo.png" alt="Social Justice Fund Northwest" />
-      </div>
-      <div class="flex items-center justify-center col-span-1 px-4 py-4 bg-gray-200 rounded-md">
-      <img class="h-32" src="wp-content/themes/buddyboss-theme-child/assets/images/stop-aapi-hate.png" alt="Stop AAPI Hate" />
-    </div>
+        <div class="flex items-center justify-center col-span-1 px-4 py-4 bg-gray-300 rounded-md">
+          <img class="h-32" src="/wp-content/themes/buddyboss-theme-child/assets/images/sjf-logo.png" alt="Social Justice Fund Northwest" />
+        </div>
+        <div class="flex items-center justify-center col-span-1 px-4 py-4 bg-gray-300 rounded-md">
+          <img class="h-32" src="/wp-content/themes/buddyboss-theme-child/assets/images/stop-aapi-hate.png" alt="Stop AAPI Hate" />
+        </div>
 
-    <div class="flex items-center justify-center col-span-1 px-4 py-4 bg-gray-200 rounded-md">
-      <img class="h-32" src="wp-content/themes/buddyboss-theme-child/assets/images/lilith-fund.jpg" alt="Lilith Fund" />
-    </div>
+        <div class="flex items-center justify-center col-span-1 px-4 py-4 bg-gray-300 rounded-md">
+          <img class="h-32" src="/wp-content/themes/buddyboss-theme-child/assets/images/lilith-fund.png" alt="Lilith Fund" />
+        </div>
 
-    <div class="flex items-center justify-center col-span-1 px-4 py-4 bg-gray-200 rounded-md">
-      <img class="h-32" src="wp-content/themes/buddyboss-theme-child/assets/images/the_nature_conservency_logo.svg" alt="The Nature Conservancy" />
-    </div>
+        <div class="flex items-center justify-center col-span-1 px-4 py-4 bg-gray-300 rounded-md">
+          <img class="h-32" src="/wp-content/themes/buddyboss-theme-child/assets/images/the_nature_conservency_logo.svg" alt="The Nature Conservancy" />
+        </div>
 
-    
 
-    
+
+
 
 
       </div>
