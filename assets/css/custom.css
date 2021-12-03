@@ -105,3 +105,9 @@ figcaption {
     margin-bottom: 10px;
 }
 
+// WooCommerce store notice
+
+/* demo store notice */
+.woocommerce-store-notice, p.demo_store {
+    background-color: #6cabdd !important;
+  }
