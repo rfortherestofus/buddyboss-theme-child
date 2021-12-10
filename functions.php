@@ -383,3 +383,10 @@ add_action( 'wp_enqueue_scripts', 'photomania_pro_child_style' );
 }
 
 
+// Change dismiss in Woo store notice to X
+// https://wordpress.org/support/topic/store-notice-edit-the-word-dismiss-to-ok/#post-10419006
+
+function jp_replace_dismiss( $notice ){
+	return str_replace( 'Dismiss', 'X', $notice );
+}
+add_filter( 'woocommerce_demo_store','jp_replace_dismiss' );
