@@ -18,7 +18,7 @@ get_header();
 
     <div>
       <h1 class="leading-none rru-page-title">
-        Thanks for a great 2021
+        Thanks for a great 2021!
       </h1>
 
     </div>
