@@ -10,7 +10,7 @@
     "a     uthor": "",
     "l   icense": "ISC",
     "dependencies": {
-        "@tailwindcss/aspect-ratio": "^0.2.0",
+        "@tailwindcss/aspect-ratio": "^0.2.2",
         "@tailwindcss/postcss7-compat": "^2.0.2",
         "@tailwindcss/typography": "^0.1.4",
         "animate.css": "^4.1.0",
@@ -19,6 +19,5 @@
         "postcss-cli": "^7.1.1",
         "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.0.2",
         "tailwindcss-filters": "^3.0.0"
-    },
-    "devDependencies": {}
+    }
 }
