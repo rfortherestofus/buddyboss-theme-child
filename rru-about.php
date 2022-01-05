@@ -165,9 +165,9 @@ get_header();
 
     </div>
 
-    <div class="max-w-screen-xl px-4 py-12 mx-auto mt-12 sm:px-6 lg:px-8 lg:py-24" id="consultants">
+    <div class="max-w-screen-xl px-4 py-12 mx-auto mt-12 sm:px-6 lg:px-8 lg:py-24">
     
-      <div class="space-y-12 lg:grid lg:grid-cols-3 lg:gap-8 lg:space-y-0">
+      <div id="consultants" class="space-y-12 lg:grid lg:grid-cols-3 lg:gap-8 lg:space-y-0">
         <div class="space-y-5 sm:space-y-4">
           <h2 class="text-3xl font-extrabold leading-9 tracking-tight sm:text-4xl">Consultants</h2>
           <p class="text-xl leading-7 text-gray-600">Projects often require a range of skills. I partner with talented R users to get the job done.</p>
