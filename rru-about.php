@@ -45,7 +45,7 @@ get_header();
 
     <!-- For you / for your team  -->
 
-    <div class="py-24 bg-white">
+    <div class="py-24 bg-white"
       <div class="max-w-xl px-4 mx-auto sm:px-6 lg:max-w-screen-xl lg:px-8">
         <div class="lg:grid lg:grid-cols-2 lg:gap-8">
 
@@ -165,7 +165,7 @@ get_header();
 
     </div>
 
-    <div class="max-w-screen-xl px-4 py-12 mx-auto mt-12 sm:px-6 lg:px-8 lg:py-24">
+    <div class="max-w-screen-xl px-4 py-12 mx-auto mt-12 sm:px-6 lg:px-8 lg:py-24" id="consultants">
     
       <div class="space-y-12 lg:grid lg:grid-cols-3 lg:gap-8 lg:space-y-0">
         <div class="space-y-5 sm:space-y-4">
