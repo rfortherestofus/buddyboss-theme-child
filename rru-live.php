@@ -29,7 +29,7 @@ get_header();
 </p>
 
         <p class="text-xl leading-relaxed text-blue-800">
-        <a href="https://github.com/rfortherestofus/live">Code used in live streams is available on GitHub</a>.
+        Code used in live streams is <a href="https://github.com/rfortherestofus/live">available on GitHub</a>.
 </p>
           </div>
         </div>
