@@ -22,16 +22,12 @@ get_header();
 
           
         <p class="text-xl leading-relaxed text-blue-800">
-          I often stream myself livecoding in R. When I go live, it will appear below.
-
-
-
-
-
-
-
-
+          I often stream myself livecoding in R. When I go live, it will appear below. You can also <a href="https://www.youtube.com/channel/UCSoUNu8x-HblqqOK_EwdZGw">subscribe to the R for the Rest of Us channel on YouTube</a>.
         </p>
+
+        <p class="text-xl leading-relaxed text-blue-800">
+        <a href="https://github.com/rfortherestofus/live">Code used in live streams is available on GitHub</a>.
+</p>
           </div>
         </div>
         <div class="px-8 pt-6 pb-2 bg-blue-500 rounded-lg lg:col-span-3">
