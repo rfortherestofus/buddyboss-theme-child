@@ -382,4 +382,3 @@ add_action( 'wp_enqueue_scripts', 'photomania_pro_child_style' );
 	wp_enqueue_style( 'child-style',get_stylesheet_directory_uri() . '/style.css',array('parent-style'));
   wp_enqueue_script( 'photomania-child-custom-js', get_stylesheet_directory_uri() . 'assets/js/custom.js', array('jquery'), '' , true );
 }
-
