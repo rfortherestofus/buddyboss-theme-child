@@ -30,15 +30,15 @@ get_header();
 
               </h1>
               <p class="max-w-lg mx-auto mt-6 text-xl text-center text-blue-200 sm:max-w-3xl">
-                Invest in your future by learning the most powerful tool for working with data. 
+                Invest in your future by learning the most powerful tool for working with data.
               </p>
               <p class="max-w-lg mx-auto mt-6 text-xl text-center text-blue-200 sm:max-w-3xl">
-              The next cohort starts in early 2022. Enter your email to be notified. </p> 
+                The next cohort starts March 17. Enter your email to be notified. </p>
 
               <div class="max-w-lg mx-auto">
-              <?php echo do_shortcode("[ninja_form id=23]"); ?>
+                <?php echo do_shortcode("[ninja_form id=23]"); ?>
               </div>
-              
+
             </div>
           </div>
         </div>
@@ -228,17 +228,17 @@ get_header();
                   <path d="M9.352 4C4.456 7.456 1 13.12 1 19.36c0 5.088 3.072 8.064 6.624 8.064 3.36 0 5.856-2.688 5.856-5.856 0-3.168-2.208-5.472-5.088-5.472-.576 0-1.344.096-1.536.192.48-3.264 3.552-7.104 6.624-9.024L9.352 4zm16.512 0c-4.8 3.456-8.256 9.12-8.256 15.36 0 5.088 3.072 8.064 6.624 8.064 3.264 0 5.856-2.688 5.856-5.856 0-3.168-2.304-5.472-5.184-5.472-.576 0-1.248.096-1.44.192.48-3.264 3.456-7.104 6.528-9.024L25.864 4z" />
                 </svg>
                 <p class="relative text-white">
-                  R has enabled me to explore my data more deeply and take control of my data visualizations. I would highly recommend the R in 3 Months program to anyone who wants to learn R.
+                  I joined the R in 3 Months with high expectations, and my expectations were blown away. The level of individualized coaching and feedback was extraordinary. I highly recommend making time to take this course!
                 </p>
               </div>
               <footer class="mt-8">
                 <div class="flex items-start">
                   <div class="inline-flex flex-shrink-0 border-2 border-white rounded-full">
-                    <img class="w-12 h-12 rounded-full" src="../wp-content/themes/buddyboss-theme-child/assets/images/ibrah-sendide.jpeg" alt="Ibrah Sendide">
+                    <img class="w-12 h-12 rounded-full" src="../wp-content/themes/buddyboss-theme-child/assets/images/crw.jpeg" alt="Catherine Roller White">
                   </div>
                   <div class="ml-4">
-                    <div class="text-base font-medium text-white">Ibrah Sendide</div>
-                    <div class="text-base font-medium text-blue-200">PhD Candidate, University of the Witwatersrand</div>
+                    <div class="text-base font-medium text-white">Catherine Roller White</div>
+                    <div class="text-base font-medium text-blue-200">CRW Consulting</div>
                   </div>
                 </div>
               </footer>
@@ -271,44 +271,54 @@ get_header();
         </div>
         <div class="mx-auto max-w-7xl md:grid md:grid-cols-2 md:px-6 lg:px-8">
           <div class="px-4 py-12 sm:px-6 md:flex md:flex-col md:py-16 md:pl-0 md:pr-10 md:border-r md:border-gray-900 lg:pr-16">
-
             <blockquote class="mt-6 md:flex-grow md:flex md:flex-col">
               <div class="relative text-lg font-medium text-white md:flex-grow">
                 <svg class="absolute top-0 left-0 w-8 h-8 text-blue-600 transform -translate-x-3 -translate-y-2" fill="currentColor" viewBox="0 0 32 32" aria-hidden="true">
                   <path d="M9.352 4C4.456 7.456 1 13.12 1 19.36c0 5.088 3.072 8.064 6.624 8.064 3.36 0 5.856-2.688 5.856-5.856 0-3.168-2.208-5.472-5.088-5.472-.576 0-1.344.096-1.536.192.48-3.264 3.552-7.104 6.624-9.024L9.352 4zm16.512 0c-4.8 3.456-8.256 9.12-8.256 15.36 0 5.088 3.072 8.064 6.624 8.064 3.264 0 5.856-2.688 5.856-5.856 0-3.168-2.304-5.472-5.184-5.472-.576 0-1.248.096-1.44.192.48-3.264 3.456-7.104 6.528-9.024L25.864 4z" />
                 </svg>
                 <p class="relative text-white">
-                  I joined the R in 3 Months with high expectations, and my expectations were blown away. The level of individualized coaching and feedback was extraordinary. I highly recommend making time to take this course!
+                I feel like searching the internet for help with R is like looking for a very specific needle across a giant field of haystacks, and [David and Charlie] are the metal detectors that get us where we need to be more quickly.
                 </p>
               </div>
               <footer class="mt-8">
                 <div class="flex items-start">
                   <div class="inline-flex flex-shrink-0 border-2 border-white rounded-full">
-                    <img class="w-12 h-12 rounded-full" src="../wp-content/themes/buddyboss-theme-child/assets/images/crw.jpeg" alt="Catherine Roller White">
+                    <img class="w-12 h-12 rounded-full" src="../wp-content/themes/buddyboss-theme-child/assets/images/hannah-koenker.jpeg" alt="Hannah Koenker">
                   </div>
                   <div class="ml-4">
-                    <div class="text-base font-medium text-white">Catherine Roller White</div>
-                    <div class="text-base font-medium text-blue-200">CRW Consulting</div>
+                    <div class="text-base font-medium text-white">Hannah Koenker</div>
+                    <div class="text-base font-medium text-blue-200">Technical Director, Tropical Health</div>
                   </div>
                 </div>
               </footer>
             </blockquote>
+
+
           </div>
 
           <div class="px-4 py-12 border-t-2 border-blue-900 sm:px-6 md:py-16 md:pr-0 md:pl-10 md:border-t-0 md:border-l lg:pl-16">
 
-            
-              <div class="px-4 py-12 mx-auto mb-16 text-center max-w-7xl sm:px-6 lg:pt-24 lg:pb-12 lg:px-8">
-              
-                <div class="flex justify-center mt-8">
-                  <div class="inline-flex rounded-md shadow">
-                    
-                    
-                  </div>
-
-                </div>
+          <blockquote class="mt-6 md:flex-grow md:flex md:flex-col">
+              <div class="relative text-lg font-medium text-white md:flex-grow">
+                <svg class="absolute top-0 left-0 w-8 h-8 text-blue-600 transform -translate-x-3 -translate-y-2" fill="currentColor" viewBox="0 0 32 32" aria-hidden="true">
+                  <path d="M9.352 4C4.456 7.456 1 13.12 1 19.36c0 5.088 3.072 8.064 6.624 8.064 3.36 0 5.856-2.688 5.856-5.856 0-3.168-2.208-5.472-5.088-5.472-.576 0-1.344.096-1.536.192.48-3.264 3.552-7.104 6.624-9.024L9.352 4zm16.512 0c-4.8 3.456-8.256 9.12-8.256 15.36 0 5.088 3.072 8.064 6.624 8.064 3.264 0 5.856-2.688 5.856-5.856 0-3.168-2.304-5.472-5.184-5.472-.576 0-1.248.096-1.44.192.48-3.264 3.456-7.104 6.528-9.024L25.864 4z" />
+                </svg>
+                <p class="relative text-white">
+                  R has enabled me to explore my data more deeply and take control of my data visualizations. I would highly recommend the R in 3 Months program to anyone who wants to learn R.
+                </p>
               </div>
-            
+              <footer class="mt-8">
+                <div class="flex items-start">
+                  <div class="inline-flex flex-shrink-0 border-2 border-white rounded-full">
+                    <img class="w-12 h-12 rounded-full" src="../wp-content/themes/buddyboss-theme-child/assets/images/ibrah-sendide.jpeg" alt="Ibrah Sendide">
+                  </div>
+                  <div class="ml-4">
+                    <div class="text-base font-medium text-white">Ibrah Sendide</div>
+                    <div class="text-base font-medium text-blue-200">PhD Candidate, University of the Witwatersrand</div>
+                  </div>
+                </div>
+              </footer>
+            </blockquote>
           </div>
         </div>
       </section>
@@ -468,73 +478,73 @@ get_header();
             <p class="mt-5 text-lg text-gray-300">Sessions will be held on Zoom Thursdays from 10:00am to 11:00am Pacific time, with recordings available the next day.</p>
             <div class="grid grid-cols-1 mt-12 gap-y-12 gap-x-6 sm:grid-cols-2">
               <p>
-                <span class="block text-2xl font-bold text-white">September 16</span>
+                <span class="block text-2xl font-bold text-white">Week 1</span>
                 <span class="block mt-1 text-base text-gray-300">Introductions and discussion of Getting Started with R</span>
               </p>
 
               <p>
-                <span class="block text-2xl font-bold text-white">September 23</span>
+                <span class="block text-2xl font-bold text-white">Week 2</span>
                 <span class="block mt-1 text-base text-gray-300">Fundamentals of RMarkdown</span>
               </p>
 
               <p>
-                <span class="block text-2xl font-bold text-white">September 30</span>
+                <span class="block text-2xl font-bold text-white">Week 3</span>
                 <span class="block mt-1 text-base text-gray-300">Fundamentals of Data Wrangling</span>
               </p>
 
               <p>
-                <span class="block text-2xl font-bold text-white">October 7</span>
+                <span class="block text-2xl font-bold text-white">Week 4</span>
                 <span class="block mt-1 text-base text-gray-300">Fundamentals of Data Visualization</span>
               </p>
 
               <p>
-                <span class="block text-2xl font-bold text-white">October 14</span>
+                <span class="block text-2xl font-bold text-white">Week 5</span>
                 <span class="block mt-1 text-base text-gray-300">Catch-Up Week</span>
               </p>
 
 
               <p>
-                <span class="block text-2xl font-bold text-white">October 21</span>
+                <span class="block text-2xl font-bold text-white">Week 6</span>
                 <span class="block mt-1 text-base text-gray-300">Git and GitHub</span>
               </p>
 
               <p>
-                <span class="block text-2xl font-bold text-white">October 28</span>
+                <span class="block text-2xl font-bold text-white">Week 7</span>
                 <span class="block mt-1 text-base text-gray-300">Advanced Data Wrangling, Part 1</span>
               </p>
 
               <p>
-                <span class="block text-2xl font-bold text-white">November 4</span>
+                <span class="block text-2xl font-bold text-white">Week 8</span>
                 <span class="block mt-1 text-base text-gray-300">Advanced Data Wrangling, Part 2</span>
               </p>
 
               <p>
-                <span class="block text-2xl font-bold text-white">November 11</span>
+                <span class="block text-2xl font-bold text-white">Week 9</span>
                 <span class="block mt-1 text-base text-gray-300">Catch-Up Week</span>
               </p>
 
               <p>
-                <span class="block text-2xl font-bold text-white">November 18</span>
+                <span class="block text-2xl font-bold text-white">Week 10</span>
                 <span class="block mt-1 text-base text-gray-300">Advanced Data Visualization, Part 1</span>
               </p>
 
               <p>
-                <span class="block text-2xl font-bold text-white">November 25</span>
-                <span class="block mt-1 text-base text-gray-300">Catch-Up Week (US Thanksgiving)</span>
+                <span class="block text-2xl font-bold text-white">Week 11</span>
+                <span class="block mt-1 text-base text-gray-300">Catch-Up Week</span>
               </p>
 
               <p>
-                <span class="block text-2xl font-bold text-white">December 2</span>
+                <span class="block text-2xl font-bold text-white">Week 12</span>
                 <span class="block mt-1 text-base text-gray-300">Advanced Data Visualization, Part 2</span>
               </p>
 
               <p>
-                <span class="block text-2xl font-bold text-white">December 9</span>
+                <span class="block text-2xl font-bold text-white">Week 13</span>
                 <span class="block mt-1 text-base text-gray-300">Advanced RMarkdown</span>
               </p>
 
               <p>
-                <span class="block text-2xl font-bold text-white">December 16</span>
+                <span class="block text-2xl font-bold text-white">Week 14</span>
                 <span class="block mt-1 text-base text-gray-300">Wrap Up</span>
               </p>
 
@@ -800,7 +810,7 @@ get_header();
               </dt>
               <dd class="mt-2 md:mt-0 md:col-span-7">
                 <p class="text-base text-gray-500">
-                  If you are unsatisfied with R in 3 Months for any reason, contact me before October 14 and I will give you a full refund, no questions asked.
+                  If you are unsatisfied with R in 3 Months for any reason, contact me in the first two weeks of R in 3 Months and I will give you a full refund, no questions asked.
                 </p>
               </dd>
             </div>
@@ -815,7 +825,7 @@ get_header();
 
 
     <!-- This example requires Tailwind CSS v2.0+ -->
-  
+
 
 
   </main><!-- #main -->
