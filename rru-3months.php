@@ -277,7 +277,7 @@ get_header();
                   <path d="M9.352 4C4.456 7.456 1 13.12 1 19.36c0 5.088 3.072 8.064 6.624 8.064 3.36 0 5.856-2.688 5.856-5.856 0-3.168-2.208-5.472-5.088-5.472-.576 0-1.344.096-1.536.192.48-3.264 3.552-7.104 6.624-9.024L9.352 4zm16.512 0c-4.8 3.456-8.256 9.12-8.256 15.36 0 5.088 3.072 8.064 6.624 8.064 3.264 0 5.856-2.688 5.856-5.856 0-3.168-2.304-5.472-5.184-5.472-.576 0-1.248.096-1.44.192.48-3.264 3.456-7.104 6.528-9.024L25.864 4z" />
                 </svg>
                 <p class="relative text-white">
-                I feel like searching the internet for help with R is like looking for a very specific needle across a giant field of haystacks, and [David and Charlie] are the metal detectors that get us where we need to be more quickly.
+                  I feel like searching the internet for help with R is like looking for a very specific needle across a giant field of haystacks, and [David and Charlie] are the metal detectors that get us where we need to be more quickly.
                 </p>
               </div>
               <footer class="mt-8">
@@ -298,7 +298,7 @@ get_header();
 
           <div class="px-4 py-12 border-t-2 border-blue-900 sm:px-6 md:py-16 md:pr-0 md:pl-10 md:border-t-0 md:border-l lg:pl-16">
 
-          <blockquote class="mt-6 md:flex-grow md:flex md:flex-col">
+            <blockquote class="mt-6 md:flex-grow md:flex md:flex-col">
               <div class="relative text-lg font-medium text-white md:flex-grow">
                 <svg class="absolute top-0 left-0 w-8 h-8 text-blue-600 transform -translate-x-3 -translate-y-2" fill="currentColor" viewBox="0 0 32 32" aria-hidden="true">
                   <path d="M9.352 4C4.456 7.456 1 13.12 1 19.36c0 5.088 3.072 8.064 6.624 8.064 3.36 0 5.856-2.688 5.856-5.856 0-3.168-2.208-5.472-5.088-5.472-.576 0-1.344.096-1.536.192.48-3.264 3.552-7.104 6.624-9.024L9.352 4zm16.512 0c-4.8 3.456-8.256 9.12-8.256 15.36 0 5.088 3.072 8.064 6.624 8.064 3.264 0 5.856-2.688 5.856-5.856 0-3.168-2.304-5.472-5.184-5.472-.576 0-1.248.096-1.44.192.48-3.264 3.456-7.104 6.528-9.024L25.864 4z" />
@@ -820,13 +820,116 @@ get_header();
       </div>
     </div>
 
+    <div class="max-w-3xl mx-auto px-4 bg-gradient-to-r from-blue-800 to-blue-700">
+
+
+      <div class="pt-12 mt-24 sm:pt-16 lg:pt-24" id="pricing">
+        <div class="max-w-3xl px-4 mx-auto text-center sm:px-6 lg:px-8">
+          <div class="max-w-3xl mx-auto space-y-2">
+
+            <h2 class="text-lg font-semibold leading-6 tracking-wider text-gray-200 uppercase">
+              Pricing
+            </h2>
+            <p class="text-3xl font-extrabold leading-9 text-white sm:text-4xl sm:leading-10 lg:text-5xl lg:leading-none">
+              Learning R is an investment in your future
+            </p>
+            <p class="text-xl leading-7 text-gray-300">
+              Discounts available for groups of three or more. <a href="/contact">Email for info</a>.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="pb-12 mt-8  sm:mt-12 sm:pb-16 lg:mt-16 lg:pb-24">
+        <div class="relative">
+          <div class="absolute inset-0 bg-gradient-to-r from-blue-800 to-blue-700 h-3/4"></div>
+          <div class="relative z-10 max-w-screen-xl px-4 mx-auto sm:px-6 lg:px-8">
+            <div class="max-w-md mx-auto">
+              <div class="flex flex-col overflow-hidden rounded-lg shadow-lg">
+
+              </div>
+              <div class="flex flex-col overflow-hidden rounded-lg shadow-lg">
+                <div class="px-6 py-8 bg-white sm:p-10 sm:pb-0">
+                  <div>
+                    <h3 class="inline-flex px-4 py-1 text-sm font-semibold leading-5 tracking-wide text-blue-600 uppercase bg-blue-100 rounded-full" id="tier-standard">
+                      One-time cost
+                    </h3>
+                  </div>
+                  <div class="flex items-baseline text-6xl font-extrabold leading-none">
+                    <?php echo do_shortcode("[iconic_product_price id='15772']"); ?>
+
+
+                  </div>
+                  <p class="mt-2 text-lg leading-7 text-gray-600">
+
+                  </p>
+
+                </div>
+                <div class="flex flex-col justify-between flex-1 px-6 pt-6 pb-8 space-y-6 bg-gray-100 sm:p-10 sm:pt-6">
+
+                  <div class="rounded-md shadow">
+                    <a href="#primary" class="flex items-center justify-center px-5 py-3 text-base font-medium leading-6 text-white transition duration-150 ease-in-out bg-blue-600 border border-transparent rounded-md hover:bg-blue-500 focus:outline-none focus:shadow-outline hover:text-white" aria-describedby="tier-standard">
+                      Notify me when registration opens
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+
+            </div>
+          </div>
+        </div>
+        <div class="relative max-w-screen-xl px-4 mx-auto mt-4 sm:px-6 lg:px-8 lg:mt-8">
+          <div class="max-w-md mx-auto">
+            <div class="px-6 py-8 bg-white rounded-lg sm:p-10 lg:flex lg:items-center">
+              <div class="flex-1">
+                <div>
+                  <h3 class="inline-flex px-4 py-1 text-sm font-semibold leading-5 tracking-wide text-blue-600 uppercase bg-blue-100 rounded-full" id="tier-standard">
+                    Purchasing Power Parity
+                  </h3>
+                </div>
+                <div class="mt-0 text-lg leading-7 text-gray-600">
+                  As part of my commitment to make R in 3 Months accessible to as many people as possible,
+                  I adjust prices using <a href="https://www.investopedia.com/terms/p/parity.asp#:~:text=Purchasing%20Power%20Parity%20(PPP)%20is,rates%20between%20the%20two%20countries.">purchasing power parity</a>.
+                  If you are in a lower income country, the prices above will be 50% off the price for those in wealthy countries.
+
+
+                </div>
+              </div>
+
+            </div>
 
 
 
 
-    <!-- This example requires Tailwind CSS v2.0+ -->
+
+          </div>
+        </div>
+      </div>
+    </div>
 
 
+    <div class="relative mt-16 bg-gray-800 hidden" id="scholarship">
+      <div class="h-56 bg-blue-600 sm:h-72 md:absolute md:left-0 md:h-full md:w-1/2">
+        <img class="object-cover w-full h-full" src="../wp-content/themes/buddyboss-theme-child/assets/images/scholarship-program.jpg" alt="Two people working at a computer">
+      </div>
+      <div class="relative px-4 py-12 mx-auto max-w-7xl sm:px-6 lg:px-8 lg:py-16">
+        <div class="md:ml-auto md:w-1/2 md:pl-10">
+          <!-- <h2 class="text-base font-semibold tracking-wider text-gray-300 uppercase">
+        Award winning support
+      </h2> -->
+          <h2 class="mt-2 text-3xl font-extrabold tracking-tight text-white sm:text-4xl">
+            Scholarship Program
+          </h2>
+          <p class="mt-3 text-lg text-gray-300">
+            I want to make R accessible to as many people as possible so I am offering three scholarships for R in 3 Months.
+            I will prioritize those underrepresented in the R community in deciding who will receive the scholarships.
+          </p>
+          <div class="mt-8">
+            <?php echo do_shortcode("[ninja_form id=26]"); ?>
+          </div>
+        </div>
+      </div>
+    </div>
 
   </main><!-- #main -->
 </div><!-- #primary -->

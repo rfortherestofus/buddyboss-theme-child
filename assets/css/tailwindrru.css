@@ -1051,6 +1051,10 @@ html {
   height: 10rem;
 }
 
+.h-56 {
+  height: 14rem;
+}
+
 .h-80 {
   height: 20rem;
 }
@@ -1310,10 +1314,6 @@ html {
 
 .mt-16 {
   margin-top: 4rem;
-}
-
-.mb-16 {
-  margin-bottom: 4rem;
 }
 
 .mb-20 {
@@ -2020,6 +2020,10 @@ html {
     align-items: flex-start;
   }
 
+  .sm\:h-72 {
+    height: 18rem;
+  }
+
   .sm\:text-sm {
     font-size: 0.875rem;
     line-height: 1.25rem;
@@ -2315,6 +2319,10 @@ html {
     flex-shrink: 0;
   }
 
+  .md\:h-full {
+    height: 100%;
+  }
+
   .md\:text-lg {
     font-size: 1.125rem;
     line-height: 1.75rem;
@@ -2351,6 +2359,10 @@ html {
 
   .md\:ml-4 {
     margin-left: 1rem;
+  }
+
+  .md\:ml-auto {
+    margin-left: auto;
   }
 
   .md\:max-w-2xl {
@@ -2433,6 +2445,14 @@ html {
 
   .md\:pt-16 {
     padding-top: 4rem;
+  }
+
+  .md\:absolute {
+    position: absolute;
+  }
+
+  .md\:left-0 {
+    left: 0px;
   }
 
   .md\:w-1\/2 {
@@ -2647,10 +2667,6 @@ html {
 
   .lg\:pt-12 {
     padding-top: 3rem;
-  }
-
-  .lg\:pb-12 {
-    padding-bottom: 3rem;
   }
 
   .lg\:pr-16 {
