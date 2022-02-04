@@ -253,7 +253,7 @@ get_header();
 
                     </div>
                     <div class="text-lg leading-7">
-                      <p class="text-gray-600">Cara is a UK-based consultant specialising in datavisualisations and parameterised reports. She is passionate about helping people make sense of data and automating processes to help organisations tell their stories.</p>
+                      <p class="text-gray-600">Cara is a UK-based consultant specialising in data visualisations and parameterised reports. She is passionate about helping people make sense of data and automating processes to help organisations tell their stories.</p>
                     </div>
                     <a href="https://twitter.com/cararthompson" class="text-gray-400 transition duration-150 ease-in-out hover:text-gray-500">
                       <span class="sr-only">Twitter</span>
