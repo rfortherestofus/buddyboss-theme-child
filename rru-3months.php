@@ -38,7 +38,7 @@ get_header();
                     Invest in your future by learning the most powerful tool for working with data.
                   </p>
                   <p class="mt-3 text-base text-gray-500 sm:mt-5 sm:text-xl lg:text-lg xl:text-xl">
-                    The next cohort starts March 17. Enter your email to be notified when registration opens.
+                    The next cohort starts March 17. Enter your email to be notified when registration opens the week of February 15.
                   </p>
                   <div class="mt-8 sm:max-w-lg sm:mx-auto sm:text-center lg:text-left lg:mx-0">
 
