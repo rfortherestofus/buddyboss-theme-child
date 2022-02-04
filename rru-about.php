@@ -244,7 +244,7 @@ get_header();
               <div class="space-y-4 sm:grid sm:grid-cols-3 sm:items-start sm:gap-6 sm:space-y-0">
                 
                 <div class="relative pb-2/3 sm:pt-2/3">
-                  <img class="rounded-full ring ring-gray-300 ring-8" src="/wp-content/themes/buddyboss-theme-child/assets/images/cara-thompson.jpg" alt="Charlie Hadley">
+                  <img class="rounded-full ring ring-gray-300 ring-8" src="/wp-content/themes/buddyboss-theme-child/assets/images/cara-thompson.png" alt="Cara Thompson">
                 </div>
                 <div class="sm:col-span-2">
                   <div class="space-y-4">
