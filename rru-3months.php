@@ -63,9 +63,15 @@ get_header();
 
 
 
-                    <div class="muse-video-player" data-video="5T2LNhw" data-search="0" data-links="0" data-subtitles="auto" data-logo="0" data-title="0" data-autoplay="1" data-volume="0" data-width="100%"></div>
+                    <div class="muse-video-player" data-video="5T2LNhw" data-search="0" data-links="0" data-subtitles="auto" data-logo="0" data-title="0" data-autoplay="1" data-volume="0" data-width="100%" data-style="minimal"></div>
                     <script src="https://muse.ai/static/js/embed-player.min.js"></script>
 
+                    <!-- <div class="aspect-w-16 aspect-h-9">
+                      <iframe src="https://www.youtube.com/embed/r9jwGansp1E" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div> -->
+                    <!-- <div class="aspect-w-16 aspect-h-9">
+                      <iframe src="https://www.youtube.com/embed/E7yG3NJVRQ8?cc_load_policy=1&autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div> -->
 
 
 
