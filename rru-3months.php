@@ -887,7 +887,7 @@ get_header();
           <div class="relative">
             <div class="absolute inset-0 bg-gradient-to-r from-blue-800 to-blue-700 h-3/4"></div>
             <div class="relative z-10 max-w-screen-xl px-4 mx-auto sm:px-6 lg:px-8">
-              <div class="mx-auto">
+              <div class="max-w-md mx-auto">
                 <div class="flex flex-col overflow-hidden rounded-lg shadow-lg">
 
                 </div>

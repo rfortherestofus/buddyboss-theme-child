@@ -161,6 +161,7 @@ add_shortcode('iconic_product_price', 'iconic_woo_product_price_shortcode');
 
 
 
+
 // Make phone number optional on Woo checkout. See https://woorkup.com/make-phone-number-field-required-checkout-woocommerce/
 
 add_filter('woocommerce_billing_fields', 'wc_npr_filter_phone', 10, 1);
