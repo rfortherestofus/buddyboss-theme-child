@@ -604,6 +604,39 @@ get_header();
 
       </div>
 
+      <!--
+  This example requires Tailwind CSS v2.0+ 
+  
+  This example requires some changes to your config:
+  
+  ```
+  // tailwind.config.js
+  module.exports = {
+    // ...
+    plugins: [
+      // ...
+      require('@tailwindcss/aspect-ratio'),
+    ],
+  }
+  ```
+-->
+      <div class="bg-white py-12 px-4 sm:px-6 lg:px-8 lg:py-32">
+        <div class="mx-auto max-w-xl mb-8">
+          <div class="space-y-12">
+            <div class="space-y-5 sm:space-y-4 md:max-w-xl lg:max-w-3xl xl:max-w-none">
+              <h2 class="text-3xl font-extrabold tracking-tight sm:text-4xl">How Much Can You Learn in 3 Months?</h2>
+              <p class="text-xl text-gray-500">At the end of R in 3 Months, participants submit a final assignment to show what they learned. Here's how far you can go in 3 months.</p>
+            </div>
+
+     
+          </div>
+        </div>
+
+        <div class="muse-video-player max-w-6xl" data-video="4z351fQ" data-search="0" data-links="0" data-logo="0" data-title="0" data-autoplay="0" data-width="100%"></div>
+      </div>
+
+
+
       <!-- This example requires Tailwind CSS v2.0+ -->
       <div class="bg-white" id="instructors">
         <div class="px-4 py-12 mx-auto text-center max-w-7xl sm:px-6 lg:px-8 lg:py-32">

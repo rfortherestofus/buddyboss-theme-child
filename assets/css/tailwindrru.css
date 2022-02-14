@@ -201,7 +201,8 @@ Correct the inability to style clickable types in iOS and Safari.
 */
 
 button,
-[type='button'] {
+[type='button'],
+[type='submit'] {
   -webkit-appearance: button;
 }
 
@@ -1372,6 +1373,10 @@ html {
   max-width: 56rem;
 }
 
+.max-w-6xl {
+  max-width: 72rem;
+}
+
 .max-w-7xl {
   max-width: 80rem;
 }
@@ -2397,6 +2402,10 @@ html {
     margin-left: auto;
   }
 
+  .md\:max-w-xl {
+    max-width: 36rem;
+  }
+
   .md\:max-w-2xl {
     max-width: 42rem;
   }
@@ -2644,6 +2653,10 @@ html {
     max-width: 28rem;
   }
 
+  .lg\:max-w-3xl {
+    max-width: 48rem;
+  }
+
   .lg\:max-w-5xl {
     max-width: 64rem;
   }
@@ -2880,6 +2893,10 @@ html {
 
   .xl\:ml-8 {
     margin-left: 2rem;
+  }
+
+  .xl\:max-w-none {
+    max-width: none;
   }
 
   .xl\:pr-12 {
