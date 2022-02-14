@@ -174,7 +174,7 @@ get_header();
             </p>
 
             <p class="mt-4 text-lg text-gray-600">
-              And, as a bonus, I'm adding lessons on using <a href="https://rfortherestofus.com/2021/02/how-to-use-git-github-with-r/">Git and GitHub with R</a> to this fall's cohort. If you've heard about these powerful tools but never learned how to use them, this is your chance!
+              I've also recently added lessons on using <a href="https://rfortherestofus.com/2021/02/how-to-use-git-github-with-r/">Git and GitHub with R</a>. If you've heard about these powerful tools but never learned how to use them, this is your chance!
             </p>
 
 
