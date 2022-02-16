@@ -766,7 +766,7 @@ get_header();
                   <p class="text-base text-gray-500">
                     Here is a sample video from the spring 2021 cohort of R in 3 Months.
                   </p>
-                  <!-- <iframe width="560" height="315" class="w-full" src="https://app.searchie.io/file/P5qnagr0Nr/embed" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+                  
                     <div class="muse-video-player max-w-6xl" data-video="LXBKMKj" data-search="0" data-links="0" data-logo="0" data-title="0" data-autoplay="0" data-width="100%"></div>
                 </dd>
               </div>
