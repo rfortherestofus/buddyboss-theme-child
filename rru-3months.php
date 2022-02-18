@@ -577,22 +577,17 @@ get_header();
 
                 <p>
                   <span class="block text-2xl font-bold text-white">Week 11</span>
-                  <span class="block mt-1 text-base text-gray-300">Catch-Up Week</span>
+                  <span class="block mt-1 text-base text-gray-300">Advanced Data Visualization, Part 2</span>
                 </p>
 
                 <p>
                   <span class="block text-2xl font-bold text-white">Week 12</span>
-                  <span class="block mt-1 text-base text-gray-300">Advanced Data Visualization, Part 2</span>
+                  <span class="block mt-1 text-base text-gray-300">Advanced RMarkdown</span>
                 </p>
 
                 <p>
                   <span class="block text-2xl font-bold text-white">Week 13</span>
                   <span class="block mt-1 text-base text-gray-300">Advanced RMarkdown</span>
-                </p>
-
-                <p>
-                  <span class="block text-2xl font-bold text-white">Week 14</span>
-                  <span class="block mt-1 text-base text-gray-300">Wrap Up</span>
                 </p>
 
 
