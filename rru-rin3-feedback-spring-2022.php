@@ -1,6 +1,6 @@
 <?php
 /*
- * Template Name: RRU R in 3 Feedback
+ * Template Name: RRU R in 3 Feedback Spring 2022
  */
 
 get_header();
@@ -24,7 +24,7 @@ get_header();
 
 <div id="primary" class="content-area">
 
-  <main class="px-4 mx-auto mt-2 max-w-screen-full visible_to_group_21090">
+  <main class="px-4 mx-auto mt-2 max-w-screen-full visible_to_course_25050">
 
 
     
@@ -69,7 +69,7 @@ get_header();
     </div>
 
 
-    <?php echo do_shortcode("[facetwp template='rin3_feedback_fall_2021']"); ?>
+    <?php echo do_shortcode("[facetwp template='rin3_feedback_spring_2022']"); ?>
 
 
     <div class="flex items-center justify-between px-4 mt-12">
