@@ -41,8 +41,7 @@ get_header();
 
     <div class="md:max-w-3xl">
       <p>
-        This page collects feedback for R in 3 Months (Fall 2021) participants. Use the filters below to find what you're looking for.
-        <a href="https://app.searchie.io/widget/xRLRqV5Dob" target="_blank">You can also search through the text of all videos.</a>
+        This page collects feedback for R in 3 Months (Spring 2022) participants. Use the filters below to find what you're looking for.
         </p>
         </div>
         
