@@ -38,6 +38,10 @@ get_header();
                     Invest in your future by learning the most powerful tool for working with data.
                   </p>
 
+                  <p class="mt-3 mb-10 text-base text-gray-500 sm:mt-5 sm:text-xl lg:text-lg xl:text-xl">
+                    The next cohort starts March 17.
+                  </p>
+
 
                   <a href="?add-to-cart=15772&amp;quantity=1" class="px-5 py-3 text-base font-medium leading-6 text-white transition duration-150 ease-in-out bg-blue-600 border border-transparent rounded-md hover:bg-blue-500 focus:outline-none focus:shadow-outline hover:text-white" aria-describedby="tier-standard">
                     Sign Up Now
