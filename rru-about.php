@@ -20,7 +20,8 @@ get_header();
         <p>I first used R in 2015 at a workshop at the American Evaluation Association conference. I was intrigued, but, since my co-workers at the time used Excel and SPSS, I let my newly learned skills lapse.</p>
 
         <p>In 2016, entering the world of consulting, I decided to give R another shot. I jumped back in, using free online resources to restart my R journey. I taught myself enough that I decided to give R a shot on a project I was working on.
-          <span class="strong">I got a few steps in, hit a roadblock, and had to go back to Excel.</span></p>
+          <span class="strong">I got a few steps in, hit a roadblock, and had to go back to Excel.</span>
+        </p>
 
 
 
@@ -30,7 +31,8 @@ get_header();
         <p>A few weeks later, I tried R again on another project. Same result. I followed this pattern for several months, optimistically thinking I was ready to use R for a project, only to find my skills weren’t quite there yet.</p>
 
         <p>It’s a common story among those of us who teach ourselves R.
-          <span class="strong">Without a guide, we waste time going down the wrong path without realizing where we’re going.</span></p>
+          <span class="strong">Without a guide, we waste time going down the wrong path without realizing where we’re going.</span>
+        </p>
 
 
       </div>
@@ -38,10 +40,10 @@ get_header();
     </div>
 
     <!-- Video  -->
-    
+
     <div class="mx-auto md:w-2/3">
-    <iframe src="https://player.vimeo.com/video/321904809" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
-      </div>
+      <iframe src="https://player.vimeo.com/video/321904809" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+    </div>
 
     <!-- For you / for your team  -->
 
@@ -130,8 +132,8 @@ get_header();
     <div class="mt-8 lg:grid lg:grid-cols-12 lg:gap-8">
       <div class="relative mt-12 mb-4 sm:mb-0 sm:max-w-lg sm:mx-auto lg:mt-0 lg:max-w-none lg:mx-0 lg:col-span-4 lg:flex lg:items-center">
 
-
-        <img class="rounded-full w-half" src="/wp-content/themes/buddyboss-theme-child/assets/images/dk-headshot-new.jpg" alt="David Keyes" />
+      
+        <img class="rounded-full w-half ring ring-blue-800 ring-8" src="/wp-content/themes/buddyboss-theme-child/assets/images/dk-headshot-new.jpg" alt="David Keyes" />
 
       </div>
 
@@ -166,7 +168,7 @@ get_header();
     </div>
 
     <div class="max-w-screen-xl px-4 py-12 mx-auto mt-12 sm:px-6 lg:px-8 lg:py-24" id="consultants">
-    
+
       <div class="space-y-12 lg:grid lg:grid-cols-3 lg:gap-8 lg:space-y-0">
         <div class="space-y-5 sm:space-y-4">
           <h2 class="text-3xl font-extrabold leading-9 tracking-tight sm:text-4xl">Consultants</h2>
@@ -178,7 +180,7 @@ get_header();
               <div class="space-y-4 sm:grid sm:grid-cols-3 sm:items-start sm:gap-6 sm:space-y-0">
                 <!-- Image -->
                 <div class="relative pb-2/3 sm:pt-2/3">
-                <img class="rounded-full ring ring-gray-300 ring-8" src="/wp-content/themes/buddyboss-theme-child/assets/images/thomas-vroylandt.jpeg" alt="Thomas Vroylandt">
+                  <img class="rounded-full ring ring-blue-800 ring-8" src="/wp-content/themes/buddyboss-theme-child/assets/images/thomas-vroylandt.jpeg" alt="Thomas Vroylandt">
                 </div>
                 <div class="sm:col-span-2">
                   <div class="space-y-4">
@@ -209,9 +211,9 @@ get_header();
 
             <li class="sm:py-8">
               <div class="space-y-4 sm:grid sm:grid-cols-3 sm:items-start sm:gap-6 sm:space-y-0">
-                
+
                 <div class="relative pb-2/3 sm:pt-2/3">
-                  <img class="rounded-full ring ring-gray-300 ring-8" src="/wp-content/themes/buddyboss-theme-child/assets/images/charlie.jpeg" alt="Charlie Hadley">
+                  <img class="rounded-full ring ring-blue-800 ring-8" src="/wp-content/themes/buddyboss-theme-child/assets/images/charlie.jpeg" alt="Charlie Hadley">
                 </div>
                 <div class="sm:col-span-2">
                   <div class="space-y-4">
@@ -238,13 +240,13 @@ get_header();
                   </div>
                 </div>
               </div>
-            </li> 
+            </li>
 
             <li class="sm:py-8">
               <div class="space-y-4 sm:grid sm:grid-cols-3 sm:items-start sm:gap-6 sm:space-y-0">
-                
+
                 <div class="relative pb-2/3 sm:pt-2/3">
-                  <img class="rounded-full ring ring-gray-300 ring-8" src="/wp-content/themes/buddyboss-theme-child/assets/images/cara-thompson.png" alt="Cara Thompson">
+                  <img class="rounded-full ring ring-blue-800 ring-8" src="/wp-content/themes/buddyboss-theme-child/assets/images/cara-thompson.png" alt="Cara Thompson">
                 </div>
                 <div class="sm:col-span-2">
                   <div class="space-y-4">
@@ -271,7 +273,48 @@ get_header();
                   </div>
                 </div>
               </div>
-            </li> 
+            </li>
+
+            <li class="sm:py-8">
+              <div class="space-y-4 sm:grid sm:grid-cols-3 sm:items-start sm:gap-6 sm:space-y-0">
+
+                <div class="relative pb-2/3 sm:pt-2/3">
+                  <img class="rounded-full ring ring-blue-800 ring-8" src="/wp-content/themes/buddyboss-theme-child/assets/images/crystal-lewis.jpg" alt="Crystal Lewis">
+                </div>
+                <div class="sm:col-span-2">
+                  <div class="space-y-4">
+                    <div class="space-y-1 text-lg font-medium leading-6">
+                      <h4 class="my-0"><a href="https://github.com/Cghlewis">Crystal Lewis</a></h4>
+
+                    </div>
+                    <div class="text-lg leading-7">
+                      <p class="text-gray-600">
+
+                      Crystal is a US-based consultant with a background in education research data management who enjoys working 
+on problems others may find mundane. She is happiest spending her time wrangling messy data into useable 
+formats, documenting data processes, and improving data management workflows. 
+
+
+
+                      </p>
+                    </div>
+                    <a href="https://twitter.com/Cghlewis" class="text-gray-400 transition duration-150 ease-in-out hover:text-gray-500">
+                      <span class="sr-only">Twitter</span>
+                      <svg class="inline w-5 h-5 mr-3" fill="currentColor" viewBox="0 0 20 20">
+                        <path d="M6.29 18.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0020 3.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.073 4.073 0 01.8 7.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 010 16.407a11.616 11.616 0 006.29 1.84"></path>
+                      </svg>
+                    </a>
+
+                    <a href="https://www.linkedin.com/in/crystal-lewis-922b4193/" class="text-gray-400 transition duration-150 ease-in-out hover:text-gray-500">
+                      <span class="sr-only">LinkedIn</span>
+                      <svg class="inline w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                        <path fill-rule="evenodd" d="M16.338 16.338H13.67V12.16c0-.995-.017-2.277-1.387-2.277-1.39 0-1.601 1.086-1.601 2.207v4.248H8.014v-8.59h2.559v1.174h.037c.356-.675 1.227-1.387 2.526-1.387 2.703 0 3.203 1.778 3.203 4.092v4.711zM5.005 6.575a1.548 1.548 0 11-.003-3.096 1.548 1.548 0 01.003 3.096zm-1.337 9.763H6.34v-8.59H3.667v8.59zM17.668 1H2.328C1.595 1 1 1.581 1 2.298v15.403C1 18.418 1.595 19 2.328 19h15.34c.734 0 1.332-.582 1.332-1.299V2.298C19 1.581 18.402 1 17.668 1z" clip-rule="evenodd"></path>
+                      </svg>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </li>
 
 
 
@@ -279,7 +322,7 @@ get_header();
           </ul>
         </div>
       </div>
-      
+
     </div>
 
 

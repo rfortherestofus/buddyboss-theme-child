@@ -1663,9 +1663,9 @@ html {
   box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
 }
 
-.ring-gray-300 {
+.ring-blue-800 {
   --tw-ring-opacity: 1;
-  --tw-ring-color: rgba(209, 213, 219, var(--tw-ring-opacity));
+  --tw-ring-color: rgba(49, 77, 99, var(--tw-ring-opacity));
 }
 
 .text-center {
