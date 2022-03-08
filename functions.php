@@ -89,8 +89,8 @@ function tailwind_theme_child_scripts_styles()
     | is_page_template('rru-demystifying.php')
     | is_page_template('rru-1pct.php')
     | is_page_template('rru-2021-thank-you.php')
-    | is_singular( 'resource' )
-    | is_singular( 'rin3_feedback' )
+    | is_singular('resource')
+    | is_singular('rin3_feedback')
   ) {
     wp_enqueue_style('tailwindrru', get_stylesheet_directory_uri() . '/assets/css/tailwindrru.css', '', '1.0.0');
   }
@@ -177,38 +177,39 @@ function wc_npr_filter_phone($address_fields)
  * Autocomplete all virtual WooCommerce orders. See https://quadlayers.com/autocomplete-woocommerce-orders/
  */
 
-add_filter( 'woocommerce_payment_complete_order_status', 'auto_complete_virtual_orders', 10, 3 );
+add_filter('woocommerce_payment_complete_order_status', 'auto_complete_virtual_orders', 10, 3);
 
-function auto_complete_virtual_orders( $payment_complete_status, $order_id, $order ) {
-$current_status = $order->get_status();
-// We only want to update the status to 'completed' if it's coming from one of the following statuses:
-$allowed_current_statuses = array( 'on-hold', 'pending', 'failed' );
+function auto_complete_virtual_orders($payment_complete_status, $order_id, $order)
+{
+  $current_status = $order->get_status();
+  // We only want to update the status to 'completed' if it's coming from one of the following statuses:
+  $allowed_current_statuses = array('on-hold', 'pending', 'failed');
 
-if ( 'processing' === $payment_complete_status && in_array( $current_status, $allowed_current_statuses ) ) {
+  if ('processing' === $payment_complete_status && in_array($current_status, $allowed_current_statuses)) {
 
-$order_items = $order->get_items();
+    $order_items = $order->get_items();
 
-// Create an array of products in the order
-$order_products = array_filter( array_map( function( $item ) {
-// Get associated product for each line item
-return $item->get_product();
-}, $order_items ), function( $product ) {
-// Remove non-products
-return !! $product;
-} );
+    // Create an array of products in the order
+    $order_products = array_filter(array_map(function ($item) {
+      // Get associated product for each line item
+      return $item->get_product();
+    }, $order_items), function ($product) {
+      // Remove non-products
+      return !!$product;
+    });
 
-if ( count( $order_products > 0 ) ) {
-// Check if each product is 'virtual'
-$is_virtual_order = array_reduce( $order_products, function( $virtual_order_so_far, $product ) {
-return $virtual_order_so_far && $product->is_virtual();
-}, true );
+    if (count($order_products > 0)) {
+      // Check if each product is 'virtual'
+      $is_virtual_order = array_reduce($order_products, function ($virtual_order_so_far, $product) {
+        return $virtual_order_so_far && $product->is_virtual();
+      }, true);
 
-if ( $is_virtual_order ) {
-$payment_complete_status = 'completed';
-}
-}
-}
-return $payment_complete_status;
+      if ($is_virtual_order) {
+        $payment_complete_status = 'completed';
+      }
+    }
+  }
+  return $payment_complete_status;
 }
 
 // Disable admin emails about user password changes. See https://wordpress.stackexchange.com/questions/206353/disable-email-notification-after-change-of-password
@@ -296,7 +297,7 @@ if (!function_exists('wpdocs_example_get_the_terms')) {
 
     if ($terms && !is_wp_error($terms)) :
 
-     
+
       foreach ($terms as $term) {
         echo '<div class="py-1 pr-2 text-sm font-medium leading-4 text-blue-800';
         echo '-200 rounded-full">';
@@ -317,11 +318,10 @@ if (!function_exists('rin3_feedback_video_meta')) {
 
     if ($terms && !is_wp_error($terms)) :
 
-     
+
       foreach ($terms as $term) {
-    
+
         echo $term->name;
-        
       }
 
     endif;
@@ -337,7 +337,7 @@ if (!function_exists('rin3_feedback_video_meta_participant')) {
 
     if ($terms && !is_wp_error($terms)) :
 
-     
+
       foreach ($terms as $term) {
         echo '<div class="py-1 pr-2 text-sm font-medium leading-4 text-blue-800';
         echo '-200 rounded-full">';
@@ -355,34 +355,35 @@ if (!function_exists('rin3_feedback_video_meta_participant')) {
 
 // Generate custom image size for resources
 
-	
-add_theme_support( 'resource-featured-image' );
-add_image_size( 'resource-featured-image', 400, 225, true);
+
+add_theme_support('resource-featured-image');
+add_image_size('resource-featured-image', 400, 225, true);
 
 // FacetWP
 
 
-add_filter( 'facetwp_assets', function( $assets ) {
+add_filter('facetwp_assets', function ($assets) {
   $assets['custom.css'] = 'assets/css/custom.css';
   return $assets;
 });
 
-add_filter( 'facetwp_facet_html', function( $output, $params ) {
-  if ( 'search' == $params['facet']['type'] ) {
-      $output = str_replace( 'facetwp-facet-search', 'facetwp-facet-search mb-0', $output );
+add_filter('facetwp_facet_html', function ($output, $params) {
+  if ('search' == $params['facet']['type']) {
+    $output = str_replace('facetwp-facet-search', 'facetwp-facet-search mb-0', $output);
   }
   return $output;
-}, 10, 2 );
+}, 10, 2);
 
 
 // Open external links in new tab
 // Source: https://themepalace.com/topic/open-all-external-links-in-new-window/
 
-add_action( 'wp_enqueue_scripts', 'photomania_pro_child_style' );
-  function photomania_pro_child_style() {
-	wp_enqueue_style( 'parent-style', get_template_directory_uri() . '/style.css' );
-	wp_enqueue_style( 'child-style',get_stylesheet_directory_uri() . '/style.css',array('parent-style'));
-  wp_enqueue_script( 'photomania-child-custom-js', get_stylesheet_directory_uri() . 'assets/js/custom.js', array('jquery'), '' , true );
+add_action('wp_enqueue_scripts', 'photomania_pro_child_style');
+function photomania_pro_child_style()
+{
+  wp_enqueue_style('parent-style', get_template_directory_uri() . '/style.css');
+  wp_enqueue_style('child-style', get_stylesheet_directory_uri() . '/style.css', array('parent-style'));
+  wp_enqueue_script('photomania-child-custom-js', get_stylesheet_directory_uri() . 'assets/js/custom.js', array('jquery'), '', true);
 }
 
 
@@ -392,21 +393,27 @@ add_action( 'wp_enqueue_scripts', 'photomania_pro_child_style' );
 add_action('init', 'museai_init');
 add_shortcode('muse-video', 'museai_shortcode_video');
 
-function museai_init() {
-    wp_oembed_add_provider('#https://muse.ai/(v|vc|vd|vt)/.+#', 'https://muse.ai/oembed', true);
-    wp_enqueue_script('museai-embed-player', 'https://muse.ai/static/js/embed-player.min.js');
+function museai_init()
+{
+  wp_oembed_add_provider('#https://muse.ai/(v|vc|vd|vt)/.+#', 'https://muse.ai/oembed', true);
+  wp_enqueue_script('museai-embed-player', 'https://muse.ai/static/js/embed-player.min.js');
 }
 
-function museai_shortcode_video( $atts = [] ) {
-    $embed_id = bin2hex(random_bytes(16));
-    $video_id = preg_replace('/[^a-z0-9%]/i', '', $atts['id']);
-    $width = preg_replace('/[^0-9%]/', '', $atts['width'] ?? '100%');
-    $out = sprintf(
-        '<div id="museai-player-%s" class="mb-4"></div>'.
-        '<script>MusePlayer({container: "#museai-player-%1$s", video: "%s", width: "%s", logo: false, links: false, title: false, download: true})</script>',
-        $embed_id,
-        $video_id,
-	$width
-    );
-    return $out;
+function museai_shortcode_video($atts = [])
+{
+  $embed_id = bin2hex(random_bytes(16));
+  $video_id = preg_replace('/[^a-z0-9%]/i', '', $atts['id']);
+  $width = preg_replace('/[^0-9%]/', '', $atts['width'] ?? '100%');
+  $title = $atts['title'];
+  $download = $atts['download'];
+  $out = sprintf(
+    '<div id="museai-player-%s" class="mb-4"></div>' .
+      '<script>MusePlayer({container: "#museai-player-%1$s", video: "%s", width: "%s", logo: false, links: false, title: "%s", download: "%s"})</script>',
+    $embed_id,
+    $video_id,
+    $width,
+    $title,
+    $download
+  );
+  return $out;
 }
