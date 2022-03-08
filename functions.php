@@ -384,3 +384,29 @@ add_action( 'wp_enqueue_scripts', 'photomania_pro_child_style' );
 	wp_enqueue_style( 'child-style',get_stylesheet_directory_uri() . '/style.css',array('parent-style'));
   wp_enqueue_script( 'photomania-child-custom-js', get_stylesheet_directory_uri() . 'assets/js/custom.js', array('jquery'), '' , true );
 }
+
+
+// Add muse.ai
+// Taken from https://wordpress.org/plugins/muse-ai/
+
+add_action('init', 'museai_init');
+add_shortcode('muse-video', 'museai_shortcode_video');
+
+function museai_init() {
+    wp_oembed_add_provider('#https://muse.ai/(v|vc|vd|vt)/.+#', 'https://muse.ai/oembed', true);
+    wp_enqueue_script('museai-embed-player', 'https://muse.ai/static/js/embed-player.min.js');
+}
+
+function museai_shortcode_video( $atts = [] ) {
+    $embed_id = bin2hex(random_bytes(16));
+    $video_id = preg_replace('/[^a-z0-9%]/i', '', $atts['id']);
+    $width = preg_replace('/[^0-9%]/', '', $atts['width'] ?? '100%');
+    $out = sprintf(
+        '<div id="museai-player-%s" class="mb-4"></div>'.
+        '<script>MusePlayer({container: "#museai-player-%1$s", video: "%s", width: "%s", logo: false, links: false, title: false, download: true})</script>',
+        $embed_id,
+        $video_id,
+	$width
+    );
+    return $out;
+}
