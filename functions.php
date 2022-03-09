@@ -402,7 +402,7 @@ function museai_init()
 function museai_shortcode_video($atts = [])
 {
   $embed_id = bin2hex(random_bytes(16));
-  $video_id = preg_replace('/[^a-z0-9%]/i', '', $atts['id']);
+  $video-id = preg_replace('/[^a-z0-9%]/i', '', $atts['id']);
   $width = preg_replace('/[^0-9%]/', '', $atts['width'] ?? '100%');
   $title = $atts['title'];
   $download = $atts['download'];
@@ -410,7 +410,7 @@ function museai_shortcode_video($atts = [])
     '<div id="museai-player-%s" class="mb-4"></div>' .
       '<script>MusePlayer({container: "#museai-player-%1$s", video: "%s", width: "%s", logo: false, links: false, title: "%s", download: "%s"})</script>',
     $embed_id,
-    $video_id,
+    $video-id,
     $width,
     $title,
     $download
