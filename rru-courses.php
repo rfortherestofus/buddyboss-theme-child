@@ -181,7 +181,7 @@ get_header();
         <div class="flex flex-wrap mt-16 overflow-hidden">
 
             <div class="w-full overflow-hidden md:my-3 md:px-3 md:w-1/2">
-                <a href="/courses/data-cleaning/">
+                <a href="/courses/mapping/">
                     <img class="rounded-sm shadow" src="/wp-content/themes/buddyboss-theme-child/assets/images/mapping.png" alt="Mapping with R" />
                 </a>
             </div>
@@ -201,10 +201,10 @@ get_header();
                         With R, you can make choropleth maps, hexbin maps, you name it. Any type of map you can think of, you can make it in R.
                     </p>
                     <p>
-                    Don’t waste your time and your money learning to make maps in other tools. Get started today and you’ll be making maps in R in no time.
+                        Don’t waste your time and your money learning to make maps in other tools. Get started today and you’ll be making maps in R in no time.
                     </p>
                     <div class="mt-5 mb-20 sm:mt-12">
-                        <a href="/courses/data-cleaning/" class="px-8 py-3 text-base font-medium leading-6 text-white transition duration-150 ease-in-out bg-blue-600 border border-transparent rounded-md hover:text-white hover:bg-blue-500 focus:outline-none focus:border-blue-700 focus:shadow-outline-blue md:py-4 md:text-lg md:px-10">
+                        <a href="/courses/mapping/" class="px-8 py-3 text-base font-medium leading-6 text-white transition duration-150 ease-in-out bg-blue-600 border border-transparent rounded-md hover:text-white hover:bg-blue-500 focus:outline-none focus:border-blue-700 focus:shadow-outline-blue md:py-4 md:text-lg md:px-10">
                             Learn More
                         </a>
 
