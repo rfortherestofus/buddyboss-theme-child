@@ -405,7 +405,7 @@ function museai_shortcode_video($atts = [])
   $video_id = preg_replace('/[^a-z0-9%]/i', '', $atts['id']);
   $width = preg_replace('/[^0-9%]/', '', $atts['width'] ?? '100%');
   $title = $atts['title'];
-  $download = $atts['download'];
+  $download = true ?? $atts['download'];
   $out = sprintf(
     '<script src="https://muse.ai/static/js/embed-player.min.js"></script>'.
     '<div id="museai-player-%s" class="mb-4"></div>' .
