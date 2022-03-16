@@ -39,13 +39,13 @@ get_header();
                   </p>
 
                   <p class="mt-3 mb-10 text-base text-gray-500 sm:mt-5 sm:text-xl lg:text-lg xl:text-xl">
-                    The next cohort starts March 17.
+                    The next cohort starts in September.
                   </p>
 
 
-                  <a href="?add-to-cart=15772&amp;quantity=1" class="px-5 py-3 text-base font-medium leading-6 text-white transition duration-150 ease-in-out bg-blue-600 border border-transparent rounded-md hover:bg-blue-500 focus:outline-none focus:shadow-outline hover:text-white" aria-describedby="tier-standard">
-                    Sign Up Now
-                  </a>
+                  <div class="max-w-lg mx-auto">
+                    <?php echo do_shortcode("[ninja_form id=23]"); ?>
+                  </div>
 
 
 
@@ -219,7 +219,7 @@ get_header();
             <div class="relative px-2 -mx-4 sm:mt-10 lg:mt-0 lg:col-start-1 sm:p-10">
 
               <!-- <iframe width="560" height="315" class="w-full rounded shadow-md" src="https://app.searchie.io/file/OYq9J1QW2n/embed" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
-                <div class="muse-video-player max-w-6xl" data-video="7q1wENR" data-search="0" data-links="0" data-logo="0" data-title="0" data-autoplay="0" data-width="100%"></div>
+              <div class="muse-video-player max-w-6xl" data-video="7q1wENR" data-search="0" data-links="0" data-logo="0" data-title="0" data-autoplay="0" data-width="100%"></div>
 
             </div>
           </div>
@@ -232,7 +232,7 @@ get_header();
 
 
               <!-- <iframe width="560" height="315" class="w-full rounded shadow-md" src="https://app.searchie.io/file/OYq9J1QW2n/embed" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
-                <div class="muse-video-player max-w-6xl" data-video="7q1wENR" data-search="0" data-links="0" data-logo="0" data-title="0" data-autoplay="0" data-width="100%"></div>
+              <div class="muse-video-player max-w-6xl" data-video="7q1wENR" data-search="0" data-links="0" data-logo="0" data-title="0" data-autoplay="0" data-width="100%"></div>
 
             </div>
 
@@ -261,7 +261,7 @@ get_header();
           <div class="relative hidden mt-10 -mx-4 rounded-md lg:mt-0 sm:block">
 
             <!-- <iframe width="560" height="315" class="w-full rounded shadow-md" src="https://app.searchie.io/file/P5qnagr0Nr/embed" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
-              <div class="muse-video-player max-w-6xl" data-video="LXBKMKj" data-search="0" data-links="0" data-logo="0" data-title="0" data-autoplay="0" data-width="100%"></div>
+            <div class="muse-video-player max-w-6xl" data-video="LXBKMKj" data-search="0" data-links="0" data-logo="0" data-title="0" data-autoplay="0" data-width="100%"></div>
 
           </div>
         </div>
@@ -630,7 +630,7 @@ get_header();
               <p class="text-xl text-gray-500">At the end of R in 3 Months, participants submit a final assignment to show what they learned. Here's how far you can go in 3 months.</p>
             </div>
 
-     
+
           </div>
         </div>
 
@@ -765,8 +765,8 @@ get_header();
                   <p class="text-base text-gray-500">
                     Here is a sample video from the spring 2021 cohort of R in 3 Months.
                   </p>
-                  
-                    <div class="muse-video-player max-w-6xl" data-video="LXBKMKj" data-search="0" data-links="0" data-logo="0" data-title="0" data-autoplay="0" data-width="100%"></div>
+
+                  <div class="muse-video-player max-w-6xl" data-video="LXBKMKj" data-search="0" data-links="0" data-logo="0" data-title="0" data-autoplay="0" data-width="100%"></div>
                 </dd>
               </div>
 
@@ -900,10 +900,10 @@ get_header();
         </div>
       </div>
 
-      
 
 
-  
+
+
 
   </main><!-- #main -->
 </div><!-- #primary -->
