@@ -988,28 +988,7 @@ get_header();
       </div>
 
 
-      <div class="relative mt-16 bg-gray-800" id="scholarship">
-        <div class="h-56 bg-blue-600 sm:h-72 md:absolute md:left-0 md:h-full md:w-1/2">
-          <img class="object-cover w-full h-full" src="../wp-content/themes/buddyboss-theme-child/assets/images/scholarship-program.jpg" alt="Two people working at a computer">
-        </div>
-        <div class="relative px-4 py-12 mx-auto max-w-7xl sm:px-6 lg:px-8 lg:py-16">
-          <div class="md:ml-auto md:w-1/2 md:pl-10">
-            <!-- <h2 class="text-base font-semibold tracking-wider text-gray-300 uppercase">
-        Award winning support
-      </h2> -->
-            <h2 class="mt-2 text-3xl font-extrabold tracking-tight text-white sm:text-4xl">
-              Scholarship Program
-            </h2>
-            <p class="mt-3 text-lg text-gray-300">
-              I want to make R accessible to as many people as possible so I am offering three scholarships for R in 3 Months.
-              I will prioritize those underrepresented in the R community in deciding who will receive the scholarships.
-            </p>
-            <div class="mt-8">
-              <?php echo do_shortcode("[ninja_form id=26]"); ?>
-            </div>
-          </div>
-        </div>
-      </div>
+  
 
   </main><!-- #main -->
 </div><!-- #primary -->
