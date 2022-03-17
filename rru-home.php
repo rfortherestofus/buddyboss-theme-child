@@ -29,12 +29,10 @@ get_header();
 
 
       <div class="mx-auto pt-4 md:col-span-4 md:mt-0 md:pt-0">
-      
-        <div class="muse-video-player" data-video="KsyPoF1" data-search="0" data-links="0" data-subtitles="0" data-logo="0" data-title="0" data-autoplay="1" data-volume="0" data-width="100%" data-style="minimal"></div>
-                    <script src="https://muse.ai/static/js/embed-player.min.js"></script>
 
-                    
         
+        <iframe src="https://muse.ai/embed/KsyPoF1?search=0&links=0&logo=0&title=0&autoplay=1&volume=0&style=minimal" width="576" height="324" frameborder="0" allowfullscreen></iframe>
+
       </div>
     </div>
 
