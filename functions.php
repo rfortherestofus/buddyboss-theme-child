@@ -433,7 +433,7 @@ function museai_shortcode_collection($atts = [])
 
   $out = sprintf(
     '<script src="https://muse.ai/static/js/embed-search.min.js"></script>'.
-    '<div id="muse-search"></div><div id="muse-videos-grid"></div><script src="https://muse.ai/static/js/embed-search.min.js"></script>'.
+    '<div class="mb-4" id="muse-search"></div><div id="muse-videos-grid"></div><script src="https://muse.ai/static/js/embed-search.min.js"></script>'.
       '<script>MuseCollection({collection: "%s",containerResults: "#muse-videos-grid",containerInput: "#muse-search", sort: "title"})</script>',
     $collection_id
   );
