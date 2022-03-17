@@ -28,8 +28,13 @@ get_header();
 
 
 
-      <div class="pt-4 md:col-span-4 md:mt-0 md:pt-0">
-        <iframe src="https://player.vimeo.com/video/525877233?title=0&amp;byline=0&amp;portrait=0&amp;speed=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen title="R for the Rest of Us"></iframe>
+      <div class="mx-auto pt-4 md:col-span-4 md:mt-0 md:pt-0">
+      
+        <div class="muse-video-player" data-video="KsyPoF1" data-search="0" data-links="0" data-subtitles="0" data-logo="0" data-title="0" data-autoplay="1" data-volume="0" data-width="100%" data-style="minimal"></div>
+                    <script src="https://muse.ai/static/js/embed-player.min.js"></script>
+
+                    
+        
       </div>
     </div>
 
