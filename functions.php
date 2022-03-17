@@ -391,13 +391,17 @@ function photomania_pro_child_style()
 // Taken from https://wordpress.org/plugins/muse-ai/
 
 // add_action('init', 'museai_init');
-add_shortcode('muse-video', 'museai_shortcode_video');
+
 
 // function museai_init()
 // {
 //   wp_oembed_add_provider('#https://muse.ai/(v|vc|vd|vt)/.+#', 'https://muse.ai/oembed', true);
 //   wp_enqueue_script('museai-embed-player', 'https://muse.ai/static/js/embed-player.min.js');
 // }
+
+
+add_shortcode('muse-video', 'museai_shortcode_video');
+
 
 function museai_shortcode_video($atts = [])
 {
@@ -415,6 +419,23 @@ function museai_shortcode_video($atts = [])
     $width,
     $title,
     $download
+  );
+  return $out;
+}
+
+add_shortcode('muse-collection', 'museai_shortcode_collection');
+
+
+function museai_shortcode_collection($atts = [])
+{
+
+  $collection_id = preg_replace('/[^a-z0-9%]/i', '', $atts['id']);
+
+  $out = sprintf(
+    '<script src="https://muse.ai/static/js/embed-search.min.js"></script>'.
+    '<div id="muse-search"></div><div id="muse-videos-grid"></div><script src="https://muse.ai/static/js/embed-search.min.js"></script>'.
+      '<script>MuseCollection({collection: "%s",containerResults: "#muse-videos-grid",containerInput: "#muse-search", sort: "title"})</script>',
+    $collection_id
   );
   return $out;
 }
