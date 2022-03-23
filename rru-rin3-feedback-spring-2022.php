@@ -68,7 +68,7 @@ get_header();
     </div>
 
 
-    <?php echo do_shortcode("[facetwp template='rin3_feedback_spring_2022']"); ?>
+    <?php echo do_shortcode("[facetwp template='r_in_3_feedback_spring_2022']"); ?>
 
 
     <div class="flex items-center justify-between px-4 mt-12">
