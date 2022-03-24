@@ -416,7 +416,7 @@ function museai_shortcode_video($atts = [])
       '<script>MusePlayer({container: "#museai-player-%1$s", 
         video: "%s", 
         width: "%s", 
-        quality: best,
+        quality: "best",
         logo: false, 
         links: false, 
         title: "%s", 
