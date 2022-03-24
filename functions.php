@@ -411,9 +411,17 @@ function museai_shortcode_video($atts = [])
   $title = $atts['title'];
   $download = true ?? $atts['download'];
   $out = sprintf(
-    '<script src="https://muse.ai/static/js/embed-player.min.js"></script>'.
-    '<div id="museai-player-%s" class="mb-4"></div>' .
-      '<script>MusePlayer({container: "#museai-player-%1$s", video: "%s", width: "%s", logo: false, links: false, title: "%s", download: "%s"})</script>',
+    '<script src="https://muse.ai/static/js/embed-player.min.js"></script>' .
+      '<div id="museai-player-%s" class="mb-4"></div>' .
+      '<script>MusePlayer({container: "#museai-player-%1$s", 
+        video: "%s", 
+        width: "%s", 
+        quality: best,
+        logo: false, 
+        links: false, 
+        title: "%s", 
+        download: "%s"})
+        </script>',
     $embed_id,
     $video_id,
     $width,
@@ -432,8 +440,8 @@ function museai_shortcode_collection($atts = [])
   $collection_id = preg_replace('/[^a-z0-9%]/i', '', $atts['id']);
 
   $out = sprintf(
-    '<script src="https://muse.ai/static/js/embed-search.min.js"></script>'.
-    '<div id="muse-search"></div><div class="mb-4" id="muse-videos-grid"></div><script src="https://muse.ai/static/js/embed-search.min.js"></script>'.
+    '<script src="https://muse.ai/static/js/embed-search.min.js"></script>' .
+      '<div id="muse-search"></div><div class="mb-4" id="muse-videos-grid"></div><script src="https://muse.ai/static/js/embed-search.min.js"></script>' .
       '<script>MuseCollection({collection: "%s",containerResults: "#muse-videos-grid",containerInput: "#muse-search", sort: "title"})</script>',
     $collection_id
   );
