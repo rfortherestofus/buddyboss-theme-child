@@ -26,7 +26,7 @@ get_header();
 
                   </h1>
                   <p class="mt-3 text-base text-gray-300 sm:mt-5 sm:text-xl lg:text-lg xl:text-xl">
-                    On Thursday, April 14, join us in supporting refugees. All proceeds from courses sold this day will be donated.
+                    On Wednesday, April 13, join us in supporting refugees. All proceeds from courses sold this day will be donated.
                   </p>
                   <p class="mt-3 text-base text-gray-300 sm:mt-5 sm:text-xl lg:text-lg xl:text-xl">
                     Half of the proceeds will go to an <a href="https://rfortherestofus.com/2021/12/enough/">Afghan family seeking to leave Afghanistan</a>. And the other half will support UNICEF's work with Ukrainian refugees fleeing the war in their country.
@@ -37,7 +37,7 @@ get_header();
               </div>
               <div class="mt-16 sm:mt-24 lg:mt-8 lg:col-span-6">
                 <div class="bg-white sm:max-w-2xl sm:w-full sm:mx-auto sm:rounded-lg sm:overflow-hidden">
-                <div class="px-4 py-8 sm:px-10">
+                <div class="px-4 py-8 sm:px-10 hidden">
                 <?php echo do_shortcode("[product_page id='26288']"); ?>
                 </div>
                   
