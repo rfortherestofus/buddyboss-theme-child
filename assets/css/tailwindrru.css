@@ -1343,6 +1343,10 @@ html {
   margin-top: 4rem;
 }
 
+.mb-16 {
+  margin-bottom: 4rem;
+}
+
 .mb-20 {
   margin-bottom: 5rem;
 }
@@ -2049,6 +2053,10 @@ html {
     border-color: rgba(229, 231, 235, var(--tw-divide-opacity));
   }
 
+  .sm\:rounded-lg {
+    border-radius: 0.5rem;
+  }
+
   .sm\:block {
     display: block;
   }
@@ -2110,6 +2118,10 @@ html {
 
   .sm\:leading-10 {
     line-height: 2.5rem;
+  }
+
+  .sm\:leading-none {
+    line-height: 1;
   }
 
   .sm\:mx-2 {
@@ -2182,8 +2194,16 @@ html {
     max-width: 36rem;
   }
 
+  .sm\:max-w-2xl {
+    max-width: 42rem;
+  }
+
   .sm\:max-w-3xl {
     max-width: 48rem;
+  }
+
+  .sm\:overflow-hidden {
+    overflow: hidden;
   }
 
   .sm\:p-10 {
@@ -2208,6 +2228,11 @@ html {
   .sm\:px-8 {
     padding-left: 2rem;
     padding-right: 2rem;
+  }
+
+  .sm\:px-10 {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
   }
 
   .sm\:px-12 {
@@ -2595,6 +2620,10 @@ html {
 
   .lg\:mt-5 {
     margin-top: 1.25rem;
+  }
+
+  .lg\:mt-6 {
+    margin-top: 1.5rem;
   }
 
   .lg\:mt-8 {

@@ -89,6 +89,7 @@ function tailwind_theme_child_scripts_styles()
     | is_page_template('rru-demystifying.php')
     | is_page_template('rru-1pct.php')
     | is_page_template('rru-2021-thank-you.php')
+    | is_page_template('rru-apr-2022-fundraiser.php')
     | is_singular('resource')
     | is_singular('rin3_feedback')
   ) {
