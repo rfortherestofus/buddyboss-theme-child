@@ -29,7 +29,7 @@ get_header();
                     On Thursday, April 14, join us in supporting refugees. All proceeds from courses sold this day will be donated.
                   </p>
                   <p class="mt-3 text-base text-gray-300 sm:mt-5 sm:text-xl lg:text-lg xl:text-xl">
-                    Half of the proceeds will go to an Afghan family seeking to leave Afghanistan. And the other half will support UNICEF's work with Ukrainian refugees fleeing the war in their country.
+                    Half of the proceeds will go to an <a href="https://rfortherestofus.com/2021/12/enough/">Afghan family seeking to leave Afghanistan</a>. And the other half will support UNICEF's work with Ukrainian refugees fleeing the war in their country.
                   </p>
                   
 
