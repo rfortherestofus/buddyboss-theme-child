@@ -30,7 +30,9 @@ get_header();
                   </p>
                   <p class="mt-3 text-base text-gray-300 sm:mt-5 sm:text-xl lg:text-lg xl:text-xl">
                     Half of the proceeds will go to an Afghan family seeking to leave Afghanistan. And the other half will support UNICEF's work with Ukrainian refugees fleeing the war in their country.
+                  </p>
                   
+
                 </div>
               </div>
               <div class="mt-16 sm:mt-24 lg:mt-8 lg:col-span-6">
