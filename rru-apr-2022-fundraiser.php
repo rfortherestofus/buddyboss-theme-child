@@ -37,10 +37,10 @@ get_header();
               </div>
               <div class="mt-16 sm:mt-24 lg:mt-8 lg:col-span-6">
                 <div class="bg-white sm:max-w-2xl sm:w-full sm:mx-auto sm:rounded-lg sm:overflow-hidden">
-                <div class="px-4 py-8 sm:px-10">
+                <div class="px-4 py-8 sm:px-10 hidden">
                   On April 13, information about purchasing a course at the pay-what-you-can rate will appear here.
                 </div>
-                <div class="px-4 py-8 sm:px-10 hidden">
+                <div class="px-4 py-8 sm:px-10">
                 <?php echo do_shortcode("[product_page id='26288']"); ?>
                 </div>
                   
