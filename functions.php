@@ -421,7 +421,6 @@ function museai_shortcode_video($atts = [])
         start: "%s", 
         title: "%s", 
         download: "%s",
-        resume: true,
         logo: false, 
         links: false})
         </script>',
