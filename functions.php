@@ -409,6 +409,7 @@ function museai_shortcode_video($atts = [])
   $embed_id = bin2hex(random_bytes(16));
   $video_id = preg_replace('/[^a-z0-9%]/i', '', $atts['id']);
   $width = preg_replace('/[^0-9%]/', '', $atts['width'] ?? '100%');
+  $start_time = $atts['start_time'];
   $title = $atts['title'];
   $download = true ?? $atts['download'];
   $out = sprintf(
@@ -417,15 +418,17 @@ function museai_shortcode_video($atts = [])
       '<script>MusePlayer({container: "#museai-player-%1$s", 
         video: "%s", 
         width: "%s", 
-        quality: "best",
-        logo: false, 
-        links: false, 
+        start: "%s", 
         title: "%s", 
-        download: "%s"})
+        download: "%s",
+        resume: true,
+        logo: false, 
+        links: false})
         </script>',
     $embed_id,
     $video_id,
     $width,
+    $start_time,
     $title,
     $download
   );
