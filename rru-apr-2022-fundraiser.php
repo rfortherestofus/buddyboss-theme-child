@@ -37,7 +37,7 @@ get_header();
               </div>
               <div class="mt-16 sm:mt-24 lg:mt-8 lg:col-span-6">
                 <div class="bg-white sm:max-w-2xl sm:w-full sm:mx-auto sm:rounded-lg sm:overflow-hidden">
-                <div class="px-4 py-8 sm:px-10 hidden">
+                <div class="px-4 py-8 sm:px-10">
                   The fundraiser has now ended. Together we raised over $3,000. Thanks for your support!
                 </div>
                 <div class="px-4 py-8 sm:px-10 hidden">
