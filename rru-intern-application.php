@@ -144,9 +144,10 @@ get_header();
                     <div id="application-procedures" class="section level2">
                         <h2>How to Apply</h2>
                         <p>To apply, please email fill out the form below.</p>
-                        <?php echo do_shortcode("[ninja_form id=31]"); ?>
                         <p>Applications will be considered on a rolling basis, with the deadline
                             for submission May 20, 2022.</p>
+                        <?php echo do_shortcode("[ninja_form id=31]"); ?>
+                        
 
                             
                     </div>
