@@ -143,19 +143,12 @@ get_header();
                     </div>
                     <div id="application-procedures" class="section level2">
                         <h2>How to Apply</h2>
-                        <p>To apply, please email me (<a href="mailto:david@rfortherestofus.com" class="email">david@rfortherestofus.com</a>) with the subject line “2022
-                            Summer Internship” and include the following items:</p>
-                        <ol class="list-decimal">
-                            <li>Cover letter explaining who you are, why you are a good fit for this internship, and what you hope to get out of it.</li>
-                            <li>Resume or link to your LinkedIn profile (something so that I can see
-                                your education and past experience).</li>
-                            <li>Link to your GitHub profile (if you have one) or, alternatively, some way for me to see code you've developed.</li>
-                            <li>An example or two of the data viz work you are most proud of.</li>
-                        </ol>
+                        <p>To apply, please email fill out the form below.</p>
+                        <?php echo do_shortcode("[ninja_form id=31]"); ?>
                         <p>Applications will be considered on a rolling basis, with the deadline
-                            for submission XXXX.</p>
+                            for submission May 20, 2022.</p>
 
-                            <?php echo do_shortcode("[ninja_form id=31]"); ?>
+                            
                     </div>
 
                 </div>
