@@ -133,8 +133,6 @@ get_header();
                             <li>General knowledge of HTML + CSS</li>
                             <li>Experience connecting to APIs to collect data</li>
                             <li>Good communication skills (especially writing)</li>
-                            <li>Self starter who is good at independently managing multiple
-                                simultaneous projects</li>
                         </ol>
               
                         <p>Please note that you do not need advanced statistical knowledge to
