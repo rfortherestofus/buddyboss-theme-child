@@ -129,6 +129,7 @@ get_header();
 
                             </p>
                         <ol class="list-decimal">
+                            <li>High-quality data visualization</li>
                             <li>Proficiency with Git and GitHub</li>
                             <li>General knowledge of HTML + CSS</li>
                             <li>Experience connecting to APIs to collect data</li>
