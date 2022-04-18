@@ -30,7 +30,7 @@ get_header();
 
                     <p>Hi, I’m David and I run R for the Rest of Us.</p>
                     <p>I'm hiring a summer intern because
-                        there are several R for the Rest of Us where I need support. But I don't just want this
+                        there are several R for the Rest of Us projects where I need support. But I don't just want this
                         internship to benefit me. I’d also like
                         to support someone early in their career who wants to improve their R
                         skills and learn how to run a business like R for the Rest of Us.</p>
@@ -97,7 +97,7 @@ get_header();
                             <li>The first project will be helping to develop an <span class="font-bold">internal dashboard</span> to track the company’s progress.
                                 This will involve collecting data from a variety of sources before cleaning, analyzing, and reporting on it. 
                             </li>
-                            <li>You'll also work on <span class="font-bold">consulting projects</span> similar to those above, conducing data collection, cleaning, analysis, visualization, and reporting.</li>
+                            <li>You'll also work on <span class="font-bold">consulting projects</span> similar to those above, conducting data collection, cleaning, analysis, visualization, and reporting.</li>
                             <li>The final project will be assisting me with <span class="font-bold">marketing</span> for R for the Rest of Us.
                                 This will involve helping with a podcast and video series I'm in the process of launching.
                                 It will also involve assistance with marketing for my in-progress book,
@@ -154,6 +154,8 @@ get_header();
                         </ol>
                         <p>Applications will be considered on a rolling basis, with the deadline
                             for submission XXXX.</p>
+
+                            <?php echo do_shortcode("[ninja_form id=31]"); ?>
                     </div>
 
                 </div>
