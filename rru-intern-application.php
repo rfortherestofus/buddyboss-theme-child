@@ -54,7 +54,7 @@ get_header();
                         fully-remote part-time position is a great opportunity for a student or
                         early-career professional looking to improve their R skills and learn
                         about running a business at the same time.</p>
-                    <p>The internship will run for 10 weeks starting whenever the right
+                    <p>The internship will run for 10 weeks starting June 1 or whenever the right
                         candidate is identified. Pay for this position is $30/hour with 10 hours
                         per week guaranteed (there is a possibility of more hours depending on
                         projects coming in and intern availability).</p>
