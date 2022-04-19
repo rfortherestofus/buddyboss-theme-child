@@ -87,7 +87,7 @@ get_header();
                     </div>
                     <div id="what-youll-work-on" class="section level2">
                         <h2>What You'll Work On</h2>
-                        <p>You will work work on a combination of projects. The main ones I have in mind are below.</p>
+                        <p>You will work on a combination of projects. The main ones I have in mind are below.</p>
                         <p>There is some flexibility in terms of which projects you work on.
                             I want this experience to be valuable to R for the Rest of Us
                             (obviously), but also to you. I’m happy
