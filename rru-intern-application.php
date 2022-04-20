@@ -59,7 +59,7 @@ get_header();
                 backgrounds throughout the world. There are no limitations on residence
                 for this position, though the intern will need to speak and write English fluently and
                 be available for have weekly calls with me during U.S. Pacific time work hours.</p>
-            <div id="about-us" class="section level2">
+            <div id="about-us">
                 <h2>About R for the Rest of Us</h2>
                 <p>R for the Rest of Us is run remotely by me along with <a href="https://rfortherestofus.com/about/#consultants">several
                         consultants</a> in the United States and Europe. Our work is in two main
@@ -82,7 +82,7 @@ get_header();
                             Francisco</a></li>
                 </ol>
             </div>
-            <div id="what-youll-work-on" class="section level2">
+            <div id="what-youll-work-on">
                 <h2>What You'll Work On</h2>
                 <p>You will work on a combination of projects. The main ones I have in mind are below.</p>
                 <p>There is some flexibility in terms of which projects you work on.
@@ -101,7 +101,7 @@ get_header();
                         <a href="https://rwithoutstatistics.com/">R Without Statistics</a>.
                 </ol>
             </div>
-            <div id="about-you" class="section level2">
+            <div id="about-you">
                 <h2>About You</h2>
                 <p>The nature of the work at R for the Rest of Us means that we work on
                     a wide variety of projects. While there are a number of specific skills that will be helpful
@@ -137,7 +137,21 @@ get_header();
                     apply for this position. The vast majority of our work involves nothing
                     more complex than descriptive statistics.</p>
             </div>
-            <div id="application-procedures" class="section level2">
+
+            <div id="faq">
+                <h2>FAQ</h2>
+                <h3>What are the work hours?</h3>
+                <p>There are no work hours! R for the Rest of Us works remotely and you will do your work on your own time.
+                    You will need to have 1-2 hours of calls with David per week at a time to be determined.</p>
+                <h3>Can I apply if I have another job?</h3>
+                <p>As long as you have 10 hours per week to devote to this position, it's totally fine.</p>
+                <h3>Is there a minimum education requirement?</h3>
+                <p>Nope! As long as you have the skills above, please apply!</p>
+                <h3>Can I apply if I'm a beginnger at R?</h3>
+                <p>Unfortunately, I do need someone with some R skills so this is not a good position for a beginner.</p>
+            </div>
+
+            <div id="application-procedures">
                 <h2>How to Apply</h2>
                 <p>To apply, please email fill out the form below. Applications will be considered on a rolling basis, with the deadline
                     for submission May 20, 2022.</p>
