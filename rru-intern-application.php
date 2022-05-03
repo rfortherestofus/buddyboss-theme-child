@@ -13,7 +13,9 @@ get_header();
 
 
 
-
+        <div class="bg-orange-500 text-white text-center uppercase p-4 mb-12 rounded-lg shadow-lg text-sm mx-auto transform -rotate-1">
+            <span class="text-white text-lg">Deadline moved up to May 13. <a class="text-white border-b-2 border-white focus:text-white hover:text-white" href="#application-procedures">Apply Now</a></span>
+        </div>
 
         <div class="max-w-prose mx-auto prose text-xl text-gray-600 leading-8">
             <h1>
@@ -156,7 +158,7 @@ get_header();
             <div id="application-procedures">
                 <h2>How to Apply</h2>
                 <p>To apply, please email fill out the form below. Applications will be considered on a rolling basis, with the deadline
-                    for submission May 20, 2022.</p>
+                    for submission <span class="line-through">May 20, 2022</span> May 13, 2022.</p>
 
                 <p>Have any questions? Email me at david@rfortherestofus.com</p>
                 <?php echo do_shortcode("[ninja_form id=31]"); ?>
