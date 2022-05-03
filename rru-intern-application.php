@@ -140,6 +140,8 @@ get_header();
 
             <div id="faq">
                 <h2>FAQ</h2>
+                <h3>Is the June 1 start date set in stone?</h3>
+                <p>Not necessarily! If I find the right person, I'm happy to work with them to find dates that work.</p>
                 <h3>What are the work hours?</h3>
                 <p>There are no work hours! R for the Rest of Us works remotely and you will do your work on your own time.
                     You will need to have 1-2 hours of calls with David per week at a time to be determined.</p>
