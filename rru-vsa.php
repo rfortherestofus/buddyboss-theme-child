@@ -40,11 +40,17 @@ get_header();
 
                   <p class="my-4 text-xl leading-relaxed text-blue-900">
                     This training is modeled on <a href="https://rfortherestofus.com/3months/">R in 3 Months</a>, a cohort-based program that has taught R to over
-                    150 people from around the world. Only available to VSA members, this cohort will enable you to learn R
-                    alongside peers.
+                    150 people from around the world. 
+                  </p>
+
+                  <p class="mt-4 mb-8 text-xl leading-relaxed text-blue-900">
+                  Only available to VSA members, you'll learn alongside your peers. This training starts in mid-September and costs $849 ($150 off the regular R in 3 Months price).
                   </p>
 
 
+                  <a href="?add-to-cart=27742&amp;quantity=1" class="px-5 py-3 text-base font-medium leading-6 text-white transition duration-150 ease-in-out bg-blue-600 border border-transparent rounded-md hover:bg-blue-500 focus:outline-none focus:shadow-outline hover:text-white" aria-describedby="tier-standard">
+                    Sign Up Now
+                  </a>
 
 
 
