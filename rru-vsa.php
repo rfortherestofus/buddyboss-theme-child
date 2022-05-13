@@ -44,7 +44,7 @@ get_header();
                   </p>
 
                   <p class="mt-4 mb-8 text-xl leading-relaxed text-blue-900">
-                  Only available to VSA members, you'll learn alongside your peers. This training starts in mid-September and costs $849 ($150 off the regular R in 3 Months price).
+                  Only available to VSA members, you'll learn alongside your peers. This training starts in September 21 and costs $849 ($150 off the regular R in 3 Months price).
                   </p>
 
 
@@ -536,7 +536,7 @@ get_header();
                 <span class="text-transparent bg-gradient-to-r from-blue-300 to-blue-300 bg-clip-text">Schedule</span>
               </h2>
               <p class="mt-3 text-3xl font-extrabold text-white">Weekly Live Sessions</p>
-              <p class="mt-5 text-lg text-gray-300">Sessions will be held on Zoom, with recordings available the next day.</p>
+              <p class="mt-5 text-lg text-gray-300">Sessions will be held Wednesdays at 10:00am Pacific on Zoom, with recordings available the next day.</p>
               <div class="grid grid-cols-1 mt-12 gap-y-12 gap-x-6 sm:grid-cols-2">
                 <p>
                   <span class="block text-2xl font-bold text-white">Week 1</span>
