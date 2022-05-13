@@ -157,11 +157,15 @@ get_header();
 
             <div id="application-procedures">
                 <h2>How to Apply</h2>
+                <p>Applications are now closed. Thanks to the nearly 250 people who applied.</a>
+                <!-- 
                 <p>To apply, please email fill out the form below. Applications will be considered on a rolling basis, with the deadline
                     for submission <span class="line-through">May 20, 2022</span> May 13, 2022.</p>
 
-                <p>Have any questions? Email me at david@rfortherestofus.com</p>
-                <?php echo do_shortcode("[ninja_form id=31]"); ?>
+                <p>Have any questions? Email me at david@rfortherestofus.com</p> 
+                -->
+
+                
 
 
 
