@@ -452,3 +452,10 @@ function museai_shortcode_collection($atts = [])
   );
   return $out;
 }
+
+
+add_filter( 'woocommerce_get_checkout_order_received_url', 'add_email_in_order_received_url', 10, 2 );
+function add_email_in_order_received_url( $return_url, $order ) {
+    
+    return $return_url . '&email=' . $order->get_billing_email();
+}
