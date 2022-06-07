@@ -167,7 +167,7 @@ get_header();
 
         </div>
 
-        <div class="relative mt-24">
+        <div class="relative mt-24" id="topics-courses">
             <div class="pt-12 border-t-2 border-gray-200"></div>
             <h3 class="mx-auto text-3xl font-extrabold leading-8 tracking-tight text-center text-gray-900 sm:text-4xl sm:leading-10">
                 Topics Courses
