@@ -56,9 +56,9 @@ get_header();
         <p class="mt-3 text-lg leading-7 text-gray-600">
           When the <a href="http://tfff.org/">Ford Family Foundation</a> came to me about working on their first-ever Oregon by the Numbers report, all they knew was they wanted to come up with a way to share key social and economic indicators for each of the 36 counties in the state.</p>
         <p class="mt-3 text-lg leading-7 text-gray-600">
-          I knew that what they originally presented to me — a series of tables of data — would not garner the attention the topic deserved. So, working with their staff over several months, we developed a visually-appealing report that would clearly communicate strengths and challenges that Oregon’s counties face.</p>
+          We knew that what they originally presented to me — a series of tables of data — would not garner the attention the topic deserved. So, working with their staff over several months, we developed a visually-appealing report that would clearly communicate strengths and challenges that Oregon’s counties face.</p>
         <p class="mt-3 text-lg leading-7 text-gray-600">
-          The&nbsp;<a href="https://tfff.org/obtn">full report</a>&nbsp;has been shared widely with policymakers, the media, and others who care about the future of Oregon. </p>
+          The <a href="https://tfff.org/obtn">full report</a> has been shared widely with policymakers, the media, and others who care about the future of Oregon.</p>
         </p>
 
         <div class="mt-5 mb-24 sm:mt-8">
@@ -88,10 +88,10 @@ get_header();
             From One Report, Many
           </h4>
           <p class="mt-3 text-lg leading-7 text-gray-600">
-            Producing one report is a lot of work. Producing tens or even hundreds of reports is completely overwhelming. I help organizations make this daunting task less daunting. Using <a href="https://medium.com/@urban_institute/iterated-fact-sheets-with-r-markdown-d685eb4eafce">parameterized reporting</a>, I help organizations that need to generate reports in bulk.
+            Producing one report is a lot of work. Producing tens or even hundreds of reports is completely overwhelming. We help organizations make this daunting task less daunting. Using <a href="https://medium.com/@urban_institute/iterated-fact-sheets-with-r-markdown-d685eb4eafce">parameterized reporting</a>, we help organizations that need to generate reports in bulk.
           </p>
           <p class="mt-3 text-lg leading-7 text-gray-600">
-            Need a report for each school in your district? A report for every town in your state? With my help, you can do this without losing your mind.
+            Need a report for each school in your district? A report for every town in your state? With our help, you can do this without losing your mind.
           </p>
           <p class="mt-3 text-lg leading-7 text-gray-600">This is exactly what R for the Rest of Us did in building out 170+ reports for the Partnership for Strong Communities.
           </p>
