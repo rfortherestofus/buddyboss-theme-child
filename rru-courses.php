@@ -19,24 +19,48 @@ get_header();
 
         </div>
 
-        <div class="md:w-1/2">
+        <div class="lg:flex">
+            <div class="lg:w-1/2">
 
-            <p class="intro-text">
-                You don’t need a PhD in statistics or years of coding experience to learn R. <span class="font-bold">Anyone can learn the most powerful tool for data analysis and visualization</span>.
-            </p>
-            <p class="mt-0 intro-text">
-                R lets you wrangle, analyze, and visualize data quickly, efficiently, and beautifully.
-            </p>
-            <p class="mt-0 intro-text">
-                <span class="font-bold">Oh, and it’s free.</span>
-            </p>
-            <p class="mt-0 intro-text">
-                The R for the Rest of Us online courses are designed to guide you through every step on your R journey. All courses combine combine <span class="font-bold">video lessons</span> with <span class="font-bold">exercises</span> for you to practice what you’re learning. And you get access to <span class="font-bold">carefully curated resources</span> so that you can learn more about any topic that piques your interest.
-            </p>
+                <p class="intro-text">
+                    You don’t need a PhD in statistics or years of coding experience to learn R. <span class="font-bold">Anyone can learn the most powerful tool for data analysis and visualization</span>.
+                </p>
+                <p class="mt-0 intro-text">
+                    R lets you wrangle, analyze, and visualize data quickly, efficiently, and beautifully.
+                </p>
+                <p class="mt-0 intro-text">
+                    <span class="font-bold">Oh, and it’s free.</span>
+                </p>
+                <p class="mt-0 intro-text">
+                    The R for the Rest of Us online courses are designed to guide you through every step on your R journey. All courses combine combine <span class="font-bold">video lessons</span> with <span class="font-bold">exercises</span> for you to practice what you’re learning. And you get access to <span class="font-bold">carefully curated resources</span> so that you can learn more about any topic that piques your interest.
+                </p>
 
+
+            </div>
+
+            <div class="lg:w-1/2">
+        
+<div class="bg-white">
+  <div class="max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:px-8">
+    <div class="bg-blue-800 rounded-lg shadow-xl overflow-hidden ">
+      <div class="pt-10 pb-12 px-6 sm:pt-16 sm:px-16 lg:py-16 lg:pr-0 xl:py-20 xl:px-20">
+        <div class="lg:self-center">
+          <h2 class="text-3xl font-extrabold text-white sm:text-4xl">
+            <span class="block">Looking for more?</span>
+            
+          </h2>
+          <p class="mt-4 text-lg leading-6 text-blue-100">R in 3 Months offers high-quality course materials, personalized feedback, and a supportive community.</p>
+          <a href="/3months/" class="mt-2 bg-white border border-transparent rounded-md shadow px-5 py-3 inline-flex items-center text-base font-medium text-blue-800 hover:text-blue-800">Learn More</a>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+            </div>
 
         </div>
-
 
 
         <div class="relative mt-24">
