@@ -454,8 +454,17 @@ function museai_shortcode_collection($atts = [])
 }
 
 
-add_filter( 'woocommerce_get_checkout_order_received_url', 'add_email_in_order_received_url', 10, 2 );
-function add_email_in_order_received_url( $return_url, $order ) {
-    
-    return $return_url . '&email=' . $order->get_billing_email();
+add_filter('woocommerce_get_checkout_order_received_url', 'add_email_in_order_received_url', 10, 2);
+function add_email_in_order_received_url($return_url, $order)
+{
+
+  return $return_url . '&email=' . $order->get_billing_email();
+}
+
+// Add upsell for hourly coaching
+add_action('comment_form_before', 'add_comment_notice');
+function add_comment_notice()
+{
+  $commenter = wp_get_current_commenter();
+  echo '<p class="commentnotice">We are only able to answer questions about the concepts and data covered in the course. Need further support? <a href="https://rfortherestofus.com/product/coaching/">We offer 1-on-1 coaching by the hour</a>.</p>';
 }
