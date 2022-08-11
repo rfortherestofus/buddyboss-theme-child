@@ -29,7 +29,7 @@ get_header();
     </div>
 
     <div class="mt-5 sm:mt-12">
-      <a href="/contact/" class="px-8 py-3 text-base font-medium leading-6 text-white transition duration-150 ease-in-out bg-blue-600 border border-transparent rounded-md hover:text-white hover:bg-blue-500 focus:outline-none focus:border-blue-700 focus:shadow-outline-blue md:py-4 md:text-lg md:px-10">
+      <a target="_blank" href="https://savvycal.com/links/davidkeyes/custom-training/settings" class="px-8 py-3 text-base font-medium leading-6 text-white transition duration-150 ease-in-out bg-blue-600 border border-transparent rounded-md hover:text-white hover:bg-blue-500 focus:outline-none focus:border-blue-700 focus:shadow-outline-blue md:py-4 md:text-lg md:px-10">
         Let's Talk
       </a>
 
@@ -141,7 +141,7 @@ get_header();
       </h3>
 
       <p>
-        Custom training engagements involve one-, two-, or three-day training sessions, followed by project support. </p>
+        Custom training engagements typically involve one-, two-, or three-day training sessions, followed by project support. </p>
 
       <p>
         All custom training is designed around projects that your organization is working on. Working with your data makes learning easier because it allows your team to focus on learning R, not having to remember details about a new dataset. And it shows staff how this new tool can help them solve problems they already encounter in their work.
@@ -519,7 +519,7 @@ get_header();
       Success Stories
     </h2>
     <div class="sm:flex">
-    <div class="max-w-xl px-4 py-8 mt-2 bg-gray-100 rounded-md sm:px-8 sm:mx-2 sm:mt-0">
+      <div class="max-w-xl px-4 py-8 mt-2 bg-gray-100 rounded-md sm:px-8 sm:mx-2 sm:mt-0">
         <img class="h-24 mb-4" src="../wp-content/themes/buddyboss-theme-child/assets/images/public-profit-logo.svg" alt="Public Profit" />
 
         <h2>How Public Profit Set Up a Structure for Success</h2>
@@ -550,7 +550,7 @@ get_header();
     </div>
 
     <div class="mt-2 sm:flex">
-    <div class="max-w-xl px-4 py-8 mt-2 bg-gray-100 rounded-md sm:px-8 sm:mx-2 sm:mt-0">
+      <div class="max-w-xl px-4 py-8 mt-2 bg-gray-100 rounded-md sm:px-8 sm:mx-2 sm:mt-0">
         <img class="h-24 mb-4" src="../wp-content/themes/buddyboss-theme-child/assets/images/omni-logo.svg" alt="OMNI Institute Logo" />
 
         <h2>How R Has Streamlined OMNI Institute’s Workflow</h2>
@@ -564,17 +564,14 @@ get_header();
         </div>
       </div>
 
-      <div class="max-w-xl px-4 py-8 mt-2 bg-white border-2 border-orange-600 rounded-md sm:px-8 sm:mx-2">
-        
-      
+      <div class="max-w-xl px-4 py-8 mt-2 bg-gray-100 rounded-md sm:px-8 sm:mx-2 sm:mt-0">
+        <img class="h-24 mb-4" src="../wp-content/themes/buddyboss-theme-child/assets/images/mff-logo.png" alt="Michigan Fitness Foundation" />
 
-        <div class="mt-12">
-          <h2>Is your organization ready to move to R?</h2>
-        </div>
-        <p>Improve your organization's efficiency, provide an incredible professional development opportunity for your staff, and save money to boot.</p>
+        <h2>How R Has Transformed the Work of the Michigan Fitness Foundation</h2>
+        <p>The team at Michigan Fitness Foundation thought R could only be useful for stats. Since working with R for the Rest of Us, they've learned it can do much more.</p>
         <div class="mt-5 sm:mt-12">
-          <a href="/contact/" class="px-8 py-3 text-base font-medium leading-6 text-white transition duration-150 ease-in-out bg-orange-600 border border-transparent rounded-md hover:text-white hover:bg-orange-500 focus:outline-none focus:border-orange-700 focus:shadow-outline-blue md:py-4 md:text-lg md:px-10">
-            Let's Talk
+          <a href="/success-stories/reading-partners/" class="px-8 py-3 text-base font-medium leading-6 text-white transition duration-150 ease-in-out bg-blue-600 border border-transparent rounded-md hover:text-white hover:bg-blue-500 focus:outline-none focus:border-blue-700 focus:shadow-outline-blue md:py-4 md:text-lg md:px-10">
+            Learn More
           </a>
 
 
@@ -583,8 +580,19 @@ get_header();
 
     </div>
 
+    <div class="mt-12 px-4 py-8  bg-white border-2 border-orange-600 rounded-md sm:px-8 sm:mx-32">
+      
+        <h2>Is your organization ready to move to R?</h2>
+      
+      <p>Improve your organization's efficiency, provide an incredible professional development opportunity for your staff, and save money to boot.</p>
+      <div class="mt-5 sm:mt-12">
+        <a target="_blank" href="https://savvycal.com/links/davidkeyes/custom-training/" class="px-8 py-3 text-base font-medium leading-6 text-white transition duration-150 ease-in-out bg-orange-600 border border-transparent rounded-md hover:text-white hover:bg-orange-500 focus:outline-none focus:border-orange-700 focus:shadow-outline-blue md:py-4 md:text-lg md:px-10">
+          Let's Talk
+        </a>
 
 
+      </div>
+    </div>
 
     <div class="mx-auto mt-32">
 
@@ -626,209 +634,209 @@ get_header();
   Tailwind UI components require Tailwind CSS v1.8 and the @tailwindcss/ui plugin.
   Read the documentation to get started: https://tailwindui.com/documentation
 -->
-<div class="bg-blue-800 hidden">
-  <div class="pt-12 mt-24 sm:pt-16 lg:pt-24">
-    <div class="max-w-screen-xl px-4 mx-auto text-center sm:px-6 lg:px-8">
-      <div class="max-w-3xl mx-auto space-y-2 lg:max-w-none">
-        <h2 class="text-lg font-semibold leading-6 tracking-wider text-gray-200 uppercase">
-          Pricing
-        </h2>
-        <p class="text-3xl font-extrabold leading-9 text-white sm:text-4xl sm:leading-10 lg:text-5xl lg:leading-none">
-          Invest in R today<br>Save money tomorrow
-        </p>
-        <!-- <p class="text-xl leading-7 text-gray-300">
+      <div class="bg-blue-800 hidden">
+        <div class="pt-12 mt-24 sm:pt-16 lg:pt-24">
+          <div class="max-w-screen-xl px-4 mx-auto text-center sm:px-6 lg:px-8">
+            <div class="max-w-3xl mx-auto space-y-2 lg:max-w-none">
+              <h2 class="text-lg font-semibold leading-6 tracking-wider text-gray-200 uppercase">
+                Pricing
+              </h2>
+              <p class="text-3xl font-extrabold leading-9 text-white sm:text-4xl sm:leading-10 lg:text-5xl lg:leading-none">
+                Invest in R today<br>Save money tomorrow
+              </p>
+              <!-- <p class="text-xl leading-7 text-gray-300">
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum sequi unde repudiandae natus.
         </p> -->
-      </div>
-    </div>
-  </div>
-  <div class="pb-12 mt-8 bg-gray-50 sm:mt-12 sm:pb-16 lg:mt-16 lg:pb-24">
-    <div class="relative">
-      <div class="absolute inset-0 bg-blue-800 h-3/4"></div>
-      <div class="relative z-10 max-w-screen-xl px-4 mx-auto sm:px-6 lg:px-8">
-        <div class="max-w-md mx-auto space-y-4 lg:max-w-5xl lg:grid lg:grid-cols-2 lg:gap-5 lg:space-y-0">
-          <div class="flex flex-col overflow-hidden rounded-lg shadow-lg">
-            <div class="px-6 py-8 bg-white sm:p-10 sm:pb-0">
-              <div>
-                <h3 class="inline-flex px-4 py-1 text-sm font-semibold leading-5 tracking-wide text-blue-600 uppercase bg-blue-100 rounded-full" id="tier-standard">
-                  Training Sessions
-                </h3>
-              </div>
-              <div class="flex items-baseline text-6xl font-extrabold leading-none">
-                $4,000
-                <span class="ml-1 text-2xl font-medium leading-8 text-blue-800">
-                  and up
-                </span>
-              </div>
-              <p class="mt-2 text-lg leading-7 text-gray-600">
-                <span class="font-bold">Base rate</span> for one-day intensive virtual training for up to five people
-              </p>
             </div>
-            <div class="flex flex-col justify-between flex-1 px-6 pt-6 pb-8 space-y-6 bg-gray-100 sm:p-10 sm:pt-6">
-              <ul class="space-y-4">
-                <li class="flex items-start">
-                  <div class="flex-shrink-0">
-                    <!-- Heroicon name: check -->
-                    <svg class="w-6 h-6 text-orange-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
-                    </svg>
+          </div>
+        </div>
+        <div class="pb-12 mt-8 bg-gray-50 sm:mt-12 sm:pb-16 lg:mt-16 lg:pb-24">
+          <div class="relative">
+            <div class="absolute inset-0 bg-blue-800 h-3/4"></div>
+            <div class="relative z-10 max-w-screen-xl px-4 mx-auto sm:px-6 lg:px-8">
+              <div class="max-w-md mx-auto space-y-4 lg:max-w-5xl lg:grid lg:grid-cols-2 lg:gap-5 lg:space-y-0">
+                <div class="flex flex-col overflow-hidden rounded-lg shadow-lg">
+                  <div class="px-6 py-8 bg-white sm:p-10 sm:pb-0">
+                    <div>
+                      <h3 class="inline-flex px-4 py-1 text-sm font-semibold leading-5 tracking-wide text-blue-600 uppercase bg-blue-100 rounded-full" id="tier-standard">
+                        Training Sessions
+                      </h3>
+                    </div>
+                    <div class="flex items-baseline text-6xl font-extrabold leading-none">
+                      $4,000
+                      <span class="ml-1 text-2xl font-medium leading-8 text-blue-800">
+                        and up
+                      </span>
+                    </div>
+                    <p class="mt-2 text-lg leading-7 text-gray-600">
+                      <span class="font-bold">Base rate</span> for one-day intensive virtual training for up to five people
+                    </p>
                   </div>
-                  <p class="ml-3 text-base leading-6 text-gray-700">
-                  Presentations followed by engaging exercises
-                  </p>
-                </li>
+                  <div class="flex flex-col justify-between flex-1 px-6 pt-6 pb-8 space-y-6 bg-gray-100 sm:p-10 sm:pt-6">
+                    <ul class="space-y-4">
+                      <li class="flex items-start">
+                        <div class="flex-shrink-0">
+                          <!-- Heroicon name: check -->
+                          <svg class="w-6 h-6 text-orange-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                          </svg>
+                        </div>
+                        <p class="ml-3 text-base leading-6 text-gray-700">
+                          Presentations followed by engaging exercises
+                        </p>
+                      </li>
 
-                <li class="flex items-start">
-                  <div class="flex-shrink-0">
-                    <!-- Heroicon name: check -->
-                    <svg class="w-6 h-6 text-orange-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
-                    </svg>
-                  </div>
-                  <p class="ml-3 text-base leading-6 text-gray-700">
-                  Use data your staff is familiar with
-                  </p>
-                </li>
+                      <li class="flex items-start">
+                        <div class="flex-shrink-0">
+                          <!-- Heroicon name: check -->
+                          <svg class="w-6 h-6 text-orange-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                          </svg>
+                        </div>
+                        <p class="ml-3 text-base leading-6 text-gray-700">
+                          Use data your staff is familiar with
+                        </p>
+                      </li>
 
-                <li class="flex items-start">
-                  <div class="flex-shrink-0">
-                    <!-- Heroicon name: check -->
-                    <svg class="w-6 h-6 text-orange-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
-                    </svg>
-                  </div>
-                  <p class="ml-3 text-base leading-6 text-gray-700">
-                  Participants receive direct feedback
-                  </p>
-                </li>
+                      <li class="flex items-start">
+                        <div class="flex-shrink-0">
+                          <!-- Heroicon name: check -->
+                          <svg class="w-6 h-6 text-orange-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                          </svg>
+                        </div>
+                        <p class="ml-3 text-base leading-6 text-gray-700">
+                          Participants receive direct feedback
+                        </p>
+                      </li>
 
-                <li class="flex items-start">
-                  <div class="flex-shrink-0">
-                    <!-- Heroicon name: check -->
-                    <svg class="w-6 h-6 text-orange-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
-                    </svg>
+                      <li class="flex items-start">
+                        <div class="flex-shrink-0">
+                          <!-- Heroicon name: check -->
+                          <svg class="w-6 h-6 text-orange-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                          </svg>
+                        </div>
+                        <p class="ml-3 text-base leading-6 text-gray-700">
+                          Resources provided after training
+                        </p>
+                      </li>
+                    </ul>
+                    <div class="rounded-md shadow">
+                      <a href="/contact/" class="flex items-center justify-center px-5 py-3 text-base font-medium leading-6 text-white transition duration-150 ease-in-out bg-blue-600 border border-transparent rounded-md hover:bg-blue-500 focus:outline-none focus:shadow-outline hover:text-white" aria-describedby="tier-standard">
+                        Let's Talk
+                      </a>
+                    </div>
                   </div>
-                  <p class="ml-3 text-base leading-6 text-gray-700">
-                    Resources provided after training
-                  </p>
-                </li>
-              </ul>
-              <div class="rounded-md shadow">
-              <a href="/contact/" class="flex items-center justify-center px-5 py-3 text-base font-medium leading-6 text-white transition duration-150 ease-in-out bg-blue-600 border border-transparent rounded-md hover:bg-blue-500 focus:outline-none focus:shadow-outline hover:text-white" aria-describedby="tier-standard">
-                  Let's Talk
-                </a>
+                </div>
+
+                <div class="flex flex-col overflow-hidden rounded-lg shadow-lg">
+                  <div class="px-6 py-8 bg-white sm:p-10 sm:pb-0">
+                    <div>
+                      <h3 class="inline-flex px-4 py-1 text-sm font-semibold leading-5 tracking-wide text-blue-600 uppercase bg-blue-100 rounded-full" id="tier-standard">
+                        Project Support
+                      </h3>
+                    </div>
+                    <div class="flex items-baseline text-6xl font-extrabold leading-none">
+                      $1,750
+
+                    </div>
+                    <p class="mt-2 text-lg leading-7 text-gray-600">
+                      Ten hours of focused feedback to help your organization get around any obstacles
+                    </p>
+                  </div>
+                  <div class="flex flex-col justify-between flex-1 px-6 pt-6 pb-8 space-y-6 bg-gray-100 sm:p-10 sm:pt-6">
+                    <ul class="space-y-4">
+                      <li class="flex items-start">
+                        <div class="flex-shrink-0">
+                          <!-- Heroicon name: check -->
+                          <svg class="w-6 h-6 text-orange-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                          </svg>
+                        </div>
+                        <p class="ml-3 text-base leading-6 text-gray-700">
+                          Go over any issues
+                        </p>
+                      </li>
+
+                      <li class="flex items-start">
+                        <div class="flex-shrink-0">
+                          <!-- Heroicon name: check -->
+                          <svg class="w-6 h-6 text-orange-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                          </svg>
+                        </div>
+                        <p class="ml-3 text-base leading-6 text-gray-700">
+                          Code samples shared
+                        </p>
+
+                      </li>
+
+                      <li class="flex items-start">
+                        <div class="flex-shrink-0">
+                          <!-- Heroicon name: check -->
+                          <svg class="w-6 h-6 text-orange-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                          </svg>
+                        </div>
+                        <p class="ml-3 text-base leading-6 text-gray-700">
+                          Resources provided to help staff go deeper
+                        </p>
+                      </li>
+
+                      <li class="flex items-start">
+                        <div class="flex-shrink-0">
+                          <!-- Heroicon name: check -->
+                          <svg class="w-6 h-6 text-orange-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                          </svg>
+                        </div>
+                        <p class="ml-3 text-base leading-6 text-gray-700">
+                          Recordings shared for future reference
+                        </p>
+                      </li>
+                    </ul>
+                    <div class="rounded-md shadow">
+                      <a href="/contact/" class="flex items-center justify-center px-5 py-3 text-base font-medium leading-6 text-white transition duration-150 ease-in-out bg-blue-600 border border-transparent rounded-md hover:bg-blue-500 focus:outline-none focus:shadow-outline hover:text-white" aria-describedby="tier-standard">
+                        Let's Talk
+                      </a>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
-
-          <div class="flex flex-col overflow-hidden rounded-lg shadow-lg">
-            <div class="px-6 py-8 bg-white sm:p-10 sm:pb-0">
-              <div>
-                <h3 class="inline-flex px-4 py-1 text-sm font-semibold leading-5 tracking-wide text-blue-600 uppercase bg-blue-100 rounded-full" id="tier-standard">
-                  Project Support
-                </h3>
-              </div>
-              <div class="flex items-baseline text-6xl font-extrabold leading-none">
-                $1,750
-                
-              </div>
-              <p class="mt-2 text-lg leading-7 text-gray-600">
-                Ten hours of focused feedback to help your organization get around any obstacles
-              </p>
-            </div>
-            <div class="flex flex-col justify-between flex-1 px-6 pt-6 pb-8 space-y-6 bg-gray-100 sm:p-10 sm:pt-6">
-              <ul class="space-y-4">
-                <li class="flex items-start">
-                  <div class="flex-shrink-0">
-                    <!-- Heroicon name: check -->
-                    <svg class="w-6 h-6 text-orange-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
-                    </svg>
+          <div class="relative max-w-screen-xl px-4 mx-auto mt-4 sm:px-6 lg:px-8 lg:mt-5">
+            <div class="max-w-md mx-auto lg:max-w-5xl">
+              <div class="px-6 py-8 bg-white rounded-lg sm:p-10 lg:flex lg:items-center">
+                <div class="flex-1">
+                  <div>
+                    <h3 class="inline-flex px-4 py-1 text-sm font-semibold leading-5 tracking-wide text-blue-600 uppercase bg-blue-100 rounded-full" id="tier-standard">
+                      Other Options
+                    </h3>
                   </div>
-                  <p class="ml-3 text-base leading-6 text-gray-700">
-                    Go over any issues 
-                  </p>
-                </li>
+                  <div class="mt-0 text-lg leading-7 text-gray-600">
+                    While training customized with your data is the best option, group discounts on <a href="/online-courses/">online courses</a> combined with project support can be a cost-effective way to help your organization move to R.
 
-                <li class="flex items-start">
-                  <div class="flex-shrink-0">
-                    <!-- Heroicon name: check -->
-                    <svg class="w-6 h-6 text-orange-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
-                    </svg>
-                  </div>
-                  <p class="ml-3 text-base leading-6 text-gray-700">
-                  Code samples shared
-                  </p>
-                  
-                </li>
 
-                <li class="flex items-start">
-                  <div class="flex-shrink-0">
-                    <!-- Heroicon name: check -->
-                    <svg class="w-6 h-6 text-orange-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
-                    </svg>
                   </div>
-                  <p class="ml-3 text-base leading-6 text-gray-700">
-                  Resources provided to help staff go deeper
-                  </p>
-                </li>
-
-                <li class="flex items-start">
-                  <div class="flex-shrink-0">
-                    <!-- Heroicon name: check -->
-                    <svg class="w-6 h-6 text-orange-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
-                    </svg>
-                  </div>
-                  <p class="ml-3 text-base leading-6 text-gray-700">
-                  Recordings shared for future reference
-                  </p>
-                </li>
-              </ul>
-              <div class="rounded-md shadow">
-              <a href="/contact/" class="flex items-center justify-center px-5 py-3 text-base font-medium leading-6 text-white transition duration-150 ease-in-out bg-blue-600 border border-transparent rounded-md hover:bg-blue-500 focus:outline-none focus:shadow-outline hover:text-white" aria-describedby="tier-standard">
-                  Let's Talk
-                </a>
+                </div>
+                <div class="mt-6 rounded-md shadow lg:mt-0 lg:ml-10 lg:flex-shrink-0">
+                  <a href="/contact/" class="flex items-center justify-center px-5 py-3 text-base font-medium leading-6 text-white transition duration-150 ease-in-out bg-white bg-blue-600 border border-transparent rounded-md hover:text-white hover:bg-blue-500 focus:outline-none focus:shadow-outline">
+                    Let's Talk
+                  </a>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-    <div class="relative max-w-screen-xl px-4 mx-auto mt-4 sm:px-6 lg:px-8 lg:mt-5">
-      <div class="max-w-md mx-auto lg:max-w-5xl">
-        <div class="px-6 py-8 bg-white rounded-lg sm:p-10 lg:flex lg:items-center">
-          <div class="flex-1">
-            <div>
-            <h3 class="inline-flex px-4 py-1 text-sm font-semibold leading-5 tracking-wide text-blue-600 uppercase bg-blue-100 rounded-full" id="tier-standard">
-                  Other Options
-                </h3>
-            </div>
-            <div class="mt-0 text-lg leading-7 text-gray-600">
-              While training customized with your data is the best option, group discounts on <a href="/online-courses/">online courses</a> combined with project support can be a cost-effective way to help your organization move to R.
-             
-              
-            </div>
-          </div>
-          <div class="mt-6 rounded-md shadow lg:mt-0 lg:ml-10 lg:flex-shrink-0">
-            <a href="/contact/" class="flex items-center justify-center px-5 py-3 text-base font-medium leading-6 text-white transition duration-150 ease-in-out bg-white bg-blue-600 border border-transparent rounded-md hover:text-white hover:bg-blue-500 focus:outline-none focus:shadow-outline">
-              Let's Talk
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
 
 
 
     </div>
 
-   
+
 
     <!-- <a data-savvycal-embed href="https://savvycal.com/davidkeyes/custom-training">Schedule time with me</a> -->
 
