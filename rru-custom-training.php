@@ -626,7 +626,7 @@ get_header();
   Tailwind UI components require Tailwind CSS v1.8 and the @tailwindcss/ui plugin.
   Read the documentation to get started: https://tailwindui.com/documentation
 -->
-<div class="bg-blue-800">
+<div class="bg-blue-800 hidden">
   <div class="pt-12 mt-24 sm:pt-16 lg:pt-24">
     <div class="max-w-screen-xl px-4 mx-auto text-center sm:px-6 lg:px-8">
       <div class="max-w-3xl mx-auto space-y-2 lg:max-w-none">
