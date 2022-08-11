@@ -39,7 +39,7 @@ get_header();
                   </p>
 
                   <p class="mt-3 mb-10 text-base text-gray-500 sm:mt-5 sm:text-xl lg:text-lg xl:text-xl">
-                    The next cohort will cost $999 ($399 for those in countries with lower GDPs) and start in September.
+                    The next cohort will cost $999 ($399 for those in countries with lower GDPs) and starts September 22.
                   </p>
 
 
@@ -249,9 +249,7 @@ get_header();
               Each week you’ll be assigned to <span class="font-bold">complete a set of lessons</span>. Then, in our <span class="font-bold">weekly live session</span> we’ll go over questions related to the concepts in the lessons you completed that week and discuss ways that you’re applying your learning to your own work.
             </p>
 
-            <p class="mt-4 text-lg text-gray-600">
-              You'll also have 24/7 access to a <span class="font-bold">private group where you can ask questions, get feedback, and find support</span>.
-            </p>
+
 
 
 
@@ -372,6 +370,58 @@ get_header();
               </blockquote>
             </div>
           </div>
+          <div class="mx-auto max-w-7xl md:grid md:grid-cols-2 md:px-6 lg:px-8">
+            <div class="px-4 py-12 sm:px-6 md:flex md:flex-col md:py-16 md:pl-0 md:pr-10 md:border-r md:border-gray-900 lg:pr-16">
+
+              <blockquote class="mt-6 md:flex-grow md:flex md:flex-col">
+                <div class="relative text-lg font-medium text-white md:flex-grow">
+                  <svg class="absolute top-0 left-0 w-8 h-8 text-blue-600 transform -translate-x-3 -translate-y-2" fill="currentColor" viewBox="0 0 32 32" aria-hidden="true">
+                    <path d="M9.352 4C4.456 7.456 1 13.12 1 19.36c0 5.088 3.072 8.064 6.624 8.064 3.36 0 5.856-2.688 5.856-5.856 0-3.168-2.208-5.472-5.088-5.472-.576 0-1.344.096-1.536.192.48-3.264 3.552-7.104 6.624-9.024L9.352 4zm16.512 0c-4.8 3.456-8.256 9.12-8.256 15.36 0 5.088 3.072 8.064 6.624 8.064 3.264 0 5.856-2.688 5.856-5.856 0-3.168-2.304-5.472-5.184-5.472-.576 0-1.248.096-1.44.192.48-3.264 3.456-7.104 6.528-9.024L25.864 4z" />
+                  </svg>
+                  <p class="relative text-white">
+                    I am speechless! I have been trying to feel comfortable with R for so many years. Still, I used to spend so much time looking for resources on the internet, trying to put all the pieces together, and I was always defeated by laziness and gave up to go deeper into this tool, choosing other software that I am more familiar. This course is an excellent shortcut to learning R!
+                  </p>
+                </div>
+                <footer class="mt-8">
+                  <div class="flex items-start">
+                    <div class="inline-flex flex-shrink-0 border-2 border-white rounded-full">
+                      <img class="w-12 h-12 rounded-full" src="../wp-content/themes/buddyboss-theme-child/assets/images/juliana-machado.jpg" alt="Juliana Macahado">
+                    </div>
+                    <div class="ml-4">
+                      <div class="text-base font-medium text-white">Juliana Machado</div>
+                      <div class="text-base font-medium text-blue-200">Brazilian Ministry of Economy</div>
+                    </div>
+                  </div>
+                </footer>
+              </blockquote>
+
+            </div>
+
+            <div class="px-4 py-12 border-t-2 border-blue-900 sm:px-6 md:py-16 md:pr-0 md:pl-10 md:border-t-0 md:border-l lg:pl-16">
+
+              <blockquote class="mt-6 md:flex-grow md:flex md:flex-col">
+                <div class="relative text-lg font-medium text-white md:flex-grow">
+                  <svg class="absolute top-0 left-0 w-8 h-8 text-blue-600 transform -translate-x-3 -translate-y-2" fill="currentColor" viewBox="0 0 32 32" aria-hidden="true">
+                    <path d="M9.352 4C4.456 7.456 1 13.12 1 19.36c0 5.088 3.072 8.064 6.624 8.064 3.36 0 5.856-2.688 5.856-5.856 0-3.168-2.208-5.472-5.088-5.472-.576 0-1.344.096-1.536.192.48-3.264 3.552-7.104 6.624-9.024L9.352 4zm16.512 0c-4.8 3.456-8.256 9.12-8.256 15.36 0 5.088 3.072 8.064 6.624 8.064 3.264 0 5.856-2.688 5.856-5.856 0-3.168-2.304-5.472-5.184-5.472-.576 0-1.248.096-1.44.192.48-3.264 3.456-7.104 6.528-9.024L25.864 4z" />
+                  </svg>
+                  <p class="relative text-white">
+                    R in 3 Months is a wonderful resource for beginners or experienced R users alike – truly the best R resource I know for learning and expanding R skills.
+
+                  </p>
+                </div>
+                <footer class="mt-8">
+                  <div class="flex items-start">
+                    <div class="inline-flex flex-shrink-0 border-2 border-white rounded-full">
+                      <img class="w-12 h-12 rounded-full" src="../wp-content/themes/buddyboss-theme-child/assets/images/bill-pine.jpg" alt="Bill Pine">
+                    </div>
+                    <div class="ml-4">
+                      <div class="text-base font-medium text-white">Professor Bill Pine</div>
+                    </div>
+                  </div>
+                </footer>
+              </blockquote>
+            </div>
+          </div>
         </section>
 
 
@@ -444,7 +494,7 @@ get_header();
                 <div class="mt-4">
                   <h3 class="text-lg font-medium text-white">Exclusive Videos</h3>
                   <p class="mt-2 text-base text-blue-200">
-                    When topics come up in live sessions, I'll make exclusive videos to demonstrate concepts.
+                    When topics come up in live sessions, we make exclusive videos to demonstrate concepts.
                   </p>
                 </div>
               </div>
@@ -463,7 +513,7 @@ get_header();
                   </span>
                 </div>
                 <div class="mt-4">
-                  <h3 class="text-lg font-medium text-white">Discussion Forum</h3>
+                  <h3 class="text-lg font-medium text-white">Answers When You Need Them</h3>
                   <p class="mt-2 text-base text-blue-200">
                     No need to wait until the next live session! Ask questions any time and get answers when you need them.
                   </p>
@@ -879,7 +929,7 @@ get_header();
                 </dt>
                 <dd class="mt-2 md:mt-0 md:col-span-7">
                   <p class="text-base text-gray-500">
-                    I plan to offer it twice a year max, likely once in the spring and once in the fall.
+                    R in 3 Months is offered twice a year, once in the spring and once in the fall.
                   </p>
                 </dd>
               </div>
