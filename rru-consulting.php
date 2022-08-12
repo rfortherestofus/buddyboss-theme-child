@@ -180,6 +180,43 @@ get_header();
       </div>
     </div>
 
+    <div class="relative mt-12 lg:mt-24 lg:grid lg:grid-cols-2 lg:gap-8 lg:items-center">
+      <div class="relative">
+        <div class="relative px-4 mt-10 mb-4 -mx-4 rounded-md sm:hidden">
+
+        <img class="relative p-4 mx-auto rounded-md shadow" src="/wp-content/themes/buddyboss-theme-child/assets/images/census-report-sample.png" alt="Census Outreach Reports Sample Pages">
+
+        </div>
+
+        <h4 class="text-2xl font-extrabold leading-8 tracking-tight text-blue-800 sm:text-3xl sm:leading-9">
+          It's Not Just for Quantitative Data
+        </h4>
+        <p class="mt-3 text-lg leading-7 text-gray-600">
+        <p class="mt-3 text-lg leading-7 text-gray-600">
+          We worked with Seattle-based firm ORS Impact and the Democracy Funders Initiative to put together reports on outreach efforts for the 2020 United States Census.
+        <p class="mt-3 text-lg leading-7 text-gray-600">
+          These reports combined quantitative and qualitative data and the clients weren't sure initially if that could work in R. Working together, we combined descriptions of outreach efforts with quantative data on the states where outreach happened. 
+        <p class="mt-3 text-lg leading-7 text-gray-600">
+        The process we set up to do this was sophisticated yet simple, and allowed the clients to make over 50 state-level reports with ease. 
+        </p>
+
+        <div class="mt-5 mb-24 sm:mt-8">
+          <a href="/success-stories/ors-impact/" class="px-8 py-3 text-base font-medium leading-6 text-white transition duration-150 ease-in-out bg-blue-600 border border-transparent rounded-md hover:text-white hover:bg-blue-500 focus:outline-none focus:border-blue-700 focus:shadow-outline-blue md:py-4 md:text-lg md:px-10">
+            Learn More
+          </a>
+
+        </div>
+
+
+      </div>
+
+      <div class="relative hidden mt-10 -mx-4 rounded-md lg:mt-0 sm:block">
+
+      <img class="relative p-4 mx-auto rounded-md shadow" src="/wp-content/themes/buddyboss-theme-child/assets/images/census-report-sample.png" alt="Census Outreach Reports Sample Pages">
+
+      </div>
+    </div>
+
 
 
 
