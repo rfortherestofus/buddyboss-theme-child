@@ -462,12 +462,12 @@ function add_email_in_order_received_url($return_url, $order)
 }
 
 // Add upsell for hourly coaching
-add_action('comment_form_before', 'add_comment_notice');
-function add_comment_notice()
-{
-  $commenter = wp_get_current_commenter();
-  echo '<p class="commentnotice">We are only able to answer questions about the concepts and data covered in the course. Need further support? <a href="https://rfortherestofus.com/product/coaching/">We offer 1-on-1 coaching by the hour</a>.</p>';
-}
+// add_action('comment_form_before', 'add_comment_notice');
+// function add_comment_notice()
+// {
+//   $commenter = wp_get_current_commenter();
+//   echo '<p class="commentnotice">We are only able to answer questions about the concepts and data covered in the course. Need further support? <a href="https://rfortherestofus.com/product/coaching/">We offer 1-on-1 coaching by the hour</a>.</p>';
+// }
 
 // Disable smart quotes
 // https://www.foxinfotech.in/2021/02/disable-smart-quotes-wordpress.html
