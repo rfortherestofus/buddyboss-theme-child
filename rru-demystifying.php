@@ -38,7 +38,7 @@ get_header();
       </p>
     </div>
 
-    <div class="bg-gray-50 text-base leading-7 mt-4 mx-4 rounded-md px-8 py-4">
+    <div class="bg-gray-50 text-base leading-7 mt-4 mx-4 rounded-md px-8 pt-8">
       <p class="font-bold">Join us on Thursday, September 8 at 11:00am Pacific time</p>
       <?php echo do_shortcode("[ninja_form id=32]"); ?>
     </div>
