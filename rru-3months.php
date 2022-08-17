@@ -39,7 +39,7 @@ get_header();
                   </p>
 
                   <p class="mt-3 mb-10 text-base text-gray-500 sm:mt-5 sm:text-xl lg:text-lg xl:text-xl">
-                    The next cohort will cost $999 ($399 for those in countries with lower GDPs) and starts September 22.
+                    The next cohort will cost $999 ($949 before September 2) and starts September 22.
                   </p>
 
                   <div class="max-w-lg mx-auto hidden">
