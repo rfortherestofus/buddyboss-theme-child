@@ -954,92 +954,92 @@ get_header();
       </div>
 
 
-      <div class="max-w-3xl mx-auto px-4 bg-gradient-to-r from-blue-800 to-blue-700">
+      <div class="max-w-3xl mx-auto px-4 bg-gradient-to-r from-blue-800 to-blue-700 hidden">
 
 
-<div class="pt-12 mt-24 sm:pt-16 lg:pt-24 hidden" id="pricing">
-  <div class="max-w-3xl px-4 mx-auto text-center sm:px-6 lg:px-8">
-    <div class="max-w-3xl mx-auto space-y-2">
+        <div class="pt-12 mt-24 sm:pt-16 lg:pt-24" id="pricing">
+          <div class="max-w-3xl px-4 mx-auto text-center sm:px-6 lg:px-8">
+            <div class="max-w-3xl mx-auto space-y-2">
 
-      <h2 class="text-lg font-semibold leading-6 tracking-wider text-gray-200 uppercase">
-        Pricing
-      </h2>
-      <p class="text-3xl font-extrabold leading-9 text-white sm:text-4xl sm:leading-10 lg:text-5xl lg:leading-none">
-        Learning R is an investment in your future
-      </p>
-      <p class="text-xl leading-7 text-gray-300">
-        25% discounts available for groups of three or more and for students. <a href="/contact">Email for info</a>.
-      </p>
-    </div>
-  </div>
-</div>
-<div class="pb-12 mt-8  sm:mt-12 sm:pb-16 lg:mt-16 lg:pb-24">
-  <div class="relative">
-    <div class="absolute inset-0 bg-gradient-to-r from-blue-800 to-blue-700 h-3/4"></div>
-    <div class="relative z-10 max-w-screen-xl px-4 mx-auto sm:px-6 lg:px-8">
-      <div class="max-w-md mx-auto">
-        <div class="flex flex-col overflow-hidden rounded-lg shadow-lg">
-
-        </div>
-        <div class="flex flex-col overflow-hidden rounded-lg shadow-lg">
-          <div class="px-6 py-8 bg-white sm:p-10 sm:pb-0">
-            <div>
-              <h3 class="inline-flex px-4 py-1 text-sm font-semibold leading-5 tracking-wide text-blue-600 uppercase bg-blue-100 rounded-full" id="tier-standard">
-                One-time cost
-              </h3>
-            </div>
-            <div class="flex items-baseline text-6xl font-extrabold leading-none">
-              <?php echo do_shortcode("[iconic_product_price id='15772']"); ?>
-
-
-            </div>
-            <p class="mt-2 text-lg leading-7 text-gray-600">
-
-            </p>
-
-          </div>
-          <div class="flex flex-col justify-between flex-1 px-6 pt-6 pb-8 space-y-6 bg-gray-100 sm:p-10 sm:pt-6">
-
-            <div class="rounded-md shadow">
-              <a href="?add-to-cart=15772&amp;quantity=1" class="flex items-center justify-center px-5 py-3 text-base font-medium leading-6 text-white transition duration-150 ease-in-out bg-blue-600 border border-transparent rounded-md hover:bg-blue-500 focus:outline-none focus:shadow-outline hover:text-white" aria-describedby="tier-standard">
-                Sign Up Now
-              </a>
+              <h2 class="text-lg font-semibold leading-6 tracking-wider text-gray-200 uppercase">
+                Pricing
+              </h2>
+              <p class="text-3xl font-extrabold leading-9 text-white sm:text-4xl sm:leading-10 lg:text-5xl lg:leading-none">
+                Learning R is an investment in your future
+              </p>
+              <p class="text-xl leading-7 text-gray-300">
+                25% discounts available for groups of three or more and for students. <a href="/contact">Email for info</a>.
+              </p>
             </div>
           </div>
         </div>
+        <div class="pb-12 mt-8  sm:mt-12 sm:pb-16 lg:mt-16 lg:pb-24">
+          <div class="relative">
+            <div class="absolute inset-0 bg-gradient-to-r from-blue-800 to-blue-700 h-3/4"></div>
+            <div class="relative z-10 max-w-screen-xl px-4 mx-auto sm:px-6 lg:px-8">
+              <div class="max-w-md mx-auto">
+                <div class="flex flex-col overflow-hidden rounded-lg shadow-lg">
+
+                </div>
+                <div class="flex flex-col overflow-hidden rounded-lg shadow-lg">
+                  <div class="px-6 py-8 bg-white sm:p-10 sm:pb-0">
+                    <div>
+                      <h3 class="inline-flex px-4 py-1 text-sm font-semibold leading-5 tracking-wide text-blue-600 uppercase bg-blue-100 rounded-full" id="tier-standard">
+                        One-time cost
+                      </h3>
+                    </div>
+                    <div class="flex items-baseline text-6xl font-extrabold leading-none">
+                      <?php echo do_shortcode("[iconic_product_price id='15772']"); ?>
 
 
+                    </div>
+                    <p class="mt-2 text-lg leading-7 text-gray-600">
+
+                    </p>
+
+                  </div>
+                  <div class="flex flex-col justify-between flex-1 px-6 pt-6 pb-8 space-y-6 bg-gray-100 sm:p-10 sm:pt-6">
+
+                    <div class="rounded-md shadow">
+                      <a href="?add-to-cart=15772&amp;quantity=1" class="flex items-center justify-center px-5 py-3 text-base font-medium leading-6 text-white transition duration-150 ease-in-out bg-blue-600 border border-transparent rounded-md hover:bg-blue-500 focus:outline-none focus:shadow-outline hover:text-white" aria-describedby="tier-standard">
+                        Sign Up Now
+                      </a>
+                    </div>
+                  </div>
+                </div>
+
+
+              </div>
+            </div>
+          </div>
+          <div class="relative max-w-screen-xl px-4 mx-auto mt-4 sm:px-6 lg:px-8 lg:mt-8">
+            <div class="max-w-md mx-auto">
+              <div class="px-6 py-8 bg-white rounded-lg sm:p-10 lg:flex lg:items-center">
+                <div class="flex-1">
+                  <div>
+                    <h3 class="inline-flex px-4 py-1 text-sm font-semibold leading-5 tracking-wide text-blue-600 uppercase bg-blue-100 rounded-full" id="tier-standard">
+                      Purchasing Power Parity
+                    </h3>
+                  </div>
+                  <div class="mt-0 text-lg leading-7 text-gray-600">
+                    As part of my commitment to make R in 3 Months accessible to as many people as possible,
+                    I adjust prices using <a href="https://www.investopedia.com/terms/p/parity.asp#:~:text=Purchasing%20Power%20Parity%20(PPP)%20is,rates%20between%20the%20two%20countries.">purchasing power parity</a>.
+                    If you are in a lower income country, the prices above will be 50% off the price for those in wealthy countries.
+
+
+                  </div>
+                </div>
+
+              </div>
+
+
+
+
+
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
-  </div>
-  <div class="relative max-w-screen-xl px-4 mx-auto mt-4 sm:px-6 lg:px-8 lg:mt-8">
-    <div class="max-w-md mx-auto">
-      <div class="px-6 py-8 bg-white rounded-lg sm:p-10 lg:flex lg:items-center">
-        <div class="flex-1">
-          <div>
-            <h3 class="inline-flex px-4 py-1 text-sm font-semibold leading-5 tracking-wide text-blue-600 uppercase bg-blue-100 rounded-full" id="tier-standard">
-              Purchasing Power Parity
-            </h3>
-          </div>
-          <div class="mt-0 text-lg leading-7 text-gray-600">
-            As part of my commitment to make R in 3 Months accessible to as many people as possible,
-            I adjust prices using <a href="https://www.investopedia.com/terms/p/parity.asp#:~:text=Purchasing%20Power%20Parity%20(PPP)%20is,rates%20between%20the%20two%20countries.">purchasing power parity</a>.
-            If you are in a lower income country, the prices above will be 50% off the price for those in wealthy countries.
-
-
-          </div>
-        </div>
-
-      </div>
-
-
-
-
-
-    </div>
-  </div>
-</div>
-</div>
 
       <div class="relative mt-16 bg-gray-800 hidden" id="scholarship">
         <div class="h-56 bg-blue-600 sm:h-72 md:absolute md:left-0 md:h-full md:w-1/2">
