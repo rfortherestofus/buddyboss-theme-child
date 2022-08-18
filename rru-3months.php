@@ -42,11 +42,11 @@ get_header();
                     The next cohort will cost $999 ($949 before September 2) and starts September 22.
                   </p>
 
-                  <div class="max-w-lg mx-auto hidden">
+                  <div class="max-w-lg mx-auto">
                     <?php echo do_shortcode("[ninja_form id=23]"); ?>
                   </div>
 
-                  <a href="?add-to-cart=15772&amp;quantity=1" class="px-5 py-3 text-base font-medium leading-6 text-white transition duration-150 ease-in-out bg-blue-600 border border-transparent rounded-md hover:bg-blue-500 focus:outline-none focus:shadow-outline hover:text-white" aria-describedby="tier-standard">
+                  <a href="?add-to-cart=15772&amp;quantity=1" class="hidden px-5 py-3 text-base font-medium leading-6 text-white transition duration-150 ease-in-out bg-blue-600 border border-transparent rounded-md hover:bg-blue-500 focus:outline-none focus:shadow-outline hover:text-white" aria-describedby="tier-standard">
                     Sign Up Now
                   </a>
 
@@ -957,7 +957,7 @@ get_header();
       <div class="max-w-3xl mx-auto px-4 bg-gradient-to-r from-blue-800 to-blue-700">
 
 
-<div class="pt-12 mt-24 sm:pt-16 lg:pt-24" id="pricing">
+<div class="pt-12 mt-24 sm:pt-16 lg:pt-24 hidden" id="pricing">
   <div class="max-w-3xl px-4 mx-auto text-center sm:px-6 lg:px-8">
     <div class="max-w-3xl mx-auto space-y-2">
 
@@ -1041,7 +1041,7 @@ get_header();
 </div>
 </div>
 
-      <div class="relative mt-16 bg-gray-800" id="scholarship">
+      <div class="relative mt-16 bg-gray-800 hidden" id="scholarship">
         <div class="h-56 bg-blue-600 sm:h-72 md:absolute md:left-0 md:h-full md:w-1/2">
           <img class="object-cover w-full h-full" src="../wp-content/themes/buddyboss-theme-child/assets/images/scholarship-program.jpg" alt="Two people working at a computer">
         </div>
