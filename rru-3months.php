@@ -1041,7 +1041,7 @@ get_header();
         </div>
       </div>
 
-      <div class="relative mt-16 bg-gray-800 hidden" id="scholarship">
+      <div class="relative mt-16 bg-gray-800" id="scholarship">
         <div class="h-56 bg-blue-600 sm:h-72 md:absolute md:left-0 md:h-full md:w-1/2">
           <img class="object-cover w-full h-full" src="../wp-content/themes/buddyboss-theme-child/assets/images/scholarship-program.jpg" alt="Two people working at a computer">
         </div>
