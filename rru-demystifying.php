@@ -49,9 +49,7 @@ get_header();
 
 
 <div class="mt-6">
-  <h2 class="pt-16 text-3xl font-extrabold text-gray-900 sm:text-4xl text-center">
-    Past Sessions
-  </h2>
+
 
   <dl class="space-y-8 divide-y divide-gray-200">
 
@@ -67,6 +65,10 @@ get_header();
         <p><a href="https://github.com/rfortherestofus/demystifying-r/blob/1cee937a04ede12e12d905652ad57fba273b0e3d/report.Rmd">RMarkdown Document Used to Make Report</a></p>
       </dt>
       <dd class="mt-2 md:mt-0 md:col-span-9">
+
+        <h2 class="pt-16 text-3xl font-extrabold text-gray-900 sm:text-4xl text-center">
+          Past Sessions
+        </h2>
 
         <div class="muse-video-player max-w-6xl" data-video="QLcPYZr" data-search="0" data-links="0" data-logo="0" data-title="0" data-autoplay="0" data-width="100%"></div>
         <script src="https://muse.ai/static/js/embed-player.min.js"></script>
