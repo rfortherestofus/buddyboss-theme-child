@@ -48,7 +48,7 @@ get_header();
 </div>
 
 
-<div class="mt-6">
+<div class="mt-6" id="past-sessions">
 
 
   <dl class="space-y-8 divide-y divide-gray-200">
