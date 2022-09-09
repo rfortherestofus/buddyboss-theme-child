@@ -38,7 +38,7 @@ get_header();
       </p>
     </div>
 
-    <div class="bg-gray-50 text-base leading-7 mt-4 mx-4 rounded-md px-8 pt-8">
+    <div class="bg-gray-50 text-base leading-7 mt-4 mx-4 rounded-md px-8 pt-8 hidden">
       <p class="font-bold">Join us on Thursday, September 8 at 11:00am Pacific time</p>
       <?php echo do_shortcode("[ninja_form id=32]"); ?>
     </div>
@@ -47,6 +47,35 @@ get_header();
 </div>
 </div>
 
+
+<div class="mt-6">
+  <h2 class="pt-16 text-3xl font-extrabold text-gray-900 sm:text-4xl text-center">
+    Past Sessions
+  </h2>
+
+  <dl class="space-y-8 divide-y divide-gray-200">
+
+    <div class="pt-6 md:grid md:grid-cols-12 md:gap-8">
+
+
+
+      <dt class="text-base font-medium text-gray-900 md:col-span-3">
+        <h3>September 8, 2022</h3>
+
+        <p><a href="https://rfortherestofus.github.io/demystifying-r/slides/slides-rin3-fall-2022.html">Slides</a></p>
+        <p><a href="https://rfortherestofus.github.io/demystifying-r/reports/report-rin3-fall-2022.htmll">Final Version of Report</a></p>
+        <p><a href="https://github.com/rfortherestofus/demystifying-r/blob/1cee937a04ede12e12d905652ad57fba273b0e3d/report.Rmd">RMarkdown Document Used to Make Report</a></p>
+      </dt>
+      <dd class="mt-2 md:mt-0 md:col-span-9">
+
+        <div class="muse-video-player max-w-6xl" data-video="QLcPYZr" data-search="0" data-links="0" data-logo="0" data-title="0" data-autoplay="0" data-width="100%"></div>
+        <script src="https://muse.ai/static/js/embed-player.min.js"></script>
+      </dd>
+    </div>
+
+
+  </dl>
+</div>
 
 
 <div class="bg-white hidden">
