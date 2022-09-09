@@ -57,7 +57,7 @@ get_header();
 
 
 
-      <dt class="text-base font-medium text-gray-900 md:col-span-3">
+      <dt class="pt-16 text-base font-medium text-gray-900 md:col-span-3">
         <h3>September 8, 2022</h3>
 
         <p><a href="https://rfortherestofus.github.io/demystifying-r/slides/slides-rin3-fall-2022.html">Slides</a></p>
@@ -66,7 +66,7 @@ get_header();
       </dt>
       <dd class="mt-2 md:mt-0 md:col-span-9">
 
-        <h2 class="pt-16 text-3xl font-extrabold text-gray-900 sm:text-4xl text-center">
+        <h2 class="text-3xl font-extrabold text-gray-900 sm:text-4xl">
           Past Sessions
         </h2>
 
