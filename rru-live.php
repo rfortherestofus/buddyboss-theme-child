@@ -16,21 +16,24 @@ get_header();
       </h1>
     </div>
 
-    <div class="max-w-4xl mx-auto px-4">
+    <div class="md:flex">
+    <div class="px-4">
       <p class="mt-4 text-2xl">
         Join me for some very occasional live coding on projects we're working on at R for the Rest of Us.
       </p>
     </div>
 
 
-    <div class="max-w-2xl mx-auto px-8 pt-6 pb-2 bg-blue-500 shadow-lg rounded-sm lg:col-span-2 lg:my-8">
+    <div class="px-8 pt-6 pb-2 bg-blue-500 shadow-lg rounded-sm lg:col-span-2 lg:my-8">
       <h2 class="text-white">Want to know next time I go live?</h2>
       <?php echo do_shortcode("[ninja_form id=21]"); ?>
-      <p class="text-gray-100 mt-8">
+      <p class="text-gray-100 mt-8 hidden">
         Have questions you'd like me to go over during a future live coding session? Send me an email to david@rfortherestofus.com and I'll do my best to answer in a future session.
 
       </p>
 
+
+    </div>
 
     </div>
 
