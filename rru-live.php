@@ -23,15 +23,6 @@ get_header();
     </div>
 
 
-
-
-
-    <div class="w-full my-0 overflow-hidden text-base text-blue-800 aspect-w-16 aspect-h-9">
-      <iframe src="https://www.youtube.com/embed/live_stream?channel=UCSoUNu8x-HblqqOK_EwdZGw" frameborder="0" allowfullscreen></iframe>
-
-
-    </div>
-
     <div class="max-w-2xl mx-auto px-8 pt-6 pb-2 bg-blue-500 shadow-lg rounded-sm lg:col-span-2 lg:my-8">
       <h2 class="text-white">Want to know next time I go live?</h2>
       <?php echo do_shortcode("[ninja_form id=21]"); ?>
@@ -42,6 +33,15 @@ get_header();
 
 
     </div>
+
+
+    <div class="w-full my-0 overflow-hidden text-base text-blue-800 aspect-w-16 aspect-h-9">
+      <iframe src="https://www.youtube.com/embed/live_stream?channel=UCSoUNu8x-HblqqOK_EwdZGw" frameborder="0" allowfullscreen></iframe>
+
+
+    </div>
+
+
 
 
 
