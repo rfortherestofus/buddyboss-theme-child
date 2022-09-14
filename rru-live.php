@@ -19,7 +19,7 @@ get_header();
     
       <div class="px-4">
         <p class="mt-4 text-2xl">
-          Join me for occasional live coding on projects we're working on at R for the Rest of Us.
+          Join me for occasional live coding on projects we're working on at R for the Rest of Us. The video below will appear whenever I am live.
         </p>
       </div>    
 
