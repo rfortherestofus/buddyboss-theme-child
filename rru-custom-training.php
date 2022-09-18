@@ -586,7 +586,7 @@ get_header();
       
       <p>Improve your organization's efficiency, provide an incredible professional development opportunity for your staff, and save money to boot.</p>
       <div class="mt-5 sm:mt-12">
-        <a target="_blank" href="https://savvycal.com/links/davidkeyes/custom-training/" class="px-8 py-3 text-base font-medium leading-6 text-white transition duration-150 ease-in-out bg-orange-600 border border-transparent rounded-md hover:text-white hover:bg-orange-500 focus:outline-none focus:border-orange-700 focus:shadow-outline-blue md:py-4 md:text-lg md:px-10">
+        <a target="_blank" href="https://savvycal.com/links/davidkeyes/custom-training" class="px-8 py-3 text-base font-medium leading-6 text-white transition duration-150 ease-in-out bg-orange-600 border border-transparent rounded-md hover:text-white hover:bg-orange-500 focus:outline-none focus:border-orange-700 focus:shadow-outline-blue md:py-4 md:text-lg md:px-10">
           Let's Talk
         </a>
 
