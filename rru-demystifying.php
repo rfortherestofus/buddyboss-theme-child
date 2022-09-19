@@ -61,7 +61,7 @@ get_header();
         <h3>September 8, 2022</h3>
 
         <p><a href="https://rfortherestofus.github.io/demystifying-r/slides/slides-rin3-fall-2022.html">Slides</a></p>
-        <p><a href="https://rfortherestofus.github.io/demystifying-r/reports/report-rin3-fall-2022.htmll">Final Version of Report</a></p>
+        <p><a href="https://rfortherestofus.github.io/demystifying-r/reports/report-rin3-fall-2022.html">Final Version of Report</a></p>
         <p><a href="https://github.com/rfortherestofus/demystifying-r/blob/1cee937a04ede12e12d905652ad57fba273b0e3d/report.Rmd">RMarkdown Document Used to Make Report</a></p>
       </dt>
       <dd class="mt-2 md:mt-0 md:col-span-9">
