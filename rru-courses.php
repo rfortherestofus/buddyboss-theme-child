@@ -39,24 +39,24 @@ get_header();
             </div>
 
             <div class="lg:w-1/2">
-        
-<div class="bg-white">
-  <div class="max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:px-8">
-    <div class="bg-blue-800 rounded-lg shadow-xl overflow-hidden ">
-      <div class="pt-10 pb-12 px-6 sm:pt-16 sm:px-16 lg:py-16 lg:pr-0 xl:py-20 xl:px-20">
-        <div class="lg:self-center">
-          <h2 class="text-3xl font-extrabold text-white sm:text-4xl">
-            <span class="block">Looking for more?</span>
-            
-          </h2>
-          <p class="mt-4 text-lg leading-6 text-blue-100">R in 3 Months offers high-quality course materials, personalized feedback, and a supportive community.</p>
-          <a href="/3months/" class="mt-2 bg-white border border-transparent rounded-md shadow px-5 py-3 inline-flex items-center text-base font-medium text-blue-800 hover:text-blue-800">Learn More</a>
-        </div>
-      </div>
-      
-    </div>
-  </div>
-</div>
+
+                <div class="bg-white">
+                    <div class="max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:px-8">
+                        <div class="bg-blue-800 rounded-lg shadow-xl overflow-hidden ">
+                            <div class="pt-10 pb-12 px-6 sm:pt-16 sm:px-16 lg:py-16 lg:pr-0 xl:py-20 xl:px-20">
+                                <div class="lg:self-center">
+                                    <h2 class="text-3xl font-extrabold text-white sm:text-4xl">
+                                        <span class="block">Looking for more?</span>
+
+                                    </h2>
+                                    <p class="mt-4 text-lg leading-6 text-blue-100">R in 3 Months offers high-quality course materials, personalized feedback, and a supportive community.</p>
+                                    <a href="/3months/" class="mt-2 bg-white border border-transparent rounded-md shadow px-5 py-3 inline-flex items-center text-base font-medium text-blue-800 hover:text-blue-800">Learn More</a>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
 
             </div>
 
@@ -201,6 +201,53 @@ get_header();
             </p>
         </div>
 
+
+        <div class="flex flex-wrap mt-16 overflow-hidden">
+
+            <div class="w-full overflow-hidden md:my-3 md:px-3 md:w-1/2">
+                <a href="/courses/git-github/">
+                    <img class="rounded-sm shadow" src="/wp-content/themes/buddyboss-theme-child/assets/images/using-git-github.png" alt="Using Git and GitHub with R" />
+                </a>
+            </div>
+
+            <div class="w-full overflow-hidden md:my-3 md:px-3 md:w-1/2">
+                <div class="mx-auto sm:w-4/5">
+                    <h3 class="hidden text-xl font-extrabold leading-9 tracking-tight text-blue-800 sm:block sm:leading-10">
+                        Using Git and GitHub with R
+
+                    </h3>
+
+
+
+                    <p class="mt-4 sm:mt-0">
+
+                    <p>I’ve taught a lot of people to use R. Once they get the basics down, one of the first questions they ask is: how do I share my code with others?
+                    </p>
+                    <p>
+                        Should they email it? But then, if they need to change the code, they have to send it again.
+                    </p>
+                    <p>
+                        Should they put it on Dropbox? But if multiple people work on a file on Dropbox, all sorts of problems ensue.
+                    </p>
+                    <p>
+                        What to do? The answer is Git and GitHub.
+                    </p>
+                    <p>
+                        Using Git and GitHub allows you to share code, ensuring everyone has the most up-to-date code and allowing multiple people to work on the code at the same time.
+                    </p>
+
+
+                    <div class="mt-5 mb-20 sm:mt-12">
+                        <a href="/courses/git-github/" class="px-8 py-3 text-base font-medium leading-6 text-white transition duration-150 ease-in-out bg-blue-600 border border-transparent rounded-md hover:text-white hover:bg-blue-500 focus:outline-none focus:border-blue-700 focus:shadow-outline-blue md:py-4 md:text-lg md:px-10">
+                            Learn More
+                        </a>
+
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
 
         <div class="flex flex-wrap mt-16 overflow-hidden">
 
