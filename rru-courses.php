@@ -222,13 +222,10 @@ get_header();
                     <p class="mt-4 sm:mt-0">
 
                     <p>I’ve taught a lot of people to use R. Once they get the basics down, one of the first questions they ask is: how do I share my code with others?
-                    </p>
-                    <p>
                         Should they email it? But then, if they need to change the code, they have to send it again.
-                    </p>
-                    <p>
                         Should they put it on Dropbox? But if multiple people work on a file on Dropbox, all sorts of problems ensue.
                     </p>
+
                     <p>
                         What to do? The answer is Git and GitHub.
                     </p>
