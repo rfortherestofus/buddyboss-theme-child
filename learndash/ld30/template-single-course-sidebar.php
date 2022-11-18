@@ -356,7 +356,7 @@ if (sfwd_lms_has_access($course->ID, $current_user_id)) {
 							</li>
 
 							<li>
-								<i class="bb-icons bb-icon-sunrise"></i>Lifetime Access to Materials
+								<i class="bb-icons bb-icon-sunrise"></i>Lifetime Access
 							</li>
 							
 						</ul>
