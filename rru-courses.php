@@ -320,6 +320,40 @@ get_header();
         <div class="flex flex-wrap mt-16 overflow-hidden">
 
             <div class="w-full overflow-hidden md:my-3 md:px-3 md:w-1/2">
+                <a href="/courses/package-development/">
+                    <img class="rounded-sm shadow" src="/wp-content/themes/buddyboss-theme-child/assets/images/package-development.png" alt="Package Development with R" />
+                </a>
+            </div>
+
+            <div class="w-full overflow-hidden md:my-3 md:px-3 md:w-1/2">
+                <div class="mx-auto sm:w-4/5">
+                    <h3 class="hidden text-xl font-extrabold leading-9 tracking-tight text-blue-800 sm:block sm:leading-10">
+                        Package Development with R
+
+                    </h3>
+
+
+
+                    <p class="mt-4 sm:mt-0">
+
+                    <p>Learning to make your own functions is a huge step on your R journey. But how do you reuse functions across projects? The answer is to make your own R package.</p>
+
+                        <p>This course will show you how to make your own package and help make you more efficient than you've ever been before..</p>
+                    <div class="mt-5 mb-20 sm:mt-12">
+                        <a href="/courses/package-development/" class="px-8 py-3 text-base font-medium leading-6 text-white transition duration-150 ease-in-out bg-blue-600 border border-transparent rounded-md hover:text-white hover:bg-blue-500 focus:outline-none focus:border-blue-700 focus:shadow-outline-blue md:py-4 md:text-lg md:px-10">
+                            Learn More
+                        </a>
+
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+        <div class="flex flex-wrap mt-16 overflow-hidden">
+
+            <div class="w-full overflow-hidden md:my-3 md:px-3 md:w-1/2">
                 <a href="/courses/inferential-statistics/">
                     <img class="rounded-sm shadow" src="/wp-content/themes/buddyboss-theme-child/assets/images/inferential-statistics.png" alt="Inferential Statistics with R" />
                 </a>
