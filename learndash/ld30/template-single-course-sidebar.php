@@ -74,8 +74,8 @@ if (sfwd_lms_has_access($course->ID, $current_user_id)) {
 																	break;
 																} ?>
 								<img class="round" src="<?php echo get_avatar_url((int) $course_member, array('size' => 96)); ?>" alt="" /><?php
-																																				$count++;
-																																			endforeach; ?>
+																																			$count++;
+																																		endforeach; ?>
 						</span>
 
 						<?php
@@ -179,112 +179,112 @@ if (sfwd_lms_has_access($course->ID, $current_user_id)) {
 								if ($course_price_type == 'open') {
 							?>
 							<span class="bb-course-type bb-course-type-open"><?php _e('Open Registration', 'buddyboss-theme'); ?></span><?php
-																																		} else {
-																																			?>
+																																	} else {
+																																		?>
 							<span class="bb-course-type bb-course-type-free"><?php _e('Free', 'buddyboss-theme'); ?></span><?php
-																																		}
-																																	} elseif ($course_price_type == 'closed') {
-																																		$learndash_payment_buttons = learndash_payment_buttons($course);
-																																		if (empty($learndash_payment_buttons)) :
-																																			if (false === $is_enrolled) {
-																																				echo '<span class="ld-status ld-status-incomplete ld-third-background ld-text">' . __('This course is currently closed', 'buddyboss-theme') . '</span>';
-																																				if (!empty($course_price)) {
-																																					echo '<span class="bb-course-type bb-course-type-paynow">' . wp_kses_post($course_pricing['price']) . '</span>';
-																																				}
-																																			} else { ?>
+																																	}
+																																} elseif ($course_price_type == 'closed') {
+																																	$learndash_payment_buttons = learndash_payment_buttons($course);
+																																	if (empty($learndash_payment_buttons)) :
+																																		if (false === $is_enrolled) {
+																																			echo '<span class="ld-status ld-status-incomplete ld-third-background ld-text">' . __('This course is currently closed', 'buddyboss-theme') . '</span>';
+																																			if (!empty($course_price)) {
+																																				echo '<span class="bb-course-type bb-course-type-paynow">' . wp_kses_post($course_pricing['price']) . '</span>';
+																																			}
+																																		} else { ?>
 								<div class="learndash_join_button <?php echo $btn_advance_class; ?>">
 									<a href="<?php echo esc_url($resume_link); ?>" class="btn-advance ld-primary-background"><?php echo $btn_advance_label; ?></a>
 								</div>
 							<?php
-																																			}
-																																		else :
+																																		}
+																																	else :
 							?>
 							<div class="learndash_join_button <?php echo 'btn-advance-continue '; ?>"> <?php
-																																			echo $learndash_payment_buttons; ?>
+																																		echo $learndash_payment_buttons; ?>
 							</div>
 							<?php
-																																			if (!empty($course_price)) {
-																																				echo '<span class="bb-course-type bb-course-type-paynow">' . wp_kses_post($course_pricing['price']) . '</span>';
-																																			}
-																																		endif;
-																																	} elseif ($course_price_type == 'paynow' || $course_price_type == 'subscribe') {
-																																		if (false === $is_enrolled) {
-																																			$meta                = get_post_meta($course_id, '_sfwd-courses', true);
-																																			$course_price_type   = @$meta['sfwd-courses_course_price_type'];
-																																			$course_price        = @$meta['sfwd-courses_course_price'];
-																																			$course_no_of_cycles = @$meta['sfwd-courses_course_no_of_cycles'];
-																																			$course_price        = @$meta['sfwd-courses_course_price'];
-																																			$custom_button_url   = @$meta['sfwd-courses_custom_button_url'];
-																																			$custom_button_label = @$meta['sfwd-courses_custom_button_label'];
+																																		if (!empty($course_price)) {
+																																			echo '<span class="bb-course-type bb-course-type-paynow">' . wp_kses_post($course_pricing['price']) . '</span>';
+																																		}
+																																	endif;
+																																} elseif ($course_price_type == 'paynow' || $course_price_type == 'subscribe') {
+																																	if (false === $is_enrolled) {
+																																		$meta                = get_post_meta($course_id, '_sfwd-courses', true);
+																																		$course_price_type   = @$meta['sfwd-courses_course_price_type'];
+																																		$course_price        = @$meta['sfwd-courses_course_price'];
+																																		$course_no_of_cycles = @$meta['sfwd-courses_course_no_of_cycles'];
+																																		$course_price        = @$meta['sfwd-courses_course_price'];
+																																		$custom_button_url   = @$meta['sfwd-courses_custom_button_url'];
+																																		$custom_button_label = @$meta['sfwd-courses_custom_button_label'];
 
-																																			if ($course_price_type == 'subscribe' && $course_price == '') {
-																																				if (empty($custom_button_label)) {
-																																					$button_text = LearnDash_Custom_Label::get_label('button_take_this_course');
-																																				} else {
-																																					$button_text = esc_attr($custom_button_label);
-																																				}
-																																				$join_button = '<div class="learndash_join_button"><form method="post">
+																																		if ($course_price_type == 'subscribe' && $course_price == '') {
+																																			if (empty($custom_button_label)) {
+																																				$button_text = LearnDash_Custom_Label::get_label('button_take_this_course');
+																																			} else {
+																																				$button_text = esc_attr($custom_button_label);
+																																			}
+																																			$join_button = '<div class="learndash_join_button"><form method="post">
 								<input type="hidden" value="' . $course->ID . '" name="course_id" />
 								<input type="hidden" name="course_join" value="' . wp_create_nonce('course_join_' . get_current_user_id() . '_' . $course->ID) . '" />
 								<input type="submit" value="' . $button_text . '" class="btn-join" id="btn-join" /></form></div>';
-																																				echo $join_button;
-																																			} else {
-																																				echo learndash_payment_buttons($course);
-																																			}
+																																			echo $join_button;
 																																		} else {
+																																			echo learndash_payment_buttons($course);
+																																		}
+																																	} else {
 							?>
 							<div class="learndash_join_button <?php echo $btn_advance_class; ?>">
 								<a href="<?php echo esc_url($resume_link); ?>" class="btn-advance ld-primary-background"><?php echo $btn_advance_label; ?></a>
 							</div><?php
-																																		}
+																																	}
 
-																																		if (apply_filters('learndash_login_modal', true, $course_id, $user_id) && !is_user_logged_in()) :
-																																			echo '<span class="ld-status">' . __('or ', 'buddyboss-theme') . '<a class="ld-login-text" href="' . esc_attr($login_url) . '">' . __('Login', 'buddyboss-theme') . '</a></span>';
-																																		endif;
+																																	if (apply_filters('learndash_login_modal', true, $course_id, $user_id) && !is_user_logged_in()) :
+																																		echo '<span class="ld-status">' . __('or ', 'buddyboss-theme') . '<a class="ld-login-text" href="' . esc_attr($login_url) . '">' . __('Login', 'buddyboss-theme') . '</a></span>';
+																																	endif;
 
-																																		if (false === $is_enrolled) {
-																																			if ($course_price_type == 'paynow') {
+																																	if (false === $is_enrolled) {
+																																		if ($course_price_type == 'paynow') {
 									?><span class="bb-course-type bb-course-type-paynow">
 									<?php
-																																				echo wp_kses_post('<span class="ld-currency">' . learndash_30_get_currency_symbol() . '</span> ');
-																																				echo wp_kses_post($course_pricing['price']); ?></span>
+																																			echo wp_kses_post('<span class="ld-currency">' . learndash_30_get_currency_symbol() . '</span> ');
+																																			echo wp_kses_post($course_pricing['price']); ?></span>
 							<?php
-																																			} else {
-																																				$course_price_billing_p3 = get_post_meta($course_id, 'course_price_billing_p3', true);
-																																				$course_price_billing_t3 = get_post_meta($course_id, 'course_price_billing_t3', true);
-																																				if ($course_price_billing_t3 == 'D') {
-																																					$course_price_billing_t3 = 'day(s)';
-																																				} elseif ($course_price_billing_t3 == 'W') {
-																																					$course_price_billing_t3 = 'week(s)';
-																																				} elseif ($course_price_billing_t3 == 'M') {
-																																					$course_price_billing_t3 = 'month(s)';
-																																				} elseif ($course_price_billing_t3 == 'Y') {
-																																					$course_price_billing_t3 = 'year(s)';
-																																				}
+																																		} else {
+																																			$course_price_billing_p3 = get_post_meta($course_id, 'course_price_billing_p3', true);
+																																			$course_price_billing_t3 = get_post_meta($course_id, 'course_price_billing_t3', true);
+																																			if ($course_price_billing_t3 == 'D') {
+																																				$course_price_billing_t3 = 'day(s)';
+																																			} elseif ($course_price_billing_t3 == 'W') {
+																																				$course_price_billing_t3 = 'week(s)';
+																																			} elseif ($course_price_billing_t3 == 'M') {
+																																				$course_price_billing_t3 = 'month(s)';
+																																			} elseif ($course_price_billing_t3 == 'Y') {
+																																				$course_price_billing_t3 = 'year(s)';
+																																			}
 							?>
 								<span class="bb-course-type bb-course-type-subscribe">
 									<?php
-																																				if ('' === $course_price && $course_price_type == 'subscribe') {
+																																			if ('' === $course_price && $course_price_type == 'subscribe') {
 									?>
 										<span class="bb-course-type bb-course-type-subscribe"><?php _e('Free', 'buddyboss-theme'); ?></span>
 									<?php
-																																				} else {
-																																					echo wp_kses_post('<span class="ld-currency">' . learndash_30_get_currency_symbol() . '</span> ');
-																																					echo wp_kses_post($course_pricing['price']);
-																																				}
+																																			} else {
+																																				echo wp_kses_post('<span class="ld-currency">' . learndash_30_get_currency_symbol() . '</span> ');
+																																				echo wp_kses_post($course_pricing['price']);
+																																			}
 
-																																				$recuring = ('' === $course_price_billing_p3) ? 0 : $course_price_billing_p3;
+																																			$recuring = ('' === $course_price_billing_p3) ? 0 : $course_price_billing_p3;
 
-																																				//if ( !empty( $course_price_billing_p3 ) ) { 
+																																			//if ( !empty( $course_price_billing_p3 ) ) { 
 									?>
 									<span class="course-bill-cycle"> / <?php echo $recuring . ' ' . $course_price_billing_t3; ?> </span><?php
-																																				//} 
+																																			//} 
 																																		?>
 								</span>
 					<?php
-																																			}
 																																		}
-																																	} ?>
+																																	}
+																																} ?>
 				</div>
 
 				<?php
@@ -323,9 +323,9 @@ if (sfwd_lms_has_access($course->ID, $current_user_id)) {
 				if (sizeof($lesson_count) > 0 || $topics_count > 0 || $course_quizzes_count > 0 || $course_certificate) { ?>
 					<div class="bb-course-volume">
 						<h4><?php echo LearnDash_Custom_Label::get_label('course'); ?> <?php _e(
-																								'Includes',
-																								'buddyboss-theme'
-																							); ?></h4>
+																							'Includes',
+																							'buddyboss-theme'
+																						); ?></h4>
 						<ul class="bb-course-volume-list">
 							<?php if (sizeof($lesson_count) > 0) { ?>
 								<li>
@@ -351,14 +351,28 @@ if (sfwd_lms_has_access($course->ID, $current_user_id)) {
 								</li>
 
 							<?php } ?>
-							<li>
-								<i class="bb-icons bb-icon-clock"></i>Self-Paced
-							</li>
+
+
+						
+
+							<?php
+							// Get the current LearnDash course ID
+							$course_id = learndash_get_course_id();
+
+							// Check if the course ID is not 65
+							if ($course_id != 18140 and $course_id != 32106 and $course_id != 31930 and $course_id != 25514) {
+								// Print self-paced
+								echo "<li><i class='bb-icons bb-icon-clock'></i>Self-Paced</li>";
+							}
+
+							?>
+
+
 
 							<li>
 								<i class="bb-icons bb-icon-sunrise"></i>Lifetime Access
 							</li>
-							
+
 						</ul>
 					</div><?php
 						} ?>
@@ -384,8 +398,8 @@ if (sfwd_lms_has_access($course->ID, $current_user_id)) {
 		<?php _e('Your browser does not support HTML5 video.', 'buddyboss-theme'); ?>
 	</video>
 <?php
-																										else :
-																											_e('Video format is not supported, use Youtube video or MP4 format.', 'buddyboss-theme');
-																										endif;
-																									endif; ?>
+																									else :
+																										_e('Video format is not supported, use Youtube video or MP4 format.', 'buddyboss-theme');
+																									endif;
+																								endif; ?>
 </div>
