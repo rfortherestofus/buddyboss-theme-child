@@ -570,7 +570,7 @@ get_header();
         <h2>How R Has Transformed the Work of the Michigan Fitness Foundation</h2>
         <p>The team at Michigan Fitness Foundation thought R could only be useful for stats. Since working with R for the Rest of Us, they've learned it can do much more.</p>
         <div class="mt-5 sm:mt-12">
-          <a href="/success-stories/reading-partners/" class="px-8 py-3 text-base font-medium leading-6 text-white transition duration-150 ease-in-out bg-blue-600 border border-transparent rounded-md hover:text-white hover:bg-blue-500 focus:outline-none focus:border-blue-700 focus:shadow-outline-blue md:py-4 md:text-lg md:px-10">
+          <a href="/success-stories/mff/" class="px-8 py-3 text-base font-medium leading-6 text-white transition duration-150 ease-in-out bg-blue-600 border border-transparent rounded-md hover:text-white hover:bg-blue-500 focus:outline-none focus:border-blue-700 focus:shadow-outline-blue md:py-4 md:text-lg md:px-10">
             Learn More
           </a>
 
