@@ -186,7 +186,7 @@ get_header();
 
 
                   <ul class="mt-8 ml-0 sm:ml-2">
-                    <li class="mt-2">
+                    <li class="mt-4">
                       <div class="flex">
                         <div class="flex-shrink-0">
                           <div class="flex items-center justify-center w-12 h-12 text-white bg-blue-500 rounded-md">
@@ -208,7 +208,7 @@ get_header();
                         </div>
                       </div>
                     </li>
-                    <li class="mt-2">
+                    <li class="mt-4">
                       <div class="flex">
                         <div class="flex-shrink-0">
                           <div class="flex items-center justify-center w-12 h-12 text-white bg-blue-500 rounded-md">
@@ -228,7 +228,7 @@ get_header();
                         </div>
                       </div>
                     </li>
-                    <li class="mt-2">
+                    <li class="mt-4">
                       <div class="flex">
                         <div class="flex-shrink-0">
                           <div class="flex items-center justify-center w-12 h-12 text-white bg-blue-500 rounded-md">
@@ -247,7 +247,7 @@ get_header();
                         </div>
                       </div>
                     </li>
-                    <li class="mt-2">
+                    <li class="mt-4">
                       <div class="flex">
                         <div class="flex-shrink-0">
                           <div class="flex items-center justify-center w-12 h-12 text-white bg-blue-500 rounded-md">
