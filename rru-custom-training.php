@@ -53,8 +53,8 @@ get_header();
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z" />
               </svg>
             </div>
-            <div class="mt-5">
-              <h5 class="text-lg font-medium leading-6 text-blue-800">Efficient Workflows</h5>
+            <div class="mt-2">
+            <h5 class="text-lg font-medium leading-6 text-blue-800 mb-1">Efficient Workflows</h5>
               <p class="mt-2 text-base leading-6 text-gray-500">
                 Write code today that you can reuse tomorrow, next week, next month, and next year.
               </p>
@@ -67,8 +67,8 @@ get_header();
                 <path d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"></path>
               </svg>
             </div>
-            <div class="mt-5">
-              <h5 class="text-lg font-medium leading-6 text-blue-800">Effective and Engaging Reporting</h5>
+            <div class="mt-2">
+            <h5 class="text-lg font-medium leading-6 text-blue-800 mb-1">Effective and Engaging Reporting</h5>
               <p class="mt-2 text-base leading-6 text-gray-500">
                 Produce high-quality graphics using the tool of choice for top information designers.
               </p>
@@ -81,9 +81,9 @@ get_header();
                 <path d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
               </svg>
             </div>
-            <div class="mt-5">
-              <h5 class="text-lg font-medium leading-6 text-blue-800">Cost Effective</h5>
-              <p class="mt-2 text-base leading-6 text-gray-500">
+            <div class="mt-2">
+              <h5 class="text-lg font-medium leading-6 text-blue-800 mb-1">Cost Effective</h5>
+              <p class="text-base leading-6 text-gray-500">
                 All of this power comes at a cost: nothing, nada, zilch. Yes, that's right: R is 100% free.
               </p>
             </div>
