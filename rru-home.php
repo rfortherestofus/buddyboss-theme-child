@@ -53,22 +53,54 @@ get_header();
       </div>
 
 
- 
+
 
       <div class="bg-white">
         <div class="px-4 py-16 mx-auto max-w-7xl sm:py-24 sm:px-6 lg:px-8">
           <h2 class="text-sm font-semibold tracking-wide text-center text-gray-600 uppercase">Supporting Forward-Looking Organizations</h2>
-          <div class="mt-6 grid sm:grid-cols-2 gap-0.5 md:grid-cols-6 lg:mt-8">
+          <div class="mt-6 grid sm:grid-cols-2 gap-0.5 md:grid-cols-4 lg:mt-8">
+
+
+
+            <div class="flex justify-center col-span-1 px-8 py-8 bg-white">
+              <img class="h-32 filter-grayscale hover:filter-sepia" src="wp-content/themes/buddyboss-theme-child/assets/images/jhu.svg" alt="Johns Hopkins University" />
+
+            </div>
+
+
+            <div class="flex justify-center col-span-1 px-8 py-8 bg-white">
+              <img class="h-32 filter-grayscale hover:filter-sepia" src="wp-content/themes/buddyboss-theme-child/assets/images/intuit.svg" alt="Intuit" />
+
+            </div>
+
+            <div class="flex justify-center col-span-1 px-8 py-8 bg-white">
+              <img class="h-32 filter-grayscale hover:filter-sepia" src="wp-content/themes/buddyboss-theme-child/assets/images/university-of-wisconsin.svg" alt="University of Wisconsin" />
+
+            </div>
+
+
+            <div class="flex justify-center col-span-1 px-8 py-8 bg-white">
+              <img class="h-32 filter-grayscale hover:filter-sepia" src="wp-content/themes/buddyboss-theme-child/assets/images/tfff-logo.svg" alt="Ford Family Foundation" />
+
+            </div>
+
+
+            <div class="flex justify-center col-span-1 px-8 py-8 bg-white">
+              <img class="h-32 filter-grayscale hover:filter-sepia" src="wp-content/themes/buddyboss-theme-child/assets/images/sdcoe.svg" alt="San Diego County Office of Education" />
+
+            </div>
+
+            <div class="flex justify-center col-span-1 px-8 py-8 bg-white">
+              <img class="h-32 filter-grayscale hover:filter-sepia" src="wp-content/themes/buddyboss-theme-child/assets/images/judis-house.svg" alt="Judi's House" />
+
+            </div>
 
             <div class="flex justify-center col-span-1 px-8 py-8 bg-white">
               <img class="h-32 filter-grayscale hover:filter-sepia" src="wp-content/themes/buddyboss-theme-child/assets/images/public-profit-logo.svg" alt="Public Profit" />
 
             </div>
 
-            <div class="flex justify-center col-span-1 px-8 py-8 bg-white">
-              <img class="h-32 filter-grayscale" src="wp-content/themes/buddyboss-theme-child/assets/images/tfff-logo.svg" alt="Ford Family Foundation" />
 
-            </div>
             <div class="flex justify-center col-span-1 px-8 py-8 bg-white">
               <img class="h-32 filter-grayscale" src="wp-content/themes/buddyboss-theme-child/assets/images/prosper-portland-logo.svg" alt="Prosper Portland" />
             </div>
@@ -102,9 +134,7 @@ get_header();
               <img class="h-32 filter-grayscale" src="wp-content/themes/buddyboss-theme-child/assets/images/mff-logo.svg" alt="Michigan Fitness Foundation" />
             </div>
 
-            <div class="flex justify-center col-span-1 px-8 py-8 bg-white">
-              <img class="h-32 filter-grayscale" src="wp-content/themes/buddyboss-theme-child/assets/images/the-mark-logo.png" alt="The Mark USA" />
-            </div>
+
 
             <div class="flex justify-center col-span-1 px-8 py-8 bg-white">
               <img class="h-32 filter-grayscale" src="wp-content/themes/buddyboss-theme-child/assets/images/edsurge-logo.svg" alt="EdSurge" />
