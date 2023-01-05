@@ -201,6 +201,56 @@ get_header();
             </p>
         </div>
 
+        <div class="flex flex-wrap mt-16 overflow-hidden">
+
+            <div class="w-full overflow-hidden md:my-3 md:px-3 md:w-1/2">
+                <a href="/courses/glamour/">
+                    <img class="rounded-sm shadow" src="/wp-content/themes/buddyboss-theme-child/assets/images/glamour-of-graphics.png" alt="The Glamour of Graphics" />
+                </a>
+            </div>
+
+            <div class="w-full overflow-hidden md:my-3 md:px-3 md:w-1/2">
+                <div class="mx-auto sm:w-4/5">
+                    <h3 class="hidden text-xl font-extrabold leading-9 tracking-tight text-blue-800 sm:block sm:leading-10">
+                        The Glamour of Graphics
+
+                    </h3>
+
+
+
+                    <p class="mt-4 sm:mt-0">
+
+                    <p>Have you ever looked at a beautiful chart and thought: wow, I wish I could make something like that!
+
+                         It might seem like some people have an innate design sensibility that you don’t. It’s easy to think, “I’m a data person, not a designer. I’m never gonna be able to make beautiful data viz.”
+                    </p>
+
+                    <p>
+                         But here’s the secret: anyone can make beautiful data viz.
+                    </p>
+
+                    <p>
+                        Will Chase is a journalist at Axios who has worked for years to hone the craft of designing data viz.
+
+                         In this course, which builds on <a href="https://www.rstudio.com/resources/rstudioconf-2020/the-glamour-of-graphics/">Will’s 2020 talk of the same name</a>, he’ll give you a peek behind the curtain showing you
+                    </p>
+                    </p>
+
+
+
+
+                    <div class="mt-5 mb-20 sm:mt-12">
+                        <a href="/courses/glamour/" class="px-8 py-3 text-base font-medium leading-6 text-white transition duration-150 ease-in-out bg-blue-600 border border-transparent rounded-md hover:text-white hover:bg-blue-500 focus:outline-none focus:border-blue-700 focus:shadow-outline-blue md:py-4 md:text-lg md:px-10">
+                            Learn More
+                        </a>
+
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
 
         <div class="flex flex-wrap mt-16 overflow-hidden">
 
@@ -338,7 +388,7 @@ get_header();
 
                     <p>Learning to make your own functions is a huge step on your R journey. But how do you reuse functions across projects? The answer is to make your own R package.</p>
 
-                        <p>This course will show you how to make your own package and help make you more efficient than you've ever been before..</p>
+                    <p>This course will show you how to make your own package and help make you more efficient than you've ever been before..</p>
                     <div class="mt-5 mb-20 sm:mt-12">
                         <a href="/courses/package-development/" class="px-8 py-3 text-base font-medium leading-6 text-white transition duration-150 ease-in-out bg-blue-600 border border-transparent rounded-md hover:text-white hover:bg-blue-500 focus:outline-none focus:border-blue-700 focus:shadow-outline-blue md:py-4 md:text-lg md:px-10">
                             Learn More
