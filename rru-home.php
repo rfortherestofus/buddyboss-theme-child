@@ -14,7 +14,7 @@ get_header();
 
 
 
-    <div class="relative bg-white overflow-hidden">
+    <div class="relative  overflow-hidden">
 
 
       <div class="relative pb-16 sm:pb-24 lg:pb-32">
@@ -36,13 +36,18 @@ get_header();
                 <p class="mb-0 sm:mb-1 text-base text-gray-500 sm:text-xl text-center">Learn to use the most powerful tool for working with data,</p>
                 <p class="text-base text-gray-500 sm:text-xl text-center font-bold mt-0"> even if you've never coded before.</p>
               </div>
+
               <div class="relative mx-auto w-full lg:max-w-6xl aspect-w-16 aspect-h-9">
+
+
 
                 <iframe class="rounded-lg shadow-lg" src="https://muse.ai/embed/KsyPoF1?search=0&links=0&logo=0&title=0&autoplay=1&volume=0&style=minimal" frameborder="0" allowfullscreen></iframe>
 
               </div>
 
-
+              <div class="mt-12 mx-auto ring-1 ring-orange-200 transform -rotate-1 p-4 rounded-xl bg-orange-500">
+                <p class="mb-0 sm:mb-1 text-sm text-white sm:text-xl text-center">Join the <span class="font-bold">5,000+</span> people who have learned through R for the Rest of Us 👇</p>
+              </div>
 
 
 
@@ -58,7 +63,7 @@ get_header();
         </div>
 
 
-        <div class="bg-white">
+        <div class="">
           <div class="mx-auto max-w-2xl py-24 px-4 sm:py-32 sm:px-6 lg:max-w-7xl lg:px-8">
             <div>
               <h2 id="core-courses" class="mb-4">
@@ -118,7 +123,7 @@ get_header();
           </div>
 
 
-          <div class="bg-white">
+          <div class="">
             <div class="mx-auto max-w-2xl py-0 px-4 sm:py-0 sm:px-6 lg:max-w-7xl lg:px-8">
               <div>
                 <h2 id="topics-courses" class="mb-4">
@@ -190,6 +195,68 @@ get_header();
             </div>
           </div>
 
+          <div class="my-32 mx-auto max-w-sm">
+
+            <hr class="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700">
+          </div>
+
+          <div class="mt-36">
+            <section aria-labelledby="features-heading" class="relative">
+              <div class="aspect-w-3 aspect-h-2 overflow-hidden sm:aspect-w-5 lg:aspect-none lg:absolute lg:h-full lg:w-1/2 lg:pr-4 xl:pr-16">
+                <img src="https://tailwindui.com/img/ecommerce-images/confirmation-page-01-hero.jpg" alt="Black leather journal with silver steel disc binding resting on wooden shelf with machined steel pen." class="h-full w-full object-cover object-center rounded-lg shadow-lg lg:h-full lg:w-full">
+              </div>
+
+              <div class="mx-auto max-w-2xl px-4 pt-16 pb-24 sm:px-6 sm:pb-32 lg:grid lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8 lg:pt-32">
+                <div class="lg:col-start-2">
+                  <h2 id="custom-training" class="mb-4">
+                    <span class="px-4 py-1 rounded-full bg-blue-800 font-light text-white text-lg">Custom Training</span>
+                  </h2>
+                  <p class="my-4 text-3xl font-bold tracking-tight text-blue-800 sm:text-5xl">Helping Teams Learn R</p>
+                  <p class="mt-4 text-lg text-gray-500">
+                    Make an investment in your organization's future by moving to R.
+                  </p>
+
+                  <dl class="mt-10 grid grid-cols-1 gap-y-10 gap-x-8 text-sm sm:grid-cols-2">
+                    <div>
+                      <dt class="font-medium text-gray-900 text-lg">Efficient Workflows</dt>
+                      <dd class="mt-2 ml-0 text-gray-500 text-md">Write code today that you can reuse tomorrow, next week, next month, and next year.</dd>
+                    </div>
+
+                    <div>
+                      <dt class="font-medium text-gray-900 text-lg">Engaging Reporting</dt>
+                      <dd class="mt-2 ml-0 text-gray-500 text-md">Produce high-quality graphics using the tool of choice for top information designers.</dd>
+                    </div>
+
+
+
+                    <div>
+                      <dt class="font-medium text-gray-900 text-lg">Professional Development</dt>
+                      <dd class="mt-2 ml-0 text-gray-500 text-md">
+                        Learning R is an incredible professional development opportunity to your staff.
+                      </dd>
+                    </div>
+
+                    <div>
+                      <dt class="font-medium text-gray-900 text-lg">Cost Effective</dt>
+                      <dd class="mt-2 ml-0 text-gray-500 text-md">All of this power comes at a cost: nothing, nada, zilch. Yes, that's right: R is 100% free.</dd>
+                    </div>
+                  </dl>
+
+
+                  <div class="mt-8">
+                    <a href="/custom-training/" class="px-8 py-3 text-base font-medium leading-6 text-blue-800 transition duration-150 ease-in-out bg-white border border-blue-800 rounded-full hover:text-blue-700 ">
+                      Learn More
+                    </a>
+                  </div>
+                </div>
+
+              </div>
+
+            </section>
+          </div>
+
+
+
           <!--
   This example requires some changes to your config:
   
@@ -204,33 +271,54 @@ get_header();
   }
   ```
 -->
-          <div class="bg-gray-50">
-            <div class="mx-auto max-w-2xl px-4 py-24 sm:px-6 sm:py-32 lg:max-w-7xl lg:px-8">
-              <!-- Details section -->
-              <section aria-labelledby="details-heading">
-                <div class="flex flex-col items-center text-center">
-                  <h2 id="details-heading" class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">The Fine Details</h2>
-                  <p class="mt-3 max-w-3xl text-lg text-gray-600">Our patented padded snack sleeve construction protects your favorite treats from getting smooshed during all-day adventures, long shifts at work, and tough travel schedules.</p>
-                </div>
+<div class="bg-white">
+  <div class="mx-auto max-w-2xl py-24 px-4 sm:py-32 sm:px-6 lg:max-w-7xl lg:px-8">
+    <div class="grid grid-cols-1 items-center gap-y-16 gap-x-8 lg:grid-cols-2">
+      <div>
+        <div class="border-b border-gray-200 pb-10">
+          <h2 class="font-medium text-gray-500">Machined Kettle</h2>
+          <p class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Elegant simplicity</p>
+        </div>
 
-                <div class="mt-16 grid grid-cols-1 gap-y-16 lg:grid-cols-2 lg:gap-x-8">
-                  <div>
-                    <div class="aspect-w-3 aspect-h-2 w-full overflow-hidden rounded-lg">
-                      <img src="https://tailwindui.com/img/ecommerce-images/product-page-04-detail-product-shot-01.jpg" alt="Drawstring top with elastic loop closure and textured interior padding." class="h-full w-full object-cover object-center">
-                    </div>
-                    <p class="mt-8 text-base text-gray-500">The 20L model has enough space for 370 candy bars, 6 cylinders of chips, 1220 standard gumballs, or any combination of on-the-go treats that your heart desires. Yes, we did the math.</p>
-                  </div>
-                  <div>
-                    <div class="aspect-w-3 aspect-h-2 w-full overflow-hidden rounded-lg">
-                      <img src="https://tailwindui.com/img/ecommerce-images/product-page-04-detail-product-shot-02.jpg" alt="Front zipper pouch with included key ring." class="h-full w-full object-cover object-center">
-                    </div>
-                    <p class="mt-8 text-base text-gray-500">Up your snack organization game with multiple compartment options. The quick-access stash pouch is ready for even the most unexpected snack attacks and sharing needs.</p>
-                  </div>
-                </div>
-              </section>
-            </div>
+        <dl class="mt-10 space-y-10">
+          <div>
+            <dt class="text-sm font-medium text-gray-900">Sleek design</dt>
+            <dd class="mt-3 text-sm text-gray-500">The machined kettle has a smooth black finish and contemporary shape that stands apart from most plastic appliances.</dd>
           </div>
 
+          <div>
+            <dt class="text-sm font-medium text-gray-900">Comfort handle</dt>
+            <dd class="mt-3 text-sm text-gray-500">Shaped for steady pours and insulated to prevent burns.</dd>
+          </div>
+
+          <div>
+            <dt class="text-sm font-medium text-gray-900">One-button control</dt>
+            <dd class="mt-3 text-sm text-gray-500">The one button control has a digital readout for setting temperature and turning the kettle on and off.</dd>
+          </div>
+
+          <div>
+            <dt class="text-sm font-medium text-gray-900">Long spout</dt>
+            <dd class="mt-3 text-sm text-gray-500">Designed specifically for controlled pour-overs that don&#039;t slash or sputter.</dd>
+          </div>
+        </dl>
+      </div>
+
+      <div>
+        <div class="aspect-w-1 aspect-h-1 overflow-hidden rounded-lg bg-gray-100">
+          <img src="https://tailwindui.com/img/ecommerce-images/product-feature-09-main-detail.jpg" alt="Black kettle with long pour spot and angled body on marble counter next to coffee mug and pour-over system." class="h-full w-full object-cover object-center">
+        </div>
+        <div class="mt-4 grid grid-cols-2 gap-4 sm:mt-6 sm:gap-6 lg:mt-8 lg:gap-8">
+          <div class="aspect-w-1 aspect-h-1 overflow-hidden rounded-lg bg-gray-100">
+            <img src="https://tailwindui.com/img/ecommerce-images/product-feature-09-detail-01.jpg" alt="Detail of temperature setting button on kettle bass with digital degree readout." class="h-full w-full object-cover object-center">
+          </div>
+          <div class="aspect-w-1 aspect-h-1 overflow-hidden rounded-lg bg-gray-100">
+            <img src="https://tailwindui.com/img/ecommerce-images/product-feature-09-detail-02.jpg" alt="Kettle spout pouring boiling water into coffee grounds in pour-over mug." class="h-full w-full object-cover object-center">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
 
 
@@ -241,81 +329,81 @@ get_header();
 
 
 
-                <div class="flex justify-center col-span-1 px-8 py-8 bg-white">
+                <div class="flex justify-center col-span-1 px-8 py-8 ">
                   <img class="h-32 filter-grayscale hover:filter-sepia" src="wp-content/themes/buddyboss-theme-child/assets/images/jhu.svg" alt="Johns Hopkins University" />
 
                 </div>
 
 
-                <div class="flex justify-center col-span-1 px-8 py-8 bg-white">
+                <div class="flex justify-center col-span-1 px-8 py-8 ">
                   <img class="h-32 filter-grayscale hover:filter-sepia" src="wp-content/themes/buddyboss-theme-child/assets/images/intuit.svg" alt="Intuit" />
 
                 </div>
 
-                <div class="flex justify-center col-span-1 px-8 py-8 bg-white">
+                <div class="flex justify-center col-span-1 px-8 py-8 ">
                   <img class="h-32 filter-grayscale hover:filter-sepia" src="wp-content/themes/buddyboss-theme-child/assets/images/university-of-wisconsin.svg" alt="University of Wisconsin" />
 
                 </div>
 
 
-                <div class="flex justify-center col-span-1 px-8 py-8 bg-white">
+                <div class="flex justify-center col-span-1 px-8 py-8 ">
                   <img class="h-32 filter-grayscale hover:filter-sepia" src="wp-content/themes/buddyboss-theme-child/assets/images/tfff-logo.svg" alt="Ford Family Foundation" />
 
                 </div>
 
 
-                <div class="flex justify-center col-span-1 px-8 py-8 bg-white">
+                <div class="flex justify-center col-span-1 px-8 py-8 ">
                   <img class="h-32 filter-grayscale hover:filter-sepia" src="wp-content/themes/buddyboss-theme-child/assets/images/sdcoe.svg" alt="San Diego County Office of Education" />
 
                 </div>
 
-                <div class="flex justify-center col-span-1 px-8 py-8 bg-white">
+                <div class="flex justify-center col-span-1 px-8 py-8 ">
                   <img class="h-32 filter-grayscale hover:filter-sepia" src="wp-content/themes/buddyboss-theme-child/assets/images/judis-house.svg" alt="Judi's House" />
 
                 </div>
 
-                <div class="flex justify-center col-span-1 px-8 py-8 bg-white">
+                <div class="flex justify-center col-span-1 px-8 py-8 ">
                   <img class="h-32 filter-grayscale hover:filter-sepia" src="wp-content/themes/buddyboss-theme-child/assets/images/public-profit-logo.svg" alt="Public Profit" />
 
                 </div>
 
 
-                <div class="flex justify-center col-span-1 px-8 py-8 bg-white">
+                <div class="flex justify-center col-span-1 px-8 py-8 ">
                   <img class="h-32 filter-grayscale" src="wp-content/themes/buddyboss-theme-child/assets/images/prosper-portland-logo.svg" alt="Prosper Portland" />
                 </div>
 
-                <div class="flex justify-center col-span-1 px-8 py-8 bg-white">
+                <div class="flex justify-center col-span-1 px-8 py-8 ">
                   <img class="h-32 filter-grayscale" src="wp-content/themes/buddyboss-theme-child/assets/images/wmata-logo.svg" alt="Washington Metropolitan Area Transit Authority (aka Metro)" />
                 </div>
 
-                <div class="flex justify-center col-span-1 px-8 py-8 bg-white">
+                <div class="flex justify-center col-span-1 px-8 py-8 ">
                   <img class="h-32 filter-grayscale" src="wp-content/themes/buddyboss-theme-child/assets/images/reading-partners-logo.svg" alt="Reading Partners" />
                 </div>
 
 
-                <div class="flex justify-center col-span-1 px-8 py-8 bg-white">
+                <div class="flex justify-center col-span-1 px-8 py-8 ">
                   <img class="h-32 filter-grayscale" src="wp-content/themes/buddyboss-theme-child/assets/images/pre-logo.png" alt="Pacific Research and Evaluation" />
                 </div>
 
-                <div class="flex justify-center col-span-1 px-8 py-8 bg-white">
+                <div class="flex justify-center col-span-1 px-8 py-8 ">
                   <img class="h-32 filter-grayscale" src="wp-content/themes/buddyboss-theme-child/assets/images/ocf-logo.png" alt="Oregon Community Foundation" />
                 </div>
 
-                <div class="flex justify-center col-span-1 px-8 py-8 bg-white">
+                <div class="flex justify-center col-span-1 px-8 py-8 ">
                   <img class="h-32 filter-grayscale" src="wp-content/themes/buddyboss-theme-child/assets/images/omni-logo.svg" alt="OMNI Institute" />
                 </div>
 
-                <div class="flex justify-center col-span-1 px-8 py-8 bg-white">
+                <div class="flex justify-center col-span-1 px-8 py-8 ">
                   <img class="h-32 filter-grayscale" src="wp-content/themes/buddyboss-theme-child/assets/images/ai-inclusive-logo.svg" alt="AI Inclusive" />
                 </div>
 
-                <div class="flex justify-center col-span-1 px-8 py-8 bg-white">
+                <div class="flex justify-center col-span-1 px-8 py-8 ">
                   <img class="h-32 filter-grayscale" src="wp-content/themes/buddyboss-theme-child/assets/images/mff-logo.svg" alt="Michigan Fitness Foundation" />
                 </div>
 
 
 
-                <div class="flex justify-center col-span-1 px-8 py-8 bg-white">
+                <div class="flex justify-center col-span-1 px-8 py-8 ">
                   <img class="h-32 filter-grayscale" src="wp-content/themes/buddyboss-theme-child/assets/images/edsurge-logo.svg" alt="EdSurge" />
                 </div>
 
@@ -334,7 +422,7 @@ get_header();
 
           <!-- For you / for your team  -->
 
-          <div class="bg-white sm:py-24">
+          <div class=" sm:py-24">
             <div class="max-w-xl px-4 mx-auto sm:px-6 lg:max-w-screen-xl lg:px-8">
               <div class="lg:grid lg:grid-cols-2 lg:gap-8">
 
@@ -383,7 +471,7 @@ get_header();
 
           <!-- R Features -->
 
-          <div class="py-16 overflow-hidden bg-white lg:py-24">
+          <div class="py-16 overflow-hidden  lg:py-24">
             <div class="relative max-w-xl px-4 mx-auto sm:px-6 lg:px-8 lg:max-w-screen-xl">
 
 

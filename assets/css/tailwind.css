@@ -35,6 +35,8 @@ html {
     @apply mt-16 text-xl leading-relaxed text-blue-800;
 }
 
+
+
 @tailwind components;
 
 /* purgecss end ignore */
