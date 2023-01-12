@@ -343,87 +343,105 @@ get_header();
           <div class="border-2 border-gray-100 mt-16 rounded-xl">
             <div class="px-4 py-8  mx-auto max-w-7xl sm:py-24 sm:px-6 lg:px-8">
               <h2 class="my-4 text-2xl font-bold tracking-tight text-blue-800 text-center">Supporting Forward-Looking Organizations</h2>
-              <div class="mt-6 grid sm:grid-cols-2 gap-0.5 md:grid-cols-4 lg:mt-8">
+              <div class="mt-6 grid sm:grid-cols-2 gap-2 md:grid-cols-4 lg:mt-8">
 
 
 
-                <div class="flex justify-center col-span-1 px-8 py-8 ">
-                  <img class="h-32 filter-grayscale hover:filter-sepia" src="wp-content/themes/buddyboss-theme-child/assets/images/jhu.svg" alt="Johns Hopkins University" />
-
-                </div>
-
-
-                <div class="flex justify-center col-span-1 px-8 py-8 ">
-                  <img class="h-32 filter-grayscale hover:filter-sepia" src="wp-content/themes/buddyboss-theme-child/assets/images/intuit.svg" alt="Intuit" />
-
-                </div>
-
-                <div class="flex justify-center col-span-1 px-8 py-8 ">
-                  <img class="h-32 filter-grayscale hover:filter-sepia" src="wp-content/themes/buddyboss-theme-child/assets/images/university-of-wisconsin.svg" alt="University of Wisconsin" />
+                <div class="client-logo-container">
+                  <img class="client-logo" src="wp-content/themes/buddyboss-theme-child/assets/images/jhu.svg" alt="Johns Hopkins University" />
 
                 </div>
 
 
-                <div class="flex justify-center col-span-1 px-8 py-8 ">
-                  <img class="h-32 filter-grayscale hover:filter-sepia" src="wp-content/themes/buddyboss-theme-child/assets/images/tfff-logo.svg" alt="Ford Family Foundation" />
+                <div class="client-logo-container">
+                  <img class="client-logo" src="wp-content/themes/buddyboss-theme-child/assets/images/intuit.svg" alt="Intuit" />
+
+                </div>
+
+                <div class="client-logo-container">
+                  <img class="client-logo" src="wp-content/themes/buddyboss-theme-child/assets/images/university-of-wisconsin.svg" alt="University of Wisconsin" />
 
                 </div>
 
 
-                <div class="flex justify-center col-span-1 px-8 py-8 ">
-                  <img class="h-32 filter-grayscale hover:filter-sepia" src="wp-content/themes/buddyboss-theme-child/assets/images/sdcoe.svg" alt="San Diego County Office of Education" />
-
-                </div>
-
-                <div class="flex justify-center col-span-1 px-8 py-8 ">
-                  <img class="h-32 filter-grayscale hover:filter-sepia" src="wp-content/themes/buddyboss-theme-child/assets/images/judis-house.svg" alt="Judi's House" />
-
-                </div>
-
-                <div class="flex justify-center col-span-1 px-8 py-8 ">
-                  <img class="h-32 filter-grayscale hover:filter-sepia" src="wp-content/themes/buddyboss-theme-child/assets/images/public-profit-logo.svg" alt="Public Profit" />
+                <div class="client-logo-container">
+                  <img class="client-logo" src="wp-content/themes/buddyboss-theme-child/assets/images/tfff-logo.svg" alt="Ford Family Foundation" />
 
                 </div>
 
 
-                <div class="flex justify-center col-span-1 px-8 py-8 ">
-                  <img class="h-32 filter-grayscale" src="wp-content/themes/buddyboss-theme-child/assets/images/prosper-portland-logo.svg" alt="Prosper Portland" />
+                <div class="client-logo-container">
+                  <img class="client-logo" src="wp-content/themes/buddyboss-theme-child/assets/images/sdcoe.svg" alt="San Diego County Office of Education" />
+
                 </div>
 
-                <div class="flex justify-center col-span-1 px-8 py-8 ">
-                  <img class="h-32 filter-grayscale" src="wp-content/themes/buddyboss-theme-child/assets/images/wmata-logo.svg" alt="Washington Metropolitan Area Transit Authority (aka Metro)" />
+                <div class="client-logo-container">
+                  <img class="client-logo" src="wp-content/themes/buddyboss-theme-child/assets/images/judis-house.svg" alt="Judi's House" />
+
                 </div>
 
-                <div class="flex justify-center col-span-1 px-8 py-8 ">
-                  <img class="h-32 filter-grayscale" src="wp-content/themes/buddyboss-theme-child/assets/images/reading-partners-logo.svg" alt="Reading Partners" />
-                </div>
+                <div class="client-logo-container">
+                  <img class="client-logo" src="wp-content/themes/buddyboss-theme-child/assets/images/public-profit-logo.svg" alt="Public Profit" />
 
-
-                <div class="flex justify-center col-span-1 px-8 py-8 ">
-                  <img class="h-32 filter-grayscale" src="wp-content/themes/buddyboss-theme-child/assets/images/pre-logo.png" alt="Pacific Research and Evaluation" />
-                </div>
-
-                <div class="flex justify-center col-span-1 px-8 py-8 ">
-                  <img class="h-32 filter-grayscale" src="wp-content/themes/buddyboss-theme-child/assets/images/ocf-logo.png" alt="Oregon Community Foundation" />
-                </div>
-
-                <div class="flex justify-center col-span-1 px-8 py-8 ">
-                  <img class="h-32 filter-grayscale" src="wp-content/themes/buddyboss-theme-child/assets/images/omni-logo.svg" alt="OMNI Institute" />
-                </div>
-
-                <div class="flex justify-center col-span-1 px-8 py-8 ">
-                  <img class="h-32 filter-grayscale" src="wp-content/themes/buddyboss-theme-child/assets/images/ai-inclusive-logo.svg" alt="AI Inclusive" />
-                </div>
-
-                <div class="flex justify-center col-span-1 px-8 py-8 ">
-                  <img class="h-32 filter-grayscale" src="wp-content/themes/buddyboss-theme-child/assets/images/mff-logo.svg" alt="Michigan Fitness Foundation" />
                 </div>
 
 
-
-                <div class="flex justify-center col-span-1 px-8 py-8 ">
-                  <img class="h-32 filter-grayscale" src="wp-content/themes/buddyboss-theme-child/assets/images/edsurge-logo.svg" alt="EdSurge" />
+                <div class="client-logo-container">
+                  <img class="client-logo" src="wp-content/themes/buddyboss-theme-child/assets/images/prosper-portland-logo.svg" alt="Prosper Portland" />
                 </div>
+
+                <div class="client-logo-container">
+                  <img class="client-logo" src="wp-content/themes/buddyboss-theme-child/assets/images/wmata-logo.svg" alt="Washington Metropolitan Area Transit Authority (aka Metro)" />
+                </div>
+
+                <div class="client-logo-container">
+                  <img class="client-logo" src="wp-content/themes/buddyboss-theme-child/assets/images/reading-partners-logo.svg" alt="Reading Partners" />
+                </div>
+
+
+                <div class="client-logo-container">
+                  <img class="client-logo" src="wp-content/themes/buddyboss-theme-child/assets/images/pre-logo.png" alt="Pacific Research and Evaluation" />
+                </div>
+
+                <div class="client-logo-container">
+                  <img class="client-logo" src="wp-content/themes/buddyboss-theme-child/assets/images/ocf-logo.png" alt="Oregon Community Foundation" />
+                </div>
+
+                <div class="client-logo-container">
+                  <img class="client-logo" src="wp-content/themes/buddyboss-theme-child/assets/images/omni-logo.svg" alt="OMNI Institute" />
+                </div>
+
+                <div class="client-logo-container">
+                  <img class="client-logo" src="wp-content/themes/buddyboss-theme-child/assets/images/ai-inclusive-logo.svg" alt="AI Inclusive" />
+                </div>
+
+                <div class="client-logo-container">
+                  <img class="client-logo" src="wp-content/themes/buddyboss-theme-child/assets/images/mff-logo.svg" alt="Michigan Fitness Foundation" />
+                </div>
+
+
+
+                <div class="client-logo-container">
+                  <img class="client-logo" src="wp-content/themes/buddyboss-theme-child/assets/images/edsurge-logo.svg" alt="EdSurge" />
+                </div>
+
+                <div class="client-logo-container">
+                  <img class="client-logo" src="wp-content/themes/buddyboss-theme-child/assets/images/psc-logo.svg" alt="Partnership for Strong Communities" />
+                </div>
+
+                <div class="client-logo-container">
+                  <img class="client-logo" src="wp-content/themes/buddyboss-theme-child/assets/images/apicouncil-logo.png" alt="API Council" />
+                </div>
+
+                <div class="client-logo-container">
+                  <img class="client-logo" src="wp-content/themes/buddyboss-theme-child/assets/images/ors-impact.png" alt="ORS Imapct" />
+                </div>
+
+                <div class="client-logo-container">
+                  <img class="client-logo" src="wp-content/themes/buddyboss-theme-child/assets/images/cardea.png" alt="Cardea Services" />
+                </div>
+
+
 
               </div>
 

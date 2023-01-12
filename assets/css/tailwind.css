@@ -35,6 +35,15 @@ html {
     @apply mt-16 text-xl leading-relaxed text-blue-800;
 }
 
+.client-logo {
+    @apply h-32 filter-grayscale object-scale-down;
+
+}
+
+.client-logo-container {
+    @apply flex justify-center col-span-1 px-8 py-8;
+}
+
 
 
 @tailwind components;
