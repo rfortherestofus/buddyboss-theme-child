@@ -31,7 +31,7 @@ get_header();
             <h1 class="hidden">R for the Rest of Us</h1>
 
             <div class="grid justify-items-center my-4">
-              <img class="mx-0" src="../wp-content/themes/buddyboss-theme-child/assets/images/rru-wordmark-dark-blue.png" alt="R for the Rest of Us">
+              <img class="mx-[200]" src="../wp-content/themes/buddyboss-theme-child/assets/images/rru-wordmark-600.svg" alt="R for the Rest of Us">
 
               <div class="mt-8 text-center">
                 <p class="mb-0 sm:mb-1 text-base text-gray-600 sm:text-xl text-center">Learn to use the most powerful tool for working with data,</p>
