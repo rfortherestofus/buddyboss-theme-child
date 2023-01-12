@@ -7,6 +7,7 @@ get_header();
 ?>
 
 
+<script defer type="text/javascript" src="https://widget.senja.io/embed/frame.js"></script>
 
 <div id="primary" class="content-area bb-grid-cell">
 
@@ -63,7 +64,7 @@ get_header();
 
 
         <div class="">
-          <div class="mx-auto max-w-2xl py-24 px-4 sm:py-32 sm:px-6 lg:max-w-7xl lg:px-8">
+          <div class="mx-auto max-w-2xl py-24 px-4 sm:py-32 sm:px-6 lg:max-w-4xl lg:px-8">
             <div>
               <h2 id="core-courses" class="mb-4">
                 <span class="px-4 py-1 rounded-full bg-blue-800 font-light text-white text-lg">Core Courses</span>
@@ -134,21 +135,21 @@ get_header();
                 <div class="mt-16 grid grid-cols-1 gap-y-10 gap-x-8 lg:grid-cols-3">
                   <div class="sm:flex lg:block">
                     <div class="mt-4 sm:mt-0 sm:ml-6 lg:mt-6 lg:ml-0">
-                    <h3 class="font-medium text-gray-900 text-lg">High-Quality Instruction</h3>
+                      <h3 class="font-medium text-gray-900 text-lg">High-Quality Instruction</h3>
                       <p class="mt-2 text-gray-500 text-md">With R in 3 Months, you’ll get high-quality instruction that will guide you from R newbie to R expert.</p>
                     </div>
                   </div>
 
                   <div class="sm:flex lg:block">
                     <div class="mt-4 sm:mt-0 sm:ml-6 lg:mt-6 lg:ml-0">
-                    <h3 class="font-medium text-gray-900 text-lg">Personalized Feedback</h3>
+                      <h3 class="font-medium text-gray-900 text-lg">Personalized Feedback</h3>
                       <p class="mt-2 text-gray-500 text-md">You'll work on your own code every week and get in-depth feedback.</p>
                     </div>
                   </div>
 
                   <div class="sm:flex lg:block">
                     <div class="mt-4 sm:mt-0 sm:ml-6 lg:mt-6 lg:ml-0">
-                    <h3 class="font-medium text-gray-900 text-lg">Supportive Community</h3>
+                      <h3 class="font-medium text-gray-900 text-lg">Supportive Community</h3>
                       <p class="mt-2 text-gray-500 text-md">You'll be on this journey alongside a supportive community that will help you learn and keep you accountable to yourself.</p>
                     </div>
                   </div>
@@ -158,7 +159,7 @@ get_header();
 
 
               <div class="senja-frame-embed mt-8" data-id="8d130ba8-5a20-4464-8935-95762ee3e1ef"></div>
-              <script defer type="text/javascript" src="https://widget.senja.io/embed/frame.js"></script>
+              
 
             </div>
           </div>
@@ -244,9 +245,12 @@ get_header();
             <div class="p-8">
 
               <div class="senja-frame-embed" data-id="a526cd91-6853-4a53-8b03-b907ca4ef898"></div>
-              <script defer type="text/javascript" src="https://widget.senja.io/embed/frame.js"></script>
+              
 
             </div>
+
+
+
 
             <div>
               <div class="mx-auto px-4 pt-16 pb-24 sm:px-6 sm:pb-32 lg:px-8 lg:pt-32">
@@ -320,7 +324,7 @@ get_header();
                   </div>
 
                   <div class="senja-frame-embed mt-8 p-8" data-id="0add0fee-bcad-47ea-933c-189297dfe859"></div>
-                  <script defer type="text/javascript" src="https://widget.senja.io/embed/frame.js"></script>
+                  
 
                 </div>
 
