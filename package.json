@@ -4,11 +4,12 @@
     "description": "",
     "main": "index.js",
     "scripts": {
+        "watch": "npx tailwindcss -i assets/css/tailwind.css -o assets/css/tailwindrru.css --watch",
         "build": "postcss assets/css/tailwind.css -o assets/css/tailwindrru.css"
     },
-    "k   eywords": [],
-    "a     uthor": "",
-    "l   icense": "ISC",
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
     "dependencies": {
         "@tailwindcss/postcss7-compat": "^2.0.2",
         "add-to-calendar-button": "^1.4.1",
