@@ -32,7 +32,7 @@ get_header();
                     <span class="font-bold">Oh, and it’s free.</span>
                 </p>
                 <p class="mt-0 intro-text">
-                    The R for the Rest of Us online courses are designed to guide you through every step on your R journey. All courses combine combine <span class="font-bold">video lessons</span> with <span class="font-bold">exercises</span> for you to practice what you’re learning. And you get access to <span class="font-bold">carefully curated resources</span> so that you can learn more about any topic that piques your interest.
+                    The R for the Rest of Us online courses are designed to guide you through every step on your R journey. All courses combine combine <span class="font-bold">video lessons</span> with <span class="font-bold">exercises</span> for you to practice what you’re learning. You also get access to <span class="font-bold">carefully curated resources</span> so that you can learn more about any topic that piques your interest. And, if you need help along the way, <span class="font-bold">you can post questions and get answers</span>.
                 </p>
 
 
@@ -60,6 +60,13 @@ get_header();
 
             </div>
 
+        </div>
+
+        <div class="mt-8 max-w-2xl mx-auto">
+            <div class="mb-4">
+                <p class="text-center sm:text-xl text-orange-500 rotate-1 px-4 font-bold rounded-full">Here's what a course looks like 👇🏽</span>
+            </div>
+            <img class="shadow-lg rounded-lg" src="/wp-content/themes/buddyboss-theme-child/assets/images/customize-fonts-sample-lesson.png" alt="Sample Lesson from Going Deeper with R" />
         </div>
 
 
