@@ -42,11 +42,11 @@ get_header();
 
                 <div class="bg-white">
                     <div class="max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:px-8">
-                        <div class="bg-blue-800 rounded-lg shadow-xl overflow-hidden ">
+                        <div class="bg-rru-dark-gradient rounded-lg shadow-xl overflow-hidden ">
                             <div class="pt-10 pb-12 px-6 sm:pt-16 sm:px-16 lg:py-16 lg:pr-0 xl:py-20 xl:px-20">
                                 <div class="lg:self-center">
                                     <h2 class="text-3xl font-extrabold text-white sm:text-4xl">
-                                        <span class="block">Looking for more?</span>
+                                        <span class="block">Ready to really dive in?</span>
 
                                     </h2>
                                     <p class="mt-4 text-lg leading-6 text-blue-100">R in 3 Months offers high-quality course materials, personalized feedback, and a supportive community.</p>

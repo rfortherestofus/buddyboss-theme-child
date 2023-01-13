@@ -48,6 +48,10 @@ html {
     @apply flex justify-center col-span-1 px-8 py-8;
 }
 
+.rru-dark-gradient-bg {
+    
+}
+
 
 
 @tailwind components;

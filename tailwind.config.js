@@ -61,6 +61,8 @@ module.exports = {
       backgroundImage: (theme) => ({
         "rru-logo":
           "url('/wp-content/themes/buddyboss-theme-child/assets/images/rru-logo-blue.svg')",
+          "rru-dark-gradient":
+          "url('/wp-content/themes/buddyboss-theme-child/assets/images/dark-bg-gradient-1000w.png')",
       }),
     },
   },

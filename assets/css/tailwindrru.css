@@ -614,6 +614,9 @@ html {
   padding-bottom: 2rem;
 }
 
+.rru-dark-gradient-bg {
+}
+
 .container {
   width: 100%;
 }
@@ -733,22 +736,6 @@ html {
 
 .left-5 {
   left: 1.25rem;
-}
-
-.top-10 {
-  top: 2.5rem;
-}
-
-.-bottom-0 {
-  bottom: -0px;
-}
-
-.top-8 {
-  top: 2rem;
-}
-
-.right-8 {
-  right: 2rem;
 }
 
 .z-10 {
@@ -1193,13 +1180,13 @@ html {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
-.-rotate-1 {
-  --tw-rotate: -1deg;
+.rotate-1 {
+  --tw-rotate: 1deg;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
-.rotate-1 {
-  --tw-rotate: 1deg;
+.-rotate-1 {
+  --tw-rotate: -1deg;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
@@ -1601,6 +1588,10 @@ html {
   background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
 }
 
+.bg-rru-dark-gradient {
+  background-image: url('/wp-content/themes/buddyboss-theme-child/assets/images/dark-bg-gradient-1000w.png');
+}
+
 .from-blue-800 {
   --tw-gradient-from: #314D63;
   --tw-gradient-to: rgb(49 77 99 / 0);
@@ -1653,10 +1644,6 @@ html {
 
 .p-3 {
   padding: 0.75rem;
-}
-
-.p-8 {
-  padding: 2rem;
 }
 
 .py-1 {
@@ -1856,11 +1843,6 @@ html {
   line-height: 1;
 }
 
-.text-5xl {
-  font-size: 3rem;
-  line-height: 1;
-}
-
 .text-xs {
   font-size: 0.75rem;
   line-height: 1rem;
@@ -2036,11 +2018,6 @@ html {
   color: rgb(243 244 246 / var(--tw-text-opacity));
 }
 
-.text-blue-700 {
-  --tw-text-opacity: 1;
-  color: rgb(65 103 133 / var(--tw-text-opacity));
-}
-
 .underline {
   text-decoration-line: underline;
 }
@@ -2206,14 +2183,6 @@ html {
 
   .sm\:right-8 {
     right: 2rem;
-  }
-
-  .sm\:bottom-8 {
-    bottom: 2rem;
-  }
-
-  .sm\:left-8 {
-    left: 2rem;
   }
 
   .sm\:col-span-2 {
