@@ -66,12 +66,16 @@ get_header();
             <div class="mb-4">
                 <p class="text-center sm:text-xl text-orange-500 rotate-1 px-4 font-bold rounded-full">Here's what a course looks like 👇🏽</span>
             </div>
-            <img class="shadow-lg rounded-lg" src="/wp-content/themes/buddyboss-theme-child/assets/images/customize-fonts-sample-lesson.png" alt="Sample Lesson from Going Deeper with R" />
+
+            <div class="bg-rru-dark-gradient rounded-lg shadow-xl overflow-hidden p-2">
+
+                <img class="shadow-lg rounded-lg" src="/wp-content/themes/buddyboss-theme-child/assets/images/customize-fonts-sample-lesson.png" alt="Sample Lesson from Going Deeper with R" />
+            </div>
         </div>
 
 
         <div class="relative mt-36">
-            
+
             <h3 class="mx-auto text-3xl font-extrabold leading-8 tracking-tight text-center text-gray-900 sm:text-4xl sm:leading-10">
                 Core Track
             </h3>

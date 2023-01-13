@@ -934,6 +934,10 @@ html {
   margin-left: 0.5rem;
 }
 
+.mt-36 {
+  margin-top: 9rem;
+}
+
 .mb-20 {
   margin-bottom: 5rem;
 }
@@ -952,10 +956,6 @@ html {
 
 .mb-12 {
   margin-bottom: 3rem;
-}
-
-.mt-36 {
-  margin-top: 9rem;
 }
 
 .-mt-64 {
@@ -1658,6 +1658,14 @@ html {
 
 .p-3 {
   padding: 0.75rem;
+}
+
+.p-16 {
+  padding: 4rem;
+}
+
+.p-2 {
+  padding: 0.5rem;
 }
 
 .py-1 {
