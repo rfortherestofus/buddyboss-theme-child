@@ -70,13 +70,13 @@ get_header();
         </div>
 
 
-        <div class="relative mt-24">
-            <div class="pt-12 border-t-2 border-gray-200"></div>
+        <div class="relative mt-36">
+            
             <h3 class="mx-auto text-3xl font-extrabold leading-8 tracking-tight text-center text-gray-900 sm:text-4xl sm:leading-10">
                 Core Track
             </h3>
             <p class="mx-auto mt-4 text-xl text-center sm:w-1/2">
-                From "what's R?" to R expert in three courses. <br>Start here when you're just starting out.
+                From "what's R?" to "I love R!" in three courses. <br>Start here when you're just starting out.
             </p>
         </div>
 
@@ -91,7 +91,7 @@ get_header();
 
             <div class="w-full overflow-hidden md:my-3 md:px-3 md:w-1/2">
                 <div class="mx-auto sm:w-4/5">
-                    <h3 class="hidden text-xl font-extrabold leading-9 tracking-tight text-blue-800 sm:block sm:leading-10">
+                    <h3 class="course-title">
                         Getting Started with R
 
                     </h3>
@@ -130,7 +130,7 @@ get_header();
 
             <div class="w-full overflow-hidden md:my-3 md:px-3 md:w-1/2">
                 <div class="mx-auto sm:w-4/5">
-                    <h3 class="hidden text-xl font-extrabold leading-9 tracking-tight text-blue-800 sm:block sm:leading-10">
+                    <h3 class="course-title">
                         Fundamentals of R
 
                     </h3>
@@ -167,7 +167,7 @@ get_header();
 
             <div class="w-full overflow-hidden md:my-3 md:px-3 md:w-1/2">
                 <div class="mx-auto sm:w-4/5">
-                    <h3 class="hidden text-xl font-extrabold leading-9 tracking-tight text-blue-800 sm:block sm:leading-10">
+                    <h3 class="course-title">
                         Going Deeper with R
 
                     </h3>
@@ -218,7 +218,7 @@ get_header();
 
             <div class="w-full overflow-hidden md:my-3 md:px-3 md:w-1/2">
                 <div class="mx-auto sm:w-4/5">
-                    <h3 class="hidden text-xl font-extrabold leading-9 tracking-tight text-blue-800 sm:block sm:leading-10">
+                    <h3 class="course-title">
                         The Glamour of Graphics
 
                     </h3>
@@ -269,7 +269,7 @@ get_header();
 
             <div class="w-full overflow-hidden md:my-3 md:px-3 md:w-1/2">
                 <div class="mx-auto sm:w-4/5">
-                    <h3 class="hidden text-xl font-extrabold leading-9 tracking-tight text-blue-800 sm:block sm:leading-10">
+                    <h3 class="course-title">
                         Using Git and GitHub with R
 
                     </h3>
@@ -313,7 +313,7 @@ get_header();
 
             <div class="w-full overflow-hidden md:my-3 md:px-3 md:w-1/2">
                 <div class="mx-auto sm:w-4/5">
-                    <h3 class="hidden text-xl font-extrabold leading-9 tracking-tight text-blue-800 sm:block sm:leading-10">
+                    <h3 class="course-title">
                         Mapping with R
 
                     </h3>
@@ -350,7 +350,7 @@ get_header();
 
             <div class="w-full overflow-hidden md:my-3 md:px-3 md:w-1/2">
                 <div class="mx-auto sm:w-4/5">
-                    <h3 class="hidden text-xl font-extrabold leading-9 tracking-tight text-blue-800 sm:block sm:leading-10">
+                    <h3 class="course-title">
                         Data Cleaning with R
 
                     </h3>
@@ -384,7 +384,7 @@ get_header();
 
             <div class="w-full overflow-hidden md:my-3 md:px-3 md:w-1/2">
                 <div class="mx-auto sm:w-4/5">
-                    <h3 class="hidden text-xl font-extrabold leading-9 tracking-tight text-blue-800 sm:block sm:leading-10">
+                    <h3 class="course-title">
                         Package Development with R
 
                     </h3>
@@ -418,7 +418,7 @@ get_header();
 
             <div class="w-full overflow-hidden md:my-3 md:px-3 md:w-1/2">
                 <div class="mx-auto sm:w-4/5">
-                    <h3 class="hidden text-xl font-extrabold leading-9 tracking-tight text-blue-800 sm:block sm:leading-10">
+                    <h3 class="course-title">
                         Inferential Statistics with R
 
                     </h3>

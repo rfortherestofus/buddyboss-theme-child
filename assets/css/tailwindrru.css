@@ -614,7 +614,21 @@ html {
   padding-bottom: 2rem;
 }
 
-.rru-dark-gradient-bg {
+.course-title {
+  display: none;
+  font-size: 1.5rem;
+  font-weight: 800;
+  line-height: 2.25rem;
+  letter-spacing: -0.025em;
+  --tw-text-opacity: 1;
+  color: rgb(49 77 99 / var(--tw-text-opacity));
+}
+
+@media (min-width: 640px) {
+  .course-title {
+    display: block;
+    line-height: 2.5rem;
+  }
 }
 
 .container {

@@ -48,8 +48,8 @@ html {
     @apply flex justify-center col-span-1 px-8 py-8;
 }
 
-.rru-dark-gradient-bg {
-    
+.course-title {
+    @apply hidden text-2xl font-extrabold leading-9 tracking-tight text-blue-800 sm:block sm:leading-10;
 }
 
 
