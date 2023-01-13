@@ -121,7 +121,7 @@ get_header();
               <div class="mx-auto max-w-2xl px-4 lg:max-w-none">
                 <div class="grid grid-cols-1 items-center gap-y-10 gap-x-16 lg:grid-cols-2">
                   <div>
-                    <h2 class="text-5xl font-bold tracking-tight text-blue-800">R in 3 Months</h2>
+                    <h2 class="home-big-text">R in 3 Months</h2>
                     <p class="mt-4 text-lg text-gray-500">Looking for even more? R in 3 Months is a cohort-based program to help you finally learn R.</p>
                     <a href="/3months/" class="px-8 py-3 text-base font-medium leading-6 text-blue-800 transition duration-150 ease-in-out border border-blue-800 rounded-full hover:text-blue-700 ">
                       Learn More
@@ -242,12 +242,12 @@ get_header();
 
           <div class="mt-36 grid sm:grid-cols-2">
 
-            <div class="p-8">
-
-              <div class="senja-frame-embed" data-id="a526cd91-6853-4a53-8b03-b907ca4ef898"></div>
 
 
-            </div>
+              <div class="senja-frame-embed sm:p-8" data-id="a526cd91-6853-4a53-8b03-b907ca4ef898"></div>
+
+
+
 
 
 
@@ -323,7 +323,7 @@ get_header();
                     </a>
                   </div>
 
-                  <div class="senja-frame-embed mt-8 p-8" data-id="0add0fee-bcad-47ea-933c-189297dfe859"></div>
+                  <div class="senja-frame-embed mt-8 sm:p-8" data-id="0add0fee-bcad-47ea-933c-189297dfe859"></div>
 
 
                 </div>
