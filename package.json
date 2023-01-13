@@ -5,7 +5,8 @@
     "main": "index.js",
     "scripts": {
         "watch": "npx tailwindcss -i assets/css/tailwind.css -o assets/css/tailwindrru.css --watch",
-        "build": "postcss assets/css/tailwind.css -o assets/css/tailwindrru.css"
+        "build": "postcss assets/css/tailwind.css -o assets/css/tailwindrru.css",
+        "rru-server": "npx browser-sync start --proxy 'rru.local' --files '*.php'"
     },
     "keywords": [],
     "author": "",

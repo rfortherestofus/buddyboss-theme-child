@@ -9,6 +9,10 @@ h1 {
     @apply text-6xl;
 }
 
+.home-big-text {
+    @apply my-4 text-3xl font-bold tracking-tight text-blue-800 sm:text-5xl;
+}
+
 p {
     @apply mt-4 leading-relaxed text-blue-800;
 }

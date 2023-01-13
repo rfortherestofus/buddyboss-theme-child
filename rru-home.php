@@ -15,7 +15,7 @@ get_header();
 
 
 
-    <div class="relative  overflow-hidden">
+    <div class="relative overflow-hidden">
 
 
       <div class="relative pb-16 sm:pb-24 lg:pb-32">
@@ -69,7 +69,7 @@ get_header();
               <h2 id="core-courses" class="mb-4">
                 <span class="px-4 py-1 rounded-full bg-blue-800 font-light text-white text-lg">Core Courses</span>
               </h2>
-              <p class="my-4 text-3xl font-bold tracking-tight text-blue-800 sm:text-5xl">New to R?</p>
+              <p class="home-big-text">New to R?</p>
               <p class="mt-4 text-lg text-gray-500">From "what's R?" to "I love R" in three self-paced courses.
                 Start here when you're just starting out.</p>
             </div>
@@ -174,7 +174,7 @@ get_header();
                 <h2 id="topics-courses" class="mb-4">
                   <span class="px-4 py-1 rounded-full bg-blue-800 font-light text-white text-lg">Topics Courses</span>
                 </h2>
-                <p class="my-4 text-3xl font-bold tracking-tight text-blue-800 sm:text-5xl">Ready to Up Your R Game?</p>
+                <p class="home-big-text">Ready to Up Your R Game?</p>
                 <p class="mt-4 text-lg text-gray-500">For when you've got the foundations down and you're ready to learn more.</p>
               </div>
 
@@ -258,7 +258,7 @@ get_header();
                   <h2 id="custom-training" class="mb-4">
                     <span class="px-4 py-1 rounded-full bg-blue-800 font-light text-white text-lg">Custom Training</span>
                   </h2>
-                  <p class="my-4 text-3xl font-bold tracking-tight text-blue-800 sm:text-5xl">Helping Teams Learn R</p>
+                  <p class="home-big-text">Helping Teams Learn R</p>
                   <p class="mt-4 text-lg text-gray-500">
                     Make an investment in your organization's future by moving to R.
                   </p>
