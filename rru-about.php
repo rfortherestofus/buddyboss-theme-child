@@ -12,7 +12,8 @@ get_header();
 
     <div class="mx-auto">
       <h1 class="leading-none rru-page-title text-center">
-        Helping the rest of us<br>embrace the power of R
+        <div>Helping the <span class="bg-blue-800 text-white px-2">rest of us</span></div>
+        <div>embrace the power of R</div>
       </h1>
 
       <div class="max-w-prose mx-auto">

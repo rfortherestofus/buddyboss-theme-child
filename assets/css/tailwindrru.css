@@ -2937,6 +2937,10 @@ html {
   padding-top: 0.5rem;
 }
 
+.pb-1 {
+  padding-bottom: 0.25rem;
+}
+
 .text-center {
   text-align: center;
 }
@@ -3048,6 +3052,14 @@ html {
 
 .leading-8 {
   line-height: 2rem;
+}
+
+.leading-tight {
+  line-height: 1.25;
+}
+
+.leading-10 {
+  line-height: 2.5rem;
 }
 
 .tracking-wide {
@@ -3182,6 +3194,26 @@ html {
 
 .line-through {
   text-decoration-line: line-through;
+}
+
+.decoration-blue-800 {
+  text-decoration-color: #314D63;
+}
+
+.decoration-wavy {
+  text-decoration-style: wavy;
+}
+
+.decoration-1 {
+  text-decoration-thickness: 1px;
+}
+
+.decoration-2 {
+  text-decoration-thickness: 2px;
+}
+
+.underline-offset-4 {
+  text-underline-offset: 4px;
 }
 
 .opacity-25 {
