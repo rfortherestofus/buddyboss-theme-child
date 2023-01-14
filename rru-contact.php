@@ -19,7 +19,7 @@ get_header();
         <div class="pt-24 pb-12">
           <div class="relative z-10 mx-auto max-w-7xl pl-4 pr-8 sm:px-6 lg:px-8">
             <h1 class="rru-page-title">Get in Touch</h1>
-            <p class="mt-6 max-w-3xl text-xl text-warm-gray-500">Interested in learning more about courses, custom training, or consulting? Let's talk.</p>
+            <p class="mt-6 max-w-3xl text-xl text-warm-gray-500">Interested in learning more about courses, custom training, or consulting?<br>Let's talk.</p>
           </div>
         </div>
       </div>
