@@ -8,324 +8,249 @@ get_header();
 
 <div id="primary" class="content-area">
 
-  <main class="px-4 mx-auto mt-2 max-w-screen-full">
+  <main class="px-4 mt-2 max-w-screen-full">
 
-    <h1 class="leading-none rru-page-title">
-      My R journey has had
-      many bumps along the way
-    </h1>
-    <div class="flex flex-wrap -mx-5 overflow-hidden">
+    <div class="mx-auto">
+      <h1 class="leading-none rru-page-title text-center">
+        Helping the rest of us<br>embrace the power of R
+      </h1>
 
-      <div class="w-full px-5 my-5 overflow-hidden text-base text-blue-800 md:w-1/2">
-        <p>I first used R in 2015 at a workshop at the American Evaluation Association conference. I was intrigued, but, since my co-workers at the time used Excel and SPSS, I let my newly learned skills lapse.</p>
-
-        <p>In 2016, entering the world of consulting, I decided to give R another shot. I jumped back in, using free online resources to restart my R journey. I taught myself enough that I decided to give R a shot on a project I was working on.
-          <span class="strong">I got a few steps in, hit a roadblock, and had to go back to Excel.</span>
+      <div class="max-w-prose mx-auto">
+        <p class="prose-lg">
+          Since 2019, R for the Rest of Us has helped people around the world use R to make the world a better place. Through self-paced <a href="/online-courses/">online courses</a>, our cohort-based <a href="/3months/">R in 3 Months program</a>, <a href="/custom-training/">training for organizations moving to R</a>, and <a href="/consulting/">consulting work</a>, we help people use R do things they never thought possible.
         </p>
-
-
-
-      </div>
-
-      <div class="w-full px-5 my-5 overflow-hidden text-base text-blue-800 md:w-1/2">
-        <p>A few weeks later, I tried R again on another project. Same result. I followed this pattern for several months, optimistically thinking I was ready to use R for a project, only to find my skills weren’t quite there yet.</p>
-
-        <p>It’s a common story among those of us who teach ourselves R.
-          <span class="strong">Without a guide, we waste time going down the wrong path without realizing where we’re going.</span>
-        </p>
-
-
       </div>
 
     </div>
 
-    <!-- Video  -->
 
-    <div class="mx-auto md:w-2/3">
-      <iframe src="https://player.vimeo.com/video/321904809" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
-    </div>
-
-    <!-- For you / for your team  -->
-
-    <div class="py-24 bg-white">
-      <div class="max-w-xl px-4 mx-auto sm:px-6 lg:max-w-screen-xl lg:px-8">
-        <div class="lg:grid lg:grid-cols-2 lg:gap-8">
+    <div class="mt-24 p-12 bg-gray-100 rounded-xl">
+      <p class="mb-2">
+        <span class="px-4 py-1 rounded-full bg-blue-800 font-light text-white text-lg">Founder and CEO</span>
+      </p>
+      <h2 class="text-3xl font-extrabold leading-8 tracking-tight text-blue-800 sm:text-3xl sm:leading-9">
+        Hi, I'm David
+      </h2>
 
 
-          <div class="mt-10 lg:mt-0">
+      <div class="grid sm:grid-cols-2 space-x-8">
+        <div>
 
-            <div class="relative p-3 bg-gray-200 border-2 border-gray-300 rounded-md">
-              <img class="absolute top-0 right-0 p-3" src="../wp-content/themes/buddyboss-theme-child/assets/images/for-you.svg" alt="RRU" />
+          <p class="prose-lg">
+            Think you know what an R user looks like? I'm probably not what you have in mind.
+          </p>
+          <p class="prose-lg">
+            I'm <span class="font-bold">not a hardcore quant</span> (my PhD is in anthropology). I'm not a coder ready to <strong>jump on you for any small mistake</strong>.
+          </p>
+          <p class="prose-lg">
+            I want to help others <span class="font-bold">avoid the pain</span> that I went through learning R.
+          </p>
+          <p class="prose-lg">
+            A <span class="font-bold">teacher at heart</span> (shoutout to my former second grade students), I make R <strong>less scary</strong> and <strong>more fun</strong> (yes, fun).
+          </p>
 
+          <div class="my-8 flex items-center justify-center">
 
-              <h2 class="leading-loose text-blue-800">For You</h2>
-
-
-              <p>Looking to learn R for yourself? Smart choice!
-                Start with a <a href="courses/getting-started/">free course</a> to get started.
-                Already know some R but ready to up your skills? Check out <a href="courses/fundamentals/">Fundamentals of R</a>
-                and <a href="courses/going-deeper/">Going Deeper with R</a>.
-                Looking for support to help you get past any obstacles? <a href="community">Join the community</a> for live office hours and more.
-              </p>
-            </div>
-
+            <svg class="fill-blue-800" width="201" height="15" viewBox="0 0 201 15" xmlns="http://www.w3.org/2000/svg">
+              <g clip-path="url(#clip0_10_11)">
+                <path d="M30.1978 8.34502C29.4774 8.79502 28.7481 9.23502 28.0454 9.73502C27.7253 9.96502 27.5029 10.445 27.156 10.585C26.7714 10.8233 26.3532 10.9856 25.9198 11.065C25.1816 10.995 24.639 10.335 23.8919 10.255C23.7852 10.255 23.3761 9.95502 23.0559 9.84502C22.9071 9.75106 22.767 9.64051 22.6379 9.51502C22.5223 9.38502 22.4956 9.14502 22.3799 9.01502C22.122 8.71502 21.7752 8.17502 21.5706 8.22502C20.9836 8.39502 20.112 8.64502 19.943 9.12502C19.4093 10.675 17.7284 10.015 17.0791 11.205C17.0791 11.205 16.839 11.545 16.7678 11.515C16.4743 11.405 16.4032 11.935 16.1097 11.815C16.1097 11.815 15.7806 11.745 15.7628 11.815C15.3448 11.815 15.1046 10.925 14.6866 10.815C14.4287 10.755 14.1263 10.195 14.0107 10.085C13.0501 9.20502 13.1213 8.70502 12.2319 8.59502C11.6219 8.49958 11.0007 8.61832 10.4531 8.93502C10.0818 9.24331 9.67095 9.48611 9.23457 9.65502C8.4616 9.92363 7.70161 10.2374 6.9577 10.595C6.78382 10.6781 6.59457 10.7124 6.40627 10.695C5.97936 10.495 5.89042 10.255 5.42793 10.145C5.11728 10.0466 4.81149 9.9298 4.51184 9.79502C4.25683 9.72949 4.01725 9.60333 3.80922 9.42502C3.61736 9.18944 3.38813 8.99614 3.13327 8.85502C2.92012 8.74035 2.71232 8.61352 2.51069 8.47502C2.31502 8.37502 1.95926 8.47502 1.73691 8.47502C1.25663 8.41502 1.08764 8.38502 0.767458 8.83502C0.623322 8.99719 0.518293 9.19796 0.462275 9.41841C0.406256 9.63885 0.401093 9.87171 0.447273 10.095L0.918657 10.855C1.19877 11.0595 1.51386 11.1957 1.84364 11.255C2.73304 11.575 3.25779 12.735 4.33396 12.725C4.47627 12.725 4.60968 12.965 4.76088 12.985C5.24115 13.055 5.40125 13.335 5.88152 13.375C6.05051 13.375 6.31733 13.375 6.3707 13.445C6.71756 13.595 7.2601 13.905 7.69591 13.335C8.01401 12.9548 8.40697 12.6636 8.84324 12.485C9.52896 12.147 10.2404 11.8793 10.9689 11.685C11.2792 11.5582 11.6192 11.5582 11.9295 11.685C12.3742 12.045 12.6677 12.635 13.1035 13.015C13.5926 13.4536 14.1466 13.7921 14.74 14.015C15.8339 14.145 16.0741 14.655 17.5327 13.595C17.844 13.365 18.3065 13.495 18.6445 13.325C19.0113 13.1229 19.3451 12.8524 19.6317 12.525C20.0764 12.025 20.5656 12.175 21.0814 12.225C21.3216 12.225 21.6062 11.975 21.8196 12.035C22.4868 12.291 23.1279 12.6262 23.7318 13.035L23.8297 13.165C23.8297 13.165 23.8741 13.225 23.9008 13.245C24.6035 13.245 25.2794 13.825 26.0265 13.945C26.606 13.9145 27.1734 13.7485 27.6925 13.4575C28.2117 13.1665 28.6712 12.7569 29.0416 12.255C29.2297 11.9701 29.4653 11.7289 29.7353 11.545C29.9754 11.765 30.1889 12.015 30.4113 12.235L30.349 8.32502C30.298 8.3123 30.2447 8.31935 30.1978 8.34502Z" />
+                <path d="M76.9804 7.04498C76.2599 7.50498 75.5306 7.95498 74.8369 8.46498C74.5167 8.70498 74.3033 9.18498 73.9475 9.32498C73.5658 9.56477 73.1508 9.73043 72.7201 9.81498C71.973 9.75498 71.4305 9.10498 70.6834 9.02498C70.5767 9.02498 70.1675 8.74498 69.794 8.63498C69.6648 8.5215 69.5456 8.39424 69.4382 8.25498C69.3226 8.12498 69.287 7.89498 69.1714 7.75498C68.9135 7.46498 68.5577 6.93498 68.362 6.98498C67.7661 7.15498 66.9034 7.42498 66.7433 7.90498C66.2186 9.46498 64.5287 8.82498 63.8972 10.025C63.8972 10.025 63.6571 10.365 63.5859 10.345C63.2924 10.235 63.2302 10.765 62.9278 10.645C62.9278 10.695 62.5987 10.585 62.5898 10.645C62.1629 10.645 61.9139 9.75498 61.5047 9.64498C61.2379 9.58498 60.9355 9.02498 60.811 8.92498C59.8505 8.05498 59.9216 7.55498 59.0322 7.44498C58.4195 7.36005 57.7985 7.48923 57.2534 7.81498C56.9054 8.13679 56.5154 8.39649 56.0972 8.58498C55.3268 8.87544 54.5698 9.20919 53.8292 9.58498C53.7314 9.58498 53.5802 9.52498 53.4734 9.47498C53.0564 9.22418 52.6185 9.01987 52.166 8.86498C51.8903 8.80498 51.6057 8.93498 51.33 8.86498C50.823 8.68498 50.5206 8.07498 50.0403 7.86498C49.9781 7.86498 49.8091 7.97498 49.8002 7.96498C49.515 7.63865 49.1698 7.38634 48.7888 7.2257C48.4078 7.06505 48.0002 6.99996 47.5945 7.03498C46.9274 7.29498 46.8652 7.70498 46.1537 7.82498C46.0825 7.82498 46.038 7.98498 45.9669 8.02498C44.9796 8.55498 44.4638 9.45498 43.4232 9.71498C42.8095 9.87498 42.0713 9.24498 41.3687 9.07498C40.9773 8.97498 40.4793 9.18498 40.1324 9.07498C39.7855 8.96498 39.1896 8.58498 38.7005 8.53498C37.7883 8.45628 36.8832 8.76692 36.1657 9.40498C35.6053 9.97498 35.2763 10.785 34.5647 11.125C33.364 11.665 32.7859 10.605 32.0477 10.125C31.5075 9.63617 31.0101 9.09034 30.5624 8.49498C30.5105 8.45035 30.4537 8.41338 30.3934 8.38498L30.4112 12.255C30.7314 12.575 31.0516 12.885 31.354 13.255C31.7472 13.6797 32.2175 14.0038 32.7326 14.205C33.4356 14.2804 34.1445 14.2501 34.8404 14.115C35.5642 13.937 36.2149 13.4938 36.6904 12.855C37.1885 11.855 38.0067 11.915 38.6827 11.585C39.7766 11.045 40.666 12.115 41.68 12.275C42.5071 12.405 43.2364 13.385 44.1703 12.605C44.6328 12.215 45.113 11.835 45.5933 11.465C46.163 11.0972 46.7018 10.6721 47.2031 10.195C47.799 9.51498 48.1637 10.195 48.5995 10.355C49.4889 10.635 50.0492 11.785 51.1254 11.755C51.2677 11.755 51.41 11.995 51.5612 12.015C52.0415 12.075 52.2016 12.355 52.6819 12.385C52.8597 12.385 53.1266 12.385 53.1799 12.455C53.5268 12.595 54.0693 12.895 54.4963 12.325C54.8144 11.9446 55.2031 11.6476 55.6347 11.455C56.3171 11.1087 57.0255 10.8309 57.7515 10.625C58.0628 10.555 58.4986 10.465 58.712 10.625C59.1656 10.975 59.4591 11.565 59.9038 11.935C60.3963 12.3736 60.9531 12.712 61.5492 12.935C62.6432 13.015 62.91 13.515 64.333 12.435C64.6443 12.205 65.1068 12.325 65.4448 12.155C65.8187 11.9476 66.1585 11.6703 66.4498 11.335C66.8856 10.835 67.3392 10.975 67.8907 11.015C68.1308 11.015 68.4065 10.765 68.6289 10.825C69.285 11.0803 69.9143 11.4156 70.5055 11.825C70.5378 11.8588 70.5675 11.8956 70.5944 11.935L70.6656 12.025C71.3682 12.025 72.0531 12.585 72.8002 12.705C73.3751 12.663 73.9362 12.4886 74.4487 12.1927C74.9612 11.8969 75.4142 11.4858 75.7797 10.985C75.988 10.6821 76.2519 10.4331 76.5534 10.255C76.7936 10.465 77.007 10.715 77.2383 10.935L77.1316 7.02498C77.0807 7.00953 77.0266 7.01669 76.9804 7.04498Z" />
+                <path d="M123.736 5.14498C123.025 5.61498 122.304 6.07498 121.611 6.58498C121.29 6.83498 121.086 7.31498 120.721 7.45498C120.342 7.70542 119.927 7.87811 119.494 7.96498C118.747 7.96498 118.195 7.27498 117.448 7.20498C117.341 7.20498 116.923 6.92498 116.559 6.82498C116.406 6.73712 116.263 6.62974 116.132 6.50498C116.016 6.37498 115.981 6.14498 115.856 6.00498C115.598 5.72498 115.242 5.19498 115.038 5.25498C114.451 5.42498 113.588 5.70498 113.428 6.19498C112.921 7.75498 111.231 7.13498 110.609 8.33498C110.609 8.33498 110.369 8.68498 110.306 8.66498C110.004 8.55498 109.951 9.08498 109.648 8.97498C109.648 8.97498 109.319 8.90498 109.31 8.97498C108.883 8.97498 108.625 8.09498 108.207 7.97498C107.949 7.91498 107.638 7.36498 107.514 7.25498C106.544 6.40498 106.624 5.89498 105.69 5.80498C105.09 5.73397 104.485 5.87 103.956 6.19498C103.593 6.51435 103.188 6.76745 102.755 6.94498C101.984 7.23412 101.227 7.5679 100.487 7.94498C100.398 7.94498 100.247 7.94498 100.132 7.84498C99.7142 7.59738 99.2763 7.39642 98.8241 7.24498C98.5395 7.18498 98.2549 7.32498 97.9881 7.24498C97.4811 7.07498 97.1698 6.46498 96.6895 6.24498C96.6184 6.24498 96.4494 6.36498 96.4494 6.34498C96.1682 6.04973 95.8359 5.82277 95.4732 5.67825C95.1106 5.53373 94.7253 5.47475 94.3415 5.50498C93.6834 5.76498 93.6211 6.17498 92.9096 6.31498C92.8384 6.31498 92.794 6.47498 92.7228 6.51498C91.7445 7.05498 91.2286 7.96498 90.1969 8.23498C89.5921 8.40498 88.8361 7.78498 88.1335 7.62498C87.7421 7.53498 87.2974 7.74498 86.8972 7.62498C86.497 7.50498 85.9456 7.14498 85.4564 7.09498C84.5435 7.02527 83.641 7.34683 82.9305 7.99498C82.379 8.57498 82.0944 9.39498 81.3562 9.73498C80.1555 10.295 79.5774 9.24498 78.8303 8.73498C78.2777 8.26289 77.7709 7.72659 77.3183 7.13498C77.2677 7.08826 77.2106 7.05111 77.1494 7.02498L77.2561 10.935C77.5763 11.255 77.9053 11.555 78.2077 11.935C78.6042 12.3576 79.0776 12.6783 79.5952 12.875C80.2989 12.937 81.0066 12.9035 81.7031 12.775C82.4257 12.5827 83.0723 12.1296 83.5442 11.485C84.0244 10.485 84.8516 10.485 85.5186 10.195C86.6126 9.64498 87.5109 10.705 88.5248 10.855C89.352 10.975 90.0991 11.945 91.0151 11.145C91.4776 10.745 91.9045 10.365 92.4293 9.98498C93.0066 9.60943 93.5515 9.17422 94.0569 8.68498C94.6439 8.00498 95.0086 8.68498 95.4444 8.83498C96.3338 9.10498 96.9208 10.245 97.9881 10.205C98.1304 10.205 98.2727 10.445 98.4239 10.465C98.9041 10.515 99.0731 10.795 99.5534 10.815C99.7224 10.815 99.9981 10.815 100.051 10.875C100.398 11.015 100.941 11.315 101.368 10.735C101.678 10.3467 102.065 10.0453 102.497 9.85498C103.174 9.49463 103.88 9.20669 104.605 8.99498C104.916 8.86897 105.255 8.86897 105.566 8.99498C106.019 9.34498 106.322 9.93498 106.766 10.295C107.264 10.7355 107.827 11.074 108.43 11.295C109.515 11.355 109.79 11.865 111.205 10.765C111.516 10.535 111.978 10.655 112.316 10.475C112.686 10.2661 113.021 9.98506 113.304 9.64498C113.739 9.13498 114.193 9.27498 114.744 9.30498C114.985 9.30498 115.26 9.04498 115.483 9.10498C116.14 9.33558 116.772 9.64749 117.368 10.035L117.448 10.145L117.555 10.255C118.258 10.255 118.951 10.795 119.698 10.895C120.274 10.8467 120.834 10.6666 121.345 10.3656C121.856 10.0646 122.306 9.64922 122.669 9.14498C122.845 8.85584 123.072 8.6107 123.336 8.42498C123.585 8.62498 123.799 8.87498 124.03 9.09498L123.887 5.18498C123.843 5.15245 123.789 5.13831 123.736 5.14498Z" />
+                <path d="M170.474 2.645C169.763 3.115 169.051 3.595 168.367 4.115C168.055 4.365 167.851 4.845 167.477 4.995C167.1 5.24736 166.688 5.42653 166.259 5.525C165.512 5.525 164.951 4.845 164.204 4.795C164.097 4.795 163.688 4.515 163.315 4.425C163.164 4.33358 163.021 4.22645 162.888 4.105C162.763 3.975 162.728 3.745 162.612 3.615C162.345 3.325 161.981 2.795 161.785 2.865C161.198 3.045 160.335 3.335 160.184 3.865C159.686 5.435 157.987 4.865 157.382 6.045C157.382 6.045 157.151 6.395 157.08 6.365C156.778 6.265 156.724 6.795 156.431 6.695C156.431 6.695 156.102 6.635 156.084 6.695C155.657 6.695 155.39 5.825 154.981 5.695C154.714 5.635 154.394 5.085 154.278 4.985C153.291 4.145 153.389 3.635 152.437 3.555C151.835 3.49438 151.23 3.64084 150.703 3.975C150.343 4.29603 149.941 4.55241 149.511 4.735C148.737 4.985 148.017 5.425 147.261 5.735C147.163 5.735 147.012 5.685 146.896 5.635C146.472 5.40223 146.032 5.20827 145.58 5.055C145.304 5.005 145.02 5.145 144.753 5.055C144.237 4.885 143.926 4.285 143.437 4.125C143.374 4.125 143.205 4.245 143.196 4.225C142.905 3.90679 142.554 3.66476 142.17 3.51612C141.786 3.36748 141.377 3.31588 140.973 3.365C140.324 3.635 140.261 4.045 139.559 4.185C139.488 4.185 139.443 4.355 139.372 4.395C138.394 4.955 137.896 5.865 136.864 6.155C136.259 6.315 135.494 5.715 134.792 5.555C134.4 5.475 133.956 5.685 133.555 5.615C133.083 5.41781 132.602 5.24759 132.114 5.105C131.201 5.04922 130.303 5.38115 129.597 6.035C129.055 6.625 128.77 7.445 128.032 7.805C126.849 8.375 126.253 7.335 125.497 6.805C124.973 6.34219 124.491 5.82307 124.056 5.255C124.007 5.20677 123.949 5.16946 123.887 5.145L124.03 9.055C124.35 9.365 124.688 9.665 124.99 9.995C125.384 10.4089 125.851 10.7257 126.36 10.925C127.065 10.9821 127.773 10.9384 128.468 10.795C129.192 10.597 129.837 10.1323 130.3 9.475C130.771 8.475 131.59 8.475 132.257 8.165C133.342 7.605 134.249 8.645 135.272 8.785C136.099 8.895 136.855 9.855 137.762 9.045C138.225 8.645 138.696 8.255 139.167 7.875C139.737 7.48904 140.276 7.04733 140.777 6.555C141.355 5.865 141.738 6.555 142.174 6.675C143.063 6.935 143.659 8.065 144.726 8.015C144.868 8.015 145.02 8.245 145.171 8.265C145.651 8.265 145.82 8.585 146.3 8.605C146.469 8.605 146.736 8.605 146.79 8.655C147.145 8.795 147.679 9.085 148.106 8.495C148.413 8.10408 148.796 7.79928 149.227 7.605C149.905 7.24256 150.61 6.94809 151.334 6.725C151.645 6.59983 151.985 6.59983 152.295 6.725C152.749 7.065 153.06 7.645 153.505 8.005C154.005 8.44668 154.571 8.78524 155.177 9.005C156.271 9.005 156.546 9.555 157.952 8.435C158.254 8.195 158.716 8.315 159.054 8.125C159.42 7.90903 159.751 7.62502 160.033 7.285C160.46 6.775 160.922 6.905 161.474 6.925C161.714 6.925 161.989 6.665 162.203 6.715C162.863 6.94844 163.501 7.25669 164.106 7.635C164.143 7.66408 164.173 7.70159 164.195 7.745L164.266 7.825C164.969 7.825 165.663 8.345 166.419 8.445C166.993 8.38718 167.55 8.19761 168.057 7.88801C168.563 7.57841 169.007 7.15536 169.363 6.645C169.541 6.345 169.985 5.875 170.03 5.915C170.279 6.115 170.492 6.355 170.732 6.575L170.546 2.675C170.523 2.66066 170.499 2.65052 170.474 2.645Z" />
+                <path d="M198.402 3.80502C198.482 3.7197 198.575 3.65188 198.677 3.60502C199.157 3.44289 199.608 3.18919 200.011 2.85502C200.128 2.74151 200.222 2.60184 200.287 2.44502C200.456 2.05502 200.163 1.72502 200.02 1.34502C199.736 1.01502 199.585 0.735019 199.051 0.695019C198.493 0.642263 197.936 0.800663 197.468 1.14502C197.106 1.46871 196.705 1.73147 196.276 1.92502C195.511 2.18502 194.791 2.63502 194.035 2.98502C193.946 2.98502 193.795 2.98502 193.679 2.89502C193.255 2.65687 192.811 2.46596 192.354 2.32502C192.078 2.32502 191.793 2.42502 191.527 2.32502C191.011 2.16502 190.691 1.56502 190.201 1.41502C190.139 1.41502 189.97 1.53502 189.961 1.52502C189.667 1.20842 189.315 0.968905 188.929 0.823672C188.543 0.678438 188.133 0.631088 187.729 0.68502C187.08 0.96502 187.026 1.37502 186.324 1.52502C186.252 1.52502 186.208 1.68502 186.137 1.73502C185.167 2.29502 184.678 3.21502 183.646 3.51502C183.042 3.69502 182.277 3.09502 181.565 2.95502C181.174 2.87502 180.738 3.09502 180.338 3.02502C179.938 2.95502 179.377 2.56502 178.888 2.53502C177.97 2.5022 177.075 2.85922 176.38 3.53502C175.837 4.13502 175.571 4.95502 174.832 5.31502C173.658 5.90502 173.054 4.86502 172.289 4.37502C171.758 3.88822 171.27 3.34578 170.83 2.75502C170.781 2.70805 170.723 2.6739 170.661 2.65502L170.83 6.55502C171.15 6.86502 171.488 7.15502 171.8 7.48502C172.204 7.89601 172.684 8.2031 173.205 8.38502C173.898 8.43979 174.594 8.39612 175.277 8.25502C176.001 8.04894 176.642 7.57738 177.1 6.91502C177.563 5.91502 178.381 5.91502 179.048 5.57502C180.124 4.99502 181.041 6.03502 182.063 6.15502C182.89 6.25502 183.655 7.15502 184.563 6.38502C185.019 5.97169 185.482 5.57169 185.95 5.18502C186.519 4.79873 187.055 4.35346 187.551 3.85502C188.12 3.15502 188.503 3.85502 188.947 3.96502C189.837 4.20502 190.441 5.33502 191.518 5.26502C191.66 5.26502 191.802 5.49502 191.953 5.51502C192.434 5.51502 192.612 5.82502 193.092 5.83502C193.261 5.83502 193.528 5.78502 193.581 5.83502C193.937 5.96502 194.47 6.24502 194.897 5.65502C195.201 5.25945 195.581 4.94801 196.009 4.74502C196.68 4.37136 197.38 4.06678 198.099 3.83502L198.402 3.80502Z" />
+              </g>
+              <defs>
+                <clipPath id="clip0_10_11">
+                  <rect width="13.64" height="200" fill="white" transform="translate(0.38501 14.255) rotate(-90)" />
+                </clipPath>
+              </defs>
+            </svg>
 
           </div>
 
-          <div class="mt-10 lg:mt-0">
+          <p>I first used R in 2015 at a workshop at the American Evaluation Association conference. I was intrigued, but, since my co-workers at the time used Excel and SPSS, I let my newly learned skills lapse.</p>
 
+          <p>In 2016, entering the world of consulting, I decided to give R another shot. I jumped back in, using free online resources to restart my R journey. I taught myself enough that I decided to give R a shot on a project I was working on.
+            <span class="strong">I got a few steps in, hit a roadblock, and had to go back to Excel.</span>
+          </p>
 
+          <p>A few weeks later, I tried R again on another project. Same result. I followed this pattern for several months, optimistically thinking I was ready to use R for a project, only to find my skills weren’t quite there yet.</p>
 
-            <div class="relative p-3 bg-gray-200 border-2 border-gray-300 rounded-md">
-              <img class="absolute top-0 right-0 p-3" src="../wp-content/themes/buddyboss-theme-child/assets/images/for-your-team.svg" alt="RRU" />
+          <p>It’s a common story among those of us who teach ourselves R.
+            <span class="strong">Without a guide, we waste time going down the wrong path without realizing where we’re going.</span>
+          </p>
+        </div>
+        <div class="mx-4">
+          <img class="rounded-xl mb-4" src="../wp-content/themes/buddyboss-theme-child/assets/images/dk-headshot-new.jpg" alt="David Keyes" </div>
 
+          <div class="space-x-4">
+            <a href="https://twitter.com/dgkeyes/" class="text-gray-400 transition duration-150 ease-in-out hover:text-gray-500">
+              <svg class="inline w-10 h-10" fill="currentColor" viewBox="0 0 20 20">
 
-              <h2 class="leading-loose text-blue-800">For Your Team</h2>
-              <p>
-                <a href="custom-training">Custom training</a> to move your team to R can eliminate reliance on expensive software, improve your team’s efficiency, and offer an incredible professional development opportunity to your staff.
-                Want to have someone do the work for you? Learn more about our <a href="consulting">consulting services.</a>
-              </p>
+                <path d="M6.29 18.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0020 3.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.073 4.073 0 01.8 7.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 010 16.407a11.616 11.616 0 006.29 1.84"></path>
 
-            </div>
+            </a>
 
+            <a href="https://www.linkedin.com/in/dgkeyes/" class="text-gray-400 transition duration-150 ease-in-out hover:text-gray-500">
+              <span class="sr-only">LinkedIn</span>
+              <svg class="inline w-10 h-10" fill="currentColor" viewBox="0 0 20 20">
+                <path fill-rule="evenodd" d="M16.338 16.338H13.67V12.16c0-.995-.017-2.277-1.387-2.277-1.39 0-1.601 1.086-1.601 2.207v4.248H8.014v-8.59h2.559v1.174h.037c.356-.675 1.227-1.387 2.526-1.387 2.703 0 3.203 1.778 3.203 4.092v4.711zM5.005 6.575a1.548 1.548 0 11-.003-3.096 1.548 1.548 0 01.003 3.096zm-1.337 9.763H6.34v-8.59H3.667v8.59zM17.668 1H2.328C1.595 1 1 1.581 1 2.298v15.403C1 18.418 1.595 19 2.328 19h15.34c.734 0 1.332-.582 1.332-1.299V2.298C19 1.581 18.402 1 17.668 1z" clip-rule="evenodd"></path>
+              </svg>
+            </a>
           </div>
-
-        </div>
-      </div>
-    </div>
-
-
-    <div class="flex flex-wrap mt-8 -mx-5 overflow-hidden">
-
-      <div class="w-full px-5 my-5 overflow-hidden text-base text-blue-800 md:w-1/2">
-
-        <h2 class="my-8 text-3xl font-extrabold leading-8 tracking-tight text-blue-800 sm:leading-9">
-          Why R for the Rest of Us?
-        </h2>
-
-        <p>As I moved forward on my journey, I came to realize how powerful R is. I also realized how few non-hardcore quants use it .</p>
-
-        <p>I started R for the Rest of Us to bring R to folks who do not yet use it. Folks who are good with data, but need a helping hand with this software. Folks who have used SPSS, SAS, Stata, or other data analysis software and have considered trying R, but haven’t know where to start. R for the Rest of Us is my attempt to demystify R so that others can embrace its power. </p>
-
-        <p>I also want to make the community around R for the Rest of Us welcoming to all R learners. I’ve developed a <a href="https://rfortherestofus.com/code-of-conduct/">code of conduct</a> that provides a set of behavior guidelines to ensure that this is possible. I invite you to <a href="https://rfortherestofus.com/code-of-conduct/">take a look at it</a> and let me know what you think. <br></p>
-
-      </div>
-
-      <div class="hidden w-full px-5 my-5 overflow-hidden md:w-1/2 sm:block">
-
-
-
-
-        <img class="px-32 py-16 mx-auto" src="/wp-content/themes/buddyboss-theme-child/assets/images/rru-logo-blue.svg" alt=" R for the Rest of Us logo">
-
-
-
-      </div>
-
-    </div>
-
-
-
-
-
-
-    <div class="mt-8 lg:grid lg:grid-cols-12 lg:gap-8">
-      <div class="relative mt-12 mb-4 sm:mb-0 sm:max-w-lg sm:mx-auto lg:mt-0 lg:max-w-none lg:mx-0 lg:col-span-4 lg:flex lg:items-center">
-
-
-        <img class="rounded-full w-half ring ring-blue-800 ring-8" src="/wp-content/themes/buddyboss-theme-child/assets/images/dk-headshot-new.jpg" alt="David Keyes" />
-
-      </div>
-
-      <div class="leading-8 sm:text-center md:max-w-2xl md:mx-auto lg:col-span-8 lg:text-left">
-
-        <h4 class="text-3xl font-extrabold leading-8 tracking-tight text-blue-800 sm:text-3xl sm:leading-9">
-          Hi, I'm David
-        </h4>
-        <p>
-          Think you know what an R user looks like? I'm probably not what you have in mind.
-        </p>
-        <p>
-          I'm <span class="font-bold">not a hardcore quant</span> (my PhD is in anthropology). I'm not a coder ready to <strong>jump on you for any small mistake</strong>.
-        </p>
-        <p>
-          I want to help others <span class="font-bold">avoid the pain</span> that I went through learning R.
-        </p>
-        <p>
-          A <span class="font-bold">teacher at heart</span> (shoutout to my former second grade students), I make R <strong>less scary</strong> and <strong>more fun</strong> (yes, fun).
-        </p>
-
-        <div class="mt-5 mb-24 sm:mt-12">
-          <a href="/contact/" class="px-8 py-3 text-base font-medium leading-6 text-white transition duration-150 ease-in-out bg-blue-600 border border-transparent rounded-md hover:text-white hover:bg-blue-500 focus:outline-none focus:border-blue-700 focus:shadow-outline-blue md:py-4 md:text-lg md:px-10">
-            Let's Talk
-          </a>
-
-        </div>
-
-
-      </div>
-
-    </div>
-
-    <div class="max-w-screen-xl px-4 py-12 mx-auto mt-12 sm:px-6 lg:px-8 lg:py-24" id="consultants">
-
-      <div class="space-y-12 lg:grid lg:grid-cols-3 lg:gap-8 lg:space-y-0">
-        <div class="space-y-5 sm:space-y-4">
-          <h2 class="text-3xl font-extrabold leading-9 tracking-tight sm:text-4xl">Consultants</h2>
-          <p class="text-xl leading-7 text-gray-600">Projects often require a range of skills. I partner with talented R users to get the job done.</p>
-        </div>
-        <div class="lg:col-span-2">
-          <ul class="space-y-12 sm:divide-gray-200 sm:space-y-0 sm:-mt-8 lg:col-gap-8 lg:space-y-0">
-            <li class="sm:py-8">
-              <div class="space-y-4 sm:grid sm:grid-cols-3 sm:items-start sm:gap-6 sm:space-y-0">
-                <!-- Image -->
-                <div class="relative pb-2/3 sm:pt-2/3">
-                  <img class="rounded-full ring ring-blue-800 ring-8" src="/wp-content/themes/buddyboss-theme-child/assets/images/thomas-vroylandt.jpeg" alt="Thomas Vroylandt">
-                </div>
-                <div class="sm:col-span-2">
-                  <div class="space-y-4">
-                    <div class="space-y-1 text-lg font-medium leading-6">
-                      <h4 class="my-0"><a href="https://www.tillac-data.com/" target="_blank">Thomas Vroylandt</a></h4>
-                    </div>
-                    <div class="text-lg leading-7">
-                      <p class="text-gray-600">A France-based statistician who combines R skills with a keen sense of design, Thomas works on projects related to data visualization, creating workflows for automated reporting, and developing custom packages.</p>
-                    </div>
-                    <a href="https://twitter.com/tvroylandt/" class="text-gray-400 transition duration-150 ease-in-out hover:text-gray-500">
-                      <span class="sr-only">Twitter</span>
-                      <svg class="inline w-5 h-5 mr-3" fill="currentColor" viewBox="0 0 20 20">
-                        <path d="M6.29 18.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0020 3.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.073 4.073 0 01.8 7.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 010 16.407a11.616 11.616 0 006.29 1.84"></path>
-                      </svg>
-                    </a>
-
-                    <a href="https://www.linkedin.com/in/thomas-vroylandt-9a2334190/" class="text-gray-400 transition duration-150 ease-in-out hover:text-gray-500">
-                      <span class="sr-only">LinkedIn</span>
-                      <svg class="inline w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
-                        <path fill-rule="evenodd" d="M16.338 16.338H13.67V12.16c0-.995-.017-2.277-1.387-2.277-1.39 0-1.601 1.086-1.601 2.207v4.248H8.014v-8.59h2.559v1.174h.037c.356-.675 1.227-1.387 2.526-1.387 2.703 0 3.203 1.778 3.203 4.092v4.711zM5.005 6.575a1.548 1.548 0 11-.003-3.096 1.548 1.548 0 01.003 3.096zm-1.337 9.763H6.34v-8.59H3.667v8.59zM17.668 1H2.328C1.595 1 1 1.581 1 2.298v15.403C1 18.418 1.595 19 2.328 19h15.34c.734 0 1.332-.582 1.332-1.299V2.298C19 1.581 18.402 1 17.668 1z" clip-rule="evenodd"></path>
-                      </svg>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </li>
-
-
-            <li class="sm:py-8">
-              <div class="space-y-4 sm:grid sm:grid-cols-3 sm:items-start sm:gap-6 sm:space-y-0">
-
-                <div class="relative pb-2/3 sm:pt-2/3">
-                  <img class="rounded-full ring ring-blue-800 ring-8" src="/wp-content/themes/buddyboss-theme-child/assets/images/charlie.jpeg" alt="Charlie Hadley">
-                </div>
-                <div class="sm:col-span-2">
-                  <div class="space-y-4">
-                    <div class="space-y-1 text-lg font-medium leading-6">
-                      <h4 class="my-0"><a href="https://www.visibledata.co.uk/">Charlie Hadley</a></h4>
-
-                    </div>
-                    <div class="text-lg leading-7">
-                      <p class="text-gray-600">A UK-based data science consultant and open data evangelist, Charlie has worked in reproducible research and making research accessible since 2012.</p>
-                    </div>
-                    <a href="https://twitter.com/charliejhadley" class="text-gray-400 transition duration-150 ease-in-out hover:text-gray-500">
-                      <span class="sr-only">Twitter</span>
-                      <svg class="inline w-5 h-5 mr-3" fill="currentColor" viewBox="0 0 20 20">
-                        <path d="M6.29 18.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0020 3.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.073 4.073 0 01.8 7.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 010 16.407a11.616 11.616 0 006.29 1.84"></path>
-                      </svg>
-                    </a>
-
-                    <a href="https://www.linkedin.com/in/charliejhadley/" class="text-gray-400 transition duration-150 ease-in-out hover:text-gray-500">
-                      <span class="sr-only">LinkedIn</span>
-                      <svg class="inline w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
-                        <path fill-rule="evenodd" d="M16.338 16.338H13.67V12.16c0-.995-.017-2.277-1.387-2.277-1.39 0-1.601 1.086-1.601 2.207v4.248H8.014v-8.59h2.559v1.174h.037c.356-.675 1.227-1.387 2.526-1.387 2.703 0 3.203 1.778 3.203 4.092v4.711zM5.005 6.575a1.548 1.548 0 11-.003-3.096 1.548 1.548 0 01.003 3.096zm-1.337 9.763H6.34v-8.59H3.667v8.59zM17.668 1H2.328C1.595 1 1 1.581 1 2.298v15.403C1 18.418 1.595 19 2.328 19h15.34c.734 0 1.332-.582 1.332-1.299V2.298C19 1.581 18.402 1 17.668 1z" clip-rule="evenodd"></path>
-                      </svg>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </li>
-
-            <li class="sm:py-8">
-              <div class="space-y-4 sm:grid sm:grid-cols-3 sm:items-start sm:gap-6 sm:space-y-0">
-
-                <div class="relative pb-2/3 sm:pt-2/3">
-                  <img class="rounded-full ring ring-blue-800 ring-8" src="/wp-content/themes/buddyboss-theme-child/assets/images/cara-thompson.png" alt="Cara Thompson">
-                </div>
-                <div class="sm:col-span-2">
-                  <div class="space-y-4">
-                    <div class="space-y-1 text-lg font-medium leading-6">
-                      <h4 class="my-0"><a href="https://www.cararthompson.com">Cara Thompson</a></h4>
-
-                    </div>
-                    <div class="text-lg leading-7">
-                      <p class="text-gray-600">Cara is a UK-based consultant specialising in data visualisations and parameterised reports. She is passionate about helping people make sense of data and automating processes to help organisations tell their stories.</p>
-                    </div>
-                    <a href="https://twitter.com/cararthompson" class="text-gray-400 transition duration-150 ease-in-out hover:text-gray-500">
-                      <span class="sr-only">Twitter</span>
-                      <svg class="inline w-5 h-5 mr-3" fill="currentColor" viewBox="0 0 20 20">
-                        <path d="M6.29 18.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0020 3.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.073 4.073 0 01.8 7.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 010 16.407a11.616 11.616 0 006.29 1.84"></path>
-                      </svg>
-                    </a>
-
-                    <a href="https://www.linkedin.com/in/cara-thompson-2225a7206/" class="text-gray-400 transition duration-150 ease-in-out hover:text-gray-500">
-                      <span class="sr-only">LinkedIn</span>
-                      <svg class="inline w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
-                        <path fill-rule="evenodd" d="M16.338 16.338H13.67V12.16c0-.995-.017-2.277-1.387-2.277-1.39 0-1.601 1.086-1.601 2.207v4.248H8.014v-8.59h2.559v1.174h.037c.356-.675 1.227-1.387 2.526-1.387 2.703 0 3.203 1.778 3.203 4.092v4.711zM5.005 6.575a1.548 1.548 0 11-.003-3.096 1.548 1.548 0 01.003 3.096zm-1.337 9.763H6.34v-8.59H3.667v8.59zM17.668 1H2.328C1.595 1 1 1.581 1 2.298v15.403C1 18.418 1.595 19 2.328 19h15.34c.734 0 1.332-.582 1.332-1.299V2.298C19 1.581 18.402 1 17.668 1z" clip-rule="evenodd"></path>
-                      </svg>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </li>
-
-            <li class="sm:py-8">
-              <div class="space-y-4 sm:grid sm:grid-cols-3 sm:items-start sm:gap-6 sm:space-y-0">
-
-                <div class="relative pb-2/3 sm:pt-2/3">
-                  <img class="rounded-full ring ring-blue-800 ring-8" src="/wp-content/themes/buddyboss-theme-child/assets/images/crystal-lewis.jpg" alt="Crystal Lewis">
-                </div>
-                <div class="sm:col-span-2">
-                  <div class="space-y-4">
-                    <div class="space-y-1 text-lg font-medium leading-6">
-                      <h4 class="my-0"><a href="https://github.com/Cghlewis">Crystal Lewis</a></h4>
-
-                    </div>
-                    <div class="text-lg leading-7">
-                      <p class="text-gray-600">
-
-                        Crystal is a US-based consultant with a background in education research data management who enjoys working
-                        on problems others may find mundane. She is happiest spending her time wrangling messy data into useable
-                        formats, documenting data processes, and improving data management workflows.
-
-                      </p>
-                    </div>
-                    <a href="https://twitter.com/Cghlewis" class="text-gray-400 transition duration-150 ease-in-out hover:text-gray-500">
-                      <span class="sr-only">Twitter</span>
-                      <svg class="inline w-5 h-5 mr-3" fill="currentColor" viewBox="0 0 20 20">
-                        <path d="M6.29 18.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0020 3.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.073 4.073 0 01.8 7.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 010 16.407a11.616 11.616 0 006.29 1.84"></path>
-                      </svg>
-                    </a>
-
-                    <a href="https://www.linkedin.com/in/crystal-lewis-922b4193/" class="text-gray-400 transition duration-150 ease-in-out hover:text-gray-500">
-                      <span class="sr-only">LinkedIn</span>
-                      <svg class="inline w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
-                        <path fill-rule="evenodd" d="M16.338 16.338H13.67V12.16c0-.995-.017-2.277-1.387-2.277-1.39 0-1.601 1.086-1.601 2.207v4.248H8.014v-8.59h2.559v1.174h.037c.356-.675 1.227-1.387 2.526-1.387 2.703 0 3.203 1.778 3.203 4.092v4.711zM5.005 6.575a1.548 1.548 0 11-.003-3.096 1.548 1.548 0 01.003 3.096zm-1.337 9.763H6.34v-8.59H3.667v8.59zM17.668 1H2.328C1.595 1 1 1.581 1 2.298v15.403C1 18.418 1.595 19 2.328 19h15.34c.734 0 1.332-.582 1.332-1.299V2.298C19 1.581 18.402 1 17.668 1z" clip-rule="evenodd"></path>
-                      </svg>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </li>
-
-
-
-
-
-            <!-- More people...-->
-          </ul>
         </div>
       </div>
 
     </div>
 
 
+
+    <div class="bg-white">
+      <div class="mx-auto max-w-7xl py-12 px-6 lg:px-8 lg:py-24">
+        <div class="space-y-12 lg:grid lg:grid-cols-3 lg:gap-8 lg:space-y-0">
+          <div class="space-y-5 sm:space-y-4">
+            <h2 class="text-3xl font-bold tracking-tight sm:text-4xl">Our Team</h2>
+            <p class="text-xl text-gray-500">Our global team of R experts supports clients on a wide range of education and consulting projects.</p>
+          </div>
+          <div class="lg:col-span-2">
+            <ul role="list" class="space-y-12 sm:grid sm:grid-cols-2 sm:gap-x-6 sm:gap-y-12 sm:space-y-0 lg:gap-x-8">
+              <li>
+                <div class="space-y-4">
+                  <div class="aspect-w-3 aspect-h-2">
+                    <img class="rounded-lg object-cover shadow-lg" src="/wp-content/themes/buddyboss-theme-child/assets/images/thomas-vroylandt.jpeg" alt="Thomas Vroylandt">
+                  </div>
+                  <div class="space-y-1 text-lg font-medium leading-6">
+                    <h3 class="pt-2">Thomas Vroylandt</h3>
+
+                  </div>
+                  <div class="text-lg">
+                    <p class="text-gray-500">A France-based statistician who combines R skills with a keen sense of design, Thomas works on projects related to data visualization, creating workflows for automated reporting, and developing custom packages.</p>
+                  </div>
+
+                  <ul role="list" class="flex space-x-5 ml-0">
+                    <li>
+                      <a href="https://twitter.com/tvroylandt/" class="text-gray-400 transition duration-150 ease-in-out hover:text-gray-500">
+                        <span class="sr-only">Twitter</span>
+                        <svg class="inline w-5 h-5 mr-3" fill="currentColor" viewBox="0 0 20 20">
+                          <path d="M6.29 18.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0020 3.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.073 4.073 0 01.8 7.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 010 16.407a11.616 11.616 0 006.29 1.84"></path>
+                        </svg>
+                      </a>
+
+                      <a href="https://www.linkedin.com/in/thomas-vroylandt-9a2334190/" class="text-gray-400 transition duration-150 ease-in-out hover:text-gray-500">
+                        <span class="sr-only">LinkedIn</span>
+                        <svg class="inline w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                          <path fill-rule="evenodd" d="M16.338 16.338H13.67V12.16c0-.995-.017-2.277-1.387-2.277-1.39 0-1.601 1.086-1.601 2.207v4.248H8.014v-8.59h2.559v1.174h.037c.356-.675 1.227-1.387 2.526-1.387 2.703 0 3.203 1.778 3.203 4.092v4.711zM5.005 6.575a1.548 1.548 0 11-.003-3.096 1.548 1.548 0 01.003 3.096zm-1.337 9.763H6.34v-8.59H3.667v8.59zM17.668 1H2.328C1.595 1 1 1.581 1 2.298v15.403C1 18.418 1.595 19 2.328 19h15.34c.734 0 1.332-.582 1.332-1.299V2.298C19 1.581 18.402 1 17.668 1z" clip-rule="evenodd"></path>
+                        </svg>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+
+              <li>
+                <div class="space-y-4">
+                  <div class="aspect-w-3 aspect-h-2">
+                    <img class="rounded-lg object-cover shadow-lg" src="/wp-content/themes/buddyboss-theme-child/assets/images/charlie.jpeg" alt="Charlie Hadley">
+                  </div>
+                  <div class="space-y-1 text-lg font-medium leading-6">
+                    <h3 class="pt-2">Charlie Hadley</h3>
+
+                  </div>
+                  <div class="text-lg">
+                    <p class="text-gray-500">A UK-based data science consultant and open data evangelist, Charlie has worked in reproducible research and making research accessible since 2012.</p>
+                  </div>
+
+                  <ul role="list" class="flex space-x-5 ml-0">
+                    <li>
+                      <a href="https://twitter.com/charliejhadley/" class="text-gray-400 transition duration-150 ease-in-out hover:text-gray-500">
+                        <span class="sr-only">Twitter</span>
+                        <svg class="inline w-5 h-5 mr-3" fill="currentColor" viewBox="0 0 20 20">
+                          <path d="M6.29 18.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0020 3.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.073 4.073 0 01.8 7.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 010 16.407a11.616 11.616 0 006.29 1.84"></path>
+                        </svg>
+                      </a>
+
+                      <a href="https://www.linkedin.com/in/charliejhadley/" class="text-gray-400 transition duration-150 ease-in-out hover:text-gray-500">
+                        <span class="sr-only">LinkedIn</span>
+                        <svg class="inline w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                          <path fill-rule="evenodd" d="M16.338 16.338H13.67V12.16c0-.995-.017-2.277-1.387-2.277-1.39 0-1.601 1.086-1.601 2.207v4.248H8.014v-8.59h2.559v1.174h.037c.356-.675 1.227-1.387 2.526-1.387 2.703 0 3.203 1.778 3.203 4.092v4.711zM5.005 6.575a1.548 1.548 0 11-.003-3.096 1.548 1.548 0 01.003 3.096zm-1.337 9.763H6.34v-8.59H3.667v8.59zM17.668 1H2.328C1.595 1 1 1.581 1 2.298v15.403C1 18.418 1.595 19 2.328 19h15.34c.734 0 1.332-.582 1.332-1.299V2.298C19 1.581 18.402 1 17.668 1z" clip-rule="evenodd"></path>
+                        </svg>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+
+              <li>
+                <div class="space-y-4">
+                  <div class="aspect-w-3 aspect-h-2">
+                    <img class="rounded-lg object-cover shadow-lg" src="/wp-content/themes/buddyboss-theme-child/assets/images/cara-thompson.png" alt="Cara Thompson">
+                  </div>
+                  <div class="space-y-1 text-lg font-medium leading-6">
+                    <h3 class="pt-2">Cara Thompson</h3>
+
+                  </div>
+                  <div class="text-lg">
+                    <p class="text-gray-500">Cara is a UK-based consultant specialising in data visualisations and parameterised reports. She is passionate about helping people make sense of data and automating processes to help organizations tell their stories.
+                    </p>
+                  </div>
+
+                  <ul role="list" class="flex space-x-5 ml-0">
+                    <li>
+                      <a href="https://twitter.com/cararthompson/" class="text-gray-400 transition duration-150 ease-in-out hover:text-gray-500">
+                        <span class="sr-only">Twitter</span>
+                        <svg class="inline w-5 h-5 mr-3" fill="currentColor" viewBox="0 0 20 20">
+                          <path d="M6.29 18.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0020 3.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.073 4.073 0 01.8 7.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 010 16.407a11.616 11.616 0 006.29 1.84"></path>
+                        </svg>
+                      </a>
+
+                      <a href="https://www.linkedin.com/in/cara-thompson-2225a7206/" class="text-gray-400 transition duration-150 ease-in-out hover:text-gray-500">
+                        <span class="sr-only">LinkedIn</span>
+                        <svg class="inline w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                          <path fill-rule="evenodd" d="M16.338 16.338H13.67V12.16c0-.995-.017-2.277-1.387-2.277-1.39 0-1.601 1.086-1.601 2.207v4.248H8.014v-8.59h2.559v1.174h.037c.356-.675 1.227-1.387 2.526-1.387 2.703 0 3.203 1.778 3.203 4.092v4.711zM5.005 6.575a1.548 1.548 0 11-.003-3.096 1.548 1.548 0 01.003 3.096zm-1.337 9.763H6.34v-8.59H3.667v8.59zM17.668 1H2.328C1.595 1 1 1.581 1 2.298v15.403C1 18.418 1.595 19 2.328 19h15.34c.734 0 1.332-.582 1.332-1.299V2.298C19 1.581 18.402 1 17.668 1z" clip-rule="evenodd"></path>
+                        </svg>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+
+              <li>
+                <div class="space-y-4">
+                  <div class="aspect-w-3 aspect-h-2">
+                    <img class="rounded-lg object-cover shadow-lg" src="/wp-content/themes/buddyboss-theme-child/assets/images/crystal-lewis.jpg" alt="Crystal Lewis">
+                  </div>
+                  <div class="space-y-1 text-lg font-medium leading-6">
+                    <h3 class="pt-2">Crystal Lewis</h3>
+
+                  </div>
+                  <div class="text-lg">
+                    <p class="text-gray-500">Crystal is a US-based consultant with a background in education research data management who enjoys working on problems others may find mundane. She is happiest spending her time wrangling messy data into useable formats, documenting data processes, and improving data management workflows.</p>
+                  </div>
+
+                  <ul role="list" class="flex space-x-5 ml-0">
+                    <li>
+                      <a href="https://twitter.com/Cghlewis/" class="text-gray-400 transition duration-150 ease-in-out hover:text-gray-500">
+                        <span class="sr-only">Twitter</span>
+                        <svg class="inline w-5 h-5 mr-3" fill="currentColor" viewBox="0 0 20 20">
+                          <path d="M6.29 18.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0020 3.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.073 4.073 0 01.8 7.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 010 16.407a11.616 11.616 0 006.29 1.84"></path>
+                        </svg>
+                      </a>
+
+                      <a href="https://www.linkedin.com/in/crystal-lewis-922b4193/" class="text-gray-400 transition duration-150 ease-in-out hover:text-gray-500">
+                        <span class="sr-only">LinkedIn</span>
+                        <svg class="inline w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                          <path fill-rule="evenodd" d="M16.338 16.338H13.67V12.16c0-.995-.017-2.277-1.387-2.277-1.39 0-1.601 1.086-1.601 2.207v4.248H8.014v-8.59h2.559v1.174h.037c.356-.675 1.227-1.387 2.526-1.387 2.703 0 3.203 1.778 3.203 4.092v4.711zM5.005 6.575a1.548 1.548 0 11-.003-3.096 1.548 1.548 0 01.003 3.096zm-1.337 9.763H6.34v-8.59H3.667v8.59zM17.668 1H2.328C1.595 1 1 1.581 1 2.298v15.403C1 18.418 1.595 19 2.328 19h15.34c.734 0 1.332-.582 1.332-1.299V2.298C19 1.581 18.402 1 17.668 1z" clip-rule="evenodd"></path>
+                        </svg>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
 
 
   </main><!-- #main -->
