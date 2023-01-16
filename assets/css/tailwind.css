@@ -52,7 +52,11 @@ html {
     @apply hidden text-2xl font-extrabold leading-9 tracking-tight text-blue-800 sm:block sm:leading-10;
 }
 
+/* Fix background color on button on contact page */
 
+#nf-field-40 {
+    @apply bg-blue-500 border-0 rounded-md;
+}
 
 @tailwind components;
 
