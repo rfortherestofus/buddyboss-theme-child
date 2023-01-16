@@ -12,7 +12,7 @@ get_header();
 
     <div class="mx-auto">
       <h1 class="leading-none rru-page-title text-center">
-        <div>Helping the <span class="bg-blue-800 text-white px-2">rest of us</span></div>
+        <div class="inline">Helping the <span class="bg-blue-800 text-white px-2">rest of us</span></div>
         <div>embrace the power of R</div>
       </h1>
 
@@ -34,7 +34,7 @@ get_header();
       </h2>
 
 
-      <div class="grid sm:grid-cols-2 space-x-8">
+      <div class="sm:grid sm:grid-cols-2 sm:space-x-8">
         <div>
 
           <p class="prose-lg">
@@ -81,8 +81,8 @@ get_header();
             <span class="strong">Without a guide, we waste time going down the wrong path without realizing where we’re going.</span>
           </p>
         </div>
-        <div class="mx-4">
-          <img class="rounded-xl mb-4" src="../wp-content/themes/buddyboss-theme-child/assets/images/dk-headshot-new.jpg" alt="David Keyes" </div>
+        <div class="sm:mx-4">
+          <img class="rounded-xl sm:mb-4" src="../wp-content/themes/buddyboss-theme-child/assets/images/dk-headshot-new.jpg" alt="David Keyes" </div>
 
           <div class="space-x-4">
             <a href="https://twitter.com/dgkeyes/" class="text-gray-400 transition duration-150 ease-in-out hover:text-gray-500">
