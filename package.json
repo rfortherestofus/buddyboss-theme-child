@@ -12,10 +12,11 @@
     "author": "",
     "license": "ISC",
     "dependencies": {
+        "@fullhuman/postcss-purgecss": "^5.0.0",
         "@tailwindcss/postcss7-compat": "^2.0.2",
         "add-to-calendar-button": "^1.4.1",
         "animate.css": "^4.1.0",
-        "postcss-cli": "^7.1.1",
+        "postcss-cli": "^10.1.0",
         "tailwindcss-filters": "^3.0.0"
     },
     "devDependencies": {

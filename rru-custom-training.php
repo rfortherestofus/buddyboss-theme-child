@@ -36,7 +36,7 @@ get_header();
     </div>
 
 
-
+    <!-- Why R -->
 
     <div class="mt-24 sm:mt-64">
       <h3 class="text-3xl font-extrabold leading-9 tracking-tight text-blue-800 sm:text-4xl sm:leading-10">
@@ -54,7 +54,7 @@ get_header();
               </svg>
             </div>
             <div class="mt-2">
-            <h5 class="text-lg font-medium leading-6 text-blue-800 mb-1">Efficient Workflows</h5>
+              <h5 class="text-lg font-medium leading-6 text-blue-800 mb-1">Efficient Workflows</h5>
               <p class="mt-2 text-base leading-6 text-gray-500">
                 Write code today that you can reuse tomorrow, next week, next month, and next year.
               </p>
@@ -68,7 +68,7 @@ get_header();
               </svg>
             </div>
             <div class="mt-2">
-            <h5 class="text-lg font-medium leading-6 text-blue-800 mb-1">Effective and Engaging Reporting</h5>
+              <h5 class="text-lg font-medium leading-6 text-blue-800 mb-1">Effective and Engaging Reporting</h5>
               <p class="mt-2 text-base leading-6 text-gray-500">
                 Produce high-quality graphics using the tool of choice for top information designers.
               </p>
@@ -92,64 +92,218 @@ get_header();
       </div>
     </div>
 
-    <section class="py-12 overflow-hidden bg-gray-50 md:py-20 lg:py-24">
-      <div class="relative max-w-screen-xl px-4 mx-auto sm:px-6 lg:px-8">
 
 
 
 
-        <div class="relative">
-          <a href="/success-stories/public-profit/">
-            <img class="h-24 mx-auto" src="/wp-content/themes/buddyboss-theme-child/assets/images/public-profit-logo.svg" alt="Public Profit" />
-          </a>
-          <blockquote class="mt-8">
-            <div class="max-w-3xl mx-auto text-xl font-medium leading-9 text-center text-blue-900">
-              <p>
-                <a href="/success-stories/public-profit/" class="text-blue-900">
-                  &ldquo;We have had a terrific experience with David … Our team had a range of prior experience with R and SPSS, and he was able to put together a series of learning experiences that helped us all to improve our practice. I was particularly impressed that he used data from our projects to re-create our regular analytic processes to tailor our trainings.&ldquo;
-                </a>
-              </p>
-            </div>
-            <footer class="mt-8">
-              <div class="md:flex md:items-center md:justify-center">
-                <div class="md:flex-shrink-0">
-                  <img class="w-16 h-16 mx-auto rounded-full" src="/wp-content/themes/buddyboss-theme-child/assets/images/corey-newhouse-cropped.jpg" alt="Corey Newhouse">
-                </div>
-                <div class="mt-3 text-center md:mt-0 md:ml-4 md:flex md:items-center">
-                  <div class="text-base font-medium leading-6 text-gray-900">Corey Newhouse</div>
 
-                  <svg class="hidden w-5 h-5 mx-1 text-blue-600 md:block" fill="currentColor" viewBox="0 0 20 20">
-                    <path d="M11 0h3L9 20H6l5-20z" />
-                  </svg>
 
-                  <div class="text-base font-medium leading-6 text-gray-500"><a href="/success-stories/public-profit/">Founder and Principal, Public Profit</a></div>
-                </div>
-              </div>
-            </footer>
-          </blockquote>
+
+
+
+    <div class="bg-gray-100 px-16 rounded-xl">
+      <div class="mx-auto py-16 px-1 sm:py-24 lg:px-2">
+        <div class="pb-16 xl:flex xl:items-center xl:justify-between">
+          <div>
+            <h1 class="text-4xl font-bold tracking-tight sm:text-5xl">
+              <span class="text-blue-800">Two Options to</span>
+              <span class="text-blue-600">Move Your Team to R</span>
+            </h1>
+            <p class="mt-5 text-xl text-gray-500">For teams just starting out, we offer two ways to learn the foundations of R.</p>
+          </div>
+          <a href="#" class="invisible mt-8 inline-flex w-full items-center justify-center rounded-md border border-transparent bg-blue-600 px-5 py-3 text-base font-medium text-white hover:text-white hover:bg-blue-700 sm:mt-10 sm:w-auto xl:mt-0">Get started today</a>
+        </div>
+        <div class="border-t border-gray-200 pt-16 xl:grid xl:grid-cols-3 xl:gap-x-8">
+          <div>
+            <h2 class="text-lg font-semibold text-blue-600">Option #1</h2>
+            <p class="mt-2 text-3xl font-bold tracking-tight text-blue-800">In-Person Training</p>
+            <p class="mt-4 text-lg text-gray-500">
+              In-person training is designed around projects that your organization is working on. Working with your data makes learning easier because it allows your team to focus on learning R, not having to remember details about a new dataset. And it shows staff how this new tool can help them solve problems they already encounter in their work.
+            </p>
+          </div>
+          <div class="mt-4 sm:mt-8 md:mt-10 md:grid md:grid-cols-2 md:gap-x-8 xl:col-span-2 xl:mt-0">
+            <ul role="list" class="divide-y divide-gray-200">
+              <li class="flex py-4 md:py-0 md:pb-4">
+                <!-- Heroicon name: outline/check -->
+                <svg class="h-6 w-6 flex-shrink-0 text-blue-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
+                </svg>
+                <span class="ml-3 text-base text-gray-500">Vitae in pulvinar odio id utobortis in inter.</span>
+              </li>
+
+              <li class="flex py-4">
+                <!-- Heroicon name: outline/check -->
+                <svg class="h-6 w-6 flex-shrink-0 text-blue-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
+                </svg>
+                <span class="ml-3 text-base text-gray-500">Sed sed id viverra viverra augue eget massa.</span>
+              </li>
+
+              <li class="flex py-4">
+                <!-- Heroicon name: outline/check -->
+                <svg class="h-6 w-6 flex-shrink-0 text-blue-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
+                </svg>
+                <span class="ml-3 text-base text-gray-500">Urna, gravida amet, a, integer venenatis.</span>
+              </li>
+
+              <li class="flex py-4">
+                <!-- Heroicon name: outline/check -->
+                <svg class="h-6 w-6 flex-shrink-0 text-blue-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
+                </svg>
+                <span class="ml-3 text-base text-gray-500">Lobortis sed pharetra amet vitae eleifend.</span>
+              </li>
+
+              <li class="flex py-4">
+                <!-- Heroicon name: outline/check -->
+                <svg class="h-6 w-6 flex-shrink-0 text-blue-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
+                </svg>
+                <span class="ml-3 text-base text-gray-500">Ullamcorper blandit a consequat donec elit aoreet.</span>
+              </li>
+            </ul>
+            <ul role="list" class="divide-y divide-gray-200 border-t border-gray-200 md:border-t-0">
+              <li class="flex py-4 md:border-t-0 md:py-0 md:pb-4">
+                <!-- Heroicon name: outline/check -->
+                <svg class="h-6 w-6 flex-shrink-0 text-blue-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
+                </svg>
+                <span class="ml-3 text-base text-gray-500">Dolor quo assumenda.</span>
+              </li>
+
+              <li class="flex py-4">
+                <!-- Heroicon name: outline/check -->
+                <svg class="h-6 w-6 flex-shrink-0 text-blue-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
+                </svg>
+                <span class="ml-3 text-base text-gray-500">Esse rerum distinctio maiores maiores.</span>
+              </li>
+
+              <li class="flex py-4">
+                <!-- Heroicon name: outline/check -->
+                <svg class="h-6 w-6 flex-shrink-0 text-blue-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
+                </svg>
+                <span class="ml-3 text-base text-gray-500">Eos enim officiis ratione.</span>
+              </li>
+
+              <li class="flex py-4">
+                <!-- Heroicon name: outline/check -->
+                <svg class="h-6 w-6 flex-shrink-0 text-blue-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
+                </svg>
+                <span class="ml-3 text-base text-gray-500">Tempore molestiae aliquid excepturi.</span>
+              </li>
+
+              <li class="flex py-4">
+                <!-- Heroicon name: outline/check -->
+                <svg class="h-6 w-6 flex-shrink-0 text-blue-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
+                </svg>
+                <span class="ml-3 text-base text-gray-500">Perspiciatis eveniet inventore eum et aliquam.</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="border-t border-gray-200 pt-16 xl:grid xl:grid-cols-3 xl:gap-x-8">
+          <div>
+            <h2 class="text-lg font-semibold text-blue-600">Option #2</h2>
+            <p class="mt-2 text-3xl font-bold tracking-tight text-blue-800">Virtual Training</p>
+            <p class="mt-4 text-lg text-gray-500">
+              We do virtual training using a <a href="https://ctl.utexas.edu/instructional-strategies/flipped-classroom?ck_subscriber_id=1844548729">flipped classroom model</a>. This means
+            </p>
+          </div>
+          <div class="mt-4 sm:mt-8 md:mt-10 md:grid md:grid-cols-2 md:gap-x-8 xl:col-span-2 xl:mt-0">
+            <ul role="list" class="divide-y divide-gray-200">
+              <li class="flex py-4 md:py-0 md:pb-4">
+                <!-- Heroicon name: outline/check -->
+                <svg class="h-6 w-6 flex-shrink-0 text-blue-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
+                </svg>
+                <span class="ml-3 text-base text-gray-500">Vitae in pulvinar odio id utobortis in inter.</span>
+              </li>
+
+              <li class="flex py-4">
+                <!-- Heroicon name: outline/check -->
+                <svg class="h-6 w-6 flex-shrink-0 text-blue-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
+                </svg>
+                <span class="ml-3 text-base text-gray-500">Sed sed id viverra viverra augue eget massa.</span>
+              </li>
+
+              <li class="flex py-4">
+                <!-- Heroicon name: outline/check -->
+                <svg class="h-6 w-6 flex-shrink-0 text-blue-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
+                </svg>
+                <span class="ml-3 text-base text-gray-500">Urna, gravida amet, a, integer venenatis.</span>
+              </li>
+
+              <li class="flex py-4">
+                <!-- Heroicon name: outline/check -->
+                <svg class="h-6 w-6 flex-shrink-0 text-blue-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
+                </svg>
+                <span class="ml-3 text-base text-gray-500">Lobortis sed pharetra amet vitae eleifend.</span>
+              </li>
+
+              <li class="flex py-4">
+                <!-- Heroicon name: outline/check -->
+                <svg class="h-6 w-6 flex-shrink-0 text-blue-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
+                </svg>
+                <span class="ml-3 text-base text-gray-500">Ullamcorper blandit a consequat donec elit aoreet.</span>
+              </li>
+            </ul>
+            <ul role="list" class="divide-y divide-gray-200 border-t border-gray-200 md:border-t-0">
+              <li class="flex py-4 md:border-t-0 md:py-0 md:pb-4">
+                <!-- Heroicon name: outline/check -->
+                <svg class="h-6 w-6 flex-shrink-0 text-blue-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
+                </svg>
+                <span class="ml-3 text-base text-gray-500">Dolor quo assumenda.</span>
+              </li>
+
+              <li class="flex py-4">
+                <!-- Heroicon name: outline/check -->
+                <svg class="h-6 w-6 flex-shrink-0 text-blue-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
+                </svg>
+                <span class="ml-3 text-base text-gray-500">Esse rerum distinctio maiores maiores.</span>
+              </li>
+
+              <li class="flex py-4">
+                <!-- Heroicon name: outline/check -->
+                <svg class="h-6 w-6 flex-shrink-0 text-blue-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
+                </svg>
+                <span class="ml-3 text-base text-gray-500">Eos enim officiis ratione.</span>
+              </li>
+
+              <li class="flex py-4">
+                <!-- Heroicon name: outline/check -->
+                <svg class="h-6 w-6 flex-shrink-0 text-blue-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
+                </svg>
+                <span class="ml-3 text-base text-gray-500">Tempore molestiae aliquid excepturi.</span>
+              </li>
+
+              <li class="flex py-4">
+                <!-- Heroicon name: outline/check -->
+                <svg class="h-6 w-6 flex-shrink-0 text-blue-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
+                </svg>
+                <span class="ml-3 text-base text-gray-500">Perspiciatis eveniet inventore eum et aliquam.</span>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
-    </section>
-
-
-
-
-
-    <div class="mx-auto mt-32 sm:w-1/2">
-      <h3 class="text-3xl font-extrabold leading-9 tracking-tight text-blue-800 sm:text-4xl sm:leading-10">
-        How Does Custom Training Work?
-      </h3>
-
-      <p>
-        Custom training engagements typically involve one-, two-, or three-day training sessions, followed by project support. </p>
-
-      <p>
-        All custom training is designed around projects that your organization is working on. Working with your data makes learning easier because it allows your team to focus on learning R, not having to remember details about a new dataset. And it shows staff how this new tool can help them solve problems they already encounter in their work.
-
-      </p>
-
     </div>
 
+
+ 
 
 
     <div class="flex flex-wrap mt-16 overflow-hidden">
@@ -514,6 +668,11 @@ get_header();
 
     </div>
 
+    <div class="mx-auto">
+      <div class="senja-frame-embed rounded-xl" data-id="44980479-047f-488f-a0cc-9e953de7a6b9"></div>
+      <script defer type="text/javascript" src="https://widget.senja.io/embed/frame.js"></script>
+    </div>
+
 
     <h2 class="mt-24 mb-2 text-3xl font-extrabold leading-9 tracking-tight text-center text-blue-800 sm:text-4xl sm:leading-10">
       Success Stories
@@ -581,9 +740,9 @@ get_header();
     </div>
 
     <div class="mt-12 px-4 py-8  bg-white border-2 border-orange-600 rounded-md sm:px-8 sm:mx-32">
-      
-        <h2>Is your organization ready to move to R?</h2>
-      
+
+      <h2>Is your organization ready to move to R?</h2>
+
       <p>Improve your organization's efficiency, provide an incredible professional development opportunity for your staff, and save money to boot.</p>
       <div class="mt-5 sm:mt-12">
         <a target="_blank" href="https://savvycal.com/links/davidkeyes/custom-training" class="px-8 py-3 text-base font-medium leading-6 text-white transition duration-150 ease-in-out bg-orange-600 border border-transparent rounded-md hover:text-white hover:bg-orange-500 focus:outline-none focus:border-orange-700 focus:shadow-outline-blue md:py-4 md:text-lg md:px-10">
