@@ -342,7 +342,7 @@ get_header();
 
           <div class="border-2 border-gray-100 mt-16 rounded-xl">
             <div class="px-4 py-8  mx-auto max-w-7xl sm:py-24 sm:px-6 lg:px-8">
-              <h2 class="my-4 text-2xl font-bold tracking-tight text-blue-800 text-center">Supporting Forward-Looking Organizations</h2>
+              <h2 class="my-4 text-lg font-bold text-gray-500 text-center uppercase tracking-wide">Supporting Forward-Looking Organizations</h2>
               <div class="mt-6 grid sm:grid-cols-2 gap-2 md:grid-cols-4 lg:mt-8 -mt-64">
 
 

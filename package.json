@@ -6,7 +6,7 @@
     "scripts": {
         "watch": "npx tailwindcss -i assets/css/tailwind.css -o assets/css/tailwindrru.css --watch",
         "build": "postcss assets/css/tailwind.css -o assets/css/tailwindrru.css",
-        "rru-server": "npx browser-sync start --proxy 'rru.local' --files '*.php'"
+        "rru-server": "npx browser-sync start --proxy 'http://localhost:10003/' --files '*.php'"
     },
     "keywords": [],
     "author": "",
