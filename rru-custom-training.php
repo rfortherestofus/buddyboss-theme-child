@@ -112,7 +112,7 @@ get_header();
 
     <div class="bg-gray-100 px-16 rounded-xl">
       <div class="mx-auto py-16 px-1 sm:py-24 lg:px-2">
-        <div class="pb-16 xl:flex xl:items-center xl:justify-between">
+        <div class="pb-4 xl:flex xl:items-center xl:justify-between">
           <div>
             <h1 class="text-4xl font-bold tracking-tight sm:text-5xl">
               <span class="text-blue-800">Two Options to</span>
@@ -120,7 +120,7 @@ get_header();
             </h1>
             <p class="mt-5 text-xl text-gray-500">For teams just starting out, we offer two ways to learn the foundations of R.</p>
           </div>
-          <a href="#" class="invisible mt-8 inline-flex w-full items-center justify-center rounded-md border border-transparent bg-blue-600 px-5 py-3 text-base font-medium text-white hover:text-white hover:bg-blue-700 sm:mt-10 sm:w-auto xl:mt-0">Get started today</a>
+          
         </div>
         <div class="border-t border-gray-200 pt-16 xl:grid xl:grid-cols-3 xl:gap-x-8">
           <div>
@@ -305,14 +305,14 @@ get_header();
 
     <div class="border-2 border-gray-100 px-16 rounded-xl mt-16">
       <div class="mx-auto py-16 px-1 sm:py-24 lg:px-2">
-        <div class="pb-16 xl:flex xl:items-center xl:justify-between">
+        <div class="pb-4 xl:flex xl:items-center xl:justify-between">
           <div>
             <h1 class="text-4xl font-bold tracking-tight sm:text-5xl">
               <span class="text-blue-800">Support at Every Step</span>
             </h1>
             <p class="mt-5 text-xl text-gray-500">We help teams get around any roadblocks so they can fully embrace the power of R.</p>
           </div>
-          <a href="#" class="invisible mt-8 inline-flex w-full items-center justify-center rounded-md border border-transparent bg-blue-600 px-5 py-3 text-base font-medium text-white hover:text-white hover:bg-blue-700 sm:mt-10 sm:w-auto xl:mt-0">Get started today</a>
+          
         </div>
         <div class="border-t border-gray-200 pt-16 xl:grid xl:grid-cols-3 xl:gap-x-8">
           <div>
@@ -464,7 +464,7 @@ get_header();
       Success Stories
     </h2>
     <div class="sm:flex">
-      <div class="max-w-xl px-4 py-8 mt-2 bg-gray-100 rounded-md sm:px-8 sm:mx-2 sm:mt-0">
+      <div class="max-w-xl px-8 py-16 mt-2 bg-gray-100 rounded-md sm:px-8 sm:mx-2 sm:mt-0">
         <img class="h-24 mb-4" src="../wp-content/themes/buddyboss-theme-child/assets/images/public-profit-logo.svg" alt="Public Profit" />
 
         <h2>How Public Profit Set Up a Structure for Success</h2>
@@ -477,7 +477,7 @@ get_header();
 
         </div>
       </div>
-      <div class="max-w-xl px-4 py-8 mt-2 bg-gray-100 rounded-md sm:px-8 sm:mx-2 sm:mt-0">
+      <div class="max-w-xl px-8 py-16 mt-2 bg-gray-100 rounded-md sm:px-8 sm:mx-2 sm:mt-0">
         <img class="h-24 mb-4" src="../wp-content/themes/buddyboss-theme-child/assets/images/reading-partners-logo.svg" alt="Reading Partners" />
 
         <h2>How Moving to R Enabled Reading Partners to Engage More Deeply with Their Data</h2>
@@ -495,7 +495,7 @@ get_header();
     </div>
 
     <div class="mt-2 sm:flex">
-      <div class="max-w-xl px-4 py-8 mt-2 bg-gray-100 rounded-md sm:px-8 sm:mx-2 sm:mt-0">
+      <div class="max-w-xl px-8 py-16 mt-2 bg-gray-100 rounded-md sm:px-8 sm:mx-2 sm:mt-0">
         <img class="h-24 mb-4" src="../wp-content/themes/buddyboss-theme-child/assets/images/omni-logo.svg" alt="OMNI Institute Logo" />
 
         <h2>How R Has Streamlined OMNI Institute’s Workflow</h2>
@@ -509,7 +509,7 @@ get_header();
         </div>
       </div>
 
-      <div class="max-w-xl px-4 py-8 mt-2 bg-gray-100 rounded-md sm:px-8 sm:mx-2 sm:mt-0">
+      <div class="max-w-xl px-8 py-16 mt-2 bg-gray-100 rounded-md sm:px-8 sm:mx-2 sm:mt-0">
         <img class="h-24 mb-4" src="../wp-content/themes/buddyboss-theme-child/assets/images/mff-logo.png" alt="Michigan Fitness Foundation" />
 
         <h2>How R Has Transformed the Work of the Michigan Fitness Foundation</h2>
@@ -527,7 +527,7 @@ get_header();
 
     <div class="overflow-hidden bg-white border-2 border-gray-100 rounded-xl mt-16">
       <div class="relative mx-auto max-w-7xl py-16 px-6 lg:px-8">
-        <div class="invisible absolute top-0 bottom-0 left-3/4 hidden w-screen bg-gray-50 lg:block"></div>
+        
         <div class="mx-auto max-w-prose text-base lg:grid lg:max-w-none lg:grid-cols-2 lg:gap-8">
           <div>
             <h2 class="text-lg font-semibold text-blue-600 mb-1">Principal Trainer</h2>
@@ -536,14 +536,7 @@ get_header();
         </div>
         <div class="mt-4 lg:grid lg:grid-cols-2 lg:gap-8">
           <div class="relative lg:col-start-2 lg:row-start-1">
-            <svg class="invisible absolute top-0 right-0 -mt-20 -mr-20 hidden lg:block" width="404" height="384" fill="none" viewBox="0 0 404 384" aria-hidden="true">
-              <defs>
-                <pattern id="de316486-4a29-4312-bdfc-fbce2132a2c1" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
-                  <rect x="0" y="0" width="4" height="4" class="text-gray-200" fill="currentColor" />
-                </pattern>
-              </defs>
-              <rect width="404" height="384" fill="url(#de316486-4a29-4312-bdfc-fbce2132a2c1)" />
-            </svg>
+            
             <div class="relative mx-auto max-w-prose text-base lg:max-w-none">
               <figure>
                 <div class="aspect-w-12 aspect-h-7 lg:aspect-none">
