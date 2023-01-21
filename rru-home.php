@@ -354,7 +354,7 @@ get_header();
 
 
                 <div class="client-logo-container">
-                  <img class="client-logo w-[90000]" src="wp-content/themes/buddyboss-theme-child/assets/images/intuit.svg" alt="Intuit" />
+                  <img class="client-logo" src="wp-content/themes/buddyboss-theme-child/assets/images/intuit.svg" alt="Intuit" />
 
                 </div>
 

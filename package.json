@@ -17,6 +17,7 @@
         "add-to-calendar-button": "^1.4.1",
         "animate.css": "^4.1.0",
         "postcss-cli": "^10.1.0",
+        "tailwindcss-animatecss": "^3.0.2",
         "tailwindcss-filters": "^3.0.0"
     },
     "devDependencies": {

@@ -8,7 +8,7 @@ get_header();
 
 <script defer type="text/javascript" src="https://widget.senja.io/embed/frame.js"></script>
 
-<div id="primary" class="content-area bb-grid-cell">
+<div id="primary" class="content-area bb-grid-cell animate__animated animate__fadeIn animate__slow">
 
 
   <main id="main" class="mt-10 site-main">
@@ -30,7 +30,7 @@ get_header();
 
 
 
-        <a target="_blank" href="https://savvycal.com/links/davidkeyes/custom-training" class="mt-5 sm:mt-12 px-8 py-3 text-base font-medium leading-6 text-white transition duration-150 ease-in-out bg-blue-600 border border-transparent rounded-md hover:text-white hover:bg-blue-500 focus:outline-none focus:border-blue-700 focus:shadow-outline-blue md:py-4 md:text-lg md:px-10">
+        <a href="#booking-page" class="mt-5 sm:mt-12 px-8 py-3 text-base font-medium leading-6 text-white transition duration-150 ease-in-out bg-blue-600 border border-transparent rounded-md hover:text-white hover:bg-blue-500 focus:outline-none focus:border-blue-700 focus:shadow-outline-blue md:py-4 md:text-lg md:px-10">
           Let's Talk
         </a>
 
@@ -43,6 +43,8 @@ get_header();
 
 
     </div>
+
+
 
 
     <!-- Why R -->
@@ -120,7 +122,7 @@ get_header();
             </h1>
             <p class="mt-5 text-xl text-gray-500">For teams just starting out, we offer two ways to learn the foundations of R.</p>
           </div>
-          
+
         </div>
         <div class="border-t border-gray-200 pt-16 xl:grid xl:grid-cols-3 xl:gap-x-8">
           <div>
@@ -252,12 +254,42 @@ get_header();
             </svg>
           </div>
         </div>
+
+        <div>
+          <p class="my-4 text-base text-center font-bold text-gray-500 uppercase tracking-wide">
+            Select in-person training clients
+          </p>
+
+          <div class="mx-auto max-w-7xl py-12 px-6 lg:px-8">
+            <div class="grid grid-cols-2 gap-16 md:grid-cols-4">
+              <div class="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
+
+                <img class="client-logo" src="/wp-content/themes/buddyboss-theme-child/assets/images/intuit.svg" alt="Intuit" />
+              </div>
+              <div class="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
+
+                <img class="client-logo" src="/wp-content/themes/buddyboss-theme-child/assets/images/public-profit-logo.svg" alt="Public Profit" />
+              </div>
+              <div class="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
+
+                <img class="client-logo" src="/wp-content/themes/buddyboss-theme-child/assets/images/prosper-portland-logo.svg" alt="Prosper Portland" />
+              </div>
+              <div class="col-span-1 flex justify-center md:col-span-3 lg:col-span-1">
+                <img class="client-logo" src="/wp-content/themes/buddyboss-theme-child/assets/images/omni-logo.svg" alt="OMNI Institute" />
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+
+
         <div class="border-t border-gray-200 pt-16 xl:grid xl:grid-cols-3 xl:gap-x-8">
           <div>
             <h2 class="text-lg font-semibold text-blue-600">Option #2</h2>
             <p class="mt-2 text-3xl font-bold tracking-tight text-blue-800">Virtual Training</p>
             <p class="mt-4 text-lg text-gray-500">
-              We do virtual training using a <a href="https://ctl.utexas.edu/instructional-strategies/flipped-classroom">flipped classroom model</a>. This means that participants go through high-quality self-paced courses on their own schedule and then we meet to discuss questions that come up. This approach is more effective than doing live virtual training, where common beginner coding errors are hard to identify. Participants learn better, organizations move faster, and everyone benefits.
+              We do virtual training using a <a href="https://ctl.utexas.edu/instructional-strategies/flipped-classroom">flipped classroom model</a>. This means that participants go through <a href="https://rfortherestofus.com/online-courses/">high-quality R for the Rest of Us courses</a>, offered at a 25% group discount, on their own schedule and then we meet to discuss questions that come up. This approach is more effective than doing live virtual training, where common beginner coding errors are hard to identify. Participants learn better, organizations move faster, and everyone benefits.
             </p>
           </div>
           <div class="mt-4 sm:mt-8 md:mt-10 md:grid md:grid-cols-1 md:gap-x-8 xl:col-span-2 xl:mt-0">
@@ -300,8 +332,38 @@ get_header();
             </svg>
           </div>
         </div>
+
+        <div>
+          <p class="my-4 text-base text-center font-bold text-gray-500 uppercase tracking-wide">
+            Select virtual training clients
+          </p>
+
+          <div class="mx-auto max-w-7xl py-12 px-6 lg:px-8">
+            <div class="grid grid-cols-2 gap-16 md:grid-cols-4">
+              <div class="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
+
+                <img class="client-logo" src="/wp-content/themes/buddyboss-theme-child/assets/images/reading-partners-logo.svg" alt="Reading Partners" />
+              </div>
+              <div class="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
+
+                <img class="client-logo" src="/wp-content/themes/buddyboss-theme-child/assets/images/mff-logo.svg" alt="Michigan Fitness Foundation" />
+              </div>
+              <div class="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
+                <img class="client-logo" src="/wp-content/themes/buddyboss-theme-child/assets/images/wmata-logo.svg" alt="Washington Metropolitan Area Transit Authority (aka Metro)" />
+              </div>
+              <div class="col-span-1 flex justify-center md:col-span-3 lg:col-span-1">
+                <img class="client-logo" src="/wp-content/themes/buddyboss-theme-child/assets/images/sdcoe.svg" alt="San Diego County Office of Education" />
+              </div>
+
+            </div>
+          </div>
+        </div>
+
       </div>
     </div>
+
+
+
 
     <div class="border-2 border-gray-100 px-16 rounded-xl mt-16">
       <div class="mx-auto py-16 px-1 sm:py-24 lg:px-2">
@@ -312,7 +374,7 @@ get_header();
             </h1>
             <p class="mt-5 text-xl text-gray-500">We help teams get around any roadblocks so they can fully embrace the power of R.</p>
           </div>
-          
+
         </div>
         <div class="border-t border-gray-200 pt-16 xl:grid xl:grid-cols-3 xl:gap-x-8">
           <div>
@@ -525,9 +587,28 @@ get_header();
 
     </div>
 
+
+    <div class="mt-16 mx-auto" id="booking-page">
+      <!-- this is where we will inject the interface -->
+    </div>
+
+    <script>
+      window.SavvyCal = window.SavvyCal || function() {
+        (SavvyCal.q = SavvyCal.q || []).push(arguments)
+      };
+    </script>
+    <script async src="https://embed.savvycal.com/v1/embed.js"></script>
+    <script>
+      SavvyCal('init');
+      SavvyCal('inline', {
+        link: 'davidkeyes/custom-training',
+        selector: '#booking-page'
+      });
+    </script>
+
     <div class="overflow-hidden bg-white border-2 border-gray-100 rounded-xl mt-16">
       <div class="relative mx-auto max-w-7xl py-16 px-6 lg:px-8">
-        
+
         <div class="mx-auto max-w-prose text-base lg:grid lg:max-w-none lg:grid-cols-2 lg:gap-8">
           <div>
             <h2 class="text-lg font-semibold text-blue-600 mb-1">Principal Trainer</h2>
@@ -536,7 +617,7 @@ get_header();
         </div>
         <div class="mt-4 lg:grid lg:grid-cols-2 lg:gap-8">
           <div class="relative lg:col-start-2 lg:row-start-1">
-            
+
             <div class="relative mx-auto max-w-prose text-base lg:max-w-none">
               <figure>
                 <div class="aspect-w-12 aspect-h-7 lg:aspect-none">
@@ -567,6 +648,13 @@ get_header();
           </div>
         </div>
       </div>
+    </div>
+
+    <div class="max-w-5xl mx-auto mt-16">
+    <h2 class="mt-24 mb-2 text-3xl font-extrabold leading-9 tracking-tight text-center text-blue-800 sm:text-4xl sm:leading-10">
+      What Our Clients Say
+    </h2>
+      <div class="senja-frame-embed" data-id="44980479-047f-488f-a0cc-9e953de7a6b9"></div>
     </div>
 
 
