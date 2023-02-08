@@ -659,22 +659,9 @@ get_header();
 
       </div>
 
-      <!--
-  This example requires Tailwind CSS v2.0+ 
-  
-  This example requires some changes to your config:
-  
-  ```
-  // tailwind.config.js
-  module.exports = {
-    // ...
-    plugins: [
-      // ...
-      require('@tailwindcss/aspect-ratio'),
-    ],
-  }
-  ```
--->
+
+
+
       <div class="bg-white py-12 px-4 sm:px-6 lg:px-8 lg:py-32" id="final-assignment">
         <div class="mx-auto max-w-xl mb-8">
           <div class="space-y-12">
@@ -687,7 +674,27 @@ get_header();
           </div>
         </div>
 
-        <div class="muse-video-player max-w-6xl" data-video="4z351fQ" data-search="0" data-links="0" data-logo="0" data-title="0" data-autoplay="0" data-width="100%"></div>
+        <div class="scrollbar-hide mt-14 flex align-middle w-full snap-x snap-mandatory scroll-px-10 gap-10 overflow-x-scroll scroll-smooth px-10">
+          <div class="md:2/3 relative aspect-[16/9] w-[90%] shrink-0 snap-start snap-always  sm:w-[66%]">
+            <div class="muse-video-player" data-video="28RMm4G" data-search="0" data-links="0" data-logo="0" data-title="0" data-autoplay="0" data-width="100%"></div>
+          </div>
+
+          <div class="md:2/3 relative aspect-[16/9] w-[90%] shrink-0 snap-start snap-always  sm:w-[66%]">
+            <div class="muse-video-player" data-video="D5No3m2" data-search="0" data-links="0" data-logo="0" data-title="0" data-autoplay="0" data-width="100%"></div>
+          </div>
+          <div class="md:2/3 relative aspect-[16/9] w-[90%] shrink-0 snap-start snap-always  sm:w-[66%]">
+            <div class="muse-video-player" data-video="ZzcaVqy" data-search="0" data-links="0" data-logo="0" data-title="0" data-autoplay="0" data-width="100%"></div>
+          </div>
+          <div class="md:2/3 relative aspect-[16/9] w-[90%] shrink-0 snap-start snap-always  sm:w-[66%]">
+            <div class="muse-video-player" data-video="TkfpLt1" data-search="0" data-links="0" data-logo="0" data-title="0" data-autoplay="0" data-width="100%"></div>
+          </div>
+          <div class="md:2/3 relative aspect-[16/9] w-[90%] shrink-0 snap-start snap-always  sm:w-[66%]">
+            <div class="muse-video-player" data-video="4z351fQ" data-search="0" data-links="0" data-logo="0" data-title="0" data-autoplay="0" data-width="100%"></div>
+          </div>
+
+
+        </div>
+
       </div>
 
 
