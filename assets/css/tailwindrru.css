@@ -3651,6 +3651,14 @@ html {
     grid-column: span 1 / span 1;
   }
 
+  .lg\:col-span-4 {
+    grid-column: span 4 / span 4;
+  }
+
+  .lg\:col-span-8 {
+    grid-column: span 8 / span 8;
+  }
+
   .lg\:col-start-2 {
     grid-column-start: 2;
   }
@@ -3707,6 +3715,14 @@ html {
 
   .lg\:ml-0 {
     margin-left: 0px;
+  }
+
+  .lg\:-mt-12 {
+    margin-top: -3rem;
+  }
+
+  .lg\:-mt-24 {
+    margin-top: -6rem;
   }
 
   .lg\:block {

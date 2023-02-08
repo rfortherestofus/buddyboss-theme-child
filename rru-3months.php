@@ -39,7 +39,7 @@ get_header();
                   </p>
 
                   <p class="mt-3 mb-10 text-base text-gray-500 sm:mt-5 sm:text-xl lg:text-lg xl:text-xl">
-                    The next cohort will cost $999 and starts in March 2023.
+                    The next cohort will cost $999 and starts March 15.
                   </p>
 
                   <div class="max-w-lg mx-auto">
@@ -53,17 +53,9 @@ get_header();
 
 
                 </div>
-                <div class=" mt-12 relative sm:max-w-lg sm:mx-auto lg:mt-0 lg:max-w-none lg:mx-0 lg:col-span-6 lg:flex lg:items-center">
-                  <svg class="absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-8 scale-75 origin-top sm:scale-100 lg:hidden" width="640" height="784" fill="none" viewBox="0 0 640 784" aria-hidden="true">
-                    <defs>
-                      <pattern id="4f4f415c-a0e9-44c2-9601-6ded5a34a13e" x="118" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
-                        <rect x="0" y="0" width="4" height="4" class="text-gray-200" fill="currentColor" />
-                      </pattern>
-                    </defs>
-                    <rect y="72" width="640" height="640" class="text-gray-50" fill="currentColor" />
-                    <rect x="118" width="404" height="784" fill="url(#4f4f415c-a0e9-44c2-9601-6ded5a34a13e)" />
-                  </svg>
-                  <div class="relative mx-auto w-full rounded-lg shadow-lg lg:max-w-md">
+                <div class="relative sm:max-w-lg sm:mx-auto lg:-mt-24 lg:max-w-none lg:mx-0 lg:col-span-6 lg:flex lg:items-center">
+                  
+                  <div class="relative mx-auto aspect-[16/9] w-full rounded-lg shadow-lg lg:max-w-md">
 
                     <span class="sr-only">Watch our video to learn more</span>
                     <!-- <img class="w-full" src="https://images.unsplash.com/photo-1556740758-90de374c12ad?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt=""> -->
@@ -579,7 +571,7 @@ get_header();
                 <span class="text-transparent bg-gradient-to-r from-blue-300 to-blue-300 bg-clip-text">Schedule</span>
               </h2>
               <p class="mt-3 text-3xl font-extrabold text-white">Weekly Live Sessions</p>
-              <p class="mt-5 text-lg text-gray-300">Sessions will be held on Zoom Thursdays from 10:00am to 11:00am Pacific time, with recordings available the next day.</p>
+              <p class="mt-5 text-lg text-gray-300">Live sessions will be held on Zoom Wednesdays from 10:00am to 11:00am Pacific time, with recordings available the next day.</p>
               <div class="grid grid-cols-1 mt-12 gap-y-12 gap-x-6 sm:grid-cols-2">
                 <p>
                   <span class="block text-2xl font-bold text-white">Week 1</span>
