@@ -39,21 +39,21 @@ get_header();
                   </p>
 
                   <p class="mt-3 mb-10 text-base text-gray-500 sm:mt-5 sm:text-xl lg:text-lg xl:text-xl">
-                    The next cohort will cost $999 and starts March 15.
+                    The next cohort will cost $999 ($949 if you sign up in February) and starts March 15.
                   </p>
 
-                  <div class="max-w-lg mx-auto">
+                  <div class="max-w-lg mx-auto hidden">
                     <?php echo do_shortcode("[ninja_form id=23]"); ?>
                   </div>
 
-                  <a href="?add-to-cart=15772&amp;quantity=1" class="hidden px-5 py-3 text-base font-medium leading-6 text-white transition duration-150 ease-in-out bg-blue-600 border border-transparent rounded-md hover:bg-blue-500 focus:outline-none focus:shadow-outline hover:text-white" aria-describedby="tier-standard">
+                  <a href="#pricing" class="px-5 py-3 text-base font-medium leading-6 text-white transition duration-150 ease-in-out bg-blue-600 border border-transparent rounded-md hover:bg-blue-500 focus:outline-none focus:shadow-outline hover:text-white" aria-describedby="tier-standard">
                     Sign Up Now
                   </a>
 
 
 
                 </div>
-                <div class="relative sm:max-w-lg sm:mx-auto lg:-mt-24 lg:max-w-none lg:mx-0 lg:col-span-6 lg:flex lg:items-center">
+                <div class="relative sm:max-w-lg sm:mx-auto lg:mt-0 lg:max-w-none lg:mx-0 lg:col-span-6 lg:flex lg:items-center">
                   
                   <div class="relative mx-auto aspect-[16/9] w-full rounded-lg shadow-lg lg:max-w-md">
 
@@ -953,7 +953,7 @@ get_header();
       </div>
 
 
-      <div class=" hidden max-w-3xl mx-auto px-4 bg-gradient-to-r from-blue-800 to-blue-700">
+      <div class="max-w-3xl mx-auto px-4 bg-gradient-to-r from-blue-800 to-blue-700">
 
 
         <div class="pt-12 mt-24 sm:pt-16 lg:pt-24" id="pricing">
