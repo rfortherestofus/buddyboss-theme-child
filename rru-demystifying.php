@@ -38,8 +38,8 @@ get_header();
       </p>
     </div>
 
-    <div class="bg-gray-50 text-base leading-7 mt-4 mx-4 rounded-md px-8 pt-8 hidden">
-      <p class="font-bold">Join us on Thursday, September 8 at 11:00am Pacific time</p>
+    <div class="bg-gray-50 text-base leading-7 mt-4 rounded-md px-8 pt-8">
+      <p class="font-bold">Join us on Friday, March 3 at 10:00am Pacific time</p>
       <?php echo do_shortcode("[ninja_form id=32]"); ?>
     </div>
 
@@ -48,7 +48,7 @@ get_header();
 </div>
 
 
-<div class="mt-6" id="past-sessions">
+<div class="mt-6 hidden" id="past-sessions">
 
 
   <dl class="space-y-8 divide-y divide-gray-200">
