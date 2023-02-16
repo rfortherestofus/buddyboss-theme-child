@@ -1521,11 +1521,6 @@ html {
   margin-bottom: 1rem;
 }
 
-.mx-4 {
-  margin-left: 1rem;
-  margin-right: 1rem;
-}
-
 .mx-\[200\] {
   margin-left: 200;
   margin-right: 200;
@@ -3455,6 +3450,10 @@ html {
 
   .md\:gap-8 {
     gap: 2rem;
+  }
+
+  .md\:gap-2 {
+    gap: 0.5rem;
   }
 
   .md\:gap-x-8 {
