@@ -38,8 +38,11 @@ get_header();
       </p>
     </div>
 
-    <div class="bg-gray-50 text-base leading-7 mt-4 rounded-md px-8 pt-8">
-      <p class="font-bold">Join us on Friday, March 3 at 10:00am Pacific time</p>
+    <div class="bg-gray-50 text-base leading-7 mt-4 rounded-md px-8 pt-8 pb-4">
+      <p class="font-bold">Future sessions will be announced here.</p>
+    </div>
+
+    <div class="bg-gray-50 text-base leading-7 mt-4 rounded-md px-8 pt-8 hidden" <p class="font-bold ">Join us on Friday, March 3 at 10:00am Pacific time</p>
       <?php echo do_shortcode("[ninja_form id=32]"); ?>
     </div>
 
@@ -48,16 +51,33 @@ get_header();
 </div>
 
 
-<div class="mt-6 hidden" id="past-sessions">
+<div class="my-16" id="past-sessions">
 
+  <h2 class="text-3xl text-center font-extrabold text-gray-900 sm:text-4xl">
+    Past Sessions
+  </h2>
 
   <dl class="space-y-8 divide-y divide-gray-200">
 
     <div class="pt-6 md:grid md:grid-cols-12 md:gap-8">
+      <dt class="text-base font-medium text-gray-900 md:col-span-3">
+        <h3>March 3, 2023</h3>
+
+        <p><a href="https://rfortherestofus.github.io/demystifying-r/slides/slides-rin3-spring-2023.html">Slides</a></p>
+        <p><a href="https://rfortherestofus.github.io/demystifying-r/reports/report-rin3-spring-2023.html">Final Version of Report</a></p>
+        <p><a href="https://github.com/rfortherestofus/demystifying-r/blob/6ca0895605496c2325e52ad1adfd2ae58e395ca2/report.Rmd">RMarkdown Document Used to Make Report</a></p>
+      </dt>
+      <dd class="mt-2 md:mt-0 md:col-span-9">
 
 
 
-      <dt class="pt-16 text-base font-medium text-gray-900 md:col-span-3">
+        <div class="muse-video-player max-w-6xl" data-video="KXn8vmZ" data-search="0" data-links="0" data-logo="0" data-title="0" data-autoplay="0" data-width="100%"></div>
+        <script src="https://muse.ai/static/js/embed-player.min.js"></script>
+      </dd>
+    </div>
+
+    <div class="pt-6 md:grid md:grid-cols-12 md:gap-8">
+      <dt class="text-base font-medium text-gray-900 md:col-span-3">
         <h3>September 8, 2022</h3>
 
         <p><a href="https://rfortherestofus.github.io/demystifying-r/slides/slides-rin3-fall-2022.html">Slides</a></p>
@@ -66,14 +86,13 @@ get_header();
       </dt>
       <dd class="mt-2 md:mt-0 md:col-span-9">
 
-        <h2 class="text-3xl font-extrabold text-gray-900 sm:text-4xl">
-          Past Sessions
-        </h2>
+
 
         <div class="muse-video-player max-w-6xl" data-video="QLcPYZr" data-search="0" data-links="0" data-logo="0" data-title="0" data-autoplay="0" data-width="100%"></div>
         <script src="https://muse.ai/static/js/embed-player.min.js"></script>
       </dd>
     </div>
+
 
 
   </dl>
