@@ -1521,6 +1521,11 @@ html {
   margin-bottom: 1rem;
 }
 
+.my-16 {
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+
 .mx-\[200\] {
   margin-left: 200;
   margin-right: 200;
@@ -1549,11 +1554,6 @@ html {
 .-mx-8 {
   margin-left: -2rem;
   margin-right: -2rem;
-}
-
-.my-16 {
-  margin-top: 4rem;
-  margin-bottom: 4rem;
 }
 
 .mb-0 {
